@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-carousel height="450px">
+    <el-carousel style="margin-top:1em;" height="450px">
       <el-carousel-item v-for="item in 4" :key="item">
         <h3>{{ item }}</h3>
       </el-carousel-item>
@@ -10,6 +10,13 @@
       <homelab :num="item" v-for="(item,index) in 6" :key="index">
       </homelab>
     </section>
+
+    <section class="sayings">
+      <div>
+        <h2>TESTIMONIALS</h2>
+      </div>
+    </section>
+
   </div>
 </template>
 
@@ -29,6 +36,19 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.sayings {
+  background: url("https://themes.gohugo.io/theme/hugo-universal-theme/img/texture-bw.png")
+    center center repeat;
+  margin-top: 3em;
+  height: 450px;
+}
+.sayings h2 {
+  font-weight: 700;
+  padding-top: 2em;
+  border-bottom: solid 5px #38a7bb;
+  display: inline-block;
+  font-size: 1.6em;
+}
 .labs {
   display: flex;
   justify-content: space-between;

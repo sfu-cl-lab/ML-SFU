@@ -40,7 +40,7 @@ article > div {
   border-radius: 40px;
   border: solid 1px #fff;
   font-size: 20px;
-  border-color: #2c3e50;
+  border-color: #38a7bb;
   margin: 0 auto 0 auto;
 }
 </style>
