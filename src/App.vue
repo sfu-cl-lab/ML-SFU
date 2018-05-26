@@ -2,10 +2,10 @@
   <div id="app">
     <el-menu class="el-menu-demo" mode="horizontal">
       <el-menu-item index="1">
-        <div>
+        <h1>
           SFU Machine Learning
           <!-- <img class="logo" height="100%" src="https://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo@2x.png"> -->
-        </div>
+        </h1>
       </el-menu-item>
       <el-menu-item index="2">Publication</el-menu-item>
       <el-menu-item index="3">People</el-menu-item>
@@ -37,5 +37,10 @@ export default {
 }
 .logo {
   height: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.2em;
 }
 </style>
