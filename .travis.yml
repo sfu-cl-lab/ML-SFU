@@ -1,8 +1,16 @@
 language: node_js
 node_js:
 - lts/*
+
+before_install:
+  - npm install -g yarn --cache-min 999999999
+
+install:
+  yarn install
+
+
 script:
-- npm run build
+- yarn run build
 
 cache:
   directories:
