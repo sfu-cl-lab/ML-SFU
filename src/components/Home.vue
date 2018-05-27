@@ -1,8 +1,8 @@
 <template>
   <div>
     <el-carousel style="margin-top:1em;" height="450px">
-      <el-carousel-item v-for="item in 4" :key="item">
-        <h3>{{ item }}</h3>
+      <el-carousel-item v-for="(item,index) in carouselConfs" :key="index">
+        <img :src="item.picPath">
       </el-carousel-item>
     </el-carousel>
 
@@ -23,15 +23,22 @@
 <script>
 import homelab from './HomeLab.vue'
 import labs from '../../contents/lab.json'
+import carousel from '../../contents/carousel.json'
+const contentBase = '../../content/'
 export default {
   name: 'home',
   data() {
     return {
-      labConfs: labs
+      labConfs: labs,
+      carouselConfs: carousel
     }
+  },
+  computed: {
   },
   components: {
     'homelab': homelab
+  },
+  mounted() {
   }
 }
 </script>
