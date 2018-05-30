@@ -16,7 +16,6 @@
         <h2>TESTIMONIALS</h2>
       </div>
     </section>
-
   </div>
 </template>
 
