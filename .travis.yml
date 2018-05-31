@@ -16,6 +16,9 @@ cache:
   directories:
   - node_modules
 
+before_deploy:
+- echo sfuml.haoxp.xyz > dist/CNAME
+
 deploy:
   provider: pages
   skip_cleanup: true
