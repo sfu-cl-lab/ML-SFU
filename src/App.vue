@@ -2,7 +2,7 @@
   <div id="app">
     <header>
       <div>
-        <img src="http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo@2x.png">
+        <img src="//www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo@2x.png">
       </div>
       <div class="header-title">
         <div>
@@ -15,10 +15,10 @@
     </div>
     <article class="content">
       <section class="menu">
-        <el-menu default-active="2" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
+        <el-menu :default-openeds="['1']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
           <el-submenu index="1">
             <template slot="title">
-              <span>Navigator One</span>
+              <span>People</span>
             </template>
             <el-menu-item-group title="Group One">
               <el-menu-item index="1-1">item one</el-menu-item>
@@ -33,7 +33,7 @@
             </el-submenu>
           </el-submenu>
           <el-menu-item index="2">
-            <span>Navigator Two</span>
+            <span>Labs</span>
           </el-menu-item>
           <el-menu-item index="3">
             <span>Navigator Three</span>
@@ -64,7 +64,7 @@ export default {
 <style>
 body {
   background: #a6192e
-    url(http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/textured-red-01-small.png)
+    url(//www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/textured-red-01-small.png)
     top left repeat;
 }
 #app {
@@ -92,7 +92,7 @@ header {
   flex-grow: 1;
 }
 .content > .menu {
-  width: 15%;
+  width: 20%;
   background-color: #2b2925;
   text-align: left;
 }
@@ -108,7 +108,7 @@ h1 {
   height: 10px;
   width: 100%;
   background: #3d3935
-    url(http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/bg-small.png) -70px
+    url(//www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/bg-small.png) -70px
     0 no-repeat;
 }
 .header-title {
