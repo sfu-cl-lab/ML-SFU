@@ -1,12 +1,12 @@
 <template>
   <div>
     <el-carousel height="450px">
-      <el-carousel-item v-for="item in 4" :key="item">
-        <h3>{{ item }}</h3>
+      <el-carousel-item v-for="(item,index) in carouselConfs" :key="index">
+        <img :src="require(`Content/${item.picPath}`)">
       </el-carousel-item>
     </el-carousel>
     <section class="labs">
-      <homelab :num="item" v-for="(item,index) in 6" :key="index">
+      <homelab :lab-conf="item" v-for="(item,index) in labConfs" :key="index">
       </homelab>
     </section>
 
@@ -15,20 +15,27 @@
         <h2>TESTIMONIALS</h2>
       </div>
     </section>
-
   </div>
 </template>
 
 <script>
 import homelab from './HomeLab.vue'
+import labs from 'Content/lab.json'
+import carousel from 'Content/carousel.json'
 export default {
   name: 'home',
   data() {
     return {
+      labConfs: labs,
+      carouselConfs: carousel
     }
+  },
+  computed: {
   },
   components: {
     'homelab': homelab
+  },
+  mounted() {
   }
 }
 </script>
@@ -52,6 +59,8 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .labs > article {

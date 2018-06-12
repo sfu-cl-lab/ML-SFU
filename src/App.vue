@@ -100,4 +100,8 @@ export default {
 .content > .menu {
   width: 30%;
 }
+h1 {
+  font-weight: 700;
+  font-size: 1.2em;
+}
 </style>
