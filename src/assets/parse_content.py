@@ -19,7 +19,7 @@ def parse_all()->None:
     rv = {}
     rv['carousel'] = parse_carousel()
     rv['labs'] = parse_lab()
-    json.dump(rv, open('data.json', 'w'))
+    json.dump(rv, open('src/assets/data.json', 'w'))
 
 
 if __name__ == '__main__':
