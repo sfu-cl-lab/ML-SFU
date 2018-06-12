@@ -1,11 +1,10 @@
 <template>
   <div>
-    <el-carousel style="margin-top:1em;" height="450px">
+    <el-carousel height="450px">
       <el-carousel-item v-for="item in 4" :key="item">
         <h3>{{ item }}</h3>
       </el-carousel-item>
     </el-carousel>
-
     <section class="labs">
       <homelab :num="item" v-for="(item,index) in 6" :key="index">
       </homelab>
