@@ -2,6 +2,9 @@ language: node_js
 node_js:
 - lts/*
 
+python:
+- "3.6"
+
 before_install:
   - npm install -g yarn --cache-min 999999999
 
@@ -10,7 +13,9 @@ install:
 
 
 script:
-- yarn run build
+  - python3 src/assets/parse_content.py
+  - yarn run build
+
 
 cache:
   directories:

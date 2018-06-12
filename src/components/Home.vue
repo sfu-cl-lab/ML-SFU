@@ -2,7 +2,7 @@
   <div>
     <el-carousel height="450px">
       <el-carousel-item v-for="(item,index) in carouselConfs" :key="index">
-        <img :src="require(`Content/${item.picPath}`)">
+        <img :src="require(`Content/carousel/${item.picPath}`)">
       </el-carousel-item>
     </el-carousel>
 
@@ -22,14 +22,13 @@
 
 <script>
 import homelab from './HomeLab.vue'
-import labs from 'Content/lab.json'
-import carousel from 'Content/carousel.json'
+import dataConfig from '../assets/data.json'
 export default {
   name: 'home',
   data() {
     return {
-      labConfs: labs,
-      carouselConfs: carousel
+      labConfs: dataConfig.labs,
+      carouselConfs: dataConfig.carousel
     }
   },
   computed: {
