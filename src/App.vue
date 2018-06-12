@@ -1,21 +1,23 @@
 <template>
   <div id="app">
-    <el-menu class="el-menu-demo" mode="horizontal">
-      <el-menu-item index="1">
-        <h1>
-          SFU Machine Learning
-          <!-- <img class="logo" height="100%" src="https://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo@2x.png"> -->
-        </h1>
-      </el-menu-item>
-      <el-menu-item index="2">Publication</el-menu-item>
-      <el-menu-item index="3">People</el-menu-item>
-    </el-menu>
+    <header>
+      <div>
+        <img src="http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo@2x.png">
+      </div>
+      <div class="header-title">
+        <div>
+          <div>Computer Science</div>
+          <div style="font-size:1.3em;font-weight:700;color:#444;">Machine Learning Website</div>
+        </div>
+      </div>
+    </header>
+    <div class="header-divider">
+    </div>
     <article class="content">
       <section class="menu">
-        <el-menu default-active="2">
+        <el-menu default-active="2" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
           <el-submenu index="1">
             <template slot="title">
-              <i class="el-icon-location"></i>
               <span>Navigator One</span>
             </template>
             <el-menu-item-group title="Group One">
@@ -31,20 +33,17 @@
             </el-submenu>
           </el-submenu>
           <el-menu-item index="2">
-            <i class="el-icon-menu"></i>
             <span>Navigator Two</span>
           </el-menu-item>
-          <el-menu-item index="3" disabled>
-            <i class="el-icon-document"></i>
+          <el-menu-item index="3">
             <span>Navigator Three</span>
           </el-menu-item>
           <el-menu-item index="4">
-            <i class="el-icon-setting"></i>
             <span>Navigator Four</span>
           </el-menu-item>
         </el-menu>
       </section>
-      <section>
+      <section class="router-content">
         <router-view/>
       </section>
     </article>
@@ -63,6 +62,11 @@ export default {
 </script>
 
 <style>
+body {
+  background: #a6192e
+    url(http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/textured-red-01-small.png)
+    top left repeat;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -71,26 +75,16 @@ export default {
   color: #2c3e50;
   max-width: 1520px;
   margin: 0 auto 0 auto;
-  /* background: #a6192e
-    url(http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/textured-red-01-small.png)
-    top left repeat; */
+  background: #fff;
 }
 .logo {
   height: 100%;
 }
-.branding {
-  width: 337px;
-  height: 46px;
-  /* background: transparent
-    url(http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo.png)
-    top left no-repeat; */
-  background-size: contain;
+header {
+  text-align: left;
+  display: flex;
 }
-.site-title {
-  color: #3d3935;
-  clear: left;
-  margin-left: 98px;
-}
+
 .content {
   display: flex;
 }
@@ -98,10 +92,30 @@ export default {
   flex-grow: 1;
 }
 .content > .menu {
-  width: 30%;
+  width: 15%;
+  background-color: #2b2925;
+  text-align: left;
+}
+.content > .router-content {
+  width: 85%;
 }
 h1 {
   font-weight: 700;
   font-size: 1.2em;
+}
+.header-divider {
+  clear: left;
+  height: 10px;
+  width: 100%;
+  background: #3d3935
+    url(http://www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/bg-small.png) -70px
+    0 no-repeat;
+}
+.header-title {
+  margin: 0 auto 0.5em 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  line-height: 150%;
 }
 </style>
