@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header>
+    <header class="header">
       <div>
         <img src="//www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo@2x.png">
       </div>
@@ -80,7 +80,7 @@ body {
 .logo {
   height: 100%;
 }
-header {
+.header {
   text-align: left;
   display: flex;
 }

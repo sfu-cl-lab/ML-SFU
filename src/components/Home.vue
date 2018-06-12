@@ -5,16 +5,18 @@
         <img :src="require(`Content/${item.picPath}`)">
       </el-carousel-item>
     </el-carousel>
+
+    <section class="sayings">
+      <div>
+        <h2>WHY SFU</h2>
+      </div>
+    </section>
+
     <section class="labs">
       <homelab :lab-conf="item" v-for="(item,index) in labConfs" :key="index">
       </homelab>
     </section>
 
-    <section class="sayings">
-      <div>
-        <h2>TESTIMONIALS</h2>
-      </div>
-    </section>
   </div>
 </template>
 
@@ -45,7 +47,7 @@ export default {
 .sayings {
   background: url("https://themes.gohugo.io/theme/hugo-universal-theme/img/texture-bw.png")
     center center repeat;
-  margin-top: 3em;
+  /* margin-top: 3em; */
   height: 450px;
 }
 .sayings h2 {
@@ -54,6 +56,7 @@ export default {
   border-bottom: solid 5px #38a7bb;
   display: inline-block;
   font-size: 1.6em;
+  letter-spacing: 0.2rem;
 }
 .labs {
   display: flex;
