@@ -13,31 +13,34 @@
     </header>
     <div class="header-divider">
     </div>
-    <article class="content">
-      <section class="menu">
-        <el-menu :default-openeds="['1','2']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
-          <el-submenu index="1">
-            <template slot="title">
-              <span>People</span>
-            </template>
-            <a v-for="(people, index) in people" :key="'people'+index" :href="people.url" target="_blank">
-              <el-menu-item :index="'people'+index">{{people.name}}</el-menu-item>
-            </a>
-          </el-submenu>
-          <el-submenu index="2">
-            <template slot="title">
-              <span>Labs</span>
-            </template>
-            <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
-              <el-menu-item :index="'lab-'+index"> {{lab.labName}} </el-menu-item>
-            </a>
-          </el-submenu>
-        </el-menu>
-      </section>
-      <section class="router-content">
+    <section :style="{width: contentWidth*0.2+1+'px'}" class="menu">
+      <el-menu :default-openeds="['1','2']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
+        <el-submenu index="1">
+          <template slot="title">
+            <span>People</span>
+          </template>
+          <a v-for="(people, index) in people" :key="'people'+index" :href="people.url" target="_blank">
+            <el-menu-item :index="'people'+index">{{people.name}}</el-menu-item>
+          </a>
+        </el-submenu>
+        <el-submenu index="2">
+          <template slot="title">
+            <span>Labs</span>
+          </template>
+          <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
+            <el-menu-item :index="'lab-'+index"> {{lab.labName}} </el-menu-item>
+          </a>
+        </el-submenu>
+      </el-menu>
+    </section>
+    <el-container>
+      <el-aside :width="contentWidth*0.2+'px'" class="menu-col">
+        <div> </div>
+      </el-aside>
+      <el-aside :width="contentWidth*0.8+'px'">
         <router-view/>
-      </section>
-    </article>
+      </el-aside>
+    </el-container>
   </div>
 </template>
 
@@ -49,8 +52,14 @@ export default {
     return {
       activeIndex: 1,
       labs: dataConfig.labs,
-      people: dataConfig.people
+      people: dataConfig.people,
+      contentWidth: 0
     }
+  },
+  created() {
+    this.contentWidth = Math.min(window.innerWidth, 1520)
+  },
+  methods: {
   }
 }
 </script>
@@ -70,6 +79,8 @@ body {
   max-width: 1520px;
   margin: 0 auto 0 auto;
   background: #fff;
+  --text-color: #38a7bb;
+  --text-desc-color: #656565;
 }
 .logo {
   height: 100%;
@@ -85,13 +96,18 @@ body {
 .content section {
   flex-grow: 1;
 }
-.content > .menu {
-  width: 20%;
+.menu {
   background-color: #2b2925;
   text-align: left;
+  position: fixed;
+}
+.menu-col {
+  background-color: #2b2925;
 }
 .content > .router-content {
   width: 85%;
+  height: 100%;
+  overflow: auto;
 }
 h1 {
   font-weight: 700;

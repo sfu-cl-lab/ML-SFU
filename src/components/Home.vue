@@ -64,16 +64,12 @@ export default {
 .sayings {
   background: url("https://themes.gohugo.io/theme/hugo-universal-theme/img/texture-bw.png")
     center center repeat;
-  /* margin-top: 3em; */
   height: 450px;
 }
-/* .content-section {
-  height: 450px;
-} */
 .section-title {
   font-weight: 700;
   padding-top: 2em;
-  border-bottom: solid 5px #38a7bb;
+  border-bottom: solid 5px var(--text-color);
   display: inline-block;
   font-size: 1.6em;
   letter-spacing: 0.2rem;
@@ -82,9 +78,7 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin: 2em 1em 2em 1em;
+  margin: 1em 1em 2em 1em;
 }
 
 .people > article {

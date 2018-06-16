@@ -1,6 +1,8 @@
 <template>
   <article>
-    <div></div>
+    <div>
+      <img :src="profConf.pic">
+    </div>
     <h3>{{profConf.name}}</h3>
     <p>{{profConf.description}}</p>
   </article>
@@ -26,6 +28,16 @@ article {
   margin-top: 1em;
 }
 
+article img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  border: solid 1px #fff;
+  border-color: var(--text-color);
+}
+article > p {
+  color: var(--text-desc-color);
+}
 article > h3 {
   font-weight: 700;
   margin-top: 0.8em;
@@ -38,10 +50,8 @@ article > div {
   height: 80px;
   color: #fff;
   line-height: 80px;
-  border-radius: 40px;
-  border: solid 1px #fff;
+
   font-size: 20px;
-  border-color: #38a7bb;
   margin: 0 auto 0 auto;
 }
 </style>
