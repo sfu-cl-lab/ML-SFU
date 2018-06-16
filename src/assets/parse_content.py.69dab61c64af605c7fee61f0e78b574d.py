@@ -1,14 +1,28 @@
 from os import listdir
 from os.path import isfile, join
-from typing import List
-CONTENT_PATH = '../../contents'
+import json
+CONTENT_PATH = 'contents'
 
 
-def parse_carousel()->List[dict]:
-    carousel_path = f'{CONTENT_PATH}/carousel'
-    pic_list = [f for f in listdir(carousel_path) if isfile(join(carousel, f))]
+def parse_carousel():
+    carousel_path = '{}/carousel'.format(CONTENT_PATH)
+    pic_list = [f for f in listdir(
+        carousel_path) if isfile(join(carousel_path, f))]
     return [{"picPath": f} for f in pic_list]
 
 
+def parse_lab():
+    return json.load(open('{}/lab.json'.format(CONTENT_PATH)))
+
+def parse_people():
+    return json.load(open('{}/people.json'.format(CONTENT_PATH)))
+
+def parse_all()->None:
+    rv = {}
+    rv['carousel'] = parse_carousel()
+    rv['labs'] = parse_lab()
+    json.dump(rv, open('src/assets/data.json', 'w'))
+
+
 if __name__ == '__main__':
-    rv=parse_carousel()
+    parse_all()

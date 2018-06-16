@@ -1,14 +1,19 @@
 <template>
   <article>
-    <div></div>
+    <div>
+      <img :src="labConf.pic">
+    </div>
     <h3>{{labConf.labName}}</h3>
     <p>{{labConf.description}}</p>
+    <el-button>
+      <a target="_blank" :href="labConf.url">Go to Lab home page</a>
+    </el-button>
   </article>
 </template>
 
 <script>
 export default {
-  name: 'homelab',
+  name: 'lab',
   data() {
     return {
     }
@@ -23,24 +28,15 @@ article {
   display: flex;
   flex-direction: column;
   max-width: 30%;
+  margin-top: 1em;
 }
-
-article > h3 {
-  font-weight: 700;
-  margin-top: 0.8em;
-  margin-bottom: 0.2em;
+article img {
+  width: 100%;
 }
-
-article > div {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  color: #fff;
-  line-height: 80px;
-  border-radius: 40px;
-  border: solid 1px #fff;
-  font-size: 20px;
-  border-color: #38a7bb;
-  margin: 0 auto 0 auto;
+article p {
+  text-align: left;
+}
+a{
+  text-decoration: none;
 }
 </style>

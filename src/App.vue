@@ -15,32 +15,23 @@
     </div>
     <article class="content">
       <section class="menu">
-        <el-menu :default-openeds="['1']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
+        <el-menu :default-openeds="['1','2']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
           <el-submenu index="1">
             <template slot="title">
               <span>People</span>
             </template>
-            <el-menu-item-group title="Group One">
-              <el-menu-item index="1-1">item one</el-menu-item>
-              <el-menu-item index="1-2">item one</el-menu-item>
-            </el-menu-item-group>
-            <el-menu-item-group title="Group Two">
-              <el-menu-item index="1-3">item three</el-menu-item>
-            </el-menu-item-group>
-            <el-submenu index="1-4">
-              <template slot="title">item four</template>
-              <el-menu-item index="1-4-1">item one</el-menu-item>
-            </el-submenu>
+            <a v-for="(people, index) in people" :key="'people'+index" :href="people.url" target="_blank">
+              <el-menu-item :index="'people'+index">{{people.name}}</el-menu-item>
+            </a>
           </el-submenu>
-          <el-menu-item index="2">
-            <span>Labs</span>
-          </el-menu-item>
-          <el-menu-item index="3">
-            <span>Navigator Three</span>
-          </el-menu-item>
-          <el-menu-item index="4">
-            <span>Navigator Four</span>
-          </el-menu-item>
+          <el-submenu index="2">
+            <template slot="title">
+              <span>Labs</span>
+            </template>
+            <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
+              <el-menu-item :index="'lab-'+index"> {{lab.labName}} </el-menu-item>
+            </a>
+          </el-submenu>
         </el-menu>
       </section>
       <section class="router-content">
@@ -51,11 +42,14 @@
 </template>
 
 <script>
+import dataConfig from './assets/data.json'
 export default {
   name: 'App',
-  date() {
+  data() {
     return {
-      activeIndex: 1
+      activeIndex: 1,
+      labs: dataConfig.labs,
+      people: dataConfig.people
     }
   }
 }
@@ -117,5 +111,13 @@ h1 {
   flex-direction: row;
   align-items: flex-end;
   line-height: 150%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 </style>

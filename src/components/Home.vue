@@ -6,21 +6,37 @@
       </el-carousel-item>
     </el-carousel>
 
-    <section class="sayings">
+    <section class="sayings content-section">
       <div>
-        <h2>WHY SFU</h2>
+        <h2 class="section-title">WHY SFU</h2>
       </div>
     </section>
 
-    <section class="labs">
-      <homelab :lab-conf="item" v-for="(item,index) in labConfs" :key="index">
-      </homelab>
+    <section class="people content-section">
+      <div>
+        <h2 class="section-title">PEOPLE</h2>
+      </div>
+      <div class="people-section">
+        <homeprof :prof-conf="item" v-for="(item,index) in profConfs" :key="index">
+        </homeprof>
+      </div>
+    </section>
+
+    <section class="lab content-section">
+      <div>
+        <h2 class="section-title">LABS</h2>
+      </div>
+      <div class="people-section">
+        <homelab :lab-conf="item" v-for="(item, index) in labConfs" :key="index">
+        </homelab>
+      </div>
     </section>
 
   </div>
 </template>
 
 <script>
+import homeprof from './HomeProf.vue'
 import homelab from './HomeLab.vue'
 import dataConfig from '../assets/data.json'
 export default {
@@ -28,12 +44,14 @@ export default {
   data() {
     return {
       labConfs: dataConfig.labs,
-      carouselConfs: dataConfig.carousel
+      carouselConfs: dataConfig.carousel,
+      profConfs: dataConfig.people
     }
   },
   computed: {
   },
   components: {
+    'homeprof': homeprof,
     'homelab': homelab
   },
   mounted() {
@@ -49,7 +67,10 @@ export default {
   /* margin-top: 3em; */
   height: 450px;
 }
-.sayings h2 {
+/* .content-section {
+  height: 450px;
+} */
+.section-title {
   font-weight: 700;
   padding-top: 2em;
   border-bottom: solid 5px #38a7bb;
@@ -57,15 +78,16 @@ export default {
   font-size: 1.6em;
   letter-spacing: 0.2rem;
 }
-.labs {
+.people-section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin: 2em 1em 2em 1em;
 }
 
-.labs > article {
+.people > article {
   margin-top: 2em;
 }
 
