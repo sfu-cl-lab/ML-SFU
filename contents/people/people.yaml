@@ -2,37 +2,37 @@
 # The photo of professor can be best displayed when width:height=2:3
 
 - name: "Oliver Schulte"
-  url: "https://www.sfu.ca/"
+  url: "http://www.cs.sfu.ca/~oschulte/"
   picPath: "SchulteOliver.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Martin Ester"
-  url: "https://www.sfu.ca/"
+  url: "http://www.cs.sfu.ca/~ester/"
   picPath: "MartinEster.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Maxwell LIbbrecht"
-  url: "https://www.sfu.ca/"
+  url: "http://www.cs.sfu.ca/~maxwl/"
   picPath: "MaxwellLibbercht.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Greg Mori"
-  url: "https://www.sfu.ca/"
+  url: "http://www.cs.sfu.ca/~mori/"
   picPath: "GregMori.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Anoop Sarkar"
-  url: "https://www.sfu.ca/"
+  url: "http://www.cs.sfu.ca/~anoop/"
   picPath: "AnoopSarkar.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Richard Vaughan"
-  url: "https://www.sfu.ca/"
+  url: "https://rtv.github.io/"
   picPath: "RichardVaughan.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Ghassan Harmaneh"
-  url: "https://www.sfu.ca/"
+  url: "https://sites.google.com/view/hamarneh-research/"
   picPath: "GhassanHamarneh.png"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
