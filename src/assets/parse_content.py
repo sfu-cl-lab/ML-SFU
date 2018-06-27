@@ -19,11 +19,16 @@ def parse_people():
     return json.load(open('{}/people.json'.format(CONTENT_PATH)))
 
 
+def parse_whysfu():
+    return json.load(open('{}/whysfu.json'.format(CONTENT_PATH)))
+
+
 def parse_all()->None:
     rv = {}
     rv['carousel'] = parse_carousel()
     rv['labs'] = parse_lab()
     rv['people'] = parse_people()
+    rv['whysfu'] = parse_whysfu()
     json.dump(rv, open('src/assets/data.json', 'w'))
 
 

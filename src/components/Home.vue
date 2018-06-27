@@ -9,6 +9,11 @@
     <section class="sayings content-section">
       <div>
         <h2 class="section-title">WHY SFU</h2>
+        <div style="display:flex;">
+          <el-card style="margin:1em 0.8em 0 0.8em;" v-for="(item,index) in whysfu" :key="index">
+            {{item.why}}
+          </el-card>
+        </div>
       </div>
     </section>
 
@@ -45,7 +50,8 @@ export default {
     return {
       labConfs: dataConfig.labs,
       carouselConfs: dataConfig.carousel,
-      profConfs: dataConfig.people
+      profConfs: dataConfig.people,
+      whysfu: dataConfig.whysfu
     }
   },
   computed: {
@@ -62,7 +68,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .sayings {
-  background: url("https://themes.gohugo.io/theme/hugo-universal-theme/img/texture-bw.png")
+  background: url("../assets/texture-bw.png")
     center center repeat;
   height: 450px;
 }

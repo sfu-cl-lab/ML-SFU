@@ -2,7 +2,7 @@
   <div id="app">
     <header class="header">
       <div>
-        <img src="//www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/sfu-logo@2x.png">
+        <img src="./assets/sfu-logo.png">
       </div>
       <div class="header-title">
         <div>
@@ -66,9 +66,7 @@ export default {
 
 <style>
 body {
-  background: #a6192e
-    url(//www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/textured-red-01-small.png)
-    top left repeat;
+  background: #a6192e url(./assets/textured-red-01-small.png) top left repeat;
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
