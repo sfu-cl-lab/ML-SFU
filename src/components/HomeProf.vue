@@ -24,8 +24,13 @@ export default {
 article {
   display: flex;
   flex-direction: column;
-  max-width: 23%;
+  max-width: 20%;
   margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1.5em 0.8em 1em 0.8em;
+
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
 }
 
 article img {

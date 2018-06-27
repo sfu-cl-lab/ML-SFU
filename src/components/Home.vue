@@ -68,8 +68,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .sayings {
-  background: url("../assets/texture-bw.png") center center repeat;
-  min-height: 450px;
+  /* min-height: 450px; */
 }
 .section-title {
   font-weight: 700;
@@ -84,6 +83,9 @@ export default {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 1em 1em 2em 1em;
+}
+.people {
+  background: url("../assets/texture-bw.png") center center repeat;
 }
 
 .people > article {
