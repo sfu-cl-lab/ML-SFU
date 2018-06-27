@@ -33,7 +33,7 @@
         </el-submenu>
       </el-menu>
     </section>
-    <el-container>
+    <el-container style="overflow-x:hidden;">
       <el-aside :width="contentWidth*0.2+'px'" class="menu-col">
         <div> </div>
       </el-aside>
@@ -57,7 +57,7 @@ export default {
     }
   },
   created() {
-    this.contentWidth = Math.min(window.innerWidth, 1520)
+    this.contentWidth = Math.min(window.innerWidth, document.documentElement.clientWidth, 1520)
   },
   methods: {
   }

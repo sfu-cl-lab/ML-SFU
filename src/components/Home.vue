@@ -10,7 +10,7 @@
       <div>
         <h2 class="section-title">WHY SFU</h2>
         <div style="display:flex;">
-          <el-card style="margin:1em 0.8em 0 0.8em;" v-for="(item,index) in whysfu" :key="index">
+          <el-card style="margin:1em 0.8em 1em 0.8em;" v-for="(item,index) in whysfu" :key="index">
             {{item.why}}
           </el-card>
         </div>
@@ -68,9 +68,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .sayings {
-  background: url("../assets/texture-bw.png")
-    center center repeat;
-  height: 450px;
+  background: url("../assets/texture-bw.png") center center repeat;
+  min-height: 450px;
 }
 .section-title {
   font-weight: 700;
