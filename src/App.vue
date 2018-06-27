@@ -23,7 +23,9 @@
                 <span>People</span>
               </template>
               <a v-for="(people, index) in people" :key="'people'+index" :href="people.url" target="_blank">
-                <el-menu-item :index="'people'+index">{{people.name}}</el-menu-item>
+                <el-menu-item :index="'people'+index">{{people.name}}
+                  <img style="height:20%;margin-left:0.2em;" src="./assets/icons/external-link-alt.svg">
+                </el-menu-item>
               </a>
             </el-submenu>
             <el-submenu index="2">
@@ -31,7 +33,9 @@
                 <span>Labs</span>
               </template>
               <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
-                <el-menu-item :index="'lab-'+index"> {{lab.labName}} </el-menu-item>
+                <el-menu-item :index="'lab-'+index"> {{lab.labName}}
+                  <img style="height:20%;margin-left:0.2em;" src="./assets/icons/external-link-alt.svg">
+                </el-menu-item>
               </a>
             </el-submenu>
           </el-menu>
