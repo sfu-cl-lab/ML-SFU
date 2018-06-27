@@ -1,7 +1,7 @@
 <template>
   <article>
     <div class="image-container">
-      <img :src="labConf.pic">
+      <img :src="require(`Content/${labConf.picPath}`)">
     </div>
     <h3>{{labConf.labName|toUpper}}</h3>
     <p>{{labConf.description}}</p>
