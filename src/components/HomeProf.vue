@@ -31,7 +31,7 @@ article {
 article img {
   width: 100%;
   height: 100%;
-  border-radius: 40px;
+  /* border-radius: 50px; */
   border: solid 1px #fff;
   border-color: var(--text-color);
 }
@@ -46,10 +46,10 @@ article > h3 {
 
 article > div {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 150px;
   color: #fff;
-  line-height: 80px;
+  /* line-height: 80px; */
 
   font-size: 20px;
   margin: 0 auto 0 auto;

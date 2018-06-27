@@ -1,16 +1,19 @@
+# README:
+# The photo of professor can be best displayed when width:height=2:3
+
 - name: "Oliver Schulte"
   url: "https://www.sfu.ca/"
-  picPath: "cjc.jpg"
+  picPath: "SchulteOliver.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Martin Ester"
   url: "https://www.sfu.ca/"
-  picPath: "cjc.jpg"
+  picPath: "MartinEster.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Maxwell LIbbrecht"
   url: "https://www.sfu.ca/"
-  picPath: "cjc.jpg"
+  picPath: "MaxwellLibbercht.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Greg Mori"
