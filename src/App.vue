@@ -52,8 +52,7 @@ export default {
     return {
       activeIndex: 1,
       labs: dataConfig.labs,
-      people: dataConfig.people,
-      // contentWidth: 0 
+      people: dataConfig.people
     }
   },
   created() {

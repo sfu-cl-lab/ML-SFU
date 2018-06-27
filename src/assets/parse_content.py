@@ -14,7 +14,7 @@ def parse_carousel():
 
 
 def parse_lab():
-    return json.load(open('{}/lab.json'.format(CONTENT_PATH)))
+    return yaml.load(open('{}/lab/lab.yaml'.format(CONTENT_PATH)))
 
 
 def parse_people():
@@ -22,7 +22,7 @@ def parse_people():
 
 
 def parse_whysfu():
-    return json.load(open('{}/whysfu.json'.format(CONTENT_PATH)))
+    return yaml.load(open('{}/whysfu.yaml'.format(CONTENT_PATH)))
 
 
 def parse_all()->None:
