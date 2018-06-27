@@ -18,21 +18,21 @@
 
 - name: "Greg Mori"
   url: "https://www.sfu.ca/"
-  picPath: "cjc.jpg"
+  picPath: "GregMori.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Anoop Sarkar"
   url: "https://www.sfu.ca/"
-  picPath: "cjc.jpg"
+  picPath: "AnoopSarkar.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Richard Vaughan"
   url: "https://www.sfu.ca/"
-  picPath: "cjc.jpg"
+  picPath: "RichardVaughan.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Ghassan Harmaneh"
   url: "https://www.sfu.ca/"
-  picPath: "cjc.jpg"
+  picPath: "GhassanHamarneh.png"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
