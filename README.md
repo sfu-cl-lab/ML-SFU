@@ -4,16 +4,27 @@
 
 ### Update instructions
 
-Just edit files in `contents/` and then commit the change, it will deploy automatically. 
+Just edit files in `contents/` and then commit the change, it will **automatically** deploy in 5 mins. 
 
-For example, I want to add an image to the carousel of the home page:
+#### Update the carousel
 
-- open `contents/carousel.json` and append an new item similar to the previous one
+1. Upload the images to `contents/carousel`
 
-- copy the image to the `contents/img`
+2. Commit the change directly to the `master` branch
 
-- commit the change
+#### Add/remove a professor/lab
 
+1. Upload the image to `contents/people`
+
+2. Add an item at `contents/people/people.yaml`
+
+3.  Commit the change directly to the `master` branch
+
+#### Update `WHY SFU`
+
+1. Make change to `contents/whysfu.yaml`
+
+2. Commit the change directly to the `master` branch
 
 ### Tech support
 
