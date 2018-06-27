@@ -1,7 +1,6 @@
 
 # ML-SFU
-[![Deploy Status](https://travis-ci.org/HaoPatrick/ML-SFU.svg?branch=master)](https://travis-ci.org/HaoPatrick/ML-SFU)
-
+[![Build Status](https://travis-ci.org/sfu-cl-lab/ML-SFU.svg?branch=master)](https://travis-ci.org/sfu-cl-lab/ML-SFU)
 
 ### Update instructions
 

@@ -1,6 +1,8 @@
 from os import listdir
 from os.path import isfile, join
 import json
+import yaml
+
 CONTENT_PATH = 'contents'
 
 
@@ -16,7 +18,7 @@ def parse_lab():
 
 
 def parse_people():
-    return json.load(open('{}/people.json'.format(CONTENT_PATH)))
+    return yaml.load(open('{}/people/people.yaml'.format(CONTENT_PATH)))
 
 
 def parse_whysfu():

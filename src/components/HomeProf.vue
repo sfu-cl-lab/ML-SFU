@@ -1,7 +1,7 @@
 <template>
   <article>
     <div>
-      <img :src="require(`Content/${profConf.picPath}`)">
+      <img :src="require(`Content/people/${profConf.picPath}`)">
     </div>
     <h3>{{profConf.name}}</h3>
     <p>{{profConf.description}}</p>

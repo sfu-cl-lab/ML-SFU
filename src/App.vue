@@ -13,31 +13,31 @@
     </header>
     <div class="header-divider">
     </div>
-    <section :style="{width: contentWidth*0.2+1+'px'}" class="menu">
-      <el-menu :default-openeds="['1','2']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
-        <el-submenu index="1">
-          <template slot="title">
-            <span>People</span>
-          </template>
-          <a v-for="(people, index) in people" :key="'people'+index" :href="people.url" target="_blank">
-            <el-menu-item :index="'people'+index">{{people.name}}</el-menu-item>
-          </a>
-        </el-submenu>
-        <el-submenu index="2">
-          <template slot="title">
-            <span>Labs</span>
-          </template>
-          <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
-            <el-menu-item :index="'lab-'+index"> {{lab.labName}} </el-menu-item>
-          </a>
-        </el-submenu>
-      </el-menu>
-    </section>
+
     <el-container style="overflow-x:hidden;">
-      <el-aside :width="contentWidth*0.2+'px'" class="menu-col">
-        <div> </div>
+      <el-aside width="20%" class="menu-col">
+        <section class="menu">
+          <el-menu :default-openeds="['1','2']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
+            <el-submenu index="1">
+              <template slot="title">
+                <span>People</span>
+              </template>
+              <a v-for="(people, index) in people" :key="'people'+index" :href="people.url" target="_blank">
+                <el-menu-item :index="'people'+index">{{people.name}}</el-menu-item>
+              </a>
+            </el-submenu>
+            <el-submenu index="2">
+              <template slot="title">
+                <span>Labs</span>
+              </template>
+              <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
+                <el-menu-item :index="'lab-'+index"> {{lab.labName}} </el-menu-item>
+              </a>
+            </el-submenu>
+          </el-menu>
+        </section>
       </el-aside>
-      <el-aside :width="contentWidth*0.8+'px'">
+      <el-aside width="80%">
         <router-view/>
       </el-aside>
     </el-container>
@@ -53,11 +53,10 @@ export default {
       activeIndex: 1,
       labs: dataConfig.labs,
       people: dataConfig.people,
-      contentWidth: 0
+      // contentWidth: 0 
     }
   },
   created() {
-    this.contentWidth = Math.min(window.innerWidth, document.documentElement.clientWidth, 1520)
   },
   methods: {
   }
@@ -97,7 +96,7 @@ body {
 .menu {
   background-color: #2b2925;
   text-align: left;
-  position: fixed;
+  /* position: fixed; */
 }
 .menu-col {
   background-color: #2b2925;
