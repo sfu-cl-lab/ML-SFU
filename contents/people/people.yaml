@@ -3,36 +3,48 @@
 
 - name: "Oliver Schulte"
   url: "http://www.cs.sfu.ca/~oschulte/"
+  labUrl: "www.sfu.ca/computationallogic.html"
   picPath: "SchulteOliver.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Martin Ester"
   url: "http://www.cs.sfu.ca/~ester/"
+  labUrl: "http://www.sfu.ca/computing/labs/ddm.html"
   picPath: "MartinEster.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Maxwell LIbbrecht"
   url: "http://www.cs.sfu.ca/~maxwl/"
+  labUrl: "http://www.cs.sfu.ca/~maxwl/research.html"
   picPath: "MaxwellLibbercht.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Greg Mori"
   url: "http://www.cs.sfu.ca/~mori/"
+  labUrl: "http://www.cs.sfu.ca/research/groups/VML/index.html"
   picPath: "GregMori.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Anoop Sarkar"
   url: "http://www.cs.sfu.ca/~anoop/"
+  labUrl: "http://natlang.cs.sfu.ca/"
   picPath: "AnoopSarkar.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Richard Vaughan"
   url: "https://rtv.github.io/"
+  labUrl: "http://autonomy.cs.sfu.ca/"
   picPath: "RichardVaughan.jpg"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
 - name: "Ghassan Harmaneh"
   url: "https://sites.google.com/view/hamarneh-research/"
+  labUrl: "https://sites.google.com/view/hamarneh-research/team/current"
   picPath: "GhassanHamarneh.png"
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
 
+- name: "Who's next"
+  url: "#"
+  labUrl: "#"
+  picPath: "someone.svg"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"

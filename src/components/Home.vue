@@ -8,10 +8,10 @@
 
     <section class="sayings content-section">
       <div>
-        <h2 class="section-title">WHY SFU</h2>
-        <div style="display:flex;">
-          <el-card style="margin:1em 0.8em 1em 0.8em;" v-for="(item,index) in whysfu" :key="index">
-            {{item.why}}
+        <h2 class="section-title">{{generalConfs.section_one.name}}</h2>
+        <div style="display:flex; justify-content:space-around;">
+          <el-card class="why-sfu" v-for="(item,index) in generalConfs.section_one.cards" :key="index">
+            {{item}}
           </el-card>
         </div>
       </div>
@@ -36,7 +36,6 @@
         </homelab>
       </div>
     </section>
-
   </div>
 </template>
 
@@ -51,7 +50,7 @@ export default {
       labConfs: dataConfig.labs,
       carouselConfs: dataConfig.carousel,
       profConfs: dataConfig.people,
-      whysfu: dataConfig.whysfu
+      generalConfs: dataConfig.general
     }
   },
   computed: {
@@ -70,6 +69,10 @@ export default {
 .sayings {
   /* min-height: 450px; */
 }
+.why-sfu {
+  margin: 1em 0.8em 1em 0.8em;
+  max-width: 20em;
+}
 .section-title {
   font-weight: 700;
   padding-top: 2em;
@@ -77,6 +80,9 @@ export default {
   display: inline-block;
   font-size: 1.6em;
   letter-spacing: 0.2rem;
+}
+.content-section{
+  margin-bottom: 1em;
 }
 .people-section {
   display: flex;

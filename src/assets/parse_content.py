@@ -21,8 +21,8 @@ def parse_people():
     return yaml.load(open('{}/people/people.yaml'.format(CONTENT_PATH)))
 
 
-def parse_whysfu():
-    return yaml.load(open('{}/whysfu.yaml'.format(CONTENT_PATH)))
+def parse_general():
+    return yaml.load(open('{}/general.yaml'.format(CONTENT_PATH)))
 
 
 def parse_all()->None:
@@ -30,7 +30,7 @@ def parse_all()->None:
     rv['carousel'] = parse_carousel()
     rv['labs'] = parse_lab()
     rv['people'] = parse_people()
-    rv['whysfu'] = parse_whysfu()
+    rv['general'] = parse_general()
     json.dump(rv, open('src/assets/data.json', 'w'))
 
 

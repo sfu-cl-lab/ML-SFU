@@ -30,7 +30,7 @@
             </el-submenu>
             <el-submenu index="2">
               <template slot="title">
-                <span>Labs</span>
+                <span>Related Labs</span>
               </template>
               <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
                 <el-menu-item :index="'lab-'+index"> {{lab.labName}}

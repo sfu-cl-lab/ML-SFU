@@ -1,10 +1,24 @@
 <template>
   <article>
-    <div>
+    <div class="img-wrapper">
       <img :src="require(`Content/people/${profConf.picPath}`)">
     </div>
-    <h3>{{profConf.name}}</h3>
+    <h3 class="prof-name">
+      <a target="_blank" :href="profConf.url">{{profConf.name}}</a>
+    </h3>
     <p>{{profConf.description}}</p>
+    <div style="margin-top:1em;">
+      <a target="_blank" :href="profConf.url">
+        <el-button size="small">
+          Home Page
+        </el-button>
+      </a>
+      <a target="_blank" :href="profConf.labUrl">
+        <el-button size="small">
+          Lab Page
+        </el-button>
+      </a>
+    </div>
   </article>
 </template>
 
@@ -32,12 +46,20 @@ article {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   background-color: #fafafa;
 }
-
+.el-button {
+  color: var(--text-color);
+  border-color: var(--text-color);
+  font-weight: 700;
+}
+.prof-name:hover {
+  color: var(--text-color);
+  transition: color 0.3s;
+}
 article img {
   width: 100%;
   height: 100%;
   /* border-radius: 50px; */
-  border: solid 1px #fff;
+  /* border: solid 1px #fff; */
   border-color: var(--text-color);
 }
 article > p {
@@ -49,12 +71,11 @@ article > h3 {
   margin-bottom: 0.2em;
 }
 
-article > div {
+.img-wrapper {
   display: inline-block;
   width: 100px;
   height: 150px;
   color: #fff;
-  /* line-height: 80px; */
 
   font-size: 20px;
   margin: 0 auto 0 auto;
