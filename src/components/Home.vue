@@ -88,7 +88,7 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 1em 1em 2em 1em;
+  margin: 0.7em 0.7em 2em 0.7em;
 }
 .people {
   background: url("../assets/texture-bw.png") center center repeat;

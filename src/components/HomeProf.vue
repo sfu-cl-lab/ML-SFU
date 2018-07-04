@@ -6,8 +6,8 @@
     <h3 class="prof-name">
       <a target="_blank" :href="profConf.url">{{profConf.name}}</a>
     </h3>
-    <p>{{profConf.description}}</p>
-    <div style="margin-top:1em;">
+    <p class="prof-desc">{{profConf.description}}</p>
+    <div style="margin-top:1em;" v-if="profConf.url!=='#'">
       <a target="_blank" :href="profConf.url">
         <el-button size="small">
           Home Page
@@ -35,10 +35,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.prof-desc {
+  /* text-align: left; */
+}
 article {
   display: flex;
   flex-direction: column;
-  max-width: 20%;
+  max-width: 22%;
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 1.5em 0.8em 1em 0.8em;

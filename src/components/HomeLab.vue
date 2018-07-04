@@ -3,11 +3,15 @@
     <div class="image-container">
       <img :src="require(`Content/lab/${labConf.picPath}`)">
     </div>
-    <h3>{{labConf.labName|toUpper}}</h3>
+    <a target="_blank" :href="labConf.url">
+      <h3>{{labConf.labName|toUpper}}</h3>
+    </a>
     <p>{{labConf.description}}</p>
-    <el-button>
-      <a target="_blank" :href="labConf.url">MORE DETAILS</a>
-    </el-button>
+    <a target="_blank" :href="labConf.url">
+      <el-button>
+        MORE DETAILS
+      </el-button>
+    </a>
   </article>
 </template>
 
@@ -37,10 +41,14 @@ article {
 }
 
 article h3 {
-  color: var(--text-color);
   font-weight: 700;
   margin: 0.5em auto 0.5em auto;
   font-size: 1.1em;
+  transition: all 0.3s;
+}
+
+article h3:hover {
+  color: var(--text-color);
 }
 
 .el-button {

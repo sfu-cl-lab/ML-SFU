@@ -6,8 +6,8 @@
       </div>
       <div class="header-title">
         <div>
-          <div>Computer Science</div>
-          <div style="font-size:1.3em;font-weight:700;color:#444;">Machine Learning Website</div>
+          <div>{{general.sub_title}}</div>
+          <div style="font-size:1.3em;font-weight:700;color:#444;">{{general.main_title}}</div>
         </div>
       </div>
     </header>
@@ -56,7 +56,8 @@ export default {
     return {
       activeIndex: 1,
       labs: dataConfig.labs,
-      people: dataConfig.people
+      people: dataConfig.people,
+      general: dataConfig.general
     }
   },
   created() {

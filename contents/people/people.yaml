@@ -3,45 +3,59 @@
 
 - name: "Oliver Schulte"
   url: "http://www.cs.sfu.ca/~oschulte/"
-  labUrl: "www.sfu.ca/computationallogic.html"
+  labUrl: "http://www.sfu.ca/computationallogic.html"
   picPath: "SchulteOliver.jpg"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
+  description: "I have worked on a number of topics in different areas: computational learning theory, computation theory, inductive inference, philosophy of science, belief revision, game theory: foundations, algorithms, evolutionary analysis, and machine learning for particle physics."
 
 - name: "Martin Ester"
   url: "http://www.cs.sfu.ca/~ester/"
   labUrl: "http://www.sfu.ca/computing/labs/ddm.html"
   picPath: "MartinEster.jpg"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
+  description: "
+    Data Mining in Social Media
+    Recommendation in Social Media
+    Opinion Mining from Online Product Reviews
+    Data Mining in Biological Networks
+    Discovery of Cancer Markers from Gene Expression and Variation Data
+    "
 
 - name: "Maxwell LIbbrecht"
   url: "http://www.cs.sfu.ca/~maxwl/"
   labUrl: "http://www.cs.sfu.ca/~maxwl/research.html"
   picPath: "MaxwellLibbercht.jpg"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
-
+  description: "My research focuses on the development of new machine learning methods that address the challenges posed by genomics data sets."
+  
 - name: "Greg Mori"
   url: "http://www.cs.sfu.ca/~mori/"
   labUrl: "http://www.cs.sfu.ca/research/groups/VML/index.html"
   picPath: "GregMori.jpg"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
+  description: "Dr. Mori conducts research in computer vision and machine learning, and teaches classes in data structures and programming, artificial intelligence, computer vision, and machine learning. He serves on the editorial boards of IJCV and T-PAMI, the top journals in computer vision."
 
 - name: "Anoop Sarkar"
   url: "http://www.cs.sfu.ca/~anoop/"
   labUrl: "http://natlang.cs.sfu.ca/"
   picPath: "AnoopSarkar.jpg"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
+  description: "
+    Statistical machine translation
+    Statistical parsing of natural languages
+    Multilingual Natural Language Processing
+    Machine learning for Natural Language Processing
+    "
 
 - name: "Richard Vaughan"
   url: "https://rtv.github.io/"
   labUrl: "http://autonomy.cs.sfu.ca/"
   picPath: "RichardVaughan.jpg"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
+  description: "
+    applying the latest AI-based sensing techniques to robot navigation and human-robot interaction
+    creating tools and techniques for programming, simulating and evaluating populations of robots
+    applying models of animal behavior to extend or improve robots, particularly multi-robot systems "
 
 - name: "Ghassan Harmaneh"
   url: "https://sites.google.com/view/hamarneh-research/"
   labUrl: "https://sites.google.com/view/hamarneh-research/team/current"
   picPath: "GhassanHamarneh.png"
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt utLorem ipsum dolor sit amet, consectetur adipiscing it, sed do eiusmod tempor incididunt ut"
+  description: "ur team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
 
 - name: "Who's next"
   url: "#"
