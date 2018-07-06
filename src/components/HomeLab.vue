@@ -36,8 +36,13 @@ export default {
 article {
   display: flex;
   flex-direction: column;
-  max-width: 30%;
+  max-width: 28%;
   margin-bottom: 2em;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
 }
 
 article h3 {
@@ -59,7 +64,7 @@ article h3:hover {
 
 article img {
   width: 100%;
-  min-height: 12em;
+  height: 12em;
   object-fit: cover;
 }
 article p {

@@ -81,7 +81,7 @@ export default {
   font-size: 1.6em;
   letter-spacing: 0.2rem;
 }
-.content-section{
+.content-section {
   margin-bottom: 1em;
 }
 .people-section {
@@ -90,6 +90,7 @@ export default {
   flex-wrap: wrap;
   margin: 0.7em 0.7em 2em 0.7em;
 }
+
 .people {
   background: url("../assets/texture-bw.png") center center repeat;
 }
