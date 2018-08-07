@@ -35,10 +35,9 @@
   labUrl: "http://natlang.cs.sfu.ca/"
   picPath: "AnoopSarkar.jpg"
   description: "
-    Statistical machine translation
-    Statistical parsing of natural languages
-    Multilingual Natural Language Processing
-    Machine learning for Natural Language Processing
+   Machine learning for Natural Language Processing
+   Statistical machine translation
+    Statistical parsing of natural languages   
     "
 
 - name: "Richard Vaughan"
