@@ -5,31 +5,30 @@
   url: "http://www.cs.sfu.ca/~oschulte/"
   labUrl: "http://www.sfu.ca/computationallogic.html"
   picPath: "SchulteOliver.jpg"
-  description: "I have worked on a number of topics in different areas: computational learning theory, computation theory, inductive inference, philosophy of science, belief revision, game theory: foundations, algorithms, evolutionary analysis, and machine learning for particle physics."
+  description: "Machine Learning for Structured Data
+                Multi-relational and Network Data
+                Sports Analytics"
 
 - name: "Martin Ester"
   url: "http://www.cs.sfu.ca/~ester/"
   labUrl: "http://www.sfu.ca/computing/labs/ddm.html"
   picPath: "MartinEster.jpg"
   description: "
-    Data Mining in Social Media
-    Recommendation in Social Media
-    Opinion Mining from Online Product Reviews
-    Data Mining in Biological Networks
-    Discovery of Cancer Markers from Gene Expression and Variation Data
+    Data Mining and Recommendation in Social Media
+    Data Mining in Biological Networks and Gene Expression Data
     "
 
 - name: "Maxwell LIbbrecht"
   url: "http://www.cs.sfu.ca/~maxwl/"
   labUrl: "http://www.cs.sfu.ca/~maxwl/research.html"
   picPath: "MaxwellLibbercht.jpg"
-  description: "My research focuses on the development of new machine learning methods that address the challenges posed by genomics data sets."
+  description: "Machine learning for Genomics Data"
   
 - name: "Greg Mori"
   url: "http://www.cs.sfu.ca/~mori/"
   labUrl: "http://www.cs.sfu.ca/research/groups/VML/index.html"
   picPath: "GregMori.jpg"
-  description: "Dr. Mori conducts research in computer vision and machine learning, and teaches classes in data structures and programming, artificial intelligence, computer vision, and machine learning. He serves on the editorial boards of IJCV and T-PAMI, the top journals in computer vision."
+  description: "Computer vision and Machine learning"
 
 - name: "Anoop Sarkar"
   url: "http://www.cs.sfu.ca/~anoop/"
@@ -47,15 +46,15 @@
   labUrl: "http://autonomy.cs.sfu.ca/"
   picPath: "RichardVaughan.jpg"
   description: "
-    applying the latest AI-based sensing techniques to robot navigation and human-robot interaction
-    creating tools and techniques for programming, simulating and evaluating populations of robots
-    applying models of animal behavior to extend or improve robots, particularly multi-robot systems "
+    Robot navigation and human-robot interaction
+   Programming, simulating and evaluating populations of robots
+    Applying models of animal behavior to extend or improve multi-robot systems "
 
 - name: "Ghassan Harmaneh"
   url: "https://sites.google.com/view/hamarneh-research/"
   labUrl: "https://sites.google.com/view/hamarneh-research/team/current"
   picPath: "GhassanHamarneh.png"
-  description: "ur team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
+  description: "Computer vision and machine learning to mimic, complement, and improve human image interpretation"
 
 - name: "Who's next"
   url: "#"
