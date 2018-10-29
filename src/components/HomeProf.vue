@@ -36,7 +36,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .prof-desc {
-  /* text-align: left; */
+  width: 200px;
+  height: 120px;
 }
 article {
   display: flex;
