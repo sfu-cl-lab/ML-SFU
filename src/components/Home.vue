@@ -86,7 +86,7 @@ export default {
 }
 .people-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   margin: 0.7em 0.7em 2em 0.7em;
 }
