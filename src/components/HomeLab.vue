@@ -6,7 +6,7 @@
     <a target="_blank" :href="labConf.url">
       <h3>{{labConf.labName|toUpper}}</h3>
     </a>
-    <p>{{labConf.description}}</p>
+    <p class="lab-desc">{{labConf.description}}</p>
     <a target="_blank" :href="labConf.url">
       <el-button>
         MORE DETAILS
@@ -33,6 +33,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.lab-desc {
+  width: 100%;
+  height: 60%;
+}
 article {
   display: flex;
   flex-direction: column;
