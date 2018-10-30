@@ -21,8 +21,8 @@
       <div>
         <h2 class="section-title">PEOPLE</h2>
       </div>
-      <div class="people-section">
-        <homeprof :prof-conf="item" v-for="(item,index) in profConfs" :key="index">
+      <div style="display: flex; justify-content: flex-start; flex-wrap: wrap;">
+        <homeprof class="prof" :prof-conf="item" v-for="(item,index) in profConfs" :key="index">
         </homeprof>
       </div>
     </section>
@@ -31,8 +31,8 @@
       <div>
         <h2 class="section-title">LABS</h2>
       </div>
-      <div class="people-section">
-        <homelab :lab-conf="item" v-for="(item, index) in labConfs" :key="index">
+      <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        <homelab class="lab" :lab-conf="item" v-for="(item, index) in labConfs" :key="index">
         </homelab>
       </div>
     </section>
@@ -83,6 +83,14 @@ export default {
 }
 .content-section {
   margin-bottom: 1em;
+}
+.prof {
+  margin: 0.2em 0.1em 2em 0.1em;
+  -webkit-flex: 1 1 13em;
+}
+.lab {
+  margin: 0.2em 0.1em 2em 0.1em;
+  -webkit-flex: 1 1 15em;
 }
 .people-section {
   display: flex;
