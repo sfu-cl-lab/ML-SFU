@@ -89,7 +89,7 @@ export default {
   -webkit-flex: 1 1 13em;
 }
 .lab {
-  margin: 0.2em 0.1em 2em 0.1em;
+  margin: 0.7em 0.7em 2em 0.7em;
   -webkit-flex: 1 1 15em;
 }
 .people-section {
