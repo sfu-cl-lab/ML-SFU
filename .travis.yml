@@ -23,7 +23,7 @@ cache:
   - node_modules
 
 before_deploy:
-- echo sfuml.haoxp.xyz > dist/CNAME
+- echo ml.cs.sfu.ca > dist/CNAME
 
 deploy:
   provider: pages
