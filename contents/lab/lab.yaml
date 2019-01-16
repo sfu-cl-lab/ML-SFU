@@ -14,7 +14,7 @@
 
 - labName: "MIA Research Group"
   picPath: "Hamarneh.jpg"
-  description: "We have immediate openings for postdoctoral fellows and graduate students to carry out world-class research in the area of multi-modal medical image analysis (focusing on machine and deep learning) for cancer diagnosis and treatment."
+  description: "Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
   url: "https://sites.google.com/view/hamarneh-research/"
 
 - labName: "Vision and Media Lab"
