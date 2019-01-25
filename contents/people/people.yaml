@@ -22,13 +22,13 @@
   url: "http://www.cs.sfu.ca/~maxwl/"
   labUrl: "http://www.cs.sfu.ca/~maxwl/research.html"
   picPath: "MaxwellLibbercht.jpg"
-  description: "Machine learning for Genomics Data"
-  
+  description: "Machine Learning for Genomics Data"
+
 - name: "Greg Mori"
   url: "http://www.cs.sfu.ca/~mori/"
   labUrl: "http://www.cs.sfu.ca/research/groups/VML/index.html"
   picPath: "GregMori.jpg"
-  description: "Computer vision and Machine learning"
+  description: "Computer Vision and Machine Learning"
 
 - name: "Anoop Sarkar"
   url: "http://www.cs.sfu.ca/~anoop/"
@@ -37,7 +37,7 @@
   description: "
    Machine learning for Natural Language Processing
    Statistical machine translation
-    Statistical parsing of natural languages   
+    Statistical parsing of natural languages
     "
 
 - name: "Richard Vaughan"
@@ -47,7 +47,7 @@
   description: "
     Robot navigation and human-robot interaction
    Programming, simulating and evaluating populations of robots
-    Applying models of animal behavior to extend or improve multi-robot systems "
+    Applying models of animal behavior to extend or improve multi-robot systems"
 
 - name: "Ghassan Hamarneh"
   url: "https://sites.google.com/view/hamarneh-research/"
@@ -55,3 +55,24 @@
   picPath: "GhassanHamarneh.png"
   description: "Computer vision and machine learning to mimic, complement, and improve human interpretation of biomedical images"
 
+
+- name: "Yasutaka Furukawa"
+  url: "http://www.cs.sfu.ca/~furukawa/"
+  labUrl: "http://gruvi.cs.sfu.ca/"
+  picPath: "YasuFurukawa.jpg"
+  description: "Computer Graphics and Computer Vision"
+
+- name: "Angel Xuan Chang"
+  url: "http://angelxuanchang.github.io/"
+  labUrl: "http://gruvi.cs.sfu.ca/"
+  picPath: "AngelChang.jpg"
+  description: "
+  Semantics of shapes and scenes
+  Representation and acquisition of common sense knowledge
+  Reasoning using probabilistic models"
+
+- name: "Manolis Savva"
+  url: "http://msavva.github.io/"
+  labUrl: "http://gruvi.cs.sfu.ca/"
+  picPath: "ManolisSavva.jpg"
+  description: "Analysis, Organization and Generation of 3D content"
