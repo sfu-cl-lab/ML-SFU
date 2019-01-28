@@ -5,8 +5,8 @@
   url: "http://www.cs.sfu.ca/~oschulte/"
   labUrl: "http://www.sfu.ca/computationallogic.html"
   picPath: "SchulteOliver.jpg"
-  description: "Machine learning for structured data</br>
-                Multi-relational and network data</br>
+  description: "Machine learning for structured data<br>
+                Multi-relational and network data<br>
                 Sports Analytics"
 
 - name: "Martin Ester"
@@ -14,7 +14,7 @@
   labUrl: "http://www.sfu.ca/computing/labs/ddm.html"
   picPath: "MartinEster.jpg"
   description: "
-    Data mining and recommendation in social media</br>
+    Data mining and recommendation in social media \n
     Data Mining in Biological Networks and Gene Expression Data
     "
 
