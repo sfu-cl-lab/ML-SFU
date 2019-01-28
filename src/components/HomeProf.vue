@@ -6,7 +6,7 @@
     <h3 class="prof-name">
       <a target="_blank" :href="profConf.url">{{profConf.name}}</a>
     </h3>
-    <p class="prof-desc">{{profConf.description}}</p>
+    <p class="prof-desc" v-html="profConf.description"></p>
     <div style="margin-top:1em;" v-if="profConf.url!=='#'">
       <a target="_blank" :href="profConf.url">
         <el-button size="small">
