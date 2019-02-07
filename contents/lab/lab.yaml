@@ -23,12 +23,12 @@
   url: "http://vml.cs.sfu.ca/"
 
 - labName: "Computational Logic Lab"
-  picPath: "datamining.jpg"
+  picPath: "cl.jpg"
   description: "Interests of the members of the group include, among other areas, logics for knowledge representation and for representing and reasoning about dynamic systems, belief revision, theorem proving, constraint satisfaction, database theory, and complexity of related computational tasks."
   url: "http://www.sfu.ca/computationallogic.html"
 
 - labName: "Database and Data Mining Lab"
-  picPath: "cl.jpg"
+  picPath: "datamining.jpg"
   description: "Our lab also investigates emerging applications of information systems posing new database systems challenges such as on-demand map generation and focused web crawlers. The challenges of on-demand map generation, for example, are the complexity of map generalization operations and the ill-defined notion of the quality of the resulting maps. "
   url: "http://www.sfu.ca/computing/labs/ddm.html"
 
