@@ -14,7 +14,7 @@
   labUrl: "http://www.sfu.ca/computing/labs/ddm.html"
   picPath: "MartinEster.jpg"
   description: "
-    Data mining and recommendation in social medias<br>
+    Data mining and recommendation in social media <br>
     Data mining in biological networks and gene expression data
     "
 
@@ -47,13 +47,13 @@
   description: "
     Robot navigation and human-robot interaction<br>
    Programming, simulating and evaluating populations of robots<br>
-    Applying models of animal behavior to extend or improve multi-robot systems"
+    Applying models of animal behavior to improve multi-robot systems"
 
 - name: "Ghassan Hamarneh"
   url: "https://sites.google.com/view/hamarneh-research/"
   labUrl: "https://sites.google.com/view/hamarneh-research/"
   picPath: "GhassanHamarneh.png"
-  description: "Computer vision and machine learning to mimic, complement, and improve human interpretation of biomedical images"
+  description: "Computer vision and machine learning to improve human interpretation of biomedical images"
 
 
 - name: "Yasutaka Furukawa"
@@ -68,8 +68,7 @@
   picPath: "AngelChang.jpg"
   description: "
   Semantics of shapes and scenes<br>
-  Representation and acquisition of common sense knowledge<br>
-  Reasoning using probabilistic models"
+  Representation and acquisition of common sense knowledge<br>"
 
 - name: "Manolis Savva"
   url: "http://msavva.github.io/"
