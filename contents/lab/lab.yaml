@@ -1,15 +1,12 @@
 - labName: "Autonomy Lab"
   picPath: "autonomy.jpg"
-  description: "The Autonomy Lab's research goal is to increase the capabilities, robustness and overall autonomy of mobile robot systems. Our research has these main themes:
-    applying the latest AI-based sensing techniques to robot navigation and human-robot interaction
-    creating tools and techniques for programming, simulating and evaluating populations of robots
-    applying models of animal behavior to extend or improve robots, particularly multi-robot systems."
+  description: "The Autonomy Lab's research goal is to increase the capabilities, robustness and overall autonomy of mobile and multi-robot systems. "
   url: "http://autonomy.cs.sfu.ca/"
 
 - labName: "Natural Language Lab"
   picPath: "natlang.jpg"
   description: "
-   Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language. We are always looking for motivated, good graduate students. We are also keen on fostering links with industry for joint projects that are based on research grants and/or student internships that allow graduate students to spend time at companies doing high-risk high-reward natural language processing projects."
+   Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language."
   url: "http://natlang.cs.sfu.ca/"
 
 - labName: "MIA Research Group"
@@ -29,10 +26,10 @@
 
 - labName: "Database and Data Mining Lab"
   picPath: "datamining.jpg"
-  description: "Our lab also investigates emerging applications of information systems posing new database systems challenges such as on-demand map generation and focused web crawlers. The challenges of on-demand map generation, for example, are the complexity of map generalization operations and the ill-defined notion of the quality of the resulting maps. "
+  description: "Our lab investigates emerging applications of information systems posing new database systems challenges, such as on-demand map generation and focused web crawlers."
   url: "http://www.sfu.ca/computing/labs/ddm.html"
 
 - labName: "GrUVi Lab"
   picPath: "gruvi-family-2014.jpg"
-  description: "We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, geometric and image-based modelling, machine learning, natural phenomenon, and shape analysis."
+  description: "We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, geometric and image-based modelling, and shape analysis."
   url: "http://gruvi.cs.sfu.ca/"
