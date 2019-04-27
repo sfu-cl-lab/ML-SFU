@@ -72,6 +72,7 @@ export default {
 .why-sfu {
   margin: 1em 0.8em 1em 0.8em;
   max-width: 20em;
+  text-align: left;
 }
 .section-title {
   font-weight: 700;

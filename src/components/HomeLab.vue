@@ -36,6 +36,7 @@ export default {
 .lab-desc {
   width: 100%;
   height: 60%;
+  text-align: left;
 }
 article {
   display: flex;

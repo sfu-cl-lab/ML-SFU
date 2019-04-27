@@ -5,39 +5,40 @@
   url: "http://www.cs.sfu.ca/~oschulte/"
   labUrl: "http://www.sfu.ca/computationallogic.html"
   picPath: "SchulteOliver.jpg"
-  description: "Machine learning for structured data<br>
-                Multi-relational and network data <br>
-                Sports analytics"
+  description: "&#8226; Machine learning for structured data<br>
+                &#8226; Multi-relational and network data<br>
+                &#8226; Sports analytics"
 
 - name: "Martin Ester"
   url: "http://www.cs.sfu.ca/~ester/"
   labUrl: "http://www.sfu.ca/computing/labs/ddm.html"
   picPath: "MartinEster.jpg"
   description: "
-    Data mining and recommendation in social media <br>
-    Data mining in biological networks and gene expression data
+    &#8226; Data mining and recommendation in social medias<br>
+    &#8226; Data mining in biological networks and gene expression data
     "
 
 - name: "Maxwell Libbrecht"
   url: "http://www.cs.sfu.ca/~maxwl/"
   labUrl: "http://www.cs.sfu.ca/~maxwl/research.html"
   picPath: "MaxwellLibbercht.jpg"
-  description: "Machine learning for genomics data"
+  description: "&#8226; Machine learning for genomics data"
 
 - name: "Greg Mori"
   url: "http://www.cs.sfu.ca/~mori/"
   labUrl: "http://www.cs.sfu.ca/research/groups/VML/index.html"
   picPath: "GregMori.jpg"
-  description: "Computer vision and machine learning"
+  description: "&#8226; Computer vision<br>
+                &#8226; Machine learning"
 
 - name: "Anoop Sarkar"
   url: "http://www.cs.sfu.ca/~anoop/"
   labUrl: "http://natlang.cs.sfu.ca/"
   picPath: "AnoopSarkar.jpg"
   description: "
-   Machine learning for natural language processing<br>
-   Statistical machine translation<br>
-    Statistical parsing of natural languages
+   &#8226; Machine learning for natural language processing<br>
+   &#8226; Statistical machine translation<br>
+  &#8226; Statistical parsing of natural languages
     "
 
 - name: "Richard Vaughan"
@@ -45,33 +46,35 @@
   labUrl: "http://autonomy.cs.sfu.ca/"
   picPath: "RichardVaughan.jpg"
   description: "
-    Robot navigation and human-robot interaction<br>
-   Programming, simulating and evaluating populations of robots<br>
-    Applying models of animal behavior to improve multi-robot systems"
+    &#8226; Robot navigation and human-robot interaction<br>
+   &#8226; Programming, simulating and evaluating populations of robots<br>
+    &#8226; Applying models of animal behavior to extend or improve multi-robot systems"
 
 - name: "Ghassan Hamarneh"
   url: "https://sites.google.com/view/hamarneh-research/"
   labUrl: "https://sites.google.com/view/hamarneh-research/"
   picPath: "GhassanHamarneh.png"
-  description: "Computer vision and machine learning to improve human interpretation of biomedical images"
+  description: "&#8226; Computer vision and machine learning to mimic, complement, and improve human interpretation of biomedical images"
 
 
 - name: "Yasutaka Furukawa"
   url: "http://www.cs.sfu.ca/~furukawa/"
   labUrl: "http://gruvi.cs.sfu.ca/"
   picPath: "YasuFurukawa.jpg"
-  description: "Computer graphics and computer vision"
+  description: "&#8226; Computer graphics<br>
+                &#8226; Computer vision"
 
 - name: "Angel Xuan Chang"
   url: "http://angelxuanchang.github.io/"
   labUrl: "http://gruvi.cs.sfu.ca/"
   picPath: "AngelChang.jpg"
   description: "
-  Semantics of shapes and scenes<br>
-  Representation and acquisition of common sense knowledge<br>"
+  &#8226; Semantics of shapes and scenes<br>
+  &#8226; Representation and acquisition of common sense knowledge<br>
+  &#8226; Reasoning using probabilistic models"
 
 - name: "Manolis Savva"
   url: "http://msavva.github.io/"
   labUrl: "http://gruvi.cs.sfu.ca/"
   picPath: "ManolisSavva.jpg"
-  description: "Analysis, organization and generation of 3D content"
+  description: "&#8226; Analysis, organization and generation of 3D content"
