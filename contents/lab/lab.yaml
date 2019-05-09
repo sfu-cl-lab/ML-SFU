@@ -22,9 +22,9 @@
   description: "We develop algorithms for interpreting and processing visual data — images and videos. These algorithms facilitate a range of applications from enabling video search to enhancing the visual quality of photographs. We focus on image and video analysis, object recognition, human activity recognition, and machine learning."
   url: "http://vml.cs.sfu.ca/"
 
-- labName: "Computational Logic Lab"
+- labName: "Structured Machine Learning Lab"
   picPath: "cl.jpg"
-  description: "Interests of the members of the group include, among other areas, logics for knowledge representation and for representing and reasoning about dynamic systems, belief revision, theorem proving, constraint satisfaction, database theory, and complexity of related computational tasks."
+  description: "Machine Learning for Structured Data: complex networks, multi-relational data, event logs. We apply graphical models, deep neural nets, and reinforcement learning."
   url: "http://www.sfu.ca/computationallogic.html"
 
 - labName: "Database and Data Mining Lab"
