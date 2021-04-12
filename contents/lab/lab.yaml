@@ -15,7 +15,7 @@
 - labName: "MIA Research Group"
   picPath: "Hamarneh.jpg"
   description: "Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
-  url: "https://sites.google.com/view/hamarneh-research/"
+  url: "http://www.cs.sfu.ca/~hamarneh"
 
 - labName: "Vision and Media Lab"
   picPath: "vml.jpg"
