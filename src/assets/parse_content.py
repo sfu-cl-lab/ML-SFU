@@ -14,15 +14,15 @@ def parse_carousel():
 
 
 def parse_lab():
-    return yaml.load(open('{}/lab/lab.yaml'.format(CONTENT_PATH)))
+    return yaml.load(open('{}/lab/lab.yaml'.format(CONTENT_PATH)), Loader=yaml.FullLoader)
 
 
 def parse_people():
-    return yaml.load(open('{}/people/people.yaml'.format(CONTENT_PATH)))
+    return yaml.load(open('{}/people/people.yaml'.format(CONTENT_PATH)), Loader=yaml.FullLoader)
 
 
 def parse_general():
-    return yaml.load(open('{}/general.yaml'.format(CONTENT_PATH)))
+    return yaml.load(open('{}/general.yaml'.format(CONTENT_PATH)), Loader=yaml.FullLoader)
 
 
 def parse_all()->None:

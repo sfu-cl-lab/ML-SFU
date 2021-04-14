@@ -78,7 +78,7 @@ module.exports = {
       },
       {
         test: /\.yaml$/,
-        loader: 'yaml',
+        loader: 'yaml-loader',
         options: {
           limit: 10000
         }
