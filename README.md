@@ -29,3 +29,10 @@ Just edit files in `contents/` and then commit the change, it will **automatical
 ### Tech support
 
 Contact Patrick at me@haoxp.xyz
+
+### Updating the Github token
+
+Looks like once in a while the Github gods require us to generate a new token. The basic procedure involves two steps.
+
+1. [Generate a new github token](https://github.com/settings/tokens)
+2. [Update it on Travis](https://travis-ci.org/github/sfu-cl-lab/ML-SFU/settings) by setting the `GITHUB_TOKEN` environment variable to contain the new token.
