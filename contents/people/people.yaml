@@ -41,14 +41,14 @@
   &#8226; Statistical parsing of natural languages
     "
 
-- name: "Richard Vaughan"
-  url: "https://rtv.github.io/"
-  labUrl: "http://autonomy.cs.sfu.ca/"
-  picPath: "RichardVaughan.jpg"
-  description: "
-    &#8226; Robot navigation and human-robot interaction<br>
-   &#8226; Programming, simulating and evaluating populations of robots<br>
-    &#8226; Applying models of animal behavior to extend or improve multi-robot systems"
+# - name: "Richard Vaughan"
+#  url: "https://rtv.github.io/"
+#  labUrl: "http://autonomy.cs.sfu.ca/"
+#  picPath: "RichardVaughan.jpg"
+#  description: "
+#    &#8226; Robot navigation and human-robot interaction<br>
+#   &#8226; Programming, simulating and evaluating populations of robots<br>
+#    &#8226; Applying models of animal behavior to extend or improve multi-robot systems"
 
 - name: "Ghassan Hamarneh"
   url: "http://www.cs.sfu.ca/~hamarneh"
