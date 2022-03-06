@@ -1,6 +1,6 @@
 
 # ML-SFU
-[![Build Status](https://travis-ci.org/sfu-cl-lab/ML-SFU.svg?branch=master)](https://travis-ci.org/sfu-cl-lab/ML-SFU)
+[![update-gh-pages](https://github.com/sfu-cl-lab/ML-SFU/actions/workflows/update-gh-pages.yml/badge.svg)](https://github.com/sfu-cl-lab/ML-SFU/actions/workflows/update-gh-pages.yml)
 
 ### Update instructions
 
