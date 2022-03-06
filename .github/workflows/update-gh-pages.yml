@@ -1,0 +1,40 @@
+name: update-gh-pages
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-and-deployment:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js 14
+      uses: actions/setup-node@v2
+      with:
+        node-version: "14.16.1"
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+
+    - name: Install Dependencies
+      run: |
+        pip install pyyaml
+
+    - name: Build
+      run: |
+        npm install -g yarn
+        yarn install
+        python3 src/assets/parse_content.py
+        yarn run build
+
+    - name: Deploy
+      run: |
+        git fetch # Retrieve the gh-pages branch.
+        bash deployment/update-gh-pages.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.github_token }}
