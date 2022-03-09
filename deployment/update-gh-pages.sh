@@ -14,8 +14,10 @@ git config user.email "github.actions@bots.github.com"
 
 git checkout "$targetBranch"
 
-echo ml.cs.sfu.ca > $buildDirectory/CNAME
-git add "$buildDirectory"
+echo ml.cs.sfu.ca > CNAME
+rm -r static/
+mv dist/* .
+git add *
 
 git commit -m "Updated GitHub Pages."
 if [ $? -ne 0 ]
