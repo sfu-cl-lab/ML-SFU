@@ -84,3 +84,46 @@
   labUrl: "https://sfumars.com"
   picPath: "MoChen.jpg"
   description: "&#8226; Principled Robotic Decision Making"
+
+- name: "Ke Li"
+  url: "http://www.sfu.ca/~keli/"
+  labUrl: ""
+  picPath: "KeLi.jpg"
+  description: "&#8226; Generative Modelling<br>
+                &#8226; Learning to Optimize<br>
+                &#8226; Fast Nearest Neighbour Search"
+
+- name: "Angelica Lim"
+  url: "https://www.sfu.ca/computing/people/faculty/angelicalim.html"
+  labUrl: "https://www.rosielab.ca/"
+  picPath: "AngelicaLim.jpg"
+  description: "&#8226; Human Robot Interaction<br>
+                &#8226; Affective Computing<br>
+                &#8226; Multimodal Perception and Learning<br>
+                &#8226; Developmental Robotics"
+
+- name: "Hang Ma"
+  url: "https://www.cs.sfu.ca/~hangma/"
+  labUrl: ""
+  picPath: "HangMa.jpg"
+  description: "&#8226; Artificial Intelligence<br>
+                &#8226; Robotics<br>
+                &#8226; Multi-Agent/Robot Systems<br>
+                &#8226; Machine Learning"
+
+- name: "Andrea Tagliasacchi"
+  url: "https://taiya.github.io/"
+  labUrl: ""
+  picPath: "AndreaTagliasacchi.jpg"
+  description: "&#8226; Computer Vision<br>
+                &#8226; Computer Graphics<br>
+                &#8226; Geometric Deep Learning<br>
+                &#8226; 3D Perception"
+
+- name: "Sharan Vaswani"
+  url: "https://vaswanis.github.io/"
+  labUrl: ""
+  picPath: "SharanVaswani.jpg"
+  description: "&#8226; Machine Learning<br>
+                &#8226; Optimization<br>
+                &#8226; Artificial Intelligence"
