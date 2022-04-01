@@ -114,7 +114,7 @@
 - name: "Andrea Tagliasacchi"
   url: "https://taiya.github.io/"
   labUrl: ""
-  picPath: "https://www.sfu.ca/content/sfu/computing/people/faculty/andrea-tagliasacchi/jcr:content/main_content/image.img.2000.high.png/1640300450213.png"
+  picPath: "AndreaTagliasacchi.png"
   description: "&#8226; Computer Vision<br>
                 &#8226; Computer Graphics<br>
                 &#8226; Geometric Deep Learning<br>
@@ -123,7 +123,7 @@
 - name: "Sharan Vaswani"
   url: "https://vaswanis.github.io/"
   labUrl: ""
-  picPath: "SharanVaswani.jpg"
+  picPath: "SharanVaswani.jpeg"
   description: "&#8226; Machine Learning<br>
                 &#8226; Optimization<br>
                 &#8226; Artificial Intelligence"
