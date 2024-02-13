@@ -7,6 +7,7 @@
     </el-carousel>
 
     <section class="sayings content-section">
+      <a href="https://www.google.com/">Visit our website</a>
       <div>
         <h2 class="section-title">{{generalConfs.section_one.name}}</h2>
         <div style="display:flex; justify-content:space-around;">
