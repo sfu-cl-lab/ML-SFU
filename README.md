@@ -2,7 +2,7 @@
 # ML-SFU
 [![update-gh-pages](https://github.com/sfu-cl-lab/ML-SFU/actions/workflows/update-gh-pages.yml/badge.svg)](https://github.com/sfu-cl-lab/ML-SFU/actions/workflows/update-gh-pages.yml)
 
-### Update instructions
+### Update instruction
 
 Just edit files in `contents/` and then commit the change, it will **automatically** deploy in 5 mins. 
 
