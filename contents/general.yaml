@@ -3,6 +3,7 @@ sub_title: "Computer Science"
 
 section_one:
   name: "WHY SFU"
+  url: "www.sfu.ca"
   cards:
     - "Ten faculty members do research on machine learning methods and applications: vision, image analysis, robotics, natural language processing."
     - "Graduate courses for introduction and advanced topics such as deep learning."
