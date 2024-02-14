@@ -7,7 +7,7 @@
     </el-carousel>
 
     <section class="sayings content-section">
-      <a href="https://www.google.com/">Visit our website</a>
+      <a href="https://stream.sfu.ca/Media/Channel/4b63668f57a046589246cf6c0c8eb2d05f/browse/null/most-recent/null/0/null">Visit our AI/VCR Seminar website</a>
       <div>
         <h2 class="section-title">{{generalConfs.section_one.name}}</h2>
         <div style="display:flex; justify-content:space-around;">
