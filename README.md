@@ -26,6 +26,22 @@ Just edit files in `contents/` and then commit the change, it will **automatical
 
 2. Commit the change directly to the `master` branch
 
+### Local testing
+
+Build `src/assets/data.json` from yaml files (not sure why yaml files are not used directly)
+```
+pip3 install pyyaml
+python3 src/assets/parse_content.py
+```
+
+Run local server
+```
+npm install              # install node modules            
+npm start                # Start server
+```
+
+Go to http://localhost:8080
+
 ### Tech support
 
 Contact Patrick at me@haoxp.xyz
