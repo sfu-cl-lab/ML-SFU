@@ -24,13 +24,6 @@
   picPath: "MaxwellLibbercht.jpg"
   description: "&#8226; Machine learning for genomics data"
 
-- name: "Greg Mori"
-  url: "http://www.cs.sfu.ca/~mori/"
-  labUrl: "http://www.cs.sfu.ca/research/groups/VML/index.html"
-  picPath: "GregMori.jpg"
-  description: "&#8226; Computer vision<br>
-                &#8226; Machine learning"
-
 - name: "Anoop Sarkar"
   url: "http://www.cs.sfu.ca/~anoop/"
   labUrl: "http://natlang.cs.sfu.ca/"
@@ -40,15 +33,6 @@
    &#8226; Statistical machine translation<br>
   &#8226; Statistical parsing of natural languages
     "
-
-# - name: "Richard Vaughan"
-#  url: "https://rtv.github.io/"
-#  labUrl: "http://autonomy.cs.sfu.ca/"
-#  picPath: "RichardVaughan.jpg"
-#  description: "
-#    &#8226; Robot navigation and human-robot interaction<br>
-#   &#8226; Programming, simulating and evaluating populations of robots<br>
-#    &#8226; Applying models of animal behavior to extend or improve multi-robot systems"
 
 - name: "Ghassan Hamarneh"
   url: "http://www.cs.sfu.ca/~hamarneh"
@@ -127,3 +111,45 @@
   description: "&#8226; Machine Learning<br>
                 &#8226; Optimization<br>
                 &#8226; Artificial Intelligence"
+
+- name: "Jason Peng"
+  url: "https://xbpeng.github.io/"
+  labUrl: ""
+  picPath: "JasonPeng.jpg"
+  description: "&#8226; Reinforcement Learning<br>
+                &#8226; Computer Animation<br>
+                &#8226; Robotics"
+
+- name: "Wuyang Chen"
+  url: "https://chenwydj.github.io/"
+  labUrl: "https://delta-lab-ai.github.io/index.html"
+  picPath: "WuyangChen.jpg"
+  description: "&#8226; Deep Learning<br>
+                &#8226; Scientific Machine Learning<br>
+                &#8226; Computer Vision"
+
+- name: "Linyi Li"
+  url: "https://linyil.com/"
+  labUrl: ""
+  picPath: "LinyiLi.jpg"
+  description: "&#8226; Deep learning<br>
+                &#8226; Trustworthy machine learning and computer securiy<br>
+                &#8226; Large language models<br>
+                &#8226; Software engineering<br>"
+
+- name: "Richard Vaughan"
+  url: "https://rtv.github.io/"
+  labUrl: "http://autonomy.cs.sfu.ca/"
+  picPath: "RichardVaughan.jpg"
+  description: "&#8226; Robot navigation and human-robot interaction<br>
+                &#8226; Programming, simulating and evaluating populations of robots<br>
+                &#8226; Applying models of animal behavior to extend or improve multi-robot systems"
+  status: "affiliated"
+
+- name: "Greg Mori"
+  url: "http://www.cs.sfu.ca/~mori/"
+  labUrl: "http://www.cs.sfu.ca/research/groups/VML/index.html"
+  picPath: "GregMori.jpg"
+  description: "&#8226; Computer vision<br>
+                &#8226; Machine learning"
+  status: "affiliated"

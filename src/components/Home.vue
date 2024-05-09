@@ -28,6 +28,16 @@
       </div>
     </section>
 
+    <section class="people content-section">
+      <div>
+        <h2 class="section-title">AFFLIATED FACULTY</h2>
+      </div>
+      <div style="display: flex; justify-content: flex-start; flex-wrap: wrap;">
+        <homeprof class="prof" :prof-conf="item" v-for="(item,index) in affiliatedConfs" :key="index">
+        </homeprof>
+      </div>
+    </section>
+
     <section class="lab content-section">
       <div>
         <h2 class="section-title">LABS</h2>
@@ -51,6 +61,7 @@ export default {
       labConfs: dataConfig.labs,
       carouselConfs: dataConfig.carousel,
       profConfs: dataConfig.people,
+      affiliatedConfs: dataConfig.affiliated,
       generalConfs: dataConfig.general
     }
   },

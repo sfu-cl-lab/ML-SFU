@@ -33,7 +33,9 @@ def parse_all()->None:
     rv = {}
     rv['carousel'] = parse_carousel()
     rv['labs'] = parse_lab()
-    rv['people'] = parse_people()
+    people = parse_people()
+    rv['people'] = [p for p in people if p.get("status") != "affiliated"]
+    rv['affiliated'] = [p for p in people if p.get("status") == "affiliated"]
     rv['seminars'] = parse_seminars()
     rv['general'] = parse_general()
     json.dump(rv, open('src/assets/data.json', 'w'))
