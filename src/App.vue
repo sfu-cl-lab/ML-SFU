@@ -18,6 +18,16 @@
       <el-aside width="20%" class="menu-col">
         <section class="menu">
           <el-menu :default-openeds="['1','2']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
+            <a href="../#/home"><el-menu-item index="home" router="true">
+              <template slot="title">
+                <span>Home</span>
+              </template>
+            </el-menu-item></a>
+            <a href="../#/seminars"><el-menu-item index="seminars" router="true">
+              <template slot="title">
+                <span>Seminars</span>
+              </template>
+            </el-menu-item></a>
             <el-submenu index="1">
               <template slot="title">
                 <span>People</span>
@@ -57,6 +67,7 @@ export default {
       activeIndex: 1,
       labs: dataConfig.labs,
       people: dataConfig.people,
+      seminars: dataConfig.seminars,
       general: dataConfig.general
     }
   },

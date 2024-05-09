@@ -7,7 +7,6 @@
     </el-carousel>
 
     <section class="sayings content-section">
-      <a href="https://stream.sfu.ca/Media/Channel/4b63668f57a046589246cf6c0c8eb2d05f/browse/null/most-recent/null/0/null">Visit our AI/VCR Seminar website</a>
       <div>
         <h2 class="section-title">{{generalConfs.section_one.name}}</h2>
         <div style="display:flex; justify-content:space-around;">
@@ -16,6 +15,7 @@
           </el-card>
         </div>
       </div>
+      <a href="../#/seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
     </section>
 
     <section class="people content-section">
@@ -77,7 +77,15 @@ export default {
 }
 .section-title {
   font-weight: 700;
-  padding-top: 2em;
+  padding-top: 1.5em;
+  border-bottom: solid 5px var(--text-color);
+  display: inline-block;
+  font-size: 1.6em;
+  letter-spacing: 0.2rem;
+}
+.link-title {
+  font-weight: 700;
+  padding-top: 0.5em;
   border-bottom: solid 5px var(--text-color);
   display: inline-block;
   font-size: 1.6em;
