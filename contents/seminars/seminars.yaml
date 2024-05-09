@@ -179,6 +179,16 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   bio: "Karsten Kreis is a senior research scientist at NVIDIA’s Toronto AI Lab. Prior to joining NVIDIA, he worked on deep generative modeling at D-Wave Systems and co-founded Variational AI, a startup utilizing generative models for drug discovery. Before switching to deep learning, Karsten did his M.Sc. in quantum information theory at the Max Planck Institute for the Science of Light and his Ph.D. in computational and statistical physics at the Max Planck Institute for Polymer Research. Currently, Karsten’s research focuses on developing novel generative learning methods and on applying deep generative models on problems in areas such as computer vision, graphics and digital artistry, as well as in the natural sciences."
   tags: ["generative models","diffusion","ai"]
 
+- date: "2023-03-31"
+  speaker: "Vered Shwartz"
+  speakerUrl: "https://www.cs.ubc.ca/~vshwartz/"
+  speakerPhoto: false
+  video: ""
+  title: "Incorporating Commonsense Reasoning into NLP Models"
+  abstract: "Human language is often ambiguous, underspecified, and grounded in the physical world and in social norms. As humans, we employ commonsense knowledge and reasoning abilities to fill in those gaps and understand others. Endowing NLP models with the same abilities is imperative for reaching human-level language understanding and generation skills. In this talk, I will present several lines of work in which we test NLP models on their commonsense reasoning abilities, develop commonsense reasoning models, and incorporate them into models to improve the performance on NLP tasks."
+  bio: "Vered Shwartz is an Assistant Professor of Computer Science at the University of British Columbia, and a CIFAR AI Chair at the Vector Institute. Her research interests include commonsense reasoning, computational semantics and pragmatics, and multiword expressions. Previously, Vered was a postdoctoral researcher at the Allen Institute for AI (AI2) and the University of Washington, and received her PhD in Computer Science from Bar-Ilan University. Vered's work has been recognized with several awards, including The Eric and Wendy Schmidt Postdoctoral Award for Women in Mathematical and Computing Sciences, the Clore Foundation Scholarship, and an ACL 2016 outstanding paper award."
+  tags: ["commonsense reasoning", "nlp", "ai"]
+
 - date: "2023-03-17"
   speaker: "Paul Oh"
   speakerUrl: "https://www.unlv.edu/people/paul-oh"
@@ -188,3 +198,13 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   abstract: "The lines between consumer electronics and consumer robotics is blurry. For example, at the annual Consumer Electronics Show (CES) in Las Vegas, the list of robotics companies exhibits has grown to over 400. Furthermore driverless cars, drones, exo-skeletons, 3D printers and virtual-reality systems are examples of robots that have a consumer focus. This talk highlights observations of this phenomena. This is given in the context of an Age of Acceleration characterized by deep learning, cloud-computing, and artificial intelligence. The talk serves to suggest pathways for roboticists and their design and development endeavors."
   bio: "Prof. Paul Oh joined the University of Nevada, Las Vegas (UNLV) as the Lincy Professor of Unmanned Aerial Systems in 2014. He is the founder and director of the Drones and Autonomous Systems Lab (DASL). Prior, he was in Drexel University's Mechanical Engineering Department from 2000-2014. He received mechanical engineering degrees from McGill (B. Eng 1989), Seoul National (M. Sc. 1992), and Columbia (PhD 1999) universities. He is a Fellow of NASA (2002), Naval Research Lab (2003), Boeing (2006) and ASME (2012). He received research (2004 NSF CAREER) and teaching (2005 SAE Ralph Teetor Award for Engineering Education Excellence) awards and authored over 150 publications and 3 books. From 2008-2010, he served as an NSF Program Director managing the robotics research portfolio. He has lead Teams DRC-Hubo, DRC-Hubo@UNLV and Avatar-Hubo for the 2012-2014, 2015, and 2018-2022 DARPA Robotics Challenges Semi-Finals, Finals, and Avatar XPrize respectively. He recently served as General Chair for IEEE IROS 2020 (IEEE Intelligent Robots and Systems) Conference which gathered over 25,000 online attendees."
   tags: ["robotics"]
+
+- date: "2022-11-04"
+  speaker: "Derek Liu"
+  speakerUrl: "https://www.dgp.toronto.edu/~hsuehtil/"
+  speakerPhoto: false
+  video: ""
+  title: "Generative Models for Stylized Geometry"
+  abstract: "Recent advances in stylizing 2D digital content have sparked a plethora of image stylization and non-photorealistic rendering technologies. However, how to generate stylized 3D geometry remains a challenging problem. One major reason is the lack of suitable “languages” for computers to understand the style of 3D objects. In this talk, I will cover three increasingly popular perspectives for computers to capture geometric styles, including rendering, machine-learned geometric prior, and surface normals. I will demonstrate how these perspectives can enable computers to generate stylized 3D content. I argue that exploring fundamental style elements for geometry would unlock the door to learning-based and optimization-based techniques for geometric stylization."
+  bio: "Hsueh-Ti Derek Liu is a Research Scientist at Roblox working on digital geometry processing and 3D machine learning, based out of Vancouver. Derek’s work mainly focuses on developing easy-to-use 3D modeling tools and numerical methods for processing geometric data at scale. He obtained his PhD at the University of Toronto advised by Prof. Alec Jacobson. He worked as a visiting scholar at École Polytechnique in 2019, working with Prof. Maks Ovsjanikov. He completed his M.S. with Profs. Keenan Crane and Levent Burak Kara at Carnegie Mellon University."
+  tags: ["generative models", "geometry", "3d content generation", "visual computing"]
