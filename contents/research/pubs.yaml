@@ -1,0 +1,102 @@
+- date: "2024-05-06"
+  venue: "ICLR"
+  year: 2024
+  authors: ["Yuzhen Mao", "Martin Ester", "Ke Li"]
+  title: "IceFormer: Accelerated inference with Long-Sequence Transformers on CPUs"
+  image: "2024/iclr/iceformer.png"
+  links: 
+    webpage: "https://yuzhenmao.github.io/IceFormer/"
+    paper: "https://arxiv.org/pdf/2405.02842"
+    code: "https://github.com/yuzhenmao/IceFormer"
+    video: "https://youtu.be/6W0DtYRzFng"
+
+- date: "2024-05-06"
+  venue: "ICLR"
+  year: 2024
+  authors: ["Aliasghar Khani", "Saeid Asgari", "Aditya Sanghi", "Ali Mahdavi Amiri", "Ghassan Hamarneh"]
+  title: "SLiMe: Segment Like Me"
+  image: "2024/iclr/slime.gif"
+  links: 
+    paper: "https://arxiv.org/abs/2309.03179"
+    code: "https://github.com/aliasgharkhani/SLiMe"
+    colab: "https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Kiarash Zahirnia", "Yaochen Hu", "Mark Coates", "Oliver Schulte"]
+  title: "Neural Graph Generation from Graph Statistics"
+  image: "2023/neurips/neuralgraphgen.png"
+  links: 
+    paper: "https://openreview.net/pdf?id=EI6BHFKA5p"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Yanshu Zhang", "Shichong Peng", "Seyed Alireza Moazenipourasil", "Ke Li"]
+  title: "PAPR: Proximity Attention Point Rendering"
+  image: "2023/neurips/papr.png"
+  links: 
+    webpage: "https://zvict.github.io/papr/"
+    paper: "https://arxiv.org/abs/2307.11086"
+    video: "https://www.youtube.com/watch?v=1atBGH_pDHY"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Mikaela Angelina Uy", "Kiyohiro Nakayama", "Guandao Yang", "Rahul Krishna Thomas", "Leonidas Guibas", "Ke Li"]
+  title: "NeRF Revisited: Fixing Quadrature Instability in Volume Rendering"
+  image: "2023/neurips/nerfrevisited.png"
+  links: 
+    webpage: "https://pl-nerf.github.io/"
+    paper: "https://arxiv.org/abs/2310.20685"
+    code: "https://github.com/mikacuy/PL-NeRF"
+    video: "https://youtu.be/0QGlsQqbDkM"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Fenggen Yu", "Qimin Chen", "Maham Tanveer", "Ali Mahdavi Amiri", "Hao (Richard) Zhang"]
+  title: "D2CSG: Unsupervised Learning of Compact CSG Trees with Dual Complements and Dropouts"
+  image: "2023/neurips/d2csg.png"
+  links: 
+    paper: "https://arxiv.org/abs/2301.11497"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Aditya Vora", "Akshay Gadi Patil", "Hao (Richard) Zhang"]
+  title: "DiViNeT: 3D Reconstruction from Disparate Views via Neural Template Regularization"
+  image: "2023/neurips/divinet.png"
+  links: 
+    webpage: "https://aditya-vora.github.io/divinetpp/"
+    paper: "https://arxiv.org/abs/2306.04699"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Jiacheng Chen", "Ruizhi Deng", "Yasutaka Furukawa"]
+  title: "PolyDiffuse: Polygonal Shape Reconstruction via Guided Set Diffusion Model"
+  image: "2023/neurips/polydiffuse.png"
+  links: 
+    webpage: "https://poly-diffuse.github.io/"
+    paper: "https://arxiv.org/abs/2306.01461"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Shitao Tang", "Fuyang Zhang", "Jiacheng Chen", "Peng Wang", "Yasutaka Furukawa"]
+  title: "MVDiffusion: Enabling Holistic Multi-view Image Generation with Correspondence-Aware Diffusion"
+  image: "2023/neurips/mvdiffusion.png"
+  links: 
+    paper: "https://arxiv.org/abs/2306.08943"
+
+- date: "2023-12-10"
+  venue: "NeurIPS"
+  year: 2023
+  authors: ["Sepidehsadat Hosseini", "Mohammad Amin Shabani", "Saghar Irandoust", "Yasutaka Furukawa"]
+  title: "PuzzleFusion: Unleashing the Power of Diffusion Models for Spatial Puzzle Solving"
+  image: "2023/neurips/puzzlefusion.png"
+  links: 
+    webpage: "https://sepidsh.github.io/floorplan_restore/"
+    paper: "https://arxiv.org/pdf/2211.13785v2.pdf"

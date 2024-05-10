@@ -28,6 +28,11 @@
                 <span>Seminars</span>
               </template>
             </el-menu-item></a>
+            <a href="../#/news"><el-menu-item index="news" router="true">
+              <template slot="title">
+                <span>News</span>
+              </template>
+            </el-menu-item></a>
             <el-submenu index="1">
               <template slot="title">
                 <span>People</span>

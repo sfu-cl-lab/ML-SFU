@@ -17,8 +17,16 @@ def parse_lab():
     return yaml.safe_load(open('{}/lab/lab.yaml'.format(CONTENT_PATH)))
 
 
+def parse_news():
+    return yaml.safe_load(open('{}/research/news.yaml'.format(CONTENT_PATH)))
+
+
 def parse_people():
     return yaml.safe_load(open('{}/people/people.yaml'.format(CONTENT_PATH)))
+
+
+def parse_pubs():
+    return yaml.safe_load(open('{}/research/pubs.yaml'.format(CONTENT_PATH)))
 
 
 def parse_seminars():
@@ -36,6 +44,8 @@ def parse_all()->None:
     people = parse_people()
     rv['people'] = [p for p in people if p.get("status") != "affiliated"]
     rv['affiliated'] = [p for p in people if p.get("status") == "affiliated"]
+    rv['pubs'] = parse_pubs()
+    rv['news'] = parse_news()
     rv['seminars'] = parse_seminars()
     rv['general'] = parse_general()
     json.dump(rv, open('src/assets/data.json', 'w'))
