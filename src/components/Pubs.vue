@@ -1,47 +1,27 @@
 <template>
     <div>
       <section class="content-section">
-        <h3 class="section-title" v-if="$route.params.venue && $route.params.year">SFU at {{$route.params.venue.toUpperCase()}} {{$route.params.year}}</h3>
+        <h3 class="section-title" v-if="title">{{title}}</h3>
         <h3 class="section-title" v-else>Publications</h3>
         <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-          <pub class="pub" :pub="item" v-for="(item,index) in filtered($route.params.year,$route.params.venue)" :key="index">
+          <pub class="pub" :pub="item" v-for="(item,index) in pubs" :key="index">
           </pub>
         </div>
       </section>
     </div>
 </template>
 <script>
-import dataConfig from '../assets/data.json'
 import pub from './Pub.vue'
 export default {
-  name: 'seminars',
+  name: 'pubs',
   data() {
     return {
-      pubs: dataConfig.pubs
-    }
-  },
-  computed: {
-
-  },
-  methods: {
-    filtered: function(year, venue) {
-      let pubs = this.pubs
-      if (year != null) {
-        const yearstring = year.toString()
-        pubs = pubs.filter(p => p.year.toString() === yearstring)
-      }
-      if (venue != null) {
-        const lower = venue.toLowerCase()
-        pubs = pubs.filter(p => p.venue.toLowerCase() === lower)
-      }
-      return pubs
     }
   },
   components: {
     'pub': pub
   },
-  mounted() {
-  }
+  props: ['pubs', 'title']
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->

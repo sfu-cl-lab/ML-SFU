@@ -5,7 +5,12 @@
         <div><b>Authors:</b> {{pub.authors.join(', ')}}</div>
         <div><b>{{pub.venue}} {{pub.year}}</b></div>
       </div>
-      <div class="img-wrapper">
+      <div v-if="pub.workshops">
+        <a v-for="(workshop,index) in pub.workshops" :key="index" :href="workshop.url" target="_blank">
+            Workshop on {{workshop.name}}<br/>
+        </a>
+      </div>
+      <div class="img-wrapper" v-if="pub.image">
         <a target="_blank" :href="first_link"><img :src="require(`Content/research/${pub.image}`)"></a>
       </div>
       <div>

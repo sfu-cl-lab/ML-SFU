@@ -1,10 +1,10 @@
 <template>
     <article>
-      <h3 v-if="item.type === 'pubs'">
-        <router-link :to="{ name: 'pubs-year-venue', params: { year: item.year, venue: item.venue, title: item.title }}">{{item.title}}</router-link>
-        <!-- <a :href="`../#/pubs/${item.year}/${item.venue}`">{{item.title}}</a> -->
+      <h3 class="title" v-if="item.type === 'pubs'">
+        <!-- <router-link :to="{ name: 'pubs-year-venue', params: { year: item.year, venue: item.venue, title: item.title }}">{{item.title}}</router-link> -->
+        <router-link :to="{ name: 'news-item', params: { id: id }}">{{item.title}}</router-link>
       </h3>
-      <h3 v-else-if="item.url"><a :href="item.url" target="_blank">{{item.title}}</a></h3>
+      <h3 class="title" v-else-if="item.url"><a :href="item.url" target="_blank">{{item.title}}</a></h3>
       <h3 v-else>{{item.title}}</h3>
       <div class="img-wrapper" v-if="item.image">
         <img :src="require(`Content/research/${item.image}`)">
@@ -21,7 +21,7 @@ export default {
     return {
     }
   },
-  props: ['item']
+  props: ['item', 'id']
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -41,7 +41,7 @@ article {
   border-color: var(--text-color);
   font-weight: 700;
 }
-.speaker-name:hover {
+.title:hover {
   color: var(--text-color);
   transition: color 0.3s;
 }
