@@ -18,7 +18,25 @@ Just edit files in `contents/` and then commit the change, it will **automatical
 
 2. Add an item at `contents/people/people.yaml`
 
-3.  Commit the change directly to the `master` branch
+3. Commit the change directly to the `master` branch
+
+#### Add seminar talk
+
+1. Add an item at `contents/seminars/seminar.yaml`
+
+2. Commit the change directly to the `master` branch
+
+#### Add news item
+
+1. Add an item at `contents/research/news.yaml` 
+   1. Add image under `contents/research/<year>` to keep images organized
+   2. Add information about the news item (e.g. `description`, `image`, and `url`) as appropriate
+
+2. If publications news, add items at `contents/research/pubs.yaml` 
+   1. Add image under `contents/research/<year>/<venue>` to keep images organized
+   2. Image path would then be of the form `<year>/<venue>/<imageName>`
+
+3. Commit the change directly to the `master` branch
 
 #### Update `WHY SFU`
 
