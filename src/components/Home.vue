@@ -30,7 +30,7 @@
 
     <section class="people content-section">
       <div>
-        <h2 class="section-title">AFFLIATED FACULTY</h2>
+        <h2 class="section-title">AFFLIATED</h2>
       </div>
       <div style="display: flex; justify-content: flex-start; flex-wrap: wrap;">
         <homeprof class="prof" :prof-conf="item" v-for="(item,index) in affiliatedConfs" :key="index">
