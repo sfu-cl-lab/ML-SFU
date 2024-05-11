@@ -50,7 +50,7 @@
 
 - name: "Angel Xuan Chang"
   url: "http://angelxuanchang.github.io/"
-  labUrl: "http://gruvi.cs.sfu.ca/"
+  labUrl: "https://3dlg-hcvc.github.io/"
   picPath: "AngelChang.jpg"
   description: "
   &#8226; Semantics of shapes and scenes<br>
@@ -59,7 +59,7 @@
 
 - name: "Manolis Savva"
   url: "http://msavva.github.io/"
-  labUrl: "http://gruvi.cs.sfu.ca/"
+  labUrl: "https://3dlg-hcvc.github.io/"
   picPath: "ManolisSavva.jpg"
   description: "&#8226; Analysis, organization and generation of 3D content"
 

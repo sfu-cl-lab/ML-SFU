@@ -7,13 +7,13 @@
       <a target="_blank" :href="profConf.url">{{profConf.name}}</a>
     </h3>
     <p class="prof-desc" v-html="profConf.description"></p>
-    <div style="margin-top:1em;" v-if="profConf.url!=='#'">
-      <a target="_blank" :href="profConf.url">
+    <div style="margin-top:1em;">
+      <a target="_blank" :href="profConf.url" v-if="profConf.url">
         <el-button size="small">
           Home Page
         </el-button>
       </a>
-      <a target="_blank" :href="profConf.labUrl">
+      <a target="_blank" :href="profConf.labUrl" v-if="profConf.labUrl">
         <el-button size="small">
           Lab Page
         </el-button>
