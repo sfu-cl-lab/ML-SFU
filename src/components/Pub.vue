@@ -1,6 +1,6 @@
 <template>
     <article>
-      <h3>{{pub.title}}</h3>
+      <a target="_blank" :href="first_link"><h3>{{pub.title}}</h3></a>
       <div>
         <div><b>Authors:</b> {{pub.authors.join(', ')}}</div>
         <div><b>{{pub.venue}} {{pub.year}}</b></div>

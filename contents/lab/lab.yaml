@@ -8,8 +8,7 @@
 
 - labName: "Natural Language Lab"
   picPath: "natlang.jpg"
-  description: "
-   Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language. We are always looking for motivated, good graduate students. We are also keen on fostering links with industry for joint projects that are based on research grants and/or student internships that allow graduate students to spend time at companies doing high-risk high-reward natural language processing projects."
+  description: "Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language. We are always looking for motivated, good graduate students. We are also keen on fostering links with industry for joint projects that are based on research grants and/or student internships that allow graduate students to spend time at companies doing high-risk high-reward natural language processing projects."
   url: "http://natlang.cs.sfu.ca/"
 
 - labName: "MIA Research Group"
@@ -17,10 +16,10 @@
   description: "Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
   url: "http://www.cs.sfu.ca/~hamarneh"
 
-- labName: "Vision and Media Lab"
-  picPath: "vml.jpg"
-  description: "We develop algorithms for interpreting and processing visual data — images and videos. These algorithms facilitate a range of applications from enabling video search to enhancing the visual quality of photographs. We focus on image and video analysis, object recognition, human activity recognition, and machine learning."
-  url: "http://vml.cs.sfu.ca/"
+# - labName: "Vision and Media Lab"
+#   picPath: "vml.jpg"
+#   description: "We develop algorithms for interpreting and processing visual data — images and videos. These algorithms facilitate a range of applications from enabling video search to enhancing the visual quality of photographs. We focus on image and video analysis, object recognition, human activity recognition, and machine learning."
+#   url: "http://vml.cs.sfu.ca/"
 
 - labName: "Structured Machine Learning Lab"
   picPath: "cl.jpg"
