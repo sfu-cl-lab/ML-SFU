@@ -6,6 +6,8 @@
     <h3>{{seminar.date}}</h3>
     <h3 class="speaker-name">
       <b>Speaker</b>: <a target="_blank" :href="seminar.speakerUrl">{{seminar.speaker}}</a>
+      <br/>
+      {{seminar.speakerInfo}}
     </h3>
     <div>
         <div v-if="seminar.title"><b>Title:</b> {{seminar.title}}</div>
