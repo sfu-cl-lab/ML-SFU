@@ -13,7 +13,10 @@
   speaker: "Danica Sutherland"
   speakerUrl: "https://djsutherland.ml"
   speakerPhoto: false
-  speakerInfo: "UBC"
+  speakerInfo: "Assistant professor at UBC, Computer Science"
+  title: "Scaling Graph Transformers with Expander Graphs"
+  abstract: "Following their runaway success in modelling natural language and other areas, there has been much recent attention to different variants of Transformers for graph data, which may be more able to handle long-range dependencies than previous variants of graph neural networks. These models generally allow all nodes to attend to all other nodes, however, leading to both computational and statistical challenges. This talk will present two models that help with this problem. Exphormer adds “virtual nodes” as well as augmenting the attention mechanism with an expander graph, whose mathematical characteristics help propagate long-range information at cost only linear in the size of the graph. Incorporating this into the GraphGPS framework realized state-of-the-art performance on several interesting datasets. For relatively-dense input graphs, however, even attention on the original graph structure may be too expensive to run for especially large graphs. We demonstrate that even low-width graph Transformers can provide useful signal as to which attention pathways are important in a large graph, and use this to propose Spexphormer, a model which scales Exphormers to very large graphs in transductive settings."
+  bio: "Danica Sutherland is an Assistant Professor at UBC Computer Science, and a Canada CIFAR AI Chair at Amii. She previously did a PhD at Carnegie Mellon, a postdoc at University College London’s Gatsby unit, and was a research assistant professor at TTI-Chicago. Her research in general focuses on understanding and improving representation learning, the integration of kernel methods with deep learning, statistical learning theory, and methods for statistical testing about probability distributions. Her knowledge of graph neural networks comes mostly from her PhD student Hamed Shirzad (lead author on both papers in this talk), an SFU CS alum."
 
 - date: "2024-06-07"
   speaker: "Kailas Vodrahalli"
@@ -31,7 +34,7 @@
   speaker: "Jun Jin"
   speakerUrl: "https://www.ece.ualberta.ca/~jjin5/"
   speakerPhoto: false
-  speakerInfo: "University of Alberta"
+  speakerInfo: "Assistant professor at University of Alberta, Electrical and Computer Engineering"
   video: "https://stream.sfu.ca/Media/Play/29713be176e24189bf10bd142eb6b3891d"
   title: "Seeking Universal Computing Models for Robotics -- A rethink on geometry, robotic reinforcement learning, and embodied AI."
   abstract: "From visual servoing, ProMPs, and DMPs to reinforcement learning and embodied artificial intelligence, we’ve seen how these computational models excel across various levels of problems in robotics -- from task specification and motion planning to sensorimotor control and reasoning. But, is there a universal computing model for robotics that solves all the problems and its capabilities regarding motion dexterity, environment perception and reasoning, and human-robot interaction scale up with the size of a full spectrum of datasets? In this talk, I will share my research journey on multiple attempts to build general-purpose robotic task solvers. I will start from my early efforts of developing geometric task specification methods, to real-world robotic reinforcement learning solutions, and finally, to our recent work on embodied reasoning, which connects multi-modal LLM to robotics. I aim to demonstrate why, despite progress, these solutions have yet to fully meet our expectations, and I invite a lively discussion on these findings."
@@ -43,7 +46,7 @@
   speaker: "Renjie Liao"
   speakerUrl: "https://lrjconan.github.io/"
   speakerPhoto: false
-  speakerInfo: "UBC"
+  speakerInfo: "Assistant professor at UBC, Electrical and Computer Engineering"
   video: "https://stream.sfu.ca/Media/Play/e8bb96c3ff594411a6f2f923c3241f481d"
   title: "Graph Neural Networks Meet Spectral Graph Theory: A Case Study"
   abstract: "In this talk, we explore the synergy between Graph Neural Networks (GNNs) and Spectral Graph Theory, presenting two advancements: 1) Specformer, a novel spectral GNN architecture, and 2) in-distribution (ID) and out-of-distribution (OOD) generalization bounds for GNNs based on spectral graph theory. In Specformer, we improve traditional spectral GNNs by incorporating a set-to-set spectral filter with self-attention mechanisms, achieving expressiveness while maintaining permutation equivariance. Specformer significantly outperforms existing models in synthetic and real-world datasets, demonstrating a better ability to capture complex spectral patterns. Concurrently, we significantly tighten the PAC-Bayes in-distribution generalization bounds for GNNs and provide new out-of-distribution generalization bounds based on spectral graph theory. Our empirical validations confirm that GNNs achieve strong size generalization performance in cases guaranteed by our theory."
@@ -54,7 +57,7 @@
   speaker: "Jiaoyang Li"
   speakerUrl: "https://jiaoyangli.me/"
   speakerPhoto: false
-  speakerInfo: "CMU"
+  speakerInfo: "Assistant professor at CMU, Robotics Instutitute of School of Computer Science"
   video: "https://stream.sfu.ca/Media/Play/38eea7a250b644a7a3e55b8fb167d1f21d"
   title: "Layout Design for Large-Scale Multi-Robot Coordination"
   abstract: "Today, thousands of robots are navigating autonomously in warehouses, transporting goods from one location to another. While numerous planning algorithms are developed to coordinate robots more efficiently and robustly, warehouse layouts remain largely unchanged – they still adhere to the traditional pattern designed for human workers rather than robots. In this talk, I will share our recent progress in exploring layout design and optimization to enhance large-scale multi-robot coordination. I will first introduce a direct layout design method, followed by a method to optimize layout generators instead of layouts. I will then extend these ideas to virtual layout design, which does not require changes to the physical world that robots navigate and thus has the potential for applications beyond automated warehouses."
@@ -66,7 +69,7 @@
   speaker: "Sven Koenig"
   speakerUrl: "http://idm-lab.org/"
   speakerPhoto: false
-  speakerInfo: "University of Southern California"
+  speakerInfo: "Professor at University of Southern California, Computer Science"
   video: "https://stream.sfu.ca/Media/Play/720e288f386645ea9faf1d20462abbd21d"
   title: "Multi-Agent Path Finding and Its Applications"
   abstract: "The coordination of robots and other agents becomes more and more important for industry. For example, on the order of one thousand robots already navigate autonomously in Amazon fulfillment centers to move inventory pods all the way from their storage locations to the picking stations that need the products they store (and vice versa). Optimal and even some approximately optimal path planning for these robots is NP-hard, yet one must find high-quality collision-free paths for them in real-time. Algorithms for such multi-agent path-finding problems have been studied in robotics and theoretical computer science for a longer time but are insufficient since they are either fast but of insufficient solution quality or of good solution quality but too slow. In this talk, I will discuss different variants of multi-agent path-finding problems, cool ideas for both solving them and executing the resulting plans robustly, and several of their applications.
@@ -90,7 +93,7 @@ Our research on this topic has been funded by both NSF and Amazon Robotics."
   speaker: "Levi Lelis"
   speakerUrl: "https://webdocs.cs.ualberta.ca/~santanad/"
   speakerPhoto: false
-  speakerInfo: "University of Alberta"
+  speakerInfo: "Assistant Professor at University of Alberta"
   video: "https://stream.sfu.ca/Media/Play/75343ff8725b4f078386a1759da8fff41d"
   title: "Learning Options by Extracting Programs from Neural Networks"
   abstract: "In this talk, I argue for a programmatic mindset in reinforcement learning, proposing that agents should generate libraries of programs encoding reusable behaviors. When faced with a new task, the agent learns how to combine existing programs and generate new ones. This approach can be helpful even when policies are encoded in seemingly non-decomposable representations like neural networks. I will show that neural networks with piecewise linear activation functions can be mapped to a program with if-then-else structures. Such a program can then be easily decomposed into sub-programs with the same input type of the original network. In the case of networks encoding policies, each sub-program can be seen as an option---a temporally extended action. All these sub-programs form a library of agent behaviors that can be reused later, in downstream tasks. Considering that even small networks can encode a large number of sub-programs, we select sub-programs that are likely to generalize to unseen tasks. This is achieved through a subset selection procedure that minimizes the Levin loss. Empirical evidence from challenging exploration scenarios in two grid-world domains demonstrates that our methodology can extract helpful programs, thus speeding up the learning process in tasks that are similar and yet distinct from the one used to train the original model."
@@ -124,7 +127,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   speaker: "Tat-Jun Chin"
   speakerUrl: "https://researchers.adelaide.edu.au/profile/tat-jun.chin"
   speakerPhoto: false
-  speakerInfo: "University of Adelaide"
+  speakerInfo: "Professor at University of Adelaide"
   video: "https://stream.sfu.ca/Media/Play/81e9a38ce6b240338561d4ecbf1139101d"
   title: "Quantum Computing for Robust Fitting"
   abstract: "Many computer vision applications need to recover structure from imperfect measurements of the real world. The task is often solved by robustly fitting a geometric model onto noisy and outlier-contaminated data. However, relatively recent theoretical analyses indicate that many commonly used formulations of robust fitting in computer vision are not amenable to tractable solution and approximation. In this paper, we explore the usage of quantum computers for robust fitting. To do so, we examine the feasibility of two types of quantum computer technologies---universal gate quantum computers and quantum annealers---to solve robust fitting. Novel algorithms that are amenable to the quantum machines have been developed, and experimental results on current noisy intermediate scale quantum computers (NISQ) will be reported. Our work thus proposes one of the first quantum treatments of robust fitting for computer vision."
@@ -135,7 +138,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   speaker: "Leonid Sigal"
   speakerUrl: "https://www.cs.ubc.ca/~lsigal/"
   speakerPhoto: false
-  speakerInfo: "UBC"
+  speakerInfo: "Professor at UBC, Computer Science"
   video: "https://stream.sfu.ca/Media/Play/0377be26412347d5934fbf1675821edb1d"
   title: "Efficient, Less-biased and Creative Visual Learning"
   abstract: "In this talk I will discuss recent methods from my group that focus on addressing some of the core challenges of current visual and multi-modal cognition, including efficient learning, bias and user-controlled generation. Centering on these larger themes I will talk about a number of strategies (and corresponding papers) that we developed to address these challenges. I will start by discussing transfer learning techniques in the context of a semi-supervised object detection and segmentation, highlighting a model that is applicable to a range of supervision: from zero to a few instance-level samples per novel class. I will then talk about our recent work on building a foundational image representation model by combining two successful strategies of masking and sequential token prediction. I will also discuss some of our work on scene graph generation which, in addition to improving overall performance, allows for scalable inference and ability to control data bias (by trade off major improvements on rare classes for minor declines on most common classes). The talk will end with some of our recent work on generative modeling which focuses on novel-view synthesis and language-conditioned diffusion-based story generation. The core of the latter approach is visual memory that implicitly captures the actor and background context across the generated frames. Sentence-conditioned soft attention over the memories enables effective reference resolution and learns to maintain scene and actor consistency when needed."
@@ -146,18 +149,18 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   speaker: "Li Cheng"
   speakerUrl: "http://www.ece.ualberta.ca/~lcheng5/"
   speakerPhoto: false
-  speakerInfo: "University of Alberta"
+  speakerInfo: "Professor at University of Alberta, Electrical and Computer Engineering"
   video: "https://stream.sfu.ca/Media/Play/e1bf6d3177ed4f3288ad7ddde49f286a1d"
   title: "Visual Human Motion Analysis"
   abstract: "Recent advancement of imaging sensors and deep learning techniques has opened door to many interesting applications for visual analysis of human motions. In this talk, I will discuss our research efforts toward addressing the related tasks of 3-D human motion syntheses, pose and shape estimation from images and videos, visual action quality assessment. Looking forward, our results could be applied to everyday life scenarios such as natural user interface, AR/VR, robotics, and gaming, among others."
-  bio: "Li CHENG is a professor at the Department of Electrical and Computer Engineering, University of Alberta. He is associate editors of IEEE Trans. Multimedia and Pattern Recognition Journal. Prior to joining University of Alberta, He worked at A*STAR, Singapore, TTI-Chicago, USA, and NICTA, Australia. His current research interests are mainly on human motion analysis, mobile and robot vision, and machine learning. More details can be found at http://www.ece.ualberta.ca/~lcheng5/."
+  bio: "Li Cheng is a professor at the Department of Electrical and Computer Engineering, University of Alberta. He is associate editors of IEEE Trans. Multimedia and Pattern Recognition Journal. Prior to joining University of Alberta, He worked at A*STAR, Singapore, TTI-Chicago, USA, and NICTA, Australia. His current research interests are mainly on human motion analysis, mobile and robot vision, and machine learning. More details can be found at http://www.ece.ualberta.ca/~lcheng5/."
   tags: ["human motion analysis", "visual computing"]
 
 - date: "2023-09-05"
   speaker: "Eriq Augustine"
   speakerUrl: "https://users.soe.ucsc.edu/~eaugusti/"
   speakerPhoto: false
-  speakerInfo: "UC Santa Cruz"
+  speakerInfo: "Postdoctoral researcher at UC Santa Cruz"
   video: "https://stream.sfu.ca/Media/Play/8a122362d20e483f857f643297fd1a851d"
   title: "Building Practical Statistical Relational Learning Systems"
   abstract: "In our increasingly connected world, data comes from many different sources, in many different forms, and is noisy, complex, and structured. To confront modern data, we need to embrace the structure inherent in the data and in the predictions. An effective means of approaching this problem of structured prediction, is statistical relational learning (SRL). SRL frameworks use weighted logical and arithmetic expressions to easily create probabilistic graphical models (PGMs) to jointly reason over interdependent data. However, despite being well suited for modern, interconnected data, SRL has several challenges that keep it from becoming practical and widely used in the machine learning community. In this talk, I address four pillars of practicality for SRL systems: scalability, expressivity, model adaptability, and usability."
@@ -190,7 +193,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   speaker: "Daniel Weiskopf"
   speakerUrl: "https://www.vis.uni-stuttgart.de/en/team/Weiskopf/"
   speakerPhoto: false
-  speakerInfo: "Univeristy of Stuttgart"
+  speakerInfo: "Professor at Univeristy of Stuttgart"
   video: "https://stream.sfu.ca/Media/Play/a0b66c0d023f48f5bbe1d7790fa1b8681d"
   title: "Multidimensional Visualization"
   abstract: "Multidimensional data analysis is of broad interest for a wide range of applications. In this talk, I discuss visualization approaches that support the analysis of such data. I start with a brief overview of the field, a conceptual model, and a discussion of visualization strategies. This part is accompanied by a few examples of recent advancements, with a focus on results from my own work. In the second part, I detail techniques that enrich basic visual mappings like scatterplots, parallel coordinates, or plots of dimensionality reduction by incorporating local correlation analysis. I also discuss sampling issues in multidimensional visualization, and how we can extend it to uncertainty visualization. The talk closes with an outlook on future research directions."
@@ -201,7 +204,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   speaker: "Karsten Kreis"
   speakerUrl: "https://karstenkreis.github.io/"
   speakerPhoto: false
-  speakerInfo: "NVIDIA"
+  speakerInfo: "Senior research scientist at NVIDIA"
   video: "https://stream.sfu.ca/Media/Play/511bddfec7114912a8adebd1c3acc2281d"
   title: "Diffusion Models: From Foundations to Image, Video and 3D Content Creation"
   abstract: "Denoising diffusion-based generative models have led to multiple breakthroughs in deep generative learning. In this talk, I will provide an overview over recent works by the NVIDIA Toronto AI Lab on diffusion models and their applications for digital content creation. I will start with a short introduction of diffusion models and recapitulate their mathematical formulation. Then, I will briefly discuss our foundational works on diffusion models, which includes advanced diffusion processes for faster and smoother diffusion and denoising, techniques for more efficient model sampling, as well as latent space diffusion models, a flexible diffusion model framework that has been widely used in the literature. Moreover, I will discuss works that use diffusion models for image, video and 3D content creation. This includes large text-to-image models as well as recent work on high resolution video synthesis with latent diffusion models. I will also summarize some of our efforts on 3D generative modeling. This includes object-centric 3D synthesis by training diffusion models on geometric shape datasets or leveraging large-scale text-to-image diffusion models as priors for shape distillation, as well as full scene-level generation with hierarchical latent diffusion models."
@@ -212,7 +215,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   speaker: "Vered Shwartz"
   speakerUrl: "https://www.cs.ubc.ca/~vshwartz/"
   speakerPhoto: false
-  speakerInfo: "UBC"
+  speakerInfo: "Assistant Professor at UBC, Computer Science"
   video: ""
   title: "Incorporating Commonsense Reasoning into NLP Models"
   abstract: "Human language is often ambiguous, underspecified, and grounded in the physical world and in social norms. As humans, we employ commonsense knowledge and reasoning abilities to fill in those gaps and understand others. Endowing NLP models with the same abilities is imperative for reaching human-level language understanding and generation skills. In this talk, I will present several lines of work in which we test NLP models on their commonsense reasoning abilities, develop commonsense reasoning models, and incorporate them into models to improve the performance on NLP tasks."
@@ -223,7 +226,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
   speaker: "Paul Oh"
   speakerUrl: "https://www.unlv.edu/people/paul-oh"
   speakerPhoto: false
-  speakerInfo: "University of Nevada, Las Vegas (UNLV)"
+  speakerInfo: "Professor at University of Nevada, Las Vegas (UNLV)"
   video: "https://stream.sfu.ca/Media/Play/141ac6a64aa146d5b7fe13a073cec6e71d"
   title: "From Disaster Response to Consumer Robotics"
   abstract: "The lines between consumer electronics and consumer robotics is blurry. For example, at the annual Consumer Electronics Show (CES) in Las Vegas, the list of robotics companies exhibits has grown to over 400. Furthermore driverless cars, drones, exo-skeletons, 3D printers and virtual-reality systems are examples of robots that have a consumer focus. This talk highlights observations of this phenomena. This is given in the context of an Age of Acceleration characterized by deep learning, cloud-computing, and artificial intelligence. The talk serves to suggest pathways for roboticists and their design and development endeavors."
