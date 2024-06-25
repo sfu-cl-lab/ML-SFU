@@ -13,6 +13,9 @@
   speaker: "Konrad Schindler"
   speakerUrl: "https://prs.igp.ethz.ch/group/people/person-detail.schindler.html"
   speakerInfo: "Professor at ETH Zurich"
+  title: "Towards off-the-shelf monocular depth estimators"
+  abstract: "With enough knowledge about the world we are looking at, a single image is enough to recover the 3D structure of the scene in front of our eye(s) - when we close one eye we still perceive the world in 3D. Computer vision started to explore monocular depth estimation (“monodepth”) much later than depth from stereo images (or, equivalently, camera motion). It is only recently that computational methods for monodepth have reached a comparable maturity. In the talk, I will briefly recap the development of monodepth algorithms over the past 20 years, and present our own contributions to the topic. I will argue that we may be reaching the point where monodepth modules become a commodity that we download and deploy off-the-shelf, just like stereo reconstruction."
+  bio: "Konrad Schindler received a Ph.D. degree from Graz University of Technology (Austria) in 2003. He was a Photogrammetric Engineer in the private industry and held research positions at Graz University of Technology; Monash University (Melbourne, Australia) and ETH Zürich (Switzerland). He was appointed Assistant Professor of Image Understanding at TU Darmstadt (Germany) in 2009. Since 2010, he has been a tenured Professor of Photogrammetry and Remote Sensing at ETH Zürich. His research interests include computer vision and machine learning, with a focus on applications in 3D modelling and in Earth observation."
 
 - date: "2024-06-28"
   speaker: "Danica Sutherland"
