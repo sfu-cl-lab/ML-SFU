@@ -9,6 +9,11 @@
 #   bio: ""
 #   tags: []
 
+- date: "2024-07-04"
+  speaker: "Konrad Schindler"
+  speakerUrl: "https://prs.igp.ethz.ch/group/people/person-detail.schindler.html"
+  speakerInfo: "Professor at ETH Zurich"
+
 - date: "2024-06-28"
   speaker: "Danica Sutherland"
   speakerUrl: "https://djsutherland.ml"
