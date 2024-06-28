@@ -27,15 +27,15 @@ import dataConfig from '../assets/data.json'
 import seminar from './Seminar.vue'
 
 const now = new Date().getTime()
-dataConfig.seminars.forEach(s => { s._millisecs = Date.parse(s.date) })
+dataConfig.seminars.forEach(s => { s._millisecs = Date.parse(s.date); s._millisecs_daylater = s._millisecs + 86400000 })
 
 export default {
   name: 'seminars',
   data() {
     return {
       seminars: dataConfig.seminars,
-      pastSeminars: dataConfig.seminars.filter(s => s._millisecs <= now),
-      futureSeminars: dataConfig.seminars.filter(s => s._millisecs > now).sort((a, b) => a._millisecs - b._millisecs)
+      pastSeminars: dataConfig.seminars.filter(s => s._millisecs_daylater <= now),
+      futureSeminars: dataConfig.seminars.filter(s => s._millisecs_daylater > now).sort((a, b) => a._millisecs - b._millisecs)
     }
   },
   computed: {

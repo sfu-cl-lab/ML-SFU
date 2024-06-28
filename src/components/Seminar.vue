@@ -3,7 +3,7 @@
     <!-- <div class="img-wrapper">
       <img :src="require(`Content/seminars/speakers/${speaker.speakerPhoto}`)">
     </div> -->
-    <h3>{{seminar.date}}</h3>
+    <h3>{{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
     <h3 class="speaker-name">
       <b>Speaker</b>: <a target="_blank" :href="seminar.speakerUrl">{{seminar.speaker}}</a>
       <br/>
