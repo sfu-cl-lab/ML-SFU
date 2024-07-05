@@ -14,9 +14,11 @@
   speaker: "Konrad Schindler"
   speakerUrl: "https://prs.igp.ethz.ch/group/people/person-detail.schindler.html"
   speakerInfo: "Professor at ETH Zurich"
+  video: "https://stream.sfu.ca/Media/Play/2ac329a2e737489ba9a31bec0c6746e61d"
   title: "Towards off-the-shelf monocular depth estimators"
   abstract: "With enough knowledge about the world we are looking at, a single image is enough to recover the 3D structure of the scene in front of our eye(s) - when we close one eye we still perceive the world in 3D. Computer vision started to explore monocular depth estimation (“monodepth”) much later than depth from stereo images (or, equivalently, camera motion). It is only recently that computational methods for monodepth have reached a comparable maturity. In the talk, I will briefly recap the development of monodepth algorithms over the past 20 years, and present our own contributions to the topic. I will argue that we may be reaching the point where monodepth modules become a commodity that we download and deploy off-the-shelf, just like stereo reconstruction."
   bio: "Konrad Schindler received a Ph.D. degree from Graz University of Technology (Austria) in 2003. He was a Photogrammetric Engineer in the private industry and held research positions at Graz University of Technology; Monash University (Melbourne, Australia) and ETH Zürich (Switzerland). He was appointed Assistant Professor of Image Understanding at TU Darmstadt (Germany) in 2009. Since 2010, he has been a tenured Professor of Photogrammetry and Remote Sensing at ETH Zürich. His research interests include computer vision and machine learning, with a focus on applications in 3D modelling and in Earth observation."
+  tags: ["vision", "monocular depth estimation"]
 
 - date: "2024-06-28"
   location: TASC1 9204 12:00pm
@@ -24,9 +26,11 @@
   speakerUrl: "https://djsutherland.ml"
   speakerPhoto: false
   speakerInfo: "Assistant professor at UBC, Computer Science"
+  video: "https://stream.sfu.ca/Media/Play/b10ef76e9d9647cfa352f852cc1227001d"
   title: "Scaling Graph Transformers with Expander Graphs"
   abstract: "Following their runaway success in modelling natural language and other areas, there has been much recent attention to different variants of Transformers for graph data, which may be more able to handle long-range dependencies than previous variants of graph neural networks. These models generally allow all nodes to attend to all other nodes, however, leading to both computational and statistical challenges. This talk will present two models that help with this problem. Exphormer adds “virtual nodes” as well as augmenting the attention mechanism with an expander graph, whose mathematical characteristics help propagate long-range information at cost only linear in the size of the graph. Incorporating this into the GraphGPS framework realized state-of-the-art performance on several interesting datasets. For relatively-dense input graphs, however, even attention on the original graph structure may be too expensive to run for especially large graphs. We demonstrate that even low-width graph Transformers can provide useful signal as to which attention pathways are important in a large graph, and use this to propose Spexphormer, a model which scales Exphormers to very large graphs in transductive settings."
   bio: "Danica Sutherland is an Assistant Professor at UBC Computer Science, and a Canada CIFAR AI Chair at Amii. She previously did a PhD at Carnegie Mellon, a postdoc at University College London’s Gatsby unit, and was a research assistant professor at TTI-Chicago. Her research in general focuses on understanding and improving representation learning, the integration of kernel methods with deep learning, statistical learning theory, and methods for statistical testing about probability distributions. Her knowledge of graph neural networks comes mostly from her PhD student Hamed Shirzad (lead author on both papers in this talk), an SFU CS alum."
+  tags: ["ai", "graph", "transformer"]
 
 - date: "2024-06-07"
   speaker: "Kailas Vodrahalli"
