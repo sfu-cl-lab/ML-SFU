@@ -21,6 +21,16 @@
     code: "https://github.com/aliasgharkhani/SLiMe"
     colab: "https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing"
 
+- date: "2024-05-06"
+  venue: "ICLR"
+  year: 2024
+  authors: ["Jonah Philion", "Xue Bin Peng", "Sanja Fidler"]
+  title: "Trajeglish: Traffic Modeling as Next-Token Prediction"
+  image: "2024/iclr/trajeglish.png"
+  links: 
+    webpage: "https://research.nvidia.com/labs/toronto-ai/trajeglish/"
+    paper: "https://arxiv.org/abs/2312.04535"
+    video: "https://youtu.be/Bk1v_Qct3i8"
 
 - date: "2023-12-16"
   venue: "NeurIPS workshop"

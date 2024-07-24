@@ -4,7 +4,7 @@ sub_title: "Computer Science"
 section_one:
   name: "WHY SFU"
   cards:
-    - "Ten faculty members do research on machine learning methods and applications: vision, image analysis, robotics, natural language processing."
-    - "Graduate courses for introduction and advanced topics such as deep learning."
+    - "Over fifteen faculty members do research on machine learning methods and applications: vision, image analysis, robotics, natural language processing."
+    - "Graduate courses for introduction and advanced topics such as deep learning and generative models"
     - "Faculty-directed labs have state-of-the-art software and hardware, including GPU and database servers."
     - "Compute Canada provides high-performance cluster computing. The Cedar node, housed at SFU, has 150 GPUs."

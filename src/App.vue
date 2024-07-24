@@ -17,7 +17,7 @@
     <el-container style="overflow-x:hidden;">
       <el-aside width="20%" class="menu-col">
         <section class="menu">
-          <el-menu :default-openeds="['1','2']" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
+          <el-menu :default-openeds="[]" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
             <a href="../#/home"><el-menu-item index="home" router="true">
               <template slot="title">
                 <span>Home</span>
@@ -31,6 +31,11 @@
             <a href="../#/news"><el-menu-item index="news" router="true">
               <template slot="title">
                 <span>News</span>
+              </template>
+            </el-menu-item></a>
+            <a href="../#/pubs"><el-menu-item index="publications" router="true">
+              <template slot="title">
+                <span>Publications</span>
               </template>
             </el-menu-item></a>
             <el-submenu index="1">
