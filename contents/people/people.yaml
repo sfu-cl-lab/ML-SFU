@@ -20,7 +20,7 @@
 
 - name: "Maxwell Libbrecht"
   url: "http://www.cs.sfu.ca/~maxwl/"
-  labUrl: "http://www.cs.sfu.ca/~maxwl/research.html"
+  labUrl: "https://www.libbrechtlab.com/"
   picPath: "MaxwellLibbercht.jpg"
   description: "&#8226; Machine learning for genomics data"
 

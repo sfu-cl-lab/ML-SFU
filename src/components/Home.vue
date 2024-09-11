@@ -2,7 +2,7 @@
   <div>
     <el-carousel height="450px">
       <el-carousel-item v-for="(item,index) in carouselConfs" :key="index">
-        <img :src="require(`Content/carousel/${item.picPath}`)">
+        <img :src="require(`Content/carousel/${item.picPath}`)" :height="450">
       </el-carousel-item>
     </el-carousel>
 
