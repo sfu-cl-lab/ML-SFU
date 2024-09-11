@@ -9,6 +9,16 @@
 #   bio: ""
 #   tags: []
 
+- date: "2024-09-27"
+  location: TASC1 9204 12:00pm
+  speaker: "Konrad Tollmar"
+  speakerUrl: "https://www.kth.se/profile/konrad"
+  speakerInfo: "Research Director at Electronic Arts"
+  title: "We see farther: AI and ML Research at SEED / EA"
+  abstract: "Electronic Arts has always been driven by 'We see farther' - a vision of pushing boundaries and exploring new horizons for computer games. At SEED - a pioneering group within Electronic Arts - we combine creativity with applied research. In this talk, I'll share how we get games smarter — by creating characters that feel more alive, generating new worlds on the fly, and making sure the game responds in interesting ways to how players interact with it. You'll get a look at how we're pushing the boundaries of game design and how AI is helping to shape the future interactive entertainment."
+  bio: "Dr. Konrad Tollmar is the Head of Research at SEED Electronic Arts. His research interests include innovative AI for interactive entertainment, computer vision, machine learning, computer graphics, and perception-based human-computer interfaces. Prior to EA, he was an Associate Professor at KTH and headed the Mobile Service Lab, a visiting Professor at TUB Telekom Innovation Laboratories, a faculty member at LU Ingvar Kamprad Design Centre, a Research Scientist at MIT CSAIL, and a Postdoc at MIT AI Lab."
+  tags: ["graphics"]
+
 - date: "2024-09-13"
   location: TASC1 9204 12:00pm
   speaker: "Torsten Schaub"
