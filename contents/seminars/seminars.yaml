@@ -14,6 +14,7 @@
   speaker: "Konrad Tollmar"
   speakerUrl: "https://www.kth.se/profile/konrad"
   speakerInfo: "Research Director at Electronic Arts"
+  speakerPhoto: "konrad_tollmar.jpg"
   title: "We see farther: AI and ML Research at SEED / EA"
   abstract: "Electronic Arts has always been driven by 'We see farther' - a vision of pushing boundaries and exploring new horizons for computer games. At SEED - a pioneering group within Electronic Arts - we combine creativity with applied research. In this talk, I'll share how we get games smarter — by creating characters that feel more alive, generating new worlds on the fly, and making sure the game responds in interesting ways to how players interact with it. You'll get a look at how we're pushing the boundaries of game design and how AI is helping to shape the future interactive entertainment."
   bio: "Dr. Konrad Tollmar is the Head of Research at SEED Electronic Arts. His research interests include innovative AI for interactive entertainment, computer vision, machine learning, computer graphics, and perception-based human-computer interfaces. Prior to EA, he was an Associate Professor at KTH and headed the Mobile Service Lab, a visiting Professor at TUB Telekom Innovation Laboratories, a faculty member at LU Ingvar Kamprad Design Centre, a Research Scientist at MIT CSAIL, and a Postdoc at MIT AI Lab."
@@ -24,6 +25,7 @@
   speaker: "Torsten Schaub"
   speakerUrl: "https://www.cs.uni-potsdam.de/~torsten/"
   speakerInfo: "Professor at University of Potsdam"
+  speakerPhoto: "torsten_schaub.jpg"
   title: "Routing and Scheduling in Answer Set Programming applied to Multi-Agent Path Finding"
   abstract: "We present alternative approaches to routing and scheduling in Answer Set Programming (ASP), and explore them in the context of Multi-agent Path Finding. The idea is to capture the flow of time in terms of partial orders rather than time steps attached to actions and fluents. This also abolishes the need for fixed upper bounds on the length of plans. The trade-off for this avoidance is that (parts of) temporal trajectories must be acyclic, since multiple occurrences of the same action or fluent cannot be distinguished anymore. While this approach provides an interesting alternative for modeling routing, it is without alternative for scheduling since fine-grained timings cannot be represented in ASP in a feasible way. This is different for partial orders that can be efficiently handled by external means such as acyclicity and difference constraints. We formally elaborate upon this idea and present several resulting ASP encodings. Finally, we demonstrate their effectiveness via an empirical analysis."
   bio: "Torsten Schaub received his diploma and dissertation in informatics in 1990 and 1992, respectively, from the Technical University of Darmstadt, Germany, and his habilitation in informatics in 1995 from the University of Rennes I, France. From 1990 to 1993 he was a research assistant at the Technical University at Darmstadt. From 1993 to 1995, he was a research associate at IRISA/INRIA at Rennes. In 1995 he became University Professor at the University of Angers. Since 1997, he is University Professor for knowledge processing and information systems at the University of Potsdam. From 2014 to 2019, Torsten Schaub held an Inria International Chair at Inria Rennes - Bretagne Atlantique. Torsten Schaub has become a fellow of the European Association for Artificial Intelligence EurAI in 2012. From 2014 to 2019 he served as President of the Association of Logic Programming and was program (co-)chair of LPNMR'09, ICLP'10, ECAI'14, and upcoming KR'25. The research interests of Torsten Schaub range from the theoretic foundations to the practical implementation of reasoning from incomplete, inconsistent, and evolving information. His particular research focus lies on Answer set programming and materializes at potassco.org, the home of the open source project Potassco bundling software for Answer Set Programming developed at the University of Potsdam. Last but not least, Torsten Schaub is managing and scientific director at Potassco Solutions GmbH."
@@ -34,6 +36,7 @@
   speaker: "Konrad Schindler"
   speakerUrl: "https://prs.igp.ethz.ch/group/people/person-detail.schindler.html"
   speakerInfo: "Professor at ETH Zurich"
+  speakerPhoto: "konrad_schindler.jpg"
   video: "https://stream.sfu.ca/Media/Play/2ac329a2e737489ba9a31bec0c6746e61d"
   title: "Towards off-the-shelf monocular depth estimators"
   abstract: "With enough knowledge about the world we are looking at, a single image is enough to recover the 3D structure of the scene in front of our eye(s) - when we close one eye we still perceive the world in 3D. Computer vision started to explore monocular depth estimation (“monodepth”) much later than depth from stereo images (or, equivalently, camera motion). It is only recently that computational methods for monodepth have reached a comparable maturity. In the talk, I will briefly recap the development of monodepth algorithms over the past 20 years, and present our own contributions to the topic. I will argue that we may be reaching the point where monodepth modules become a commodity that we download and deploy off-the-shelf, just like stereo reconstruction."
@@ -55,7 +58,7 @@
 - date: "2024-06-07"
   speaker: "Kailas Vodrahalli"
   speakerUrl: "https://stanford.edu/~kailasv/"
-  speakerPhoto: false
+  speakerPhoto: "kailas_vodrahalli.jpg"
   speakerInfo: "PhD student at Stanford"
   video: "https://stream.sfu.ca/Media/Play/b5779cce64cb48f5a93c5ba4f8dff4431d"
   title: "Optimizing AI Models for Human Use"
@@ -67,7 +70,7 @@
 - date: "2024-05-10"
   speaker: "Jun Jin"
   speakerUrl: "https://www.ece.ualberta.ca/~jjin5/"
-  speakerPhoto: false
+  speakerPhoto: "jun_jin.jpg"
   speakerInfo: "Assistant professor at University of Alberta, Electrical and Computer Engineering"
   video: "https://stream.sfu.ca/Media/Play/29713be176e24189bf10bd142eb6b3891d"
   title: "Seeking Universal Computing Models for Robotics -- A rethink on geometry, robotic reinforcement learning, and embodied AI."
@@ -79,7 +82,7 @@
 - date: "2024-04-12"
   speaker: "Renjie Liao"
   speakerUrl: "https://lrjconan.github.io/"
-  speakerPhoto: false
+  speakerPhoto: "renjie_liao.jpg"
   speakerInfo: "Assistant professor at UBC, Electrical and Computer Engineering"
   video: "https://stream.sfu.ca/Media/Play/e8bb96c3ff594411a6f2f923c3241f481d"
   title: "Graph Neural Networks Meet Spectral Graph Theory: A Case Study"
@@ -90,7 +93,7 @@
 - date: "2024-02-23"
   speaker: "Jiaoyang Li"
   speakerUrl: "https://jiaoyangli.me/"
-  speakerPhoto: false
+  speakerPhoto: "jiaoyang_li.jpg"
   speakerInfo: "Assistant professor at CMU, Robotics Instutitute of School of Computer Science"
   video: "https://stream.sfu.ca/Media/Play/38eea7a250b644a7a3e55b8fb167d1f21d"
   title: "Layout Design for Large-Scale Multi-Robot Coordination"
@@ -102,7 +105,7 @@
 - date: "2024-02-23"
   speaker: "Sven Koenig"
   speakerUrl: "http://idm-lab.org/"
-  speakerPhoto: false
+  speakerPhoto: "sven_koenig.jpg"
   speakerInfo: "Professor at University of Southern California, Computer Science"
   video: "https://stream.sfu.ca/Media/Play/720e288f386645ea9faf1d20462abbd21d"
   title: "Multi-Agent Path Finding and Its Applications"
@@ -114,7 +117,7 @@ Our research on this topic has been funded by both NSF and Amazon Robotics."
 - date: "2024-02-23"
   speaker: "Vahid Babaei"
   speakerUrl: "https://aidam.mpi-inf.mpg.de/?view=people_vahid"
-  speakerPhoto: false
+  speakerPhoto: "vahid_babaei.jpg"
   speakerInfo: "Max Planck Institute for Informatics"
   video: "https://stream.sfu.ca/Media/Play/720e288f386645ea9faf1d20462abbd21d"
   title: "Inverse Design with Neural Surrogate Models"
@@ -126,7 +129,7 @@ Our research on this topic has been funded by both NSF and Amazon Robotics."
 - date: "2024-02-23"
   speaker: "Levi Lelis"
   speakerUrl: "https://webdocs.cs.ualberta.ca/~santanad/"
-  speakerPhoto: false
+  speakerPhoto: "levi_lelis.jpg"
   speakerInfo: "Assistant Professor at University of Alberta"
   video: "https://stream.sfu.ca/Media/Play/75343ff8725b4f078386a1759da8fff41d"
   title: "Learning Options by Extracting Programs from Neural Networks"
@@ -137,7 +140,7 @@ Our research on this topic has been funded by both NSF and Amazon Robotics."
 - date: "2024-01-26"
   speaker: "Jamie Shotton"
   speakerUrl: "https://jamie.shotton.org/"
-  speakerPhoto: false
+  speakerPhoto: "jamie_shotton.jpg"
   speakerInfo: "Wayve"
   video: "https://stream.sfu.ca/Media/Play/9c11692a8b6141f88f0fcb601bbe0cdd1d"
   title: "Frontiers in Embodied AI for Autonomous Driving"
@@ -149,7 +152,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2024-01-12"
   speaker: "Issam Laradji"
   speakerUrl: "https://issamlaradji.github.io/"
-  speakerPhoto: false
+  speakerPhoto: "issam_laradji.jpg"
   speakerInfo: "ServiceNow Research / UBC"
   video: "https://stream.sfu.ca/Media/Play/255c6d1694614b11ad0a70141d3472601d"
   title: "Exploring the Landscape of Large Language Models: Methods, Challenges, and Future Possibilities"
@@ -160,7 +163,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-10-27 "
   speaker: "Tat-Jun Chin"
   speakerUrl: "https://researchers.adelaide.edu.au/profile/tat-jun.chin"
-  speakerPhoto: false
+  speakerPhoto: "tatjun_chin.jpg"
   speakerInfo: "Professor at University of Adelaide"
   video: "https://stream.sfu.ca/Media/Play/81e9a38ce6b240338561d4ecbf1139101d"
   title: "Quantum Computing for Robust Fitting"
@@ -171,7 +174,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-10-20"
   speaker: "Leonid Sigal"
   speakerUrl: "https://www.cs.ubc.ca/~lsigal/"
-  speakerPhoto: false
+  speakerPhoto: "leonid_sigal.jpg"
   speakerInfo: "Professor at UBC, Computer Science"
   video: "https://stream.sfu.ca/Media/Play/0377be26412347d5934fbf1675821edb1d"
   title: "Efficient, Less-biased and Creative Visual Learning"
@@ -182,7 +185,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-10-13"
   speaker: "Li Cheng"
   speakerUrl: "http://www.ece.ualberta.ca/~lcheng5/"
-  speakerPhoto: false
+  speakerPhoto: "li_cheng.jpg"
   speakerInfo: "Professor at University of Alberta, Electrical and Computer Engineering"
   video: "https://stream.sfu.ca/Media/Play/e1bf6d3177ed4f3288ad7ddde49f286a1d"
   title: "Visual Human Motion Analysis"
@@ -193,7 +196,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-09-05"
   speaker: "Eriq Augustine"
   speakerUrl: "https://users.soe.ucsc.edu/~eaugusti/"
-  speakerPhoto: false
+  speakerPhoto: "eriq_augustine.jpg"
   speakerInfo: "Postdoctoral researcher at UC Santa Cruz"
   video: "https://stream.sfu.ca/Media/Play/8a122362d20e483f857f643297fd1a851d"
   title: "Building Practical Statistical Relational Learning Systems"
@@ -204,7 +207,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-06-26"
   speaker: "Mika Uy"
   speakerUrl: "https://mikacuy.github.io/"
-  speakerPhoto: false
+  speakerPhoto: "mika_uy.jpg"
   speakerInfo: "PhD student at Stanford"
   video: "https://stream.sfu.ca/Media/Play/17d663a3fe654ee3a40d88adb85f456e1d"
   title: "Towards Controllable 3D Content Creation by leveraging Geometric Priors"
@@ -215,7 +218,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-06-02"
   speaker: "Silvia Sellan"
   speakerUrl: "https://www.silviasellan.com/"
-  speakerPhoto: false
+  speakerPhoto: "silvia_sellan.jpg"
   speakerInfo: "PhD student at Univeristy of Toronto"
   video: "https://stream.sfu.ca/Media/Play/10fc4229c5cf43e8b7f2efa29689cd241d"
   title: "Uncertain Surface Reconstruction"
@@ -226,7 +229,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-05-26"
   speaker: "Daniel Weiskopf"
   speakerUrl: "https://www.vis.uni-stuttgart.de/en/team/Weiskopf/"
-  speakerPhoto: false
+  speakerPhoto: "daniel_weiskopf.jpg"
   speakerInfo: "Professor at Univeristy of Stuttgart"
   video: "https://stream.sfu.ca/Media/Play/a0b66c0d023f48f5bbe1d7790fa1b8681d"
   title: "Multidimensional Visualization"
@@ -237,7 +240,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-04-28"
   speaker: "Karsten Kreis"
   speakerUrl: "https://karstenkreis.github.io/"
-  speakerPhoto: false
+  speakerPhoto: "karsten_kreis.png"
   speakerInfo: "Senior research scientist at NVIDIA"
   video: "https://stream.sfu.ca/Media/Play/511bddfec7114912a8adebd1c3acc2281d"
   title: "Diffusion Models: From Foundations to Image, Video and 3D Content Creation"
@@ -248,7 +251,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-03-31"
   speaker: "Vered Shwartz"
   speakerUrl: "https://www.cs.ubc.ca/~vshwartz/"
-  speakerPhoto: false
+  speakerPhoto: "vered_shwartz.jpg"
   speakerInfo: "Assistant Professor at UBC, Computer Science"
   video: ""
   title: "Incorporating Commonsense Reasoning into NLP Models"
@@ -259,7 +262,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2023-03-17"
   speaker: "Paul Oh"
   speakerUrl: "https://www.unlv.edu/people/paul-oh"
-  speakerPhoto: false
+  speakerPhoto: "paul_oh.jpg"
   speakerInfo: "Professor at University of Nevada, Las Vegas (UNLV)"
   video: "https://stream.sfu.ca/Media/Play/141ac6a64aa146d5b7fe13a073cec6e71d"
   title: "From Disaster Response to Consumer Robotics"
@@ -270,7 +273,7 @@ He has received multiple Best Paper and Best Demo awards at top-tier academic co
 - date: "2022-11-04"
   speaker: "Derek Liu"
   speakerUrl: "https://www.dgp.toronto.edu/~hsuehtil/"
-  speakerPhoto: false
+  speakerPhoto: "derek_liu.jpg"
   speakerInfo: "Research Scientist at Roblox"
   video: ""
   title: "Generative Models for Stylized Geometry"

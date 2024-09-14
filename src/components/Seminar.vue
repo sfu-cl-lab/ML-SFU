@@ -1,16 +1,17 @@
 <template>
   <article>
-    <!-- <div class="img-wrapper">
-      <img :src="require(`Content/seminars/speakers/${speaker.speakerPhoto}`)">
-    </div> -->
-    <h3>{{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
-    <h3 class="speaker-name">
-      <b>Speaker</b>: <a target="_blank" :href="seminar.speakerUrl">{{seminar.speaker}}</a>
-      <br/>
-      {{seminar.speakerInfo}}
-    </h3>
     <div>
-        <div v-if="seminar.title"><b>Title:</b> {{seminar.title}}</div>
+      <img v-if="seminar.speakerPhoto" :src="require(`Content/seminars/speakers/${seminar.speakerPhoto}`)" class="speaker-image" style="float: left;">
+      <h3>{{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
+      <h3 class="speaker-name">
+        <b>Speaker</b>: <a target="_blank" :href="seminar.speakerUrl">{{seminar.speaker}}</a>
+        <br/>
+        {{seminar.speakerInfo}}
+      </h3>
+      <img v-if="seminar.talkImage" :src="require(`Content/seminars/speakers/${seminar.talkImage}`)" style="float: right;">
+      <div v-if="seminar.title"><b>Title:</b> {{seminar.title}}</div>
+    </div>
+    <div>
         <br/>
         <div class="text" v-if="seminar.abstract"><b>Abstract:</b> {{seminar.abstract}}</div>
         <br/>
@@ -59,8 +60,6 @@ article {
   transition: color 0.3s;
 }
 article img {
-  width: 100%;
-  height: 100%;
   /* border-radius: 50px; */
   /* border: solid 1px #fff; */
   border-color: var(--text-color);
@@ -77,13 +76,10 @@ article > h3 {
   margin-bottom: 0.2em;
 }
 
-.img-wrapper {
-  display: inline-block;
-  width: 100px;
-  height: 150px;
-  color: #fff;
-
-  font-size: 20px;
-  margin: 0 auto 0 auto;
+.speaker-image {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  border: 3px solid var(--text-color);
 }
 </style>
