@@ -1,3 +1,19 @@
+- date: "2024-06-21"
+  venue: "ICML"
+  year: 2024
+  authors: ["Youwei Shu", "Xi Xiao", "Derui Wang", "Yuxin Cao", "Siji Chen", "Minhui Xue", "Linyi Li", "Bo Li"]
+  title: "Effects of Exponential Gaussian Distribution on (Double Sampling) Randomized Smoothing"
+  links:
+    paper: "https://arxiv.org/pdf/2406.02309"
+
+- date: "2024-06-21"
+  venue: "ICML"
+  year: 2024
+  authors: ["Saurabh Mishra", "Anant Raj", "Sharan Vaswani"]
+  title: "From Inverse Optimization to Feasibility to ERM"
+  links: 
+    paper: "https://arxiv.org/abs/2402.17890"
+
 - date: "2024-05-06"
   venue: "ICLR"
   year: 2024

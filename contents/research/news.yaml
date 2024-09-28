@@ -4,6 +4,12 @@
 #   image: ""
 #   url: ""
 
+- date: "2024-06-21"
+  title: "SFU at ICML 2024"
+  venue: "icml"
+  year: 2024
+  type: pubs
+
 - date: "2024-05-06"
   title: "SFU at ICLR 2024"
   venue: "iclr"

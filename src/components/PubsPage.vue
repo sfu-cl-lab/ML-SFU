@@ -1,9 +1,9 @@
 <template>
-    <pubs :pubs=getFilteredPubs(pubs,$route.params.year,$route.params.venue) :title="getTitle($route.params.year,$route.params.venue)"></pubs>
+  <pubs :pubs=filtered :title="getTitle($route.params.year,$route.params.venue)"></pubs>
 </template>
 <script>
 import dataConfig from '../assets/data.json'
-import pubsVue from './Pubs.vue'
+import pubsVue from './PubsGrouped.vue'
 export default {
   name: 'pubsall',
   data() {
@@ -12,7 +12,9 @@ export default {
     }
   },
   computed: {
-
+    filtered() {
+      return this.getFilteredPubs(this.pubs, this.$route.params.year, this.$route.params.venue)
+    }
   },
   methods: {
     getTitle: function(year, venue) {

@@ -41,6 +41,12 @@ export default new Router({
       component: PubsPage
     },
     {
+      path: '/pubs/:year',
+      name: 'pubs-year',
+      component: PubsPage,
+      props: true
+    },
+    {
       path: '/pubs/:year/:venue',
       name: 'pubs-year-venue',
       component: PubsPage,
