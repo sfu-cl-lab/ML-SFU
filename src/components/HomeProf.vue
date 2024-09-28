@@ -78,7 +78,6 @@ article > h3 {
 
 .img-wrapper {
   display: inline-block;
-  width: 100px;
   height: 150px;
   color: #fff;
 
