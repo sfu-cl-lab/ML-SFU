@@ -9,6 +9,17 @@
 #   bio: ""
 #   tags: []
 
+- date: "2024-10-11"
+  location: TASC1 9204 12:00pm
+  speaker: "Derek Liu"
+  speakerUrl: "https://www.dgp.toronto.edu/~hsuehtil/"
+  speakerInfo: "Senior Research Scientist at Roblox Research"
+  speakerPhoto: "derek_liu.jpg"
+  title: "Differentiable Constructive Solid Geometry and Fuzzy Logic"
+  abstract: "Constructive Solid Geometry (CSG) models complex 3D objects by combining simple primitive shapes with boolean operations. It plays a central role in 3D content creation, such as being a popular modeling paradigm for many industrial design and engineering applications. However, performing optimization on the CSG representation (e.g., training a neural network to output CSG trees) remains a challenging task. This is because the traditional formulation is not differentiable and often requires expensive combinatorial optimization. In this talk, we will show how we can draw inspiration from Fuzzy Logic and make CSG differentiable from the first principle. This enables us to optimize CSG shapes simply with e.g. gradient descent. We believe this could open up new ways to revisit CSG from a different lens."
+  bio: "Hsueh-Ti Derek Liu is a Senior Research Scientist at Roblox Research, working on digital geometry processing. Derek's work mainly focuses on developing easy-to-use tools for 3D content creation and level-of-detail algorithms for processing geometric data. Derek received his MS from Carnegie Mellon University and PhD at the University of Toronto. He was the recipient of the PhD dissertation award from Eurographics and the Alain Fournier award in Canada."
+  tags: ["graphics"]
+
 - date: "2024-09-27"
   location: TASC1 9204 12:00pm
   speaker: "Konrad Tollmar"
