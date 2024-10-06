@@ -1,20 +1,23 @@
 - labName: "Robotics Lab"
   picPath: "autonomy.jpg"
-  description: "The Autonomy Lab's research goal is to increase the capabilities, robustness and overall autonomy of mobile robot systems. Our research has these main themes:
-    applying the latest AI-based sensing techniques to robot navigation and human-robot interaction
-    creating tools and techniques for programming, simulating and evaluating populations of robots
-    applying models of animal behavior to extend or improve robots, particularly multi-robot systems."
+  description: "The Robotic Lab bring together SFU researchers in many robotic disciplines, including, multi-agent coordination, safe navigation, reinforcement learning, human-robot interactions, manipulation, human-centric AI, and affective computing."
   url: "http://robotics.sfu.ca/"
 
 - labName: "Natural Language Lab"
   picPath: "natlang.jpg"
-  description: "Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language. We are always looking for motivated, good graduate students. We are also keen on fostering links with industry for joint projects that are based on research grants and/or student internships that allow graduate students to spend time at companies doing high-risk high-reward natural language processing projects."
+  description: "Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language."
   url: "http://natlang.cs.sfu.ca/"
 
 - labName: "MIA Research Group"
   picPath: "Hamarneh.jpg"
   description: "Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
   url: "http://www.cs.sfu.ca/~hamarneh"
+
+- labName: "Libbercht Research Lab"
+  picPath: "Libbercht.jpg"
+  description: "Our research group develops and applies machine learning methods for genomics. We apply these methods to various types of biological data sets, including DNA sequences, epigenetic data such as ChIP-seq and ATAC-seq and single cell data such as flow cytometry and single cell genomics. Our methods are focused on probabilistic graphical models, deep neural networks and convex and submodular optimization."
+  url: "https://www.libbrechtlab.com/"
+
 
 # - labName: "Vision and Media Lab"
 #   picPath: "vml.jpg"
