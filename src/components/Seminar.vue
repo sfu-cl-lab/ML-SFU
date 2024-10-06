@@ -4,9 +4,9 @@
       <img v-if="seminar.speakerPhoto" :src="require(`Content/seminars/speakers/${seminar.speakerPhoto}`)" class="speaker-image" style="float: left;">
       <h3>{{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
       <h3 class="speaker-name">
-        <b>Speaker</b>: <a target="_blank" :href="seminar.speakerUrl">{{seminar.speaker}}</a>
+        <a target="_blank" :href="seminar.speakerUrl"><b>Speaker</b>: {{seminar.speaker}}</a>
         <br/>
-        {{seminar.speakerInfo}}
+        <a target="_blank" :href="seminar.speakerUrl">{{seminar.speakerInfo}}</a>
       </h3>
       <img v-if="seminar.talkImage" :src="require(`Content/seminars/speakers/${seminar.talkImage}`)" style="float: right;">
       <div v-if="seminar.title"><b>Title:</b> {{seminar.title}}</div>
