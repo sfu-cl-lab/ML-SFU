@@ -7,14 +7,8 @@
     <div v-if="item.description">
       <p>{{item.description}}</p>
     </div>
-    <div v-if="item.main_pubs && item.main_pubs.length">
-      <pubs :pubs=item.main_pubs :title="'Main conference papers'"></pubs>
-    </div>
-    <div v-if="item.workshop_pubs && item.workshop_pubs.length">
-      <pubs :pubs=item.workshop_pubs :title="'Workshop papers'"></pubs>
-    </div>
-    <div v-if="item.other_pubs && item.other_pubs.length">
-      <pubs :pubs=item.other_pubs :title="'Other papers'"></pubs>
+    <div v-if="item.pubGroups && item.pubGroups.length">
+      <pubs :pubs=g.pubs :title=g.title v-for="(g,index) in item.pubGroups" :key="index"></pubs>
     </div>
   </section>
 </template>

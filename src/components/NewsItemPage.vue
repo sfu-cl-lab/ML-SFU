@@ -18,7 +18,6 @@ export default {
   methods: {
     getItem: function(id) {
       const item = this.news[id]
-      console.log(item)
       if (item.type === 'pubs') {
         let filteredPubs = this.pubs
         if (item.year != null) {
@@ -26,13 +25,40 @@ export default {
           filteredPubs = filteredPubs.filter(p => p.year.toString() === yearstring)
         }
         if (item.venue != null) {
-          const lower = item.venue.toLowerCase()
-          filteredPubs = filteredPubs.filter(p => p.venue.toLowerCase().startsWith(lower))
-          item.main_pubs = filteredPubs.filter(p => p.venue.toLowerCase() === lower)
-          item.workshop_pubs = filteredPubs.filter(p => p.venue.toLowerCase().endsWith('workshop'))
-          item.other_pubs = filteredPubs.filter(p => p.venue.toLowerCase() !== lower && !p.venue.toLowerCase().endsWith('workshop'))
+          const venue = item.venue.toLowerCase()
+          const venueWorkshop = venue + ' workshop'
+          filteredPubs = filteredPubs.filter(p => p.venue.toLowerCase().startsWith(venue))
+          const groupedPubs = {}
+          for (let p of filteredPubs) {
+            let v = p.venue.toLowerCase()
+            if (v.endsWith('workshop')) {
+              v = venueWorkshop
+            }
+            if (v in groupedPubs) {
+              groupedPubs[v].push(p)
+            } else {
+              groupedPubs[v] = [p]
+            }
+          }
+          const groups = []
+          const mainPubs = groupedPubs[venue]
+          if (mainPubs) {
+            groups.push({ title: 'Main Conference Papers', pubs: mainPubs })
+          }
+          for (let v in groupedPubs) {
+            if (v !== venue && v !== venueWorkshop) {
+              const title = groupedPubs[v][0].venue.substring(venue.length).trim()
+              groups.push({ title: title + ' Papers', pubs: groupedPubs[v] })
+            }
+          }
+          const workshopPubs = groupedPubs[venueWorkshop]
+          if (workshopPubs) {
+            groups.push({ title: 'Workshop Papers', pubs: workshopPubs })
+          }
+          item.pubGroups = groups
         }
       }
+      console.log(item)
       return item
     }
   },
