@@ -9,6 +9,18 @@
 #   bio: ""
 #   tags: []
 
+- date: "2024-10-18"
+  location: TASC1 9204 12:00pm
+  speaker: "Greg Mori"
+  speakerUrl: "https://www.cs.sfu.ca/~mori/"
+  speakerInfo: "VP, RBC Fellow at RBC Borealis"
+  speakerPhoto: "greg_mori.jpg"
+  title: "Foundation Model Challenges and Opportunities in Financial Services"
+  abstract: "Financial services are at the core of our economy.  Opportunities for machine learning abound in this space, from capital markets to insurance services to wealth management to lending to tools that assist clients in managing their money.  Modern machine learning methods have transformed industries, yet particular challenges exist in realizing the full potential of machine learning in financial services.  These include explainability, data imbalance, partial observations, distribution shift, and self-supervised learning in low-signal settings.  I will describe the ATOM foundation model, which specializes in learning from asynchronous event sequences, to maximally utilize the richness of transactional data in financial services."
+  bio: "Greg Mori is VP, RBC Fellow at RBC Borealis, where he leads AI Research and Innovation.  He is also an Adjunct Professor in the School of Computing Science at Simon Fraser University.  He received a Ph.D. in Computer Science from UC Berkeley in 2004 and an Hon. B.Sc. in Computer Science and Mathematics from the University of Toronto in 1999.  He was a Visiting Scientist at Google in Mountain View, California in 2014-2015. He served as Director of the School of Computing Science at Simon Fraser University from 2015-2018.  Dr. Mori conducts research in computer vision and machine learning.  He received the ICCV Helmholtz Prize in 2017.  He was a Program Chair for CVPR 2020 and a General Chair for CVPR 2023.  At RBC Borealis his team builds AI-based products for financial services.  These include the award-winning NOMI Forecast and numerous other industry-leading machine learning solutions."
+  tags: ["ai", "finance"]
+
+
 - date: "2024-10-11"
   location: TASC1 9204 12:00pm
   speaker: "Derek Liu"
