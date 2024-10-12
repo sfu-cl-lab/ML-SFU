@@ -9,6 +9,16 @@
 #   bio: ""
 #   tags: []
 
+- date: "2024-12-18"
+  location: TASC1 9204 12:00pm
+  speaker: "Siqi Zhou"
+  speakerUrl: "https://siqizhou.com/"
+  speakerInfo: "Senior Scientist, Technical University of Munich (TUM)"
+  speakerPhoto: "siqi_zhou.jpg"
+  title: "Integrating Machine Learning and Control for Safe and Efficient Robot Decision-Making"
+  abstract: "Robots are envisioned to become reliable human companions in domains ranging from industrial applications to our daily lives. In the literature, well-established control techniques provide the foundation for designing high-performance autonomous robot systems with desired theoretical guarantees. However, these control techniques often rely on a dynamics model of the robot, and any inaccuracies of the model can result in suboptimal performance or even unsafe actions. This limitation motivates incorporating learning into the traditional robot decision-making software stack. In our work, departing from control theory, we develop neural control approaches that safely and efficiently exploit the expressiveness of neural networks to enhance the performance of robots in uncertain environments. This talk will encompass a set of our neural control work ranging from offline inverse dynamics learning for improving the performance of robots to online Lipschitz network adaptation for closing the model-reality gap in uncertain robot systems. We demonstrate our approach in real-time robot experiments, including quadrotor impromptu trajectory tracking and flying an inverted pendulum. In this talk, I will also introduce our review paper on safe learning in robotics and related benchmarking efforts that are targeted to provide an overarching view of the recent advances in learning-based control and reinforcement learning for robotic applications. I will conclude by sharing our latest work that closes the perception-action loop with a semantic understanding and thereby enables robots to safely operate in everyday scenarios."
+  bio: "SiQi Zhou is a Senior Scientist at the Chair of Safety, Performance and Reliability for Learning Systems at the Technical University of Munich (TUM). She received her Ph.D. from the University of Toronto in 2022 and her B.A.Sc. degree from the University of Toronto Engineering Science program in 2016. Her research is centred on the development of mathematical frameworks and algorithms for safe robot decision-making. The overarching goal is to enable robots to operate safely within unstructured environments and intelligently accomplish tasks alongside humans. My research interests include control theory, machine learning, and robot decision-making with a focus on semantically safe behaviours."
+
 - date: "2024-10-18"
   location: TASC1 9204 12:00pm
   speaker: "Greg Mori"
