@@ -11,8 +11,23 @@ require.context('../contents/', true, /.*\.(jpg|png|gif)$/)
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 
+const fixIdScrolling = {
+  watch: {
+    $route(to, from) {
+      const currentRoute = this.$router.currentRoute
+      const idToScrollTo = currentRoute.hash
+      this.$nextTick(() => {
+        if (idToScrollTo && document.querySelector(idToScrollTo)) {
+          document.querySelector(idToScrollTo).scrollIntoView()
+        }
+      })
+    }
+  }
+}
+
 /* eslint-disable no-new */
 new Vue({
+  mixins: [fixIdScrolling],
   el: '#app',
   router,
   components: { App },

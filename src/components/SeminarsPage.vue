@@ -5,13 +5,26 @@
         <h2 class="section-title">SFU VCR/AI Seminars</h2>
         <div style="display:flex; justify-content:space-around;">
         We hold a series of seminars where we bring together different groups in visual computing, robotics, and AI.
-        Unless otherwise noted, the VCR/AI seminars are held regularly on Fridays on the Burnaby campus, TASC1 12:00pm to 1:30pm.
+        <br/> Unless otherwise noted, the VCR/AI seminars are held regularly on Fridays on the Burnaby campus, TASC1 12:00pm to 1:30pm.
         <br/> As part of the seminar, we feature talks by students, faculty as well as external speakers.
-        Below are some of the external speakers who have presented their work with us.
+        <br/> Below are some of the external speakers who have presented their work with us.
         <br/> Note: video recordings are made available internally to the SFU community only.
-        <br/> The seminar is organized with the help of student and faculty members.
+        <br/><br/> The seminar is organized with the help of student and faculty members.
         </div>
       </div>
+      <div style="justify-content: center; flex-wrap: wrap;">
+        <a href="../#/seminars#past-seminars">
+        <el-button>
+          <b>Past seminars</b>
+        </el-button>
+        </a>
+        <a href="../#/seminars#organizers">
+        <el-button>
+          <b>Organizers</b>
+        </el-button>
+        </a>
+      </div>
+
       <h3 id="upcoming-seminars" class="section-title">Upcoming seminars</h3>
       <div style="justify-content: center; flex-wrap: wrap;">
         <seminar class="seminar" :seminar="item" v-for="(item,index) in futureSeminars" :key="'upcoming' + index">
@@ -59,7 +72,7 @@ dataConfig.seminars.forEach(s => {
 })
 
 export default {
-  name: 'seminars',
+  name: 'seminarsPage',
   data() {
     return {
       currentYear: currentYear,
@@ -81,6 +94,9 @@ export default {
     groupSeminarsByYear: function(seminars) {
       const grouped = Object.groupBy(seminars, (elem, k) => elem._date.getFullYear())
       return grouped
+    },
+    scrollToId(id) {
+      document.getElementById(id).scrollIntoView()
     }
   },
   components: {

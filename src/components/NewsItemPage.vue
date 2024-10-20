@@ -58,7 +58,6 @@ export default {
           item.pubGroups = groups
         }
       }
-      console.log(item)
       return item
     }
   },

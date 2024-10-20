@@ -16,7 +16,7 @@ import dataConfig from '../assets/data.json'
 import seminar from './Seminar.vue'
 
 export default {
-  name: 'SelectedSeminars',
+  name: 'seminars',
   data() {
     return {
       seminars: dataConfig.seminars
