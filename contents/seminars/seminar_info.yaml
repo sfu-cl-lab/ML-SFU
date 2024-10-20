@@ -1,0 +1,34 @@
+organizers_by_year:
+  - year: 2024
+    terms:
+      - term: Fall
+        main_student_coordinator: Xingguang Yan
+        student_volunteers: Xingguang Yan, Chuxuan Zhang, Sai Raj Kishore Perla, Yuzhen Mao
+        faculty_sponsors: Angel Chang, Angelica Lim, Manolis Savva
+      - term: Summer
+        main_student_coordinator: Xingguang Yan
+        student_volunteers: Ashish Sinha, Yiming Zhang, Yalda Foroutan
+        faculty_sponsors: Angelica Lim, Oliver Schulte, Yagiz Aksoy
+      - term: Spring
+        main_student_coordinator: Xingguang Yan
+        student_volunteers: Reza Asad, Jiaqi Tan, Colin Li, Amirhossein Alimohammadi, Xingguang Yan, Tara Toufighi, Hanyang Hu, Yanshu Zhang
+        faculty_sponsors: Sharan Vaswani, Yasu Furukawa, Andrea Tagliasacchi, Ghassan Hamarneh, Mo Chen, Manolis Savva, Ke Li
+  - year: 2023
+    main_student_coordinator: Xingguang Yan
+    terms:
+      - term: Fall
+        main_student_coordinator: Xingguang Yan
+        student_volunteers: Xingguang Yan, Jiaqi Tan, Jiayi Liu, Sam Xu, Weilian Song, Chuxuan Zhang, Parmis Naddaf, Amirhossein Alimohammadi, Cody Reading
+        faculty_sponsors: Oliver Schulte, Angel Chang, Manolis Savva, Richard Zhang, Anoop Sarkar, Yasu Furukawa, Angelica Lim, Yagiz Aksoy, Mo Chen, Jason Peng
+      - term: Summer
+        student_volunteers: Sonia Raychaudhuri, Ruiqi Wang 
+        faculty_sponsors: Richard Zhang, Andrea Tagliasacchi, Ke Li
+      - term: Spring
+        student_volunteers: Michael Lu, Sonia Raychaudhuri, Qimin Chen, Hanxiao Jiang, Nishant Kambhatla, Jiaqi Tan
+        faculty_sponsors: Ghassan Hamarneh, Manolis Savva, Hang Ma, Yasu Furukawa, Angelica Lim, Oliver Schulte, Mo Chen, Ke Li, Anoop Sarkar
+  - year: 2022
+    terms:
+      - term: Fall
+        student_volunteers: Julia Read, Payam Nikdel, Qimin Chen, Sachini, Hanxiao Jiang, Sonia Raychaudhuri, Michael Lu, Jiaqi Tan
+        faculty_sponsors: Yasu Furukawa, Angel Chang, Manolis Savva, Ke Li, Yagiz Aksoy, Mo Chen, Richard Zhang
+

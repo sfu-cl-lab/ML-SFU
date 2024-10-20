@@ -4,7 +4,8 @@ import Home from '@/components/Home'
 import News from '@/components/News'
 import NewsItemPage from '@/components/NewsItemPage'
 import PubsPage from '@/components/PubsPage'
-import Seminars from '@/components/Seminars'
+import SeminarsPage from '@/components/SeminarsPage'
+import SelectedSeminars from '@/components/SelectedSeminars'
 
 Vue.use(Router)
 
@@ -23,7 +24,12 @@ export default new Router({
     {
       path: '/seminars',
       name: 'seminars',
-      component: Seminars
+      component: SeminarsPage
+    },
+    {
+      path: '/seminars/:date',
+      name: 'seminars',
+      component: SelectedSeminars
     },
     {
       path: '/news',

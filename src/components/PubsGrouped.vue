@@ -32,9 +32,6 @@ export default {
     },
     groupPubs: function(pubs) {
       const grouped = Object.groupBy(pubs, (elem, k) => elem.year.toString() + '_' + elem.venue.toLowerCase())
-      // const sortedKeys = Object.keys(grouped).sort((a, b) => a - b)
-      // const sorted = {}
-      // sortedKeys.forEach(key => { sorted[key] = grouped[key]; })
       return grouped
     }
   },

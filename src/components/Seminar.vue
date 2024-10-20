@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <article :class="getSeminarType(seminar)">
     <div>
       <img v-if="seminar.speakerPhoto" :src="require(`Content/seminars/speakers/${seminar.speakerPhoto}`)" class="speaker-image" style="float: left;">
       <h3>{{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
@@ -34,6 +34,15 @@ export default {
     return {
     }
   },
+  methods: {
+    getSeminarType: function(seminar) {
+      if (seminar.remote) {
+        return 'remote'
+      } else {
+        return 'regular'
+      }
+    }
+  },
   props: ['seminar']
 }
 </script>
@@ -66,6 +75,10 @@ article img {
 }
 div.text {
   text-align: justify;
+}
+article.remote {
+  border-color: red;
+
 }
 article > p {
   color: var(--text-desc-color);
