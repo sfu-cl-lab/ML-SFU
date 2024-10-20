@@ -2,7 +2,7 @@
   <article :class="getSeminarType(seminar)">
     <div>
       <img v-if="seminar.speakerPhoto" :src="require(`Content/seminars/speakers/${seminar.speakerPhoto}`)" class="speaker-image" style="float: left;">
-      <h3>{{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
+      <h3>{{getDayOfWeek(seminar.date)}} {{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
       <h3 class="speaker-name">
         <a target="_blank" :href="seminar.speakerUrl"><b>Speaker</b>: {{seminar.speaker}}</a>
         <br/>
@@ -41,6 +41,10 @@ export default {
       } else {
         return 'regular'
       }
+    },
+    getDayOfWeek: function(dateStr) {
+      var date = new Date(dateStr + 'T12:00:00.000-07:00')
+      return date.toLocaleDateString('en-US', { weekday: 'long' })
     }
   },
   props: ['seminar']
