@@ -45,8 +45,8 @@
           <div class="organizer" v-for="termInfo in yearOrganizerInfo.terms" :key="termInfo.term + '-' + yearOrganizerInfo.year">
             <b>{{ termInfo.term }}</b> <br/>
             <ul>
-              <li v-if="yearOrganizerInfo.main_student_coordinator">
-                <b>Main student organizer:</b> {{yearOrganizerInfo.main_student_coordinator}}
+              <li v-if="termInfo.main_student_coordinator">
+                <b>Main student organizer:</b> {{termInfo.main_student_coordinator}}
               </li>
               <li><b>Student volunteers:</b> {{termInfo.student_volunteers}}</li>
               <li><b>Faculty sponsors:</b> {{termInfo.faculty_sponsors}}</li>
@@ -94,9 +94,6 @@ export default {
     groupSeminarsByYear: function(seminars) {
       const grouped = Object.groupBy(seminars, (elem, k) => elem._date.getFullYear())
       return grouped
-    },
-    scrollToId(id) {
-      document.getElementById(id).scrollIntoView()
     }
   },
   components: {
