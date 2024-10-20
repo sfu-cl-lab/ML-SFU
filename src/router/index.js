@@ -28,7 +28,7 @@ export default new Router({
     },
     {
       path: '/seminars/:date',
-      name: 'seminars',
+      name: 'seminars-by-date',
       component: Seminars
     },
     {
