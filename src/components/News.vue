@@ -2,8 +2,8 @@
     <div>
       <section class="content-section">
         <div>
-          <h2 class="section-title">News</h2>
-          <div style="display:flex; justify-content:space-around;">
+          <h2 class="section-title">News and Events</h2>
+          <div style="display: flex; justify-content: center; flex-wrap: wrap;">
             <newsitem class="news" :item="item" v-for="(item,index) in news" :key="index" :id="index"/>
           </div>
         </div>
@@ -43,5 +43,9 @@ export default {
 }
 .content-section {
   margin-bottom: 1em;
+}
+
+.news {
+  margin: 1em
 }
 </style>

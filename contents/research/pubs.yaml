@@ -1,3 +1,21 @@
+- date: "2024-12-13"
+  venue: "NeurIPS Datasets and Benchmarks Track"
+  year: 2024
+  authors: ["Zahra Gharaee", "Scott Lowe", "ZeMing Gong", "Pablo Millan Arias", "Nicholas Pellegrino", "Austin T. Wang", "Joakim Bruslund Haurum", "Iuliia Zarubiieva", "Lila Kari", "Dirk Steinke", "Graham Taylor", "Paul Fieguth", "Angel Chang"]
+  title: "BIOSCAN-5M: A Multimodal Dataset for Insect Biodiversity"
+
+- date: "2024-12-12"
+  venue: "NeurIPS"
+  year: 2024
+  authors: ["Jincheng Mei", "Bo Dai", "Alekh Agarwal", "Sharan Vaswani", "Anant Raj", "Csaba Szepesvari", "Dale Schuurmans"]
+  title: "Small steps no more: Global convergence of stochastic gradient bandits for arbitrary learning rates"
+
+- date: "2024-12-11"
+  venue: "NeurIPS"
+  year: 2024
+  authors: ["Kiyohiro Nakayama", "Mikaela Angelina Uy", "Yang You", "Ke Li", "Leonidas Guibas"]
+  title: "ProvNeRF: Modeling per Point Provenance in NeRFs as a Stochastic Process"
+
 - date: "2024-06-21"
   venue: "ICML"
   year: 2024

@@ -18,7 +18,8 @@ export default {
   methods: {
     getItem: function(id) {
       const item = this.news[id]
-      if (item.type === 'pubs') {
+      const pubtypes = ['conference', 'pubs']
+      if (pubtypes.indexOf(item.type) >= 0) {
         let filteredPubs = this.pubs
         if (item.year != null) {
           const yearstring = item.year.toString()

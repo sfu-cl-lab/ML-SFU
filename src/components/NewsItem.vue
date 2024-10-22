@@ -1,17 +1,17 @@
 <template>
     <article>
-      <h3 class="title" v-if="item.type === 'pubs'">
+      <h4>{{item.date}}</h4>
+      <h3 class="title" v-if="item.url"><a :href="item.url" target="_blank">{{item.title}}</a></h3>
+      <h3 class="title" v-else>
         <!-- <router-link :to="{ name: 'pubs-year-venue', params: { year: item.year, venue: item.venue, title: item.title }}">{{item.title}}</router-link> -->
         <router-link :to="{ name: 'news-item', params: { id: id }}">{{item.title}}</router-link>
       </h3>
-      <h3 class="title" v-else-if="item.url"><a :href="item.url" target="_blank">{{item.title}}</a></h3>
-      <h3 v-else>{{item.title}}</h3>
       <div class="img-wrapper" v-if="item.image">
         <img :src="require(`Content/research/${item.image}`)">
       </div>
-      <div v-if="item.description">
+      <!-- <div v-if="item.description">
         <p>{{item.description}}</p>
-      </div>
+      </div> -->
     </article>
 </template>
 <script>

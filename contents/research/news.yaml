@@ -4,20 +4,61 @@
 #   image: ""
 #   url: ""
 
+- date: "2024-12-10"
+  title: "SFU at NeurIPS 2024"
+  venue: "neurips"
+  year: 2024
+  type: conference
+
 - date: "2024-06-21"
   title: "SFU at ICML 2024"
   venue: "icml"
   year: 2024
-  type: pubs
+  type: conference
 
 - date: "2024-05-06"
   title: "SFU at ICLR 2024"
   venue: "iclr"
   year: 2024
-  type: pubs
+  type: conference
+
+- date: "2024-02-23"
+  location: "TASC1 9204"
+  title: "SFU AAAI mini-workshop"
+  description: "AAAI 2024 is in Vancouver!  We are hosting several visitors from other universities attending AAAI for a mini-workshop at the SFU Burnaby campus."
+  linkTalks: true
+  schedule:
+    - time: 11:00 am - 11:40 am 
+      speaker: Levi Lelis (U of Alberta)
+      event: Learning Options by Extracting Programs from Neural Networks
+    - time: 11:40 am - 12:20 pm 
+      speaker: Vahid Babaei (MPI)
+      event: Inverse Design with Neural Surrogate Models
+    - time: 12:20 pm - 1:00 pm 
+      event: Lunch break
+    - time: 1:00 pm - 1:40 pm 
+      speaker: Sven Koenig (USC)
+      event: Multi-Agent Path Finding and Its Applications
+    - time: 1:40 pm - 2:20 pm 
+      speaker: Jiaoyang Li (CMU)
+      event: Layout Design for Large-Scale Multi-Robot Coordination
+
+- date: "2024-02-04"
+  location: "TASC1 9204"
+  title: "SFU-UBC visual computing seminar"
+  description: "SFU-UBC Visual Computing Meeting was held at the SFU Burnaby campus (Feb 2nd from 10:00 am-3:00 pm). This special session featured professors and students from the UBC and SFU visual computing community for a day of engaging discussions and networking."
+  schedule:
+    - time: 10:00 am - 11:00 am 
+      event: Talks (Session 1)
+    - time: 11:00 am - 12:00 am 
+      event: Talks (Session 2)
+    - time: 12:00 pm - 2:00 pm 
+      event: Lunch and posters
+    - time: 2:00 pm - 3:00 pm 
+      event: Talks (Session 3)
 
 - date: "2023-12-10"
   title: "SFU at NeurIPS 2023"
   venue: "neurips"
   year: 2023
-  type: pubs
+  type: conference

@@ -7,6 +7,7 @@
     <div v-if="item.description">
       <p>{{item.description}}</p>
     </div>
+    <schedule v-if="item.schedule" :schedule="item.schedule"></schedule>
     <div v-if="item.pubGroups && item.pubGroups.length">
       <pubs :pubs=g.pubs :title=g.title v-for="(g,index) in item.pubGroups" :key="index"></pubs>
     </div>
@@ -14,6 +15,7 @@
 </template>
 <script>
 import pubsVue from './Pubs.vue'
+import scheduleVue from './Schedule.vue'
 export default {
   name: 'news_item_detailed',
   data() {
@@ -21,7 +23,8 @@ export default {
     }
   },
   components: {
-    'pubs': pubsVue
+    'pubs': pubsVue,
+    'schedule': scheduleVue
   },
   props: ['item']
 }

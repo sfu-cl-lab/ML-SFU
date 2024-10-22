@@ -1,6 +1,7 @@
 <template>
     <article>
-      <a target="_blank" :href="first_link"><h3>{{pub.title}}</h3></a>
+      <a v-if="first_link" target="_blank" :href="first_link"><h3>{{pub.title}}</h3></a>
+      <h3 v-else>{{pub.title}}</h3>
       <div>
         <div><b>Authors:</b> {{pub.authors.join(', ')}}</div>
         <div><b>{{pub.venue}} {{pub.year}}</b></div>
@@ -29,8 +30,10 @@ export default {
   },
   computed: {
     first_link: function() {
-      const keys = Object.keys(this.pub.links)
-      return this.pub.links[keys[0]]
+      if (this.pub.links) {
+        const keys = Object.keys(this.pub.links)
+        return this.pub.links[keys[0]]
+      }
     }
   },
   props: ['pub']
