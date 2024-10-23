@@ -7,10 +7,13 @@
     <div v-if="item.description">
       <p>{{item.description}}</p>
     </div>
-    <schedule v-if="item.schedule" :schedule="item.schedule"></schedule>
+    <schedule v-if="item.schedule" :schedule="item.schedule" :date="item.date"></schedule>
     <div v-if="item.pubGroups && item.pubGroups.length">
       <pubs :pubs=g.pubs :title=g.title v-for="(g,index) in item.pubGroups" :key="index"></pubs>
     </div>
+    <!-- <div v-if="item.images && item.images.length">
+      <img height=200px :src="require(`Content/${path}`)" v-for="(path,index) in item.images" :key="index"/>
+    </div> -->
   </section>
 </template>
 <script>

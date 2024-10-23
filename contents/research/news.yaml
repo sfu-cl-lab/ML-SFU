@@ -26,7 +26,8 @@
   location: "TASC1 9204"
   title: "SFU AAAI mini-workshop"
   description: "AAAI 2024 is in Vancouver!  We are hosting several visitors from other universities attending AAAI for a mini-workshop at the SFU Burnaby campus."
-  linkTalks: true
+  images:
+    - "seminars/2024/2024-02-23-sfu-aaai.jpg"
   schedule:
     - time: 11:00 am - 11:40 am 
       speaker: Levi Lelis (U of Alberta)
