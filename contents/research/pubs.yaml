@@ -21,20 +21,43 @@
 - date: "2024-12-13"
   venue: "NeurIPS Datasets and Benchmarks Track"
   year: 2024
+  authors: ["Linyi Li", "Shijie Geng", "Zhenwen Li", "Yibo He", "Hao Yu", "Ziyue Hua", "Guanghan Ning", "Siwei Wang", "Tao Xie", "Hongxia Yang"]
+  title: "InfiBench: Evaluating the Question-Answering Capabilities of Code Large Language Models"
+  links:
+    webpage: https://infi-coder.github.io/infibench/ 
+    NeurIPS poster session: https://nips.cc/virtual/2024/poster/97797
+
+- date: "2024-12-13"
+  venue: "NeurIPS Datasets and Benchmarks Track"
+  year: 2024
   authors: ["Zahra Gharaee", "Scott Lowe", "ZeMing Gong", "Pablo Millan Arias", "Nicholas Pellegrino", "Austin T. Wang", "Joakim Bruslund Haurum", "Iuliia Zarubiieva", "Lila Kari", "Dirk Steinke", "Graham Taylor", "Paul Fieguth", "Angel Chang"]
   title: "BIOSCAN-5M: A Multimodal Dataset for Insect Biodiversity"
+  links:
+    NeurIPS poster session: https://nips.cc/virtual/2024/poster/97824
+
+- date: "2024-12-12"
+  venue: "NeurIPS"
+  year: 2024
+  authors: ["Wuyang Chen", "Jialin Song", "Pu Ren", "Shashank Subramanian", "Dmitriy Morozov", "Michael Mahoney"]
+  title: "Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning"
+  links:
+    NeurIPS poster session: https://nips.cc/virtual/2024/poster/95483
 
 - date: "2024-12-12"
   venue: "NeurIPS"
   year: 2024
   authors: ["Jincheng Mei", "Bo Dai", "Alekh Agarwal", "Sharan Vaswani", "Anant Raj", "Csaba Szepesvari", "Dale Schuurmans"]
   title: "Small steps no more: Global convergence of stochastic gradient bandits for arbitrary learning rates"
+  links:
+    NeurIPS poster session: https://neurips.cc/virtual/2024/poster/93513
 
 - date: "2024-12-11"
   venue: "NeurIPS"
   year: 2024
   authors: ["Kiyohiro Nakayama", "Mikaela Angelina Uy", "Yang You", "Ke Li", "Leonidas Guibas"]
   title: "ProvNeRF: Modeling per Point Provenance in NeRFs as a Stochastic Process"
+  links:
+    NeurIPS poster session: https://neurips.cc/virtual/2024/poster/95680
 
 - date: "2024-06-21"
   venue: "ICML"
