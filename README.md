@@ -6,6 +6,33 @@
 
 Just edit files in `contents/` and then commit the change, it will **automatically** deploy in 5 mins. 
 
+#### Add seminar talk
+
+1. Add an item at `contents/seminars/seminar.yaml`
+
+2. Commit the change directly to the `master` branch
+
+#### Add publication
+
+1. Add an item at `contents/research/pubs.yaml`
+
+2. Add image for publication (optional)
+   1. Add image under `contents/research/<year>/<venue>` to keep images organized
+   2. Image path would then be of the form `<year>/<venue>/<imageName>`
+
+3. Commit the change directly to the `master` branch
+
+#### Add news item
+
+1. Add an item at `contents/research/news.yaml` 
+   1. Add image under `contents/research/<year>` to keep images organized
+   2. Add information about the news item (e.g. `description`, `image`, and `url`) as appropriate
+   3. Specify `type: conference` for conference news (this will include publications for that conference)
+
+2. If conference news, update publication items (see above) and add entry for `workshops` (if there are workshops we are organizing / participating in) 
+
+3. Commit the change directly to the `master` branch
+
 #### Update the carousel
 
 1. Upload the images to `contents/carousel`
@@ -17,24 +44,6 @@ Just edit files in `contents/` and then commit the change, it will **automatical
 1. Upload the image to `contents/people`
 
 2. Add an item at `contents/people/people.yaml`
-
-3. Commit the change directly to the `master` branch
-
-#### Add seminar talk
-
-1. Add an item at `contents/seminars/seminar.yaml`
-
-2. Commit the change directly to the `master` branch
-
-#### Add news item
-
-1. Add an item at `contents/research/news.yaml` 
-   1. Add image under `contents/research/<year>` to keep images organized
-   2. Add information about the news item (e.g. `description`, `image`, and `url`) as appropriate
-
-2. If publications news, add items at `contents/research/pubs.yaml` 
-   1. Add image under `contents/research/<year>/<venue>` to keep images organized
-   2. Image path would then be of the form `<year>/<venue>/<imageName>`
 
 3. Commit the change directly to the `master` branch
 
