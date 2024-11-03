@@ -1,8 +1,8 @@
 <template>
   <article>
     <h3><a :href="workshop.url">{{workshop.title }}</a></h3>
-      <div><b>{{getDayOfWeek(workshop.date)}} {{workshop.date}}</b>
-      <b v-if="workshop.location">({{workshop.location}})</b></div>
+      <div><b>{{getDayOfWeek(workshop.date)}} {{workshop.date}}</b></div>
+      <div v-if="workshop.location"><b>{{workshop.location}}</b></div>
       <div v-if="workshop.advisor"><b>Advisor:</b> {{workshop.advisor}}</div>
       <div v-if="workshop.organizer"><b>Organizer:</b> {{workshop.organizer}}</div>
       <div v-if="workshop.speaker"><b>Speaker:</b> {{workshop.speaker}}</div>
@@ -28,4 +28,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+article div {
+    margin: 0.25em auto 0.25em auto;
+}
 </style>
