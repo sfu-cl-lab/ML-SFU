@@ -6,6 +6,7 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/reset.css'
+import './assets/default.css'
 require.context('../contents/', true, /.*\.(jpg|png|gif)$/)
 
 Vue.use(ElementUI)

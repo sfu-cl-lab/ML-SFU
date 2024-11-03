@@ -44,7 +44,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.content-section {
-  margin-bottom: 1em;
-}
 </style>

@@ -8,7 +8,7 @@
       </div>
       <div v-if="pub.workshops">
         <a v-for="(workshop,index) in pub.workshops" :key="index" :href="workshop.url" target="_blank">
-            Workshop on {{workshop.name}}<br/>
+            <b>Workshop on {{workshop.name}}</b><br/>
         </a>
       </div>
       <div class="img-wrapper" v-if="pub.image">
@@ -41,45 +41,16 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-article {
-  display: flex;
-  flex-direction: column;
-  max-width: 90%;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 1.5em 0.8em 1.5em 0.8em;
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-  background-color: #fafafa;
+article div {
+    margin: 0.25em auto 0.25em auto;
 }
-.el-button {
-  color: var(--text-color);
-  border-color: var(--text-color);
-  font-weight: 700;
-}
-.title:hover {
-  color: var(--text-color);
-  transition: color 0.3s;
-}
+
 article img {
   max-height: 350px;
   max-width: 100%;
   border-radius: 10px;
   border: solid 1px #fff;
   border-color: var(--text-color);
-}
-div.text {
-  text-align: justify;
-}
-article div {
-  margin: 0.25em auto 0.25em auto;
-}
-article > p {
-  color: var(--text-desc-color);
-}
-article > h3 {
-  font-weight: 700;
-  margin-top: 0.8em;
-  margin-bottom: 0.2em;
 }
 .img-wrapper {
   /* display: inline-block;

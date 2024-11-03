@@ -53,50 +53,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-article {
-  display: flex;
-  flex-direction: column;
-  max-width: 90%;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 1.5em 0.8em 1.5em 0.8em;
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
-  background-color: #fafafa;
-}
-.el-button {
-  color: var(--text-color);
-  border-color: var(--text-color);
-  font-weight: 700;
-}
-.speaker-name:hover {
-  color: var(--text-color);
-  transition: color 0.3s;
-}
 article img {
   /* border-radius: 50px; */
   /* border: solid 1px #fff; */
   border-color: var(--text-color);
 }
-div.text {
-  text-align: justify;
-}
 article.remote {
   border-color: red;
-
-}
-article > p {
-  color: var(--text-desc-color);
-}
-article > h3 {
-  font-weight: 700;
-  margin-top: 0.8em;
-  margin-bottom: 0.2em;
-}
-
-.speaker-image {
-  max-width: 100px;
-  max-height: 100px;
-  border-radius: 50%;
-  border: 3px solid var(--text-color);
 }
 </style>

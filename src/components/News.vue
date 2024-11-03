@@ -33,18 +33,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.section-title {
-  font-weight: 700;
-  padding-top: 2em;
-  border-bottom: solid 5px var(--text-color);
-  display: inline-block;
-  font-size: 1.6em;
-  letter-spacing: 0.2rem;
-}
-.content-section {
-  margin-bottom: 1em;
-}
-
 .news {
   margin: 1em
 }

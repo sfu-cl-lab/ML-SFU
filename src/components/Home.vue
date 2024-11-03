@@ -86,14 +86,7 @@ export default {
   max-width: 20em;
   text-align: left;
 }
-.section-title {
-  font-weight: 700;
-  padding-top: 1.5em;
-  border-bottom: solid 5px var(--text-color);
-  display: inline-block;
-  font-size: 1.6em;
-  letter-spacing: 0.2rem;
-}
+
 .link-title {
   font-weight: 700;
   padding-top: 0.5em;
@@ -102,9 +95,7 @@ export default {
   font-size: 1.6em;
   letter-spacing: 0.2rem;
 }
-.content-section {
-  margin-bottom: 1em;
-}
+
 .prof {
   margin: 0.2em 0.1em 2em 0.1em;
   -webkit-flex: 1 1 13em;

@@ -51,29 +51,13 @@ article {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
   background-color: #fafafa;
 }
-.el-button {
-  color: var(--text-color);
-  border-color: var(--text-color);
-  font-weight: 700;
-}
-.prof-name:hover {
-  color: var(--text-color);
-  transition: color 0.3s;
-}
+
 article img {
   width: 100%;
   height: 100%;
   /* border-radius: 50px; */
   /* border: solid 1px #fff; */
   border-color: var(--text-color);
-}
-article > p {
-  color: var(--text-desc-color);
-}
-article > h3 {
-  font-weight: 700;
-  margin-top: 0.8em;
-  margin-bottom: 0.2em;
 }
 
 .img-wrapper {
