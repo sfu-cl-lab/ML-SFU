@@ -9,6 +9,17 @@
   venue: "neurips"
   year: 2024
   type: conference
+  workshops:
+    - title: Creativity & Generative AI
+      date: 12/14/2024
+      location: Ballroom A&B, Vancouver Convention Center
+      url: https://creativity-ai.github.io/      
+      advisor: Nick Vincent
+    - title: Open-World Agents
+      date: 12/15/2024
+      location: Meeting 201, Vancouver Convention Center
+      url: https://sites.google.com/view/open-world-agents
+      organizer: Angel X. Chang
 
 - date: "2024-06-21"
   title: "SFU at ICML 2024"

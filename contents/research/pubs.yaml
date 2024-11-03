@@ -1,3 +1,23 @@
+- date: "2024-12-14"
+  venue: "NeurIPS workshop"
+  year: 2024
+  authors: ["Shuman Peng", "Arash Khoeini", "Sharan Vaswani", "Martin Ester"]
+  title: "Improving OOD Generalization of Pre-trained Encoders via Aligned Embedding-Space Ensembles"
+  workshops:
+    - name: Unifying Representations in Neural Models
+      url: https://unireps.org/2024/
+      shortname: unireps
+
+- date: "2024-12-14"
+  venue: "NeurIPS workshop"
+  year: 2024
+  authors: ["Xingguang Yan", "Han-Hung Lee", "Ziyu Wan", "Angel X. Chang"]
+  title: "An Object is Worth 64x64 Pixels: Generating 3D Object via Image Diffusion"
+  workshops:
+    - name: Creativity & Generative AI
+      url: https://creativity-ai.github.io/
+      shortname: creativity-ai
+
 - date: "2024-12-13"
   venue: "NeurIPS Datasets and Benchmarks Track"
   year: 2024

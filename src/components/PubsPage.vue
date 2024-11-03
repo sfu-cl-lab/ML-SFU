@@ -35,7 +35,7 @@ export default {
       }
       if (venue != null) {
         const lower = venue.toLowerCase()
-        filteredPubs = filteredPubs.filter(p => p.venue.toLowerCase() === lower)
+        filteredPubs = filteredPubs.filter(p => p.venue.toLowerCase().split(' ')[0] === lower)
       }
       return filteredPubs
     }

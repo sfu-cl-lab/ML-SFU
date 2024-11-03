@@ -26,9 +26,10 @@
   speakerUrl: "https://zhiwenfan.github.io/"
   speakerInfo: "PhD student at UT Austin"
   speakerPhoto: "zhiwen_fan.jpg"
-  title: “Empowering Machines to Understand 3D for End-to-End Reconstruction and Reliable Interaction using a Scalable Solution”
+  title: "Empowering Machines to Understand 3D for End-to-End Reconstruction and Reliable Interaction using a Scalable Solution"
   abstract: "Large-scale models trained with internet-scale data show great promise in transforming the way we work and solve complex problems. However, while LLMs and VLMs can interpret text or single image data, they face challenges in understanding spatial relationships under existing multi-modal training paradigms. Future intelligent AI systems must be able to perceive structured 3D environments before they can reliably interact with the physical world, which is essential for autonomous systems. Current 3D reconstruction pipelines still rely on modular, non-differentiable processing systems, preventing scalable training.  My research will first delve into the geometric principles necessary for high-quality multi-view geometry. Subsequently, we aim to push the boundaries of 3D learning by developing a unified representation, termed the Large Spatial Model, for real-time, end-to-end semantic 3D reconstruction. This model will support both feed-forward reconstruction and interaction through language with minimal annotated 3D data. By enabling the training of large-scale 3D models that effectively represent structured 3D worlds in low-dimensional latent embeddings, we can leverage the knowledge from LLMs, facilitating reliable spatial reasoning capacities. Applications such as multi-modal SLAM, human avatar creation, and controllable driving scene simulation will be empowered by 3D foundation models coupled with domain-specific designs."
   bio: "Zhiwen (Aaron) Fan is a PhD candidate at UT Austin, advised by Prof. Zhangyang (“Atlas”) Wang. He was funded by the Qualcomm Innovation Fellowship in 2022 and is currently a research intern at Meta Core AI developing 3D foundation modeling tools. Zhiwen has also interned at NVIDIA and Google, and previously worked as a senior research engineer at Alibaba Group."
+  video: https://stream.sfu.ca/Media/Play/1b4667b9e38145428f954b401d4179331d
 
 - date: "2024-10-18"
   location: TASC1 9204 12:00pm
