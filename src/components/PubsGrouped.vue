@@ -32,7 +32,29 @@ export default {
     },
     groupPubs: function(pubs) {
       const grouped = Object.groupBy(pubs, (elem, k) => elem.year.toString() + '_' + elem.venue.toLowerCase())
-      return grouped
+      const groupedKeys = Object.keys(grouped)
+      groupedKeys.sort((a, b) => {
+        const p1 = a.split(' ', 2)
+        const p2 = b.split(' ', 2)
+        if (p1[0] < p2[0]) {
+          return 0
+        } else if (p1[0] > p2[0]) {
+          return 0
+        } else {
+          if (a < b) {
+            return -1
+          } else if (b > a) {
+            return +1
+          } else {
+            return 0
+          }
+        }
+      })
+      const ordered = {}
+      for (let k of groupedKeys) {
+        ordered[k] = grouped[k]
+      }
+      return ordered
     }
   },
   components: {

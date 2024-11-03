@@ -1,5 +1,17 @@
 <template>
-  <pubs :pubs=filtered :title="getTitle($route.params.year,$route.params.venue)"></pubs>
+  <div>
+    <div v-if="$route.params.venue == undefined">
+      <br/>
+      <span v-for="year in years" :key="year">
+      <a :href="'../#/pubs/' + year">
+        <el-button>
+          {{year}}
+        </el-button>
+      </a>
+    </span>
+    </div>
+    <pubs :pubs=filtered :title="getTitle($route.params.year,$route.params.venue)"></pubs>
+  </div>
 </template>
 <script>
 import dataConfig from '../assets/data.json'
@@ -14,6 +26,10 @@ export default {
   computed: {
     filtered() {
       return this.getFilteredPubs(this.pubs, this.$route.params.year, this.$route.params.venue)
+    },
+    years() {
+      const years = new Set(this.pubs.map(p => p.year))
+      return [...years]
     }
   },
   methods: {
