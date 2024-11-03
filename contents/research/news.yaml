@@ -9,20 +9,21 @@
   venue: "neurips"
   year: 2024
   type: conference
+  location: Vancouver Convention Center
   workshops:
     - title: Creativity & Generative AI
       date: "2024-12-14"
-      location: Ballroom A&B, Vancouver Convention Center
+      location: Meeting Room 201
       url: https://creativity-ai.github.io/      
       advisor: Nick Vincent
     - title: "Foundation Models for Science: Progress, Opportunities, and Challenges"
       date: "2024-12-15"
-      location: Meeting Room 202-204, Vancouver Convention Center
+      location: Meeting Room 202-204
       url: https://fm-science.github.io/
       organizer: Wuyang Chen
     - title: Open-World Agents
       date: "2024-12-15"
-      location: Meeting Room 201, Vancouver Convention Center
+      location: Ballroom A&B
       url: https://sites.google.com/view/open-world-agents
       organizer: Angel X. Chang
 

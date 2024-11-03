@@ -11,6 +11,12 @@
     <div v-if="item.pubGroups && item.pubGroups.length">
       <pubs :pubs=g.pubs :title=g.title v-for="(g,index) in item.pubGroups" :key="'pg-' + index"></pubs>
     </div>
+    <div v-if="item.workshops && item.workshops.length > 0">
+      <h3 class="section-title">Workshops</h3>
+      <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+        <workshop :workshop=workshop v-for="(workshop,index) in item.workshops" :key="'w-' + index"></workshop>
+      </div>
+    </div>
     <!-- <div v-if="item.images && item.images.length">
       <img height=200px :src="require(`Content/${path}`)" v-for="(path,index) in item.images" :key="index"/>
     </div> -->
@@ -19,6 +25,7 @@
 <script>
 import pubsVue from './Pubs.vue'
 import scheduleVue from './Schedule.vue'
+import workshopVue from './Workshop.vue'
 export default {
   name: 'news_item_detailed',
   data() {
@@ -27,7 +34,8 @@ export default {
   },
   components: {
     'pubs': pubsVue,
-    'schedule': scheduleVue
+    'schedule': scheduleVue,
+    'workshop': workshopVue
   },
   props: ['item']
 }
