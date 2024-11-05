@@ -59,7 +59,9 @@ This website is developed using [Vue 2](https://v2.vuejs.org/).
 
 For local testing you will need to have [nodejs](https://nodejs.org).  
 
-Use [nvm](https://github.com/nvm-sh/nvm) to select a version of node to use.  The build has been tested with node v14 to v18.  To download and install node.js v18.20.4.
+Use [nvm](https://github.com/nvm-sh/nvm) to select a version of node to use.  The build has been tested with node v14 to v18.  
+
+To download and install node.js v18.20.4:
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 source ~/.bashrc
