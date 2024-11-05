@@ -55,10 +55,21 @@ Just edit files in `contents/` and then commit the change, it will **automatical
 
 ### Local testing
 
-Build `src/assets/data.json` from yaml files (not sure why yaml files are not used directly)
+This website is developed using [Vue 2](https://v2.vuejs.org/).
+
+For local testing you will need to have [nodejs](https://nodejs.org).  
+
+Use [nvm](https://github.com/nvm-sh/nvm) to select a version of node to use.  The build has been tested with node v14 to v18.  To download and install node.js v18.20.4.
 ```
-pip3 install pyyaml
-python3 src/assets/parse_content.py
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+source ~/.bashrc
+nvm install v18.20.4
+```
+
+Build `src/assets/data.json` from yaml files (not sure why yaml files are not used directly).  You will need to have [python3](https://www.python.org/downloads/) installed.
+```
+pip3 install pyyaml                         # Install dependencies
+python3 src/assets/parse_content.py         # Parse content
 ```
 
 Run local server (may need to switch package.json "webpack-dev-server": "^2.11.2")
