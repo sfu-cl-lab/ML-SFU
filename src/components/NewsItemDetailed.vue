@@ -5,7 +5,10 @@
       <img :src="require(`Content/research/${item.image}`)">
     </div>
     <div v-if="item.description">
-      <p>{{item.description}}</p>
+      <p class="description">{{item.description}}</p>
+    </div>
+    <div v-if="item.html">
+      <p class="description" v-html="item.html"></p>
     </div>
     <schedule v-if="item.schedule" :schedule="item.schedule" :date="item.date"></schedule>
     <div v-if="item.pubGroups && item.pubGroups.length">
@@ -44,5 +47,9 @@ export default {
   display: inline-block;
   font-size: 2.2em;
   letter-spacing: 0.2rem;
+}
+p.description {
+  font-weight: 500;
+  font-size: 1.2em;
 }
 </style>

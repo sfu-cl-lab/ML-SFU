@@ -67,6 +67,14 @@
   links:
     NeurIPS poster session: https://nips.cc/virtual/2024/poster/94984
 
+- date: "2024-12-11"
+  venue: "NeurIPS"
+  year: 2024
+  authors: ["Liqiang Lin", "Wenpeng Wu", "Chi-Wing Fu", "Hao Zhang", "Hui Huang"]
+  title: "CRAYM: Neural Field Optimization via Camera RAY Matching"
+  links:
+    NeurIPS poster session: https://neurips.cc/virtual/2024/poster/93159
+
 - date: "2024-06-21"
   venue: "ICML"
   year: 2024

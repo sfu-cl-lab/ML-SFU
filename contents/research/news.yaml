@@ -10,6 +10,7 @@
   year: 2024
   type: conference
   location: Vancouver Convention Center
+  html: We will be holding a series of morning talks in parallel with NeurIPS at the SFU downtown campus.  Please see <a class="highlight" href="https://sites.google.com/view/sfu-at-neurips-2024">our event page</a> for details.
   workshops:
     - title: Creativity & Generative AI
       date: "2024-12-14"

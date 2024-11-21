@@ -7,6 +7,9 @@ a:hover {
     color: var(--text-color);
     transition: color 0.3s;
 }
+a.highlight {
+  color: var(--text-color);
+}  
 div.text {
     text-align: justify;
 }
