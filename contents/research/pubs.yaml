@@ -7,6 +7,8 @@
     - name: Unifying Representations in Neural Models
       url: https://unireps.org/2024/
       shortname: unireps
+  links:
+    paper: https://arxiv.org/abs/2411.13073v1
 
 - date: "2024-12-14"
   venue: "NeurIPS workshop"
@@ -17,6 +19,10 @@
     - name: Creativity & Generative AI
       url: https://creativity-ai.github.io/
       shortname: creativity-ai
+  links:
+    webpage: https://omages.github.io
+    paper: https://arxiv.org/abs/2408.03178
+    code: https://github.com/3dlg-hcvc/omages
 
 - date: "2024-12-13"
   venue: "NeurIPS Datasets and Benchmarks Track"
@@ -24,8 +30,10 @@
   authors: ["Linyi Li", "Shijie Geng", "Zhenwen Li", "Yibo He", "Hao Yu", "Ziyue Hua", "Guanghan Ning", "Siwei Wang", "Tao Xie", "Hongxia Yang"]
   title: "InfiBench: Evaluating the Question-Answering Capabilities of Code Large Language Models"
   links:
-    webpage: https://infi-coder.github.io/infibench/ 
     NeurIPS poster session: https://nips.cc/virtual/2024/poster/97797
+    webpage: https://infi-coder.github.io/infibench/ 
+    paper: https://arxiv.org/abs/2404.07940
+    code: https://github.com/infi-coder/infibench-evaluation-harness/
 
 - date: "2024-12-13"
   venue: "NeurIPS Datasets and Benchmarks Track"
@@ -34,6 +42,8 @@
   title: "BIOSCAN-5M: A Multimodal Dataset for Insect Biodiversity"
   links:
     NeurIPS poster session: https://nips.cc/virtual/2024/poster/97824
+    paper: https://arxiv.org/abs/2406.12723
+    code: https://github.com/bioscan-ml/BIOSCAN-5M
 
 - date: "2024-12-12"
   venue: "NeurIPS"
@@ -42,6 +52,8 @@
   title: "Data-Efficient Operator Learning via Unsupervised Pretraining and In-Context Learning"
   links:
     NeurIPS poster session: https://nips.cc/virtual/2024/poster/95483
+    paper: https://arxiv.org/abs/2402.15734
+    code: https://github.com/delta-lab-ai/data_efficient_nopt
 
 - date: "2024-12-12"
   venue: "NeurIPS"
@@ -58,6 +70,8 @@
   title: "ProvNeRF: Modeling per Point Provenance in NeRFs as a Stochastic Process"
   links:
     NeurIPS poster session: https://neurips.cc/virtual/2024/poster/95680
+    webpage: https://provnerf.github.io
+    paper: https://arxiv.org/abs/2401.08140
 
 - date: "2024-12-11"
   venue: "NeurIPS"
@@ -66,6 +80,9 @@
   title: "3D Gaussian Splatting as Markov Chain Monte Carlo"
   links:
     NeurIPS poster session: https://nips.cc/virtual/2024/poster/94984
+    webpage: https://ubc-vision.github.io/3dgs-mcmc/
+    paper: https://arxiv.org/abs/2404.09591
+    code: https://github.com/ubc-vision/3dgs-mcmc?tab=readme-ov-file
 
 - date: "2024-12-11"
   venue: "NeurIPS"
@@ -74,6 +91,7 @@
   title: "CRAYM: Neural Field Optimization via Camera RAY Matching"
   links:
     NeurIPS poster session: https://neurips.cc/virtual/2024/poster/93159
+    webpage: http://vcc.tech/research/2024/CRAYM
 
 - date: "2024-06-21"
   venue: "ICML"
