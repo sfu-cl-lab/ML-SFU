@@ -4,7 +4,7 @@
       <h3 class="title" v-if="item.url"><a :href="item.url" target="_blank">{{item.title}}</a></h3>
       <h3 class="title" v-else>
         <!-- <router-link :to="{ name: 'pubs-year-venue', params: { year: item.year, venue: item.venue, title: item.title }}">{{item.title}}</router-link> -->
-        <router-link :to="{ name: 'news-item', params: { id: id }}">{{item.title}}</router-link>
+        <router-link :to="{ name: 'news-item', params: { id: (item.shortname != null) ? item.shortname : index }}">{{item.title}}</router-link>
       </h3>
       <div class="img-wrapper" v-if="item.image">
         <img :src="require(`Content/research/${item.image}`)">
@@ -21,7 +21,7 @@ export default {
     return {
     }
   },
-  props: ['item', 'id']
+  props: ['item', 'index']
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->

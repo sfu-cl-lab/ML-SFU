@@ -17,7 +17,15 @@ export default {
   },
   methods: {
     getItem: function(id) {
-      const item = this.news[id]
+      let news = this.news
+      let item = news[id]
+      if (item == null) {
+        news = news.filter(item => item.shortname === id)
+        item = news[0]
+      }
+      return item ? this.populateItem(item) : null
+    },
+    populateItem: function(item) {
       const pubtypes = ['conference', 'pubs']
       if (pubtypes.indexOf(item.type) >= 0) {
         let filteredPubs = this.pubs

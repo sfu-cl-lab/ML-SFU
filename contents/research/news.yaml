@@ -5,6 +5,7 @@
 #   url: ""
 
 - date: "2024-12-10"
+  shortname: "neurips-2024"
   title: "SFU at NeurIPS 2024"
   venue: "neurips"
   year: 2024
@@ -29,18 +30,21 @@
       organizer: Angel X. Chang
 
 - date: "2024-06-21"
+  shortname: "icml-2024"
   title: "SFU at ICML 2024"
   venue: "icml"
   year: 2024
   type: conference
 
 - date: "2024-05-06"
+  shortname: "iclr-2024"
   title: "SFU at ICLR 2024"
   venue: "iclr"
   year: 2024
   type: conference
 
 - date: "2024-02-23"
+  shortname: "sfu-aaai-ws-2024"
   location: "TASC1 9204"
   title: "SFU AAAI mini-workshop"
   description: "AAAI 2024 is in Vancouver!  We are hosting several visitors from other universities attending AAAI for a mini-workshop at the SFU Burnaby campus."
@@ -63,6 +67,7 @@
       event: Layout Design for Large-Scale Multi-Robot Coordination
 
 - date: "2024-02-04"
+  shortname: "sfu-ubc-vc-2024"
   location: "TASC1 9204"
   title: "SFU-UBC visual computing seminar"
   description: "SFU-UBC Visual Computing Meeting was held at the SFU Burnaby campus (Feb 2nd from 10:00 am-3:00 pm). This special session featured professors and students from the UBC and SFU visual computing community for a day of engaging discussions and networking."
@@ -77,6 +82,7 @@
       event: Talks (Session 3)
 
 - date: "2023-12-10"
+  shortname: "neurips-2023"
   title: "SFU at NeurIPS 2023"
   venue: "neurips"
   year: 2023

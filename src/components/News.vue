@@ -4,7 +4,7 @@
         <div>
           <h2 class="section-title">News and Events</h2>
           <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-            <newsitem class="news" :item="item" v-for="(item,index) in news" :key="index" :id="index"/>
+            <newsitem class="news" :item="item" v-for="(item,index) in news" :key="index" :index="index"/>
           </div>
         </div>
       </section>
