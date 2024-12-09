@@ -13,21 +13,33 @@
   location: Vancouver Convention Center
   html: We will be holding a series of morning talks in parallel with NeurIPS at the SFU downtown campus.  Please see <a class="highlight" href="https://sites.google.com/view/sfu-at-neurips-2024">our event page</a> for details.
   workshops:
+    - title: Women in Machine Learning
+      date: "2024-12-10"
+      url: https://sites.google.com/wimlworkshop.org/wiml-2024      
+      roles: 
+        - name: Angelica Lim
+          title: speaker and panelist
     - title: Creativity & Generative AI
       date: "2024-12-14"
       location: Meeting Room 201
-      url: https://creativity-ai.github.io/      
-      advisor: Nick Vincent
+      url: https://creativity-ai.github.io/
+      roles:
+        - name: Nick Vincent
+          title: advisor
     - title: "Foundation Models for Science: Progress, Opportunities, and Challenges"
       date: "2024-12-15"
       location: Meeting Room 202-204
       url: https://fm-science.github.io/
-      organizer: Wuyang Chen
+      roles:
+        - name: Wuyang Chen
+          title: organizer
     - title: Open-World Agents
       date: "2024-12-15"
       location: Ballroom A&B
       url: https://sites.google.com/view/open-world-agents
-      organizer: Angel X. Chang
+      roles:
+        - name: Angel X. Chang
+          title: organizer
 
 - date: "2024-06-21"
   shortname: "icml-2024"

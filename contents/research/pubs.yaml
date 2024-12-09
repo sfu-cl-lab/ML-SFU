@@ -7,8 +7,23 @@
     - name: Unifying Representations in Neural Models
       url: https://unireps.org/2024/
       shortname: unireps
+    - name: Self-Supervised Learning - Theory and Practice
+      url: https://sslneurips2024.github.io/
+      shortname: ssl
   links:
     paper: https://arxiv.org/abs/2411.13073v1
+
+- date: "2024-12-14"
+  venue: "NeurIPS workshop"
+  year: 2024
+  authors: ["Arash Khoeini", "Shuman Peng", "Martin Ester"]
+  title: "Informed Augmentation Selection Improves Tabular Contrastive Learning"
+  workshops:
+    - name: Self-Supervised Learning - Theory and Practice
+      url: https://sslneurips2024.github.io/
+      shortname: ssl
+  links:
+    paper: https://openreview.net/pdf?id=GFu8qDtVQa
 
 - date: "2024-12-14"
   venue: "NeurIPS workshop"
