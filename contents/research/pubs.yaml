@@ -1,3 +1,15 @@
+- date: "2024-12-15"
+  venue: "NeurIPS workshop"
+  year: 2024
+  authors: ["Ali Izadi", "Martin Ester"]
+  title: "Causal Order Discovery based on Monotonic SCMs"
+  workshops:
+    - name: Causal Representation Learning
+      url: https://crl-community.github.io/neurips24.html
+      shortname: crl
+  links:
+    paper: https://openreview.net/pdf?id=H4HiE54x8f
+
 - date: "2024-12-14"
   venue: "NeurIPS workshop"
   year: 2024
