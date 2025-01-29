@@ -9,6 +9,15 @@
 #   bio: ""
 #   tags: []
 
+- date: "2025-02-07"
+  location: TASC1 9204 12:00pm
+  speaker: "Scott C. Lowe"
+  speakerUrl: "https://scottclowe.com/"
+  speakerInfo: "Postdoctoral research fellow at Vector Institute"
+  speakerPhoto: scott_lowe.jpg
+  title: "BIOSCAN-5M: Multimodal biodiversity monitoring with images and DNA barcodes"
+  abstract: "Measuring biodiversity is crucial for understanding global ecosystem health, especially in the face of anthropogenic environmental changes. Rates of data collection are ever increasing, but access to expert human annotation is limited, making this an ideal use-case for machine learning solutions. We present BIOSCAN-5M, a newly released dataset with 5 million samples of paired images and DNA barcodes which enables multimodal modelling for insect biodiversity data. Harnessing this dataset, we explore closed-world and open-world classification using pretrained encoders, masked-language models trained on the DNA barcodes, and CLIP-style pretraining on the multimodal data."
+  bio: "Scott C. Lowe is a British machine learning researcher based at the Vector Institute, Canada. His work is multidisciplinary, spanning several topics. Recently he has focused on biodiversity monitoring applications, both of insects and ocean habitats; self-supervised learning; reasoning capabilities of LLMs; and symbolic music generation. Previously, he completed his PhD in Neuroinformatics from the University of Edinburgh, and has worked on logic-based activation functions."
 - date: "2024-12-18"
   location: TASC1 9204 12:00pm
   speaker: "Siqi Zhou"
