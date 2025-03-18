@@ -9,11 +9,15 @@
 #   bio: ""
 #   tags: []
 - date: "2025-02-21"
-  location: TASC1 9204 11:00pm
+  location: TASC1 9204 11:00am
   speaker: "Tian Li"
   speakerUrl: "https://litian96.github.io/"
   speakerInfo: "Assistant Professor at the Computer Science Department and the Data Science Institute at the University of Chicago"
   speakerPhoto: tian_li.jpg
+  title: "Tilted Empirical Risk Minimization"
+  abstract: "Exponential tilting is a technique commonly used in fields such as statistics, probability, information theory, and optimization to shift distributions in a controlled manner. In this talk, I introduce its usage in machine learning by exploring the use of tilting in risk minimization. The tilted empirical risk minimization (TERM) framework is a simple extension of ERM, which uses exponential tilting to flexibly tune the impact of individual losses. I motivate the tilted objective from real-world use-cases on addressing representation disparity in federated learning. I describe several useful theoretical properties of TERM including its connections with other non-ERM objectives, and a multitude of applications regarding fair and robust ML. I will conclude the talk by discussing ongoing work on leveraging this framework to improve sharpness-aware optimization, as well as generalization error analysis of TERM." 
+  bio: "Tian Li is an Assistant Professor at the Computer Science Department and Data Science Institute at the University of Chicago. Her research interests are in optimization, trustworthy machine learning, and large-scale learning. She has spent time at Microsoft Research Asia, Google Research, and Meta Foundational AI Research Labs. She was invited to participate in the EECS Rising Stars Workshop, and was recognized as a Rising Star in Machine Learning/Data Science by multiple institutions. Her team won the first place in the Privacy-Enhancing Technologies (PETs) Challenge featured by the White House. She received her PhD in Computer Science from Carnegie Mellon University and BS degrees in Computer Science and Economics from Peking University."
+  video: "https://stream.sfu.ca/Media/Play/2732bfb8c3fd4a6b9adce1c5ff1182891d"
 
 - date: "2025-02-14"
   location: TASC1 9204 12:00pm
@@ -24,6 +28,7 @@
   title: "Controllable 3D Generation"
   abstract: "State-of-the-art generative models enable users to create complex 3D shapes from sparse and partial inputs, such as text or images. These methods, however, still lack wide adoption in the professional artist community due to a lack of precise and rich controls enabled by traditional tools. In this talk I will describe several methods that aim to complement traditional workflows by providing AI-assisted tools to perform tasks that are commonly done by artists, such as iterative sculpting, deformation, detailization and refinement, and material painting. Our techniques especially focus on traditional representations (such as meshes and material maps) to ensure that they can be easily integrated in existing pipelines."
   bio: "Dr. Vladimir (Vova) Kim is a Senior Research Scientist at Adobe Research. He works at the intersection of computer graphics, computer vision, and machine learning, developing techniques that enable novel interfaces for creative tasks. His recent focus is on novel neural representations for geometric data with applications to interactive 3D modeling, geometry analysis, geometry processing, and other content creation workflows. He was a postdoctoral scholar at Stanford University (2013–2015), received his PhD in the Computer Science Department at Princeton University (2008-2013), and his BA in Mathematics and Computer Science at Simon Fraser University (2003-2008). He has been a member of the International Program Committee for SIGGRAPH (2015, 2020, 2023), SIGGRAPH Asia (2022), Symposium on Geometry processing, Eurographics, and regularly reviews for graphics and vision venues, such as Transaction on Graphics, CVPR, ICCV, ECCV, and NeurIPS."
+  video: "https://stream.sfu.ca/Media/Play/1e12b9d7a1384a7f937bbc378706e0a41d"
 
 - date: "2025-02-07"
   location: TASC1 9204 12:00pm
@@ -34,6 +39,8 @@
   title: "BIOSCAN-5M: Multimodal biodiversity monitoring with images and DNA barcodes"
   abstract: "Measuring biodiversity is crucial for understanding global ecosystem health, especially in the face of anthropogenic environmental changes. Rates of data collection are ever increasing, but access to expert human annotation is limited, making this an ideal use-case for machine learning solutions. We present BIOSCAN-5M, a newly released dataset with 5 million samples of paired images and DNA barcodes which enables multimodal modelling for insect biodiversity data. Harnessing this dataset, we explore closed-world and open-world classification using pretrained encoders, masked-language models trained on the DNA barcodes, and CLIP-style pretraining on the multimodal data."
   bio: "Scott C. Lowe is a British machine learning researcher based at the Vector Institute, Canada. His work is multidisciplinary, spanning several topics. Recently he has focused on biodiversity monitoring applications, both of insects and ocean habitats; self-supervised learning; reasoning capabilities of LLMs; and symbolic music generation. Previously, he completed his PhD in Neuroinformatics from the University of Edinburgh, and has worked on logic-based activation functions."
+  video: "https://stream.sfu.ca/Media/Play/08f9ff759f5c474185db044a3e1cc7131d"
+
 - date: "2024-12-18"
   location: TASC1 9204 12:00pm
   speaker: "Siqi Zhou"

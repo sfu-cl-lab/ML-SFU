@@ -1,10 +1,16 @@
 organizers_by_year:
+  - year: 2025
+    terms:
+      - term: Spring
+        main_student_coordinator: Xingguang Yan
+        student_volunteers: Xingguang Yan, Xiaoliang Huo, Jiayi Liu
+        faculty_sponsors: Angel Chang, Manolis Savva, Linyi Li
   - year: 2024
     terms:
       - term: Fall
         main_student_coordinator: Xingguang Yan
         student_volunteers: Xingguang Yan, Chuxuan Zhang, Sai Raj Kishore Perla, Yuzhen Mao, Jiaqi Tan, Dingdong Yang, Mingrui Zhao, Michael Lu
-        faculty_sponsors: Angel Chang, Angelica Lim, Manolis Savva, Andrea Tagliasacchi, Richard Zhang, Jason Peng
+        faculty_sponsors: Angel Chang, Angelica Lim, Manolis Savva, Andrea Tagliasacchi, Richard Zhang, Jason Peng, Ke Li, Oliver Schulte, Mo Chen
       - term: Summer
         main_student_coordinator: Xingguang Yan
         student_volunteers: Ashish Sinha, Yiming Zhang, Yalda Foroutan
@@ -30,4 +36,3 @@ organizers_by_year:
       - term: Fall
         student_volunteers: Julia Read, Payam Nikdel, Qimin Chen, Sachini Herath, Hanxiao Jiang, Sonia Raychaudhuri, Michael Lu, Jiaqi Tan
         faculty_sponsors: Yasu Furukawa, Angel Chang, Manolis Savva, Ke Li, Yagiz Aksoy, Mo Chen, Richard Zhang
-
