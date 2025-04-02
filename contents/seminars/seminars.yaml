@@ -8,6 +8,14 @@
 #   abstract: ""
 #   bio: ""
 #   tags: []
+
+- date: "2025-04-11"
+  location: TASC1 9204 12:00pm
+  speaker: "Roozbeh Mottaghi"
+  speakerUrl: "https://roozbehm.info/"
+  speakerInfo: "Senior AI Research Scientist Manager at Meta Fundamental AI Research (FAIR)"
+  speakerPhoto: roozbeh_mottaghi.jpg
+
 - date: "2025-02-21"
   location: TASC1 9204 11:00am
   speaker: "Tian Li"
@@ -57,7 +65,7 @@
 #   speaker: "Bastian Wandt"
 #   speakerUrl: "https://bastianwandt.de/"
 #   speakerInfo: "Assistant Professor at Linköping University, Sweden"
-#   speakerPhoto: "bastian_wandt.png"
+#   speakerPhoto: "bastian_wandt.jpg"
 #   title: "Human Motion and Dynamics Capture with Limited Data"
 #   abstract: "3D human motion capture has a wide range of applications across society with the most common examples being in movie production, medicine, autonomous driving, and human-robot interaction. In recent years, rapid deep learning-driven advances in research have translated directly into commercial products. Despite significant advancements in deep learning-based research leading to successful commercialization, major challenges remain for the data-hungry machine learning approaches. Arguably the most important problem is the lack of training data covering the whole variety of human motions; it is even questionable whether such data can ever be recorded. This talk will present several solutions for monocular human motion capture that side-step the problem of missing data using weakly- or unsupervised machine learning techniques in conjunction with geometric modeling. It will also give an outlook on future applications in motion analysis by capturing human dynamics involving forces and torques inside and on the human body."
 #   bio: "Bastian Wandt received his M.Sc. and Dr.-Ing. degree from the Leibniz University of Hannover in 2014 and 2020. From 2021 to 2022 he worked as a PostDoc at the University of British Columbia in Vancouver, Canada. His PostDoc research was partially funded by the German Research Foundation (DFG) under the Walter Benjamin scholarship. Since September 2022 he is an assistant professor at the Linköping University, Sweden. He is a fellow of WASP, Sweden’s largest research program."
