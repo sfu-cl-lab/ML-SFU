@@ -8,6 +8,18 @@
 
     <section class="sayings content-section">
       <div>
+        <div style="display:flex; justify-content:space-around;">
+          <el-card>
+            <a href="../#/news"><h2 class="link-title">Recent News</h2></a>
+            <newsitem class="news" :item="news[0]" :index="0"/>
+          </el-card>
+          <el-card>
+            <a href="../#/seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
+            <seminar class="news" :seminar="seminars[0]" :index="0"/>
+          </el-card>
+        </div>
+      </div>
+      <div>
         <h2 class="section-title">{{generalConfs.section_one.name}}</h2>
         <div style="display:flex; justify-content:space-around;">
           <el-card class="why-sfu" v-for="(item,index) in generalConfs.section_one.cards" :key="index">
@@ -15,7 +27,6 @@
           </el-card>
         </div>
       </div>
-      <a href="../#/seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
     </section>
 
     <section class="people content-section">
@@ -54,22 +65,39 @@
 import homeprof from './HomeProf.vue'
 import homelab from './HomeLab.vue'
 import dataConfig from '../assets/data.json'
+import newsitem from './NewsItem.vue'
+import seminar from './SeminarPreview.vue'
+
+const now = new Date().getTime()
+dataConfig.seminars.forEach(s => {
+  s._date = new Date(s.date)
+  s._millisecs = Date.parse(s.date)
+  s._millisecs_daylater = s._millisecs + 86400000
+})
+
 export default {
   name: 'home',
   data() {
+    const pastSeminars = dataConfig.seminars.filter(s => s._millisecs_daylater <= now)
+    const futureSeminars = dataConfig.seminars.filter(s => s._millisecs_daylater > now).sort((a, b) => a._millisecs - b._millisecs)
+    const featuredSeminars = (futureSeminars.length > 0) ? futureSeminars : pastSeminars
     return {
       labConfs: dataConfig.labs,
       carouselConfs: dataConfig.carousel,
       profConfs: dataConfig.people,
       affiliatedConfs: dataConfig.affiliated,
-      generalConfs: dataConfig.general
+      generalConfs: dataConfig.general,
+      news: dataConfig.news,
+      seminars: featuredSeminars
     }
   },
   computed: {
   },
   components: {
     'homeprof': homeprof,
-    'homelab': homelab
+    'homelab': homelab,
+    'newsitem': newsitem,
+    'seminar': seminar
   },
   mounted() {
   }
