@@ -14,8 +14,40 @@
       date: "2025-04-28"
   links:
     paper: https://arxiv.org/abs/2502.18405
-    
-- date: "2025-01-23"
+
+- date: "2025-04-27"
+  venue: "ICLR workshop"
+  year: 2025
+  authors: ["Tony Shen", "Seonghwan Seo", "Ross Irwin", "Kieran Didi", "Simon Olsson", "Woo Youn Kim", "Martin Ester"]
+  title: "Compositional Flows for 3D Molecule and Synthesis Pathway Co-design"
+  workshops:
+    - name: Generative and Experimental Perspectives for Biomolecular Design
+      url: https://www.gembio.ai/
+      shortname: gembio
+      date: "2025-04-27"
+    - name: AI for Accelerated Materials Design
+      url: https://sites.google.com/view/ai4mat/home
+      shortname: ai4mat
+      date: "2025-04-28"
+  links:
+    paper: https://www.arxiv.org/abs/2504.08051
+
+- date: "2025-04-28"
+  venue: "ICLR workshop"
+  year: 2025
+  authors: ["Mauricio Soroco", "Jialin Song", "Mengzhou Xia", "Kye Emond", "Weiran Sun", "Wuyang Chen"]
+  title: "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs"
+  workshops:
+    - name: Reasoning and Planning for Large Language Models
+      url: https://workshop-llm-reasoning-planning.github.io/
+      shortname: llm-reasoning-planning
+      date: "2025-04-28"
+  links:
+    webpage: https://pde-controller.github.io/
+    paper: https://openreview.net/pdf?id=e6XPWeOxAy
+
+
+- date: "2025-04-24"
   venue: "ICLR"
   year: 2025
   authors: ["Daniel Watson", "Saurabh Saxena", "Lala Li", "Andrea Tagliasacchi", "David J. Fleet"]
@@ -23,7 +55,7 @@
   links:
     paper: https://openreview.net/pdf?id=d2UrCGtntF
 
-- date: "2025-01-23"
+- date: "2025-04-24"
   venue: "ICLR"
   year: 2025
   authors: ["Sherwin Bahmani", "Ivan Skorokhodov", "Aliaksandr Siarohin", "Willi Menapace", "Guocheng Qian", "Michael Vasilkovsky", "Hsin-Ying Lee", "Chaoyang Wang", "Jiaxu Zou", "Andrea Tagliasacchi", "David B. Lindell", "Sergey Tulyakov"]
@@ -32,7 +64,7 @@
     webpage: https://snap-research.github.io/vd3d/
     paper: https://arxiv.org/abs/2407.12781
 
-- date: "2025-01-23"
+- date: "2025-04-26"
   venue: "ICLR"
   year: 2025
   authors: ["Jiayi Liu", "Denys Iliash", "Angel X. Chang", "Manolis Savva", "Ali Mahdavi-Amiri"]
@@ -42,7 +74,7 @@
     paper: https://arxiv.org/pdf/2410.16499
     code: https://github.com/3dlg-hcvc/singapo
 
-- date: "2025-01-23"
+- date: "2025-04-25"
   venue: "ICLR"
   year: 2025
   authors: ["Han-Hung Lee*", "Yiming Zhang*", "Angel X Chang"]
@@ -52,7 +84,7 @@
     paper: https://arxiv.org/pdf/2406.11579
     code: https://github.com/3dlg-hcvc/DuoduoCLIP
 
-- date: "2025-01-23"
+- date: "2025-04-24"
   venue: "ICLR"
   year: 2025
   authors: ["Zhengqing Wang", "Jiacheng Chen", "Yasutaka Furukawa"]
@@ -62,7 +94,7 @@
     paper: https://arxiv.org/pdf/2406.00259
     code: https://github.com/eric-zqwang/puzzlefusion-plusplus
 
-- date: "2025-01-23"
+- date: "2025-04-24"
   venue: "ICLR"
   year: 2025
   authors: ["Dingdong Yang", "Yizhi Wang", "Konrad Schindler", "Ali Mahdavi Amiri", "Hao Zhang"]
@@ -71,7 +103,7 @@
     webpage: https://santisy.github.io/GALA/
     paper: https://openreview.net/pdf?id=KYOdZRR6nr
 
-- date: "2025-01-22"
+- date: "2025-04-26"
   venue: "ICLR"
   year: 2025
   authors: ["ZeMing Gong", "Austin T. Wang", "Xiaoliang Huo", "Joakim Bruslund Haurum","Scott C. Lowe", "Graham W. Taylor", "Angel X. Chang"]
@@ -81,7 +113,7 @@
     paper: https://arxiv.org/pdf/2405.17537
     code: https://github.com/bioscan-ml/clibd
 
-- date: "2025-01-22"
+- date: "2025-04-25"
   venue: "ICLR"
   year: 2025
   authors: ["Amir Alimohammadi", "Sauradip Nag", "Saeid Asgari Taghanaki", "Andrea Tagliasacchi", "Ghassan Hamarneh", "Ali Mahdavi-Amiri"]
@@ -91,7 +123,7 @@
     paper: https://arxiv.org/abs/2410.18538
     code: https://github.com/alimohammadiamirhossein/smite
 
-- date: "2025-01-22"
+- date: "2025-04-25"
   venue: "ICLR"
   year: 2025
   authors: ["Jingxuan Xu", "Wuyang Chen", "Linyi Li", "Yao Zhao", "Yunchao Wei"]
@@ -99,6 +131,37 @@
   links:
     paper: https://arxiv.org/pdf/2410.04472
     code: https://github.com/Xujxyang/Fairness-NC-main
+
+- date: "2025-04-25"
+  venue: "ICLR"
+  year: 2025
+  authors: ["Seungeun Rho", "Laura Smith", "Tianyu Li", "Sergey Levine", "Xue Bin Peng", "Sehoon Ha"]
+  title: "Language Guided Skill Discovery"
+  links:
+    webpage: https://seungeunrho.github.io/projects/LGSD/
+    paper: https://arxiv.org/abs/2406.06615
+    
+- date: "2025-04-25"
+  venue: "ICLR"
+  year: 2025
+  authors: ["Guy Tevet", "Sigal Raab", "Setareh Cohan", "Daniele Reda", "Zhengyi Luo", "Xue Bin Peng", "Amit Bermano", "Michiel van de Panne"]
+  title: "CLoSD: Closing the Loop between Simulation and Diffusion for multi-task character control"
+  links:
+    webpage: https://guytevet.github.io/CLoSD-page/
+    paper: https://arxiv.org/abs/2410.03441
+    code: https://github.com/GuyTevet/CLoSD
+
+- date: "2025-04-25"
+  venue: "ICLR"
+  year: 2025
+  authors: ["Jiacheng Chen", "Tianhao Liang", "Sherman Siu", "Zhengqing Wang", "Kai Wang", "Yubo Wang", "Yuansheng Ni", "Ziyan Jiang", "Wang Zhu", "Bohan Lyu", "Dongfu Jiang", "Xuan He", "Yuan Liu", "Hexiang Hu", "Xiang Yue", "Wenhu Chen"]
+  title: "MEGA-Bench: Scaling Multimodal Evaluation to over 500 Real-World Tasks"
+  links:
+    webpage: https://tiger-ai-lab.github.io/MEGA-Bench/
+    paper: https://arxiv.org/abs/2410.10563
+    code: https://github.com/TIGER-AI-Lab/MEGA-Bench
+    data: https://huggingface.co/datasets/TIGER-Lab/MEGA-Bench
+
 
 - date: "2024-12-15"
   venue: "NeurIPS workshop"
