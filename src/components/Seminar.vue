@@ -13,9 +13,15 @@
     </div>
     <div>
         <br/>
-        <div class="text" v-if="seminar.abstract"><b>Abstract:</b> {{seminar.abstract}}</div>
+        <div class="text" v-if="seminar.abstract"><b>Abstract:</b>
+          <span v-if="seminar.html" v-html="seminar.abstract"></span>
+          <span v-else>{{seminar.abstract}}</span>
+        </div>
         <br/>
-        <div class="text" v-if="seminar.bio"><b>Speaker info:</b> {{seminar.bio}}</div>
+        <div class="text" v-if="seminar.bio"><b>Speaker info:</b>
+          <span v-if="seminar.html" v-html="seminar.bio"></span>
+          <span v-else>{{seminar.bio}}</span>
+        </div>
     </div>
     <div style="margin-top:1em;" v-if="seminar.video">
       <a target="_blank" :href="seminar.video">

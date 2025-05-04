@@ -9,6 +9,18 @@
 #   bio: ""
 #   tags: []
 
+- date: "2025-05-09"
+  location: TASC1 9204 12:00pm
+  speaker: "Maleknaz Nayebi"
+  speakerUrl: "https://lassonde.yorku.ca/users/mnayebi"
+  speakerInfo: "Associate Professor at York University"
+  speakerPhoto: maleknaz_nayebi.jpg
+  title: Machines Multimodal Learning from Generic Problem Descriptions to Design Better Software
+  html: true
+  abstract: Modern software development is increasingly data-rich but context-poor—particularly in its early stages, where the goal is to define problems rather than simply solve them. Although developers have access to vast repositories of community knowledge machine learning models still struggle to generalize across domains or respond to novel user needs without the crutch of large, labeled datasets. This challenge is especially pronounced in requirements engineering, where understanding user intent across diverse modalities—including text, visuals, and regulatory artifacts—is critical. <p> In this talk, I introduce Discovery-Driven Learning (DDL), a methodology aimed at improving machine comprehension of generic and often ambiguous problem descriptions, without relying on memorized or narrowly scoped training data. Grounded in the principles of READI (Reading-based Extraction and Analysis of Design Intent), our approach combines multimodal grounding, language-conditioned policy learning, and just-in-time reasoning to teach machines how to interpret requirements from textual, visual, and structural inputs. <p> This need for generalizability becomes even more pressing in the earlier phases of development, where traditional elicitation and inception techniques fall short of scaling across application domains. I will present how our research addresses this gap by enabling more adaptable, explainable, and human-in-the-loop-friendly AI systems. The talk will highlight real-world applications in digital health, aviation, emergency response, and software automation—demonstrating how DDL can power the next generation of intelligent co-pilots in software engineering and beyond.
+  bio: "Maleknaz Nayebi is an Associate Professor at York University in Toronto, where she leads a research lab focused on automated techniques that bridge the requirements gap—enhancing software development practices and deepening our understanding of user needs. She completed her PhD at the University of Calgary, followed by a postdoctoral fellowship at the University of Toronto, before joining York as faculty in 2018. <p> Her research, particularly impactful in healthcare, is published in top-tier venues and has been supported by multiple funding agencies. In recognition of her contributions to software engineering, Nayebi received the prestigious IEEE TCSE Award at the 2023 Requirements Engineering Conference. She was also invited by NSERC to serve on the Computer Science Evaluation Group—a distinction reserved for select researchers across Canada. <p> Currently, she serves as the Application Chair for the NSERC Discovery Evaluation Group (1507 – Computer Science) and as Associate Director of CIFAL York. Her leadership extends to several interdisciplinary initiatives: she is a board member of the York Centre for Feminist Research (CFR), the Centre for Innovation in Computing at Lassonde (IC@L), and Y-EMERGE (York Emergency Mitigation, Engagement, Response, and Governance Institute), and an active member of Connected Minds and York’s Center of AI for Society. To date, Nayebi has secured 16 research grants as a principal investigator or co-investigator."
+
+
 - date: "2025-04-11"
   location: TASC1 9204 11:00am
   speaker: "Roozbeh Mottaghi"
