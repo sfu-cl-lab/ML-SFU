@@ -1,3 +1,21 @@
+- date: "2025-05-28"
+  venue: "ICML"
+  year: 2025
+  authors: ["Sharan Vaswani", "Reza Babanezhad"]
+  title: "Armijo Line-search Can Make (Stochastic) Gradient Descent Go Fast"
+  links:
+    paper: https://arxiv.org/abs/2503.00229
+
+
+- date: "2025-05-28"
+  venue: "ICML"
+  year: 2025
+  authors: ["Tony Shen", "Seonghwan Seo", "Ross Irwin", "Kieran Didi", "Simon Olsson", "Woo Youn Kim", "Martin Ester"]
+  title: "Compositional Flows for 3D Molecule and Synthesis Pathway Co-design"
+  links:
+    paper: https://arxiv.org/abs/2504.08051
+    code: https://github.com/tsa87/cgflow
+
 - date: "2025-04-27"
   venue: "ICLR workshop"
   year: 2025
