@@ -4,6 +4,13 @@
 #   image: ""
 #   url: ""
 
+- date: "2025-05-29"
+  shortname: "icml-2025"
+  title: "SFU at ICML 2025"
+  venue: "icml"
+  year: 2025
+  type: conference
+
 - date: "2025-04-21"
   shortname: "iclr-2025"
   title: "SFU at ICLR 2025"

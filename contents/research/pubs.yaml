@@ -16,6 +16,16 @@
     paper: https://arxiv.org/abs/2504.08051
     code: https://github.com/tsa87/cgflow
 
+- date: "2025-05-28"
+  venue: "ICML"
+  year: 2025
+  authors: ["Mauricio Soroco", "Jialin Song", "Mengzhou Xia", "Kye Emond", "Weiran Sun", "Wuyang Chen"]
+  title: "PDE-Controller: LLMs for Autoformalization and Reasoning of PDEs"
+  links:
+    webpage: https://pde-controller.github.io/
+    paper: https://arxiv.org/abs/2502.00963
+    code: https://github.com/delta-lab-ai/pde-controller
+
 - date: "2025-04-27"
   venue: "ICLR workshop"
   year: 2025
