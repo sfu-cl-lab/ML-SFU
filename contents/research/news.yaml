@@ -18,6 +18,14 @@
   year: 2025
   type: conference
 
+- date: "2025-02-27"
+  shortname: "aaai-2025"
+  title: "SFU faculty highlights at AAAI 2025"
+  venue: "aaai"
+  year: 2025
+  type: conference
+  html: Two of our new faculty, <a href="https://linyil.com/">Linyi Li</a> and <a href="https://chenwydj.github.io/">Wuyang Chen</a>, are presenting at the <a class="highlight" href="https://aaai.org/conference/aaai/aaai-25/new-faculty-highlights-program/">AAAI new faculty highlights</a>
+
 - date: "2024-12-10"
   shortname: "neurips-2024"
   title: "SFU at NeurIPS 2024"
