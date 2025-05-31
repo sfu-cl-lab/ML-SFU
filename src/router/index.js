@@ -32,6 +32,11 @@ export default new Router({
       component: Seminars
     },
     {
+      path: '/seminar/:key',
+      name: 'seminars-by-key',
+      component: Seminars
+    },
+    {
       path: '/news',
       name: 'news',
       component: News

@@ -24,7 +24,11 @@ export default {
   },
   computed: {
     selectedSeminars() {
-      return this.getSeminars(this.$route.params.date)
+      if (this.$route.params.key != null) {
+        return this.getSeminarsByKey(this.$route.params.key)
+      } else {
+        return this.getSeminars(this.$route.params.date)
+      }
     }
   },
   methods: {
@@ -32,6 +36,9 @@ export default {
       // date should be string YYYYMMDD
       const stripped = date.replaceAll('-', '')
       return this.seminars.filter(s => s.date.replaceAll('-', '').startsWith(stripped))
+    },
+    getSeminarsByKey: function(key) {
+      return this.seminars.filter(s => s.key === key)
     }
   },
   components: {

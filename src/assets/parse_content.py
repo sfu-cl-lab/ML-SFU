@@ -1,5 +1,6 @@
 from os import listdir
 from os.path import isfile, join
+import re
 import json
 import yaml
 
@@ -30,7 +31,13 @@ def parse_pubs():
 
 
 def parse_seminars():
-    return yaml.safe_load(open('{}/seminars/seminars.yaml'.format(CONTENT_PATH)))
+    seminars = yaml.safe_load(open('{}/seminars/seminars.yaml'.format(CONTENT_PATH)))
+    for sem in seminars:
+        speaker = re.sub(r"\([^)]*\)", "", sem["speaker"].lower())
+        speaker = speaker.replace(' ', '_')
+        date = re.sub("-", "", sem["date"])
+        sem["key"] = date + '-' + speaker
+    return seminars
 
 
 def parse_seminar_info():
