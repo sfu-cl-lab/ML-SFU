@@ -10,11 +10,11 @@
       <div>
         <div style="display:flex; justify-content:space-around;">
           <el-card>
-            <a href="../#/news"><h2 class="link-title">Recent News</h2></a>
+            <a href="../news"><h2 class="link-title">Recent News</h2></a>
             <newsitem class="news" :item="news[0]" :index="0"/>
           </el-card>
           <el-card>
-            <a href="../#/seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
+            <a href="../seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
             <seminar class="news" :seminar="seminars[0]" :index="0"/>
           </el-card>
         </div>

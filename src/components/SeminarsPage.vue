@@ -31,6 +31,15 @@
         </seminar>
       </div>
       <h3 id="past-seminars" class="section-title">Past seminars</h3>
+      <br/>
+      <span v-for="year in pastSeminarYears" :key="year">
+        <a :href="'#seminars-' + year">
+          <el-button>
+            {{year}}
+          </el-button>
+        </a>
+      </span>
+
       <div :id="'seminars-' + year" v-for="year in pastSeminarYears" :key="'seminars-' + year">
         <h4 class="year-title" v-if="year != currentYear">{{ year }}</h4>
         <div style="justify-content: center; flex-wrap: wrap;">

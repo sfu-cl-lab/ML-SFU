@@ -10,6 +10,7 @@ import SeminarsPage from '@/components/SeminarsPage'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
