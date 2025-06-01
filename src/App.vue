@@ -6,7 +6,7 @@
       </div>
       <div class="header-title">
         <div>
-          <div>{{general.sub_title}}</div>
+          <div><a :href="general.sub_title_link">{{general.sub_title}}</a></div>
           <div style="font-size:1.3em;font-weight:700;color:#444;">{{general.main_title}}</div>
         </div>
       </div>
