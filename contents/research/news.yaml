@@ -10,6 +10,8 @@
   venue: "icml"
   year: 2025
   type: conference
+  location: Vancouver Convention Center
+  html: We will be holding two workshops at the beginning and end of ICML at the SFU downtown campus.  Both events will feature exciting talks by speakers.  Come and join us! <br/><h3 class="section-title">Events</h3><article class="pub"><ul class="list"><li><b>July 14th</b> - <a class="highlight" href="https://sites.google.com/view/vancouver-icml2025/">Vancouver Vision and Learning workshop</a> (co-organized between SFU, UBC, and Vector Institute)</li><li><b>July 21th</b> - <a class="highlight" href="https://sites.google.com/view/sfu-at-icml-2025/sfuicml2025">SFU post-ICML workshop</a></ul></article>.
 
 - date: "2025-04-21"
   shortname: "iclr-2025"

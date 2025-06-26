@@ -158,4 +158,9 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
+ul.list {
+  list-style: inside;
+  line-height: 1.5;
+  text-align: left;
+}
 </style>
