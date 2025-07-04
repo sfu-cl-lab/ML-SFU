@@ -9,6 +9,16 @@
 #   bio: ""
 #   tags: []
 
+- date: "2025-07-18"
+  location: TASC1 9204 12:00pm
+  speaker: "Ajmal Mian"
+  speakerUrl: "https://ajmalsaeed.net/"
+  speakerInfo: "Professor of Computer Science at University of Western Australia"
+  speakerPhoto: ajmal_saeed_mian.jpg
+  title: 3D scene reconstruction, generation and understanding
+  abstract: "In this talk, I will present datasets, methods, and code developed in our lab to support research in 3D computer vision. I will begin with a brief overview of our current research projects, and then focus on one project centered around 3D scene reconstruction, generation, and understanding. I will introduce our CUDA-based deep learning library designed for 3D surface parsing. This library features mesh-specific convolutional operations and a parallel algorithm for mesh decimation. Next, I will discuss our work on sketch-conditioned 3D object and indoor scene generation, where we leverage external knowledge to improve scene realism and coherence. While text and images are commonly used as inputs for 3D generation, we argue that hand-drawn sketches offer more intuitive alignment with user intent. I will also touch on the unique challenges of outdoor 3D scene generation, which suffers from greater complexity and data scarcity. To address this, our lab has released several large-scale city-level 3D LiDAR datasets, which support outdoor scene generation and understanding. Finally, I will present our approach for generating outdoor 3D point clouds from hand-drawn bird’s-eye-view sketches. To enable this, we align terrestrial LiDAR point clouds with satellite imagery and process the satellite views to produce sketch-like renderings suitable for training the generative model."
+  bio: "Ajmal Mian is a Professor of Computer Science at The University of Western Australia. He has received three esteemed national fellowships from the Australian Research Council. He is Fellow of the International Association for Pattern Recognition, Distinguished Speaker of the Association for Computing Machinery, and former President of the Australian Pattern Recognition Society. Ajmal Mian has been honoured with awards like the West Australian Early Career Scientist of the Year (2012) and Mid-Career Scientist of the Year (2022). He is the lead Investigator on several AI projects from the Australian Research Council and the Australian Department of Defence. He was also the lead Australian PI on two DARPA projects. He has served as a Senior Editor for the IEEE Transactions on Neural Networks and Learning Systems and Associate Editor of IEEE Transactions on Image Processing, Pattern Recognition and IET Computer Vision. He has supervised 36 PhD students to completion, mentored 12 postdoctoral fellows and published over 350 scientific papers."
+
 - date: "2025-07-10"
   location: TASC1 9204 12:00pm
   speaker: "Evan Shelhamer"
