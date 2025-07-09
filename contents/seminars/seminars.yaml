@@ -9,6 +9,24 @@
 #   bio: ""
 #   tags: []
 
+- date: "2025-09-05"
+  location: TASC1 9204
+  speaker: Mathias Lécuyer
+  speakerUrl: https://mathias.lecuyer.me/
+  speakerPhoto: mathias_lecuyer.jpg
+
+- date: "2025-08-15"
+  location: TASC1 9204
+  speaker: Minhyuk Sung
+  speakerUrl: https://mhsung.github.io/
+  speakerPhoto: minhyuk_sung.jpg
+
+- date: "2025-08-15"
+  location: TASC1 9204
+  speaker: Chenxi Liu
+  speakerUrl: https://chenxil21.github.io/
+  speakerPhoto: chenxi_liu.jpg
+
 - date: "2025-07-18"
   location: TASC1 9204 12:00pm
   speaker: "Ajmal Mian"
