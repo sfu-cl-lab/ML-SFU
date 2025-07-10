@@ -1,3 +1,15 @@
+- date: "2025-07-18"
+  venue: "ICML workshop"
+  year: 2025
+  authors: ["Jialin Lu", "Kye Emond", "Weiran Sun", "Wuyang Chen"]
+  title: "Lean Finder: Semantic Search for Mathlib That Understands User Intents" 
+  workshops:
+    - name: AI for Math
+      url: https://sites.google.com/view/ai4mathworkshopicml2025/
+      shortname: ai4math
+      date: "2025-04-27"
+
+
 - date: "2025-05-28"
   venue: "ICML"
   year: 2025
