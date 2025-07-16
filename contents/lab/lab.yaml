@@ -1,16 +1,21 @@
-- labName: "Robotics Lab"
+- labName: "Robotics Group"
   picPath: "autonomy.jpg"
-  description: "The Robotic Lab bring together SFU researchers in many robotic disciplines, including, multi-agent coordination, safe navigation, reinforcement learning, human-robot interactions, manipulation, human-centric AI, and affective computing."
+  description: "The Robotic Group bring together SFU researchers in many robotic disciplines, including, multi-agent coordination, safe navigation, reinforcement learning, human-robot interactions, manipulation, human-centric AI, and affective computing."
   url: "http://robotics.sfu.ca/"
+
+- labName: "GrUVi Group"
+  picPath: "gruvi-family-2014.jpg"
+  description: "We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, geometric and image-based modelling, machine learning, natural phenomenon, and shape analysis."
+  url: "http://gruvi.cs.sfu.ca/"
 
 - labName: "Natural Language Lab"
   picPath: "natlang.jpg"
   description: "Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language."
   url: "http://natlang.cs.sfu.ca/"
 
-- labName: "MIA Research Group"
+- labName: "MIA Lab"
   picPath: "Hamarneh.jpg"
-  description: "Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
+  description: "We are the Medical Image Analysis (MIA) lab.  Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
   url: "http://www.cs.sfu.ca/~hamarneh"
 
 - labName: "Libbrecht Research Lab"
@@ -43,7 +48,3 @@
   description: "Our lab also investigates emerging applications of information systems posing new database systems challenges such as on-demand map generation and focused web crawlers. The challenges of on-demand map generation, for example, are the complexity of map generalization operations and the ill-defined notion of the quality of the resulting maps. "
   url: "http://www.sfu.ca/computing/labs/ddm.html"
 
-- labName: "GrUVi Lab"
-  picPath: "gruvi-family-2014.jpg"
-  description: "We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, geometric and image-based modelling, machine learning, natural phenomenon, and shape analysis."
-  url: "http://gruvi.cs.sfu.ca/"
