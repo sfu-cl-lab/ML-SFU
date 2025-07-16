@@ -13,11 +13,20 @@
   description: "Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
   url: "http://www.cs.sfu.ca/~hamarneh"
 
-- labName: "Libbercht Research Lab"
-  picPath: "Libbercht.jpg"
+- labName: "Libbrecht Research Lab"
+  picPath: "Libbrecht.jpg"
   description: "Our research group develops and applies machine learning methods for genomics. We apply these methods to various types of biological data sets, including DNA sequences, epigenetic data such as ChIP-seq and ATAC-seq and single cell data such as flow cytometry and single cell genomics. Our methods are focused on probabilistic graphical models, deep neural networks and convex and submodular optimization."
   url: "https://www.libbrechtlab.com/"
 
+- labName: "Delta Lab"
+  picPath: "delta.jpg"
+  description: "Our lab designs and develops deep learning models using principles from physics and deep learning.  Our group is broadly interested in LLM, computer vision, model efficiency, self-supervised learning, automated machine learning (AutoML), and related topics."
+  url: "https://delta-lab-ai.github.io/"
+
+- labName: "TAI Lab"
+  picPath: "tai.png"
+  description: "We are the Trustworthy AI (TAI) Lab. Our research aims to advance the general trustworthiness of artificial intelligence, with a focus on deep learning models empowering the state-of-the-art genAI such as language models. Our mission is to deliver AI technologies that are reliably aligned with human values, so as to minimize the negative impacts of powerful AI."
+  url: "https://sfu-tai.github.io/"
 
 # - labName: "Vision and Media Lab"
 #   picPath: "vml.jpg"
