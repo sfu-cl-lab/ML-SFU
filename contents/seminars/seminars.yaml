@@ -16,10 +16,15 @@
   speakerPhoto: mathias_lecuyer.jpg
 
 - date: "2025-08-15"
-  location: TASC1 9204
-  speaker: Minhyuk Sung
-  speakerUrl: https://mhsung.github.io/
+  location: TASC1 9204 12:00pm
+  speaker: "Minhyuk Sung"
+  speakerUrl: "https://mhsung.github.io/"
+  speakerInfo: "Associate Professor in the School of Computing at KAIST"
   speakerPhoto: minhyuk_sung.jpg
+  title: Inference-Time Guided Generation Using Diffusion and Flow models
+  html: true
+  abstract: "Recent breakthroughs in generative AI have transformed the creative process, making it easier than ever to generate realistic images and videos. While the quality of generated outputs has reached unprecedented levels of realism, the current challenge lies in improving controllability and alignment with user preferences. To address this, recent advancements in LLMs have shifted the focus beyond scaling training data and model size to scaling inference-time computation, as demonstrated by the AGI-level performance of models like GPT-4o and DeepSeek. In this talk, I will discuss inference-time generation techniques for guided image and video synthesis. Specifically, I will introduce particle sampling approaches that leverage the stochastic nature of the generative process, branching the generation trajectory to scale up and search for the desired output, albeit at the cost of increased inference-time computation. I will highlight their capabilities, limitations, and potential future directions."
+  bio: "Minhyuk Sung is an Associate Professor in the School of Computing at KAIST, affiliated with the Graduate Schools of AI and Metaverse. Previously, he was a Research Scientist at Adobe Research. He earned his Ph.D. from Stanford University under Prof. Leonidas J. Guibas. His research focuses on generating, manipulating, and analyzing various visual data, including images, videos, and 3D data. He has served on program committees for SIGGRAPH Asia (2022–2025), Eurographics (2022, 2024–2025), Pacific Graphics (2023, 2025), ICCV (2025), ICLR (2025), NeurIPS (2025), and AAAI (2023, 2024). He received the Asia Graphics Young Researcher Award in 2024."
 
 - date: "2025-08-15"
   location: TASC1 9204
