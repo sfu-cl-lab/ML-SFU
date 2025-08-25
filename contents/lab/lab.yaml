@@ -8,6 +8,11 @@
   description: "We are an inter-disciplinary team of researchers working in visual computing, in particular, computer graphics and computer vision. Current areas of focus include 3D and robotic vision, 3D printing and content creation, animation, AR/VR, geometric and image-based modelling, machine learning, natural phenomenon, and shape analysis."
   url: "http://gruvi.cs.sfu.ca/"
 
+- labName: "3DLG Group"
+  picPath: "3dlg.jpg"
+  description: "The 3DLG group (3D, Language, Generation) focuses on research involving 3D representations, natural language, and 3D content generation."
+  url: "https://3dlg-hcvc.github.io/"  
+
 - labName: "Natural Language Lab"
   picPath: "natlang.jpg"
   description: "Our lab has a particular focus on research into statistical machine translation and the visual and textual summarization of information contained in natural language."

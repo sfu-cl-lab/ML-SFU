@@ -137,6 +137,15 @@
                 &#8226; Large language models<br>
                 &#8226; Software engineering<br>"
 
+- name: "Siqi Zhou"
+  url: "https://siqizhou.com/"
+  labUrl: ""
+  picPath: "SiqiZhou.jpg"
+  description: "&#8226; Robotics<br>
+                &#8226; Machine Learning<br>
+                &#8226; Control Theory<br>
+                &#8226; Multi-Robot Coordination<br>"
+
 - name: "Richard Vaughan"
   url: "https://rtv.github.io/"
   labUrl: "http://autonomy.cs.sfu.ca/"

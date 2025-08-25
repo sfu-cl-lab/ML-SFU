@@ -51,7 +51,7 @@
 
     <section class="lab content-section">
       <div>
-        <h2 class="section-title">LABS</h2>
+        <h2 class="section-title">GROUPS / LABS</h2>
       </div>
       <div style="display: flex; justify-content: flex-start; flex-wrap: wrap;">
         <homelab class="lab" :lab-conf="item" v-for="(item, index) in labConfs" :key="index">
