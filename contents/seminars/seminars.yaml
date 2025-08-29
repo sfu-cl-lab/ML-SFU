@@ -10,10 +10,14 @@
 #   tags: []
 
 - date: "2025-09-05"
-  location: TASC1 9204
+  location: TASC1 9204 12:00pm
   speaker: Mathias Lécuyer
   speakerUrl: https://mathias.lecuyer.me/
   speakerPhoto: mathias_lecuyer.jpg
+  title: Adversarial Robustness and Privacy Measurements using Hypothesis-tests.
+  html: true
+  abstract: "ML theory usually considers model behaviour in expectation. In practical AI deployments however, we often expect models to be robust to adversarial perturbations, in which a user applies deliberate changes to on input to influence the prediction a target model. For instance, such attacks have been used to jailbreak aligned foundation models out of their normal behaviour. Given the complex models that we now deploy, how can we enforce such robustness properties while keeping model flexibility and utility?<br/>I will present recent work on Adaptive Randomized Smoothing (ARS), an approach we developed to certify the predictions of test-time adaptive models against adversarial examples. ARS extends the analysis of randomized smoothing using f-Differential Privacy, to certify the adaptive composition of multiple steps during model prediction. We show how to instantiate ARS on deep image classification to certify predictions against adversarial examples of bounded L∞ norm.<br/>If time permits, I will also connect f-Differential Privacy's hypothesis testing view of privacy to the audit of data leakage in large AI models. Specifically, I will discuss a new data leakage measurement technique we developed, that does not require access to in-distribution non-member data. This is particularly important in the age of foundation models, often trained on all available data at a given time. It is also related to recent efforts in detecting data use in large AI models, a timely question at the intersection of AI and intellectual property."
+  bio: Mathias Lécuyer is an Assistant Professor at the University of British Columbia. He works on trustworthy AI, on topics ranging from privacy, robustness, explainability, and causality, with a specific focus on applications that provide rigorous guarantees. Recent impactful contributions include the first scalable defence against adversarial examples with provable guarantees (now called randomized smoothing), as well as system support for differential privacy accounting, for which he received a Google Research Scholar award.
 
 - date: "2025-08-15"
   location: TASC1 9204 12:00pm
