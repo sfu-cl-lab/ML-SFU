@@ -13,6 +13,7 @@
   location: TASC1 9204 12:00pm
   speaker: Mathias Lécuyer
   speakerUrl: https://mathias.lecuyer.me/
+  speakerInfo: Assistant Professor at the University of British Columbia   
   speakerPhoto: mathias_lecuyer.jpg
   title: Adversarial Robustness and Privacy Measurements using Hypothesis-tests.
   html: true
@@ -35,6 +36,7 @@
   location: TASC1 9204
   speaker: Chenxi Liu
   speakerUrl: https://chenxil21.github.io/
+  speakerInfo: "Postdoctoral researcher in the Dynamic Graphics Project at the University of Toronto"
   speakerPhoto: chenxi_liu.jpg
   title: "From Sketch to Style: Artistic Analysis and Creation via Computation"
   abstract: "Tools for visual creation have evolved from traditional media to digital drawing tablets and, more recently, to text-to-image generation, enabling broader creative access while raising new challenges in processing artistic data, such as sketches and stylized content. In the first part of this talk, I’ll give a quick overview of my research on processing vector sketch data. In the second part, I’ll shift focus to artistic styles, and in particular to Low-Rank Adaptation (LoRA), a parameter-efficient fine-tuning method widely used to customize image diffusion models with individual styles. LoRA has become popular in online creative communities due to its low resource requirements, while also raising concerns around attribution and ownership. To better understand the relationship between LoRA weights and the adapted styles, we analyze the weights directly in the parameter space, avoiding the need for image generation and prompt engineering. We find that the LoRA weights themselves serve as effective style representations, capturing fine-grained stylistic differences and outperforming image-based features in clustering and retrieval. Beyond analysis, merging LoRA weights to synthesize new styles is a common practice. However, existing tools rely on manual sliders, which are often inefficient and unintuitive. In our ongoing project, we adapt a human-in-the-loop Bayesian optimization framework to our setting for more effective interactions."
