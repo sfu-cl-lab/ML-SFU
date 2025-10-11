@@ -1,6 +1,9 @@
 organizers_by_year:
   - year: 2025
     terms:
+      - term: Fall
+        main_student_coordinator: Xingguang Yan
+        faculty_sponsors: Wuyang Chen
       - term: Summer
         main_student_coordinator: Xingguang Yan
         student_volunteers: Xingguang Yan, Chirag Vashist, Mingrui Zhao
