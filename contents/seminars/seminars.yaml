@@ -16,6 +16,8 @@
   speakerInfo: Senior Research Scientist at Autodesk AI Lab
   speakerPhoto: xiang_xu.jpg
   title: "Building Reality: Generative AI for Design and Make"
+  abstract: Recent advances in generative AI have transformed how we create text, imagery, and video—but the connection to physical, manufacturable objects remains underdeveloped. This talk explores how AI can move beyond pixels and words to generate designs for things that can actually be built, manufactured, or constructed in the real world. We will focus on 3D Computer-Aided Design (CAD) as a critical domain for bridging digital intelligence and physical creation. The talk will also introduce AutoBrep, Autodesk’s world-first CAD-native foundation model that autoregressively generates CAD models through a unified sequence of topology and geometry tokens, guided by multimodal signals such as images and text. Together, these advances point toward a future where generative AI is not just creative—but constructible.
+  bio: Xiang Xu is a Senior Research Scientist at Autodesk AI Lab in Vancouver, Canada. His research focuses on generative models, 3D computer vision, and machine learning. He earned his PhD in Computer Science from Simon Fraser University under Prof Yasutaka Furukawa, where he worked on controllable CAD generation. He is passionate about 3D foundation models and AI-driven controllable content creation.
 
 - date: "2025-09-26"
   location: TASC1 9204 12:00pm
