@@ -1,3 +1,77 @@
+
+
+
+##### NeurIPS 2025 #####
+
+- date: "2025-10-29"
+  venue: "NeurIPS"
+  year: 2025
+  authors: [Zhengqing Wang, Yuefan Wu, Jiacheng Chen, Fuyang Zhang, "Yasutaka Furukawa"]
+  title: "CLiFT: Compressive Light-Field Tokens for Compute-Efficient and Adaptive Neural Rendering"
+  links:
+    paper: https://arxiv.org/pdf/2507.08776
+    code: https://github.com/eric-zqwang/CLiFT
+    webpage: https://clift-nvs.github.io/
+
+- date: "2025-10-29"
+  venue: "NeurIPS"
+  year: 2025
+  authors: [Silpa Vadakkeeveetil Sreelatha, Sauradip Nag, Muhammad Awais, Serge Belongie, Anjan Dutta]
+  title: "RespoDiff: Dual-Module Bottleneck Transformation for Responsible & Faithful T2I Generation"
+  links:
+    paper: https://arxiv.org/abs/2509.15257
+    code: https://github.com/VSSILPA/respodiff
+    webpage: https://vssilpa.github.io/respodiff_project_page/
+
+- date: "2025-10-29"
+  venue: "NeurIPS"
+  year: 2025
+  authors: [Maria Taktasheva, Lily Goli, Alessandro Fiorini, Zhen Li, Daniel Rebain, Andrea Tagliasacchi]
+  title: "3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction"
+  links:
+    paper: https://arxiv.org/pdf/2509.16423
+    code: https://github.com/theialab/3dgs-flats
+    webpage: https://theialab.github.io/3dgs-flats/
+
+- date: "2025-10-29"
+  venue: "NeurIPS (Position Track)"
+  year: 2025
+  authors: [Nicholas Vincent, Mathhew Prewitt, Hanlin Li]
+  title: "Collective Bargaining in the Information Economy Can Address AI-Driven Power Concentration"
+  links:
+    paper: https://arxiv.org/abs/2506.10272    
+
+
+- date: "2025-10-29"
+  venue: "NeurIPS Workshop"
+  year: 2025
+  authors: [Xingtu Liu]
+  title: "Central Limit Theorems for Asynchronous Averaged Q-Learning"
+  workshops:
+    - name: Optimization for Machine Learning
+      url: https://opt-ml.org/index.html
+      shortname: opt
+      date: "2025-12-6"
+  links:
+    paper: https://arxiv.org/pdf/2509.18964
+
+
+- date: "2025-10-29"
+  venue: "NeurIPS Workshop"
+  year: 2025
+  authors: [Xingtu Liu, Lin F. Yang, Sharan Vaswani]
+  title: "Sample Complexity Bounds for Linear Constrained MDPs with a Generative Model"
+  workshops:
+    - name: Constrained Optimization for Machine Learning
+      url: https://constrained-opt-ml.github.io/
+      shortname: coml
+      date: "2025-12-6"
+  links:
+    paper: https://arxiv.org/pdf/2507.02089
+
+##### NeurIPS 2025 #####
+
+
 - date: "2025-07-18"
   venue: "ICML workshop"
   year: 2025
