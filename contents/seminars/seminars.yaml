@@ -18,6 +18,7 @@
   title: Science Frontiers at Wayve
   abstract: This talk will explore some of the frontier efforts that Wayve's Science team is pursuing to unlock the puzzle of scalable embodied AI. These include the integration of Vision and Language models (LINGO), Generative World Models (GAIA) and Spatial Intelligence (Rig3R) in end-to-end self-driving. I'll begin with an overview of Science team efforts, and then take a deeper dive into our recent work on Spatial Intelligence. Throughout the talk we'll see how Wayve is approaching complex and unstructured environments from London to Tokyo using a data-driven and end to end approach.
   bio: Matt's career has spanned multiple roles at the intersection of research and deployment in Vision + ML. Prior to Wayve, he was a Research Scientist at Google DeepMind / Google Research, an Associate Professor (Reader) at the University of Bath, Founder and CTO of Cloudburst Research Inc., and a Postdoctoral Researcher at EPFL, UBC and Microsoft Research. His work on panoramic stitching features in many computer vision courses and won the ICCV Helmholtz Prize (test of time award) in 2017.
+  video: https://stream.sfu.ca/Media/Play/d0d46ffcf9c4475fad38787f63f1e4591d
 
 
 - date: "2025-10-17"

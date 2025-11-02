@@ -3,17 +3,17 @@
 
 ##### NeurIPS 2025 #####
 
-- date: "2025-10-29"
+- date: "2025-12-03"
   venue: "NeurIPS"
   year: 2025
-  authors: [Zhengqing Wang, Yuefan Wu, Jiacheng Chen, Fuyang Zhang, "Yasutaka Furukawa"]
+  authors: [Zhengqing Wang, Yuefan Wu, Jiacheng Chen, Fuyang Zhang, Yasutaka Furukawa]
   title: "CLiFT: Compressive Light-Field Tokens for Compute-Efficient and Adaptive Neural Rendering"
   links:
     paper: https://arxiv.org/pdf/2507.08776
     code: https://github.com/eric-zqwang/CLiFT
     webpage: https://clift-nvs.github.io/
 
-- date: "2025-10-29"
+- date: "2025-12-03"
   venue: "NeurIPS"
   year: 2025
   authors: [Silpa Vadakkeeveetil Sreelatha, Sauradip Nag, Muhammad Awais, Serge Belongie, Anjan Dutta]
@@ -23,7 +23,7 @@
     code: https://github.com/VSSILPA/respodiff
     webpage: https://vssilpa.github.io/respodiff_project_page/
 
-- date: "2025-10-29"
+- date: "2025-12-05"
   venue: "NeurIPS"
   year: 2025
   authors: [Maria Taktasheva, Lily Goli, Alessandro Fiorini, Zhen Li, Daniel Rebain, Andrea Tagliasacchi]
@@ -33,7 +33,16 @@
     code: https://github.com/theialab/3dgs-flats
     webpage: https://theialab.github.io/3dgs-flats/
 
-- date: "2025-10-29"
+- date: "2025-12-05"
+  venue: "NeurIPS"
+  year: 2025
+  authors: [Ruiqi Wang, Hao Zhang]
+  title: "RESAnything: Attribute Prompting for Arbitrary Referring Segmentation"
+  links:
+    paper: http://arxiv.org/pdf/2505.02867
+    webpage: https://suikei-wang.github.io/RESAnything/
+
+- date: "2025-12-04"
   venue: "NeurIPS (Position Track)"
   year: 2025
   authors: [Nicholas Vincent, Mathhew Prewitt, Hanlin Li]
@@ -42,7 +51,7 @@
     paper: https://arxiv.org/abs/2506.10272    
 
 
-- date: "2025-10-29"
+- date: "2025-12-06"
   venue: "NeurIPS Workshop"
   year: 2025
   authors: [Xingtu Liu]
@@ -51,12 +60,12 @@
     - name: Optimization for Machine Learning
       url: https://opt-ml.org/index.html
       shortname: opt
-      date: "2025-12-6"
+      date: "2025-12-06"
   links:
     paper: https://arxiv.org/pdf/2509.18964
 
 
-- date: "2025-10-29"
+- date: "2025-12-06"
   venue: "NeurIPS Workshop"
   year: 2025
   authors: [Xingtu Liu, Lin F. Yang, Sharan Vaswani]
@@ -65,11 +74,29 @@
     - name: Constrained Optimization for Machine Learning
       url: https://constrained-opt-ml.github.io/
       shortname: coml
-      date: "2025-12-6"
+      date: "2025-12-06"
   links:
     paper: https://arxiv.org/pdf/2507.02089
 
-##### NeurIPS 2025 #####
+- date: "2025-12-06"
+  venue: "NeurIPS Workshop"
+  year: 2025
+  authors: [ZeMing Gong, Chuanqi Tang, Xiaoliang Huo, Nicholas Pellegrino, Austin Wang, Graham W. Taylor, Angel X Chang, Scott C. Lowe, Joakim Bruslund Haurum]
+  title: "Hyperbolic Multimodal Representation Learning for Biological Taxonomies"
+  workshops:
+    - name: "Imageomics: Discovering Biological Knowledge from Images Using AI"
+      url: https://imageomics.github.io/Imageomics-NeurIPS-2025/
+      shortname: imageomics
+      date: "2025-12-06"
+    - name: "Multi-modal Foundation Models and Large Language Models for Life Sciences"
+      url: https://nips2025fm4ls.github.io/index.html
+      shortname: fm4ls
+      date: "2025-12-07"
+  links:
+    paper: https://arxiv.org/pdf/2508.16744
+
+
+##### ICML 2025 #####
 
 
 - date: "2025-07-18"
@@ -111,6 +138,8 @@
     webpage: https://pde-controller.github.io/
     paper: https://arxiv.org/abs/2502.00963
     code: https://github.com/delta-lab-ai/pde-controller
+
+##### ICLR 2025 #####
 
 - date: "2025-04-27"
   venue: "ICLR workshop"
@@ -276,6 +305,7 @@
     code: https://github.com/TIGER-AI-Lab/MEGA-Bench
     data: https://huggingface.co/datasets/TIGER-Lab/MEGA-Bench
 
+##### NeurIPS 2025 #####
 
 - date: "2024-12-15"
   venue: "NeurIPS workshop"
