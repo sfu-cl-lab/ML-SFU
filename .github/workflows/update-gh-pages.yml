@@ -11,10 +11,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Set up Node.js 14
+    - name: Set up Node.js 18
       uses: actions/setup-node@v2
       with:
-        node-version: "14.16.1"
+        node-version: "18.20.4"
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
