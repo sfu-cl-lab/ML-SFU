@@ -74,7 +74,7 @@ pip3 install pyyaml                         # Install dependencies
 python3 src/assets/parse_content.py         # Parse content
 ```
 
-Run local server (may need to switch package.json "webpack-dev-server": "^2.11.2")
+Run local server
 ```
 npm install              # install node modules            
 npm start                # Start server
