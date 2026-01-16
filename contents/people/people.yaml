@@ -146,6 +146,15 @@
                 &#8226; Control Theory<br>
                 &#8226; Multi-Robot Coordination<br>"
 
+- name: "Marzena Karpinska"
+  url: "https://marzenakrp.github.io/"
+  labUrl: ""
+  picPath: "MarzenaKarpinska.webp"
+  description: "&#8226; Naturla language processing (NLP)<br>
+                &#8226; Human-centered computing<br>
+                &#8226; Cognitive Science<br>"
+
+
 - name: "Richard Vaughan"
   url: "https://rtv.github.io/"
   labUrl: "http://autonomy.cs.sfu.ca/"

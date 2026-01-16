@@ -1,10 +1,16 @@
 organizers_by_year:
+  - year: 2026
+    terms:
+      - term: Spring
+        main_student_coordinator: Xingguang Yan
+        student_volunteers: Qinchan Li
+        faculty_sponsors:
   - year: 2025
     terms:
       - term: Fall
         main_student_coordinator: Xingguang Yan
         student_volunteers: Qinchan Li
-        faculty_sponsors: Wuyang Chen, Yasu Furukawa
+        faculty_sponsors: Wuyang Chen, Yasu Furukawa, SFU VPRI / VINCI
       - term: Summer
         main_student_coordinator: Xingguang Yan
         student_volunteers: Xingguang Yan, Chirag Vashist, Mingrui Zhao

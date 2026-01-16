@@ -9,6 +9,35 @@
 #   bio: ""
 #   tags: []
 
+
+- date: "2026-03-13"
+  location: TASC1 9204 12:00pm
+  speaker: Peter Chen
+  speakerUrl: https://peterchencyc.com/
+  speakerInfo: Assistant Professor at UBC CS
+  speakerPhoto: peter_chen.jpg
+
+- date: "2026-02-27"
+  location: TASC1 9204 12:00pm
+  speaker: Risto Ojala
+  speakerUrl: https://www.aalto.fi/en/people/risto-ojala
+  speakerInfo: Assistant Professor at Aalto Univeristy
+  speakerPhoto: risto_ojala.jpg
+
+- date: "2026-02-13"
+  location: TASC1 9204 12:00pm
+  speaker: Linyi Li
+  speakerUrl: https://cs.sfu.ca/~linyi/
+  speakerInfo: Assistant Professor at SFU CS
+  speakerPhoto: linyi_li.jpg
+
+- date: "2026-02-06"
+  location: TASC1 9204 12:00pm
+  speaker: Peter West
+  speakerUrl: https://peterwestai.notion.site/Peter-West-10049587c6c380c08c4dd56e91b02f01
+  speakerInfo: Assistant Professor at UBC CS
+  speakerPhoto: peter_west.webp
+
 - date: "2025-10-31"
   location: TASC1 9204 12:00pm
   speaker: Matthew Alun Brown
@@ -19,7 +48,6 @@
   abstract: This talk will explore some of the frontier efforts that Wayve's Science team is pursuing to unlock the puzzle of scalable embodied AI. These include the integration of Vision and Language models (LINGO), Generative World Models (GAIA) and Spatial Intelligence (Rig3R) in end-to-end self-driving. I'll begin with an overview of Science team efforts, and then take a deeper dive into our recent work on Spatial Intelligence. Throughout the talk we'll see how Wayve is approaching complex and unstructured environments from London to Tokyo using a data-driven and end to end approach.
   bio: Matt's career has spanned multiple roles at the intersection of research and deployment in Vision + ML. Prior to Wayve, he was a Research Scientist at Google DeepMind / Google Research, an Associate Professor (Reader) at the University of Bath, Founder and CTO of Cloudburst Research Inc., and a Postdoctoral Researcher at EPFL, UBC and Microsoft Research. His work on panoramic stitching features in many computer vision courses and won the ICCV Helmholtz Prize (test of time award) in 2017.
   video: https://stream.sfu.ca/Media/Play/d0d46ffcf9c4475fad38787f63f1e4591d
-
 
 - date: "2025-10-17"
   location: TASC1 9204 12:00pm
