@@ -8,4 +8,4 @@ section_one:
     - "Over fifteen faculty members do research on machine learning methods and applications: vision, image analysis, robotics, natural language processing."
     - "Graduate courses for introduction and advanced topics such as deep learning and generative models"
     - "Faculty-directed labs have state-of-the-art software and hardware, including GPU and database servers."
-    - "Compute Canada provides high-performance cluster computing. The Cedar node, housed at SFU, has 150 GPUs."
+    - "Digital Alliance provides high-performance cluster computing. The Fir supercomputer, housed at SFU, has 160 nodes with 4xH100 GPUs."
