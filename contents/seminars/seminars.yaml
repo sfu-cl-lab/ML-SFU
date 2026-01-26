@@ -30,6 +30,9 @@
   speakerUrl: https://peterwestai.notion.site/Peter-West-10049587c6c380c08c4dd56e91b02f01
   speakerInfo: Assistant Professor at UBC CS
   speakerPhoto: peter_west.webp
+  title: Mapping the (Jagged) Landscape of LLM Capabilities
+  abstract: One key missing piece for the broad adoption of LLMs is intuition, specifically, human intuition about when and how models will succeed or fail across the diverse tasks we might apply them to. Your LLM might write a well-reasoned essay on 14th-century theology, but does that mean it can accurately answer questions on the same topic? This talk will focus on one aspect of my research, which is the characterization of model capabilities to begin to develop these intuitions. I will discuss recent projects that try to identify where these capabilities break down, with a particular focus on high information examples which will necessitate new hypotheses of how exactly artificial intelligence functions. 
+  bio: "Peter West is an assistant professor at the University of British Columbia, broadly working on the capabilities and limits of LLMs. For example: the divergence of AI from human intuitions of intelligence, unpredictability and creativity in models, and studying LLMs with a non-interventional natural sciences lens. Peter completed his PhD at the University of Washington, Paul G School of Computer Science and Engineering. He completed a postdoc at the Stanford Institute for Human-Centered AI. His work has been recognized with best, outstanding, and spotlight papers in NLP and AI conferences."
 
 - date: "2026-01-23"
   location: TASC1 9204 12:00pm
