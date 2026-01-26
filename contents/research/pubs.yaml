@@ -1,5 +1,13 @@
 
+##### AAAI 2026 #####
 
+- date: "2026-02-24"  
+  venue: "AAAI"
+  year: 2026
+  authors: ["Zijin Hong", "Hao Wu", "Su Dong", "Junnan Dong", "Yilin Xiao", "Yujing Zhang", "Zhu Wang", "Feiran Huang", "Linyi Li", "Hongxia Yang", "Xiao Huang"]
+  title: "Benchmarking LLMs’ Mathematical Reasoning with Unseen Random Variables Questions"
+  links:  
+    paper: https://arxiv.org/pdf/2501.11790
 
 ##### NeurIPS 2025 #####
 
@@ -64,6 +72,18 @@
   links:
     paper: https://arxiv.org/pdf/2509.18964
 
+- date: "2025-12-06"
+  venue: "NeurIPS Workshop"
+  year: 2025
+  authors: [Chen Fan, Reza Babanezhad, Christos Thrampoulidis, Mark Schmidt, Sharan Vaswani]
+  title: Implicit Bias of Polyak and Line-Search Step Sizes on Linear Classification with Separable Data
+  workshops:
+    - name: Optimization for Machine Learning
+      url: https://neurips.cc/virtual/2025/loc/san-diego/workshop/109581
+      shortname: opt
+      date: "2025-12-06"
+  links:
+    paper: https://opt-ml.org/papers/2025/paper26.pdf
 
 - date: "2025-12-06"
   venue: "NeurIPS Workshop"
@@ -77,6 +97,45 @@
       date: "2025-12-06"
   links:
     paper: https://arxiv.org/pdf/2507.02089
+
+- date: "2025-12-06"
+  venue: "NeurIPS Workshop"
+  year: 2025
+  authors: [Reza Asad, Reza Babanezhad, Sharan Vaswani]
+  title: Revisiting Actor-Critic Methods in Discrete Action Off-Policy Reinforcement Learning
+  workshops:
+    - name: Aligning Reinforcement Learning Experimentalists and Theorists
+      url: https://arlet-workshop.github.io/
+      shortname: arlet
+      date: "2025-12-06"
+  links:
+    paper: https://openreview.net/forum?id=HEYNgFHl2d
+
+- date: "2025-12-06"
+  venue: "NeurIPS Workshop"
+  year: 2025
+  authors: [Max Qiushi Lin, Reza Asad, Kevin Tan, Haque Ishfaq, Csaba Szepesvari, Sharan Vaswani]
+  title: "Optimistic Actor-Critic with Parametric Policies: Unifying Sample Efficiency and Practicality"
+  workshops:
+    - name: Aligning Reinforcement Learning Experimentalists and Theorists
+      url: https://arlet-workshop.github.io/
+      shortname: arlet
+      date: "2025-12-06"
+  links:
+    paper: https://openreview.net/forum?id=qArzSifuhM
+
+- date: "2025-12-06"
+  venue: "NeurIPS Workshop"
+  year: 2025
+  authors: [Yunxiang Li, Mark Schmidt, Reza Babanezhad, Sharan Vaswani]
+  title: Towards Parameter-Free Temporal Difference Learning
+  workshops:
+    - name: Aligning Reinforcement Learning Experimentalists and Theorists
+      url: https://arlet-workshop.github.io/
+      shortname: arlet
+      date: "2025-12-06"
+  links:
+    paper: https://openreview.net/forum?id=BKcraYdfVd
 
 - date: "2025-12-06"
   venue: "NeurIPS Workshop"
@@ -305,7 +364,26 @@
     code: https://github.com/TIGER-AI-Lab/MEGA-Bench
     data: https://huggingface.co/datasets/TIGER-Lab/MEGA-Bench
 
-##### NeurIPS 2025 #####
+##### AAAI 2025 #####
+
+- date: "2025-02-03"  
+  venue: "AAAI"
+  year: 2025
+  authors: ["Zhangheng Li", "Tianlong Chen", "Linyi Li", "Bo Li", "Zhangyang Wang"]
+  title: "Sparse Transfer Learning Accelerates and Enhances Certified Robustness: A Comprehensive Study"
+  links:  
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/32539
+
+- date: "2025-02-03"  
+  venue: "AAAI"
+  year: 2025
+  authors: ["Zijian Huang", "Wenda Chu", "Linyi Li", "Chejian Xu", "Bo Li"]
+  title: "COMMIT: Certifying Robustness of Multi-Sensor Fusion Systems against Semantic Attacks"
+  links:  
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/33927
+    
+
+##### NeurIPS 2024 #####
 
 - date: "2024-12-15"
   venue: "NeurIPS workshop"
