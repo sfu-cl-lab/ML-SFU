@@ -98,7 +98,7 @@
 - name: "Andrea Tagliasacchi"
   url: "https://taiya.github.io/"
   labUrl: ""
-  picPath: "AndreaTagliasacchi.png"
+  picPath: "AndreaTagliasacchi.jpg"
   description: "&#8226; Computer Vision<br>
                 &#8226; Computer Graphics<br>
                 &#8226; Geometric Deep Learning<br>
@@ -107,7 +107,7 @@
 - name: "Sharan Vaswani"
   url: "https://vaswanis.github.io/"
   labUrl: ""
-  picPath: "SharanVaswani.jpeg"
+  picPath: "SharanVaswani.jpg"
   description: "&#8226; Machine Learning<br>
                 &#8226; Optimization<br>
                 &#8226; Artificial Intelligence"
@@ -150,7 +150,7 @@
   url: "https://marzenakrp.github.io/"
   labUrl: ""
   picPath: "MarzenaKarpinska.webp"
-  description: "&#8226; Naturla language processing (NLP)<br>
+  description: "&#8226; Natural language processing (NLP)<br>
                 &#8226; Human-centered computing<br>
                 &#8226; Cognitive Science<br>"
 
