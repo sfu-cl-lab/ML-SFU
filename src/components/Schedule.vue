@@ -26,6 +26,11 @@
             <div v-if="item.event.description">
             {{item.event.description}}
             </div>
+            <div v-if="item.links">
+              <span v-for="(link,key) in item.links" :key="key">
+                <a class="highlight" :href="link">{{key}}</a>
+              </span>
+            </div>
          </td>
         </tr>
       </table>
