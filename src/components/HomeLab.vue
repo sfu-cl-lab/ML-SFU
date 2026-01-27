@@ -7,7 +7,7 @@
       <h3>{{labConf.labName|toUpper}}</h3>
     </a>
     <p class="lab-desc">{{labConf.description}}</p>
-    <a target="_blank" :href="labConf.url">
+    <a target="_blank" :href="labConf.url" v-if="labConf.url">
       <el-button>
         MORE DETAILS
       </el-button>

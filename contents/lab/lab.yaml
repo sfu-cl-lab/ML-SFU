@@ -20,7 +20,7 @@
 
 - labName: "MIA Lab"
   picPath: "Hamarneh.jpg"
-  description: "We are the Medical Image Analysis (MIA) lab.  Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate."
+  description: "We are the Medical Image Analysis (MIA) lab.  Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate." 
   url: "http://www.cs.sfu.ca/~hamarneh"
 
 - labName: "Libbrecht Research Lab"
@@ -46,7 +46,7 @@
 - labName: "Structured Machine Learning Lab"
   picPath: "cl.jpg"
   description: "Machine Learning for Structured Data: complex networks, multi-relational data, event logs. We apply graphical models, deep neural nets, and reinforcement learning."
-  url: "http://www.sfu.ca/computationallogic.html"
+#  url: "http://www.sfu.ca/computationallogic.html"
 
 - labName: "Database and Data Mining Lab"
   picPath: "datamining.jpg"

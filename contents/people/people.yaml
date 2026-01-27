@@ -31,8 +31,7 @@
   description: "
    &#8226; Machine learning for natural language processing<br>
    &#8226; Statistical machine translation<br>
-  &#8226; Statistical parsing of natural languages
-    "
+   &#8226; Statistical parsing of natural languages"
 
 - name: "Ghassan Hamarneh"
   url: "http://www.cs.sfu.ca/~hamarneh"
@@ -53,9 +52,10 @@
   labUrl: "https://3dlg-hcvc.github.io/"
   picPath: "AngelChang.jpg"
   description: "
-  &#8226; Semantics of shapes and scenes<br>
-  &#8226; Representation and acquisition of common sense knowledge<br>
-  &#8226; Reasoning using probabilistic models"
+  &#8226; Language and 3D<br>
+  &#8226; Multimodal learning<br>
+  &#8226; Embodied AI<br>
+  &#8226; Machine learning for biodiversity monitoring"
 
 - name: "Manolis Savva"
   url: "http://msavva.github.io/"
