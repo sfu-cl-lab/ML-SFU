@@ -71,7 +71,7 @@
 
 - name: "Ke Li"
   url: "http://www.sfu.ca/~keli/"
-  labUrl: ""
+  labUrl: "https://sfuapex.ca/"
   picPath: "KeLi.jpg"
   description: "&#8226; Generative Modelling<br>
                 &#8226; Learning to Optimize<br>

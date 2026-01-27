@@ -50,6 +50,12 @@
 
 - labName: "Database and Data Mining Lab"
   picPath: "datamining.jpg"
-  description: "Our lab also investigates emerging applications of information systems posing new database systems challenges such as on-demand map generation and focused web crawlers. The challenges of on-demand map generation, for example, are the complexity of map generalization operations and the ill-defined notion of the quality of the resulting maps. "
+  description: "Our lab investigates emerging applications of information systems posing new database systems challenges such as on-demand map generation and focused web crawlers. The challenges of on-demand map generation, for example, are the complexity of map generalization operations and the ill-defined notion of the quality of the resulting maps. "
   url: "http://www.sfu.ca/computing/labs/ddm.html"
+
+- labName: "Apex Lab"
+  picPath: "apex.jpg"
+  description: "The APEX lab focuses on developing generative models and machine learning algorithms, and applying them in a principled manner."
+  url: "https://sfuapex.ca/"
+  
 
