@@ -19,7 +19,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^2.0.10",
     "element-ui": "^2.3.9",
-    "vue": "^2.5.2",
+    "vue": "^3.0.0",
     "vue-router": "^3.0.1",
     "yaml-loader": "^0.5.0"
   },
