@@ -4,11 +4,11 @@ sub_title_link: "https://cs.sfu.ca/"
 
 links:
   - name: x
-    icon: fa-x-twitter
+    icon: x-twitter
     url: https://x.com/sfu_cs_ai
   - name: bluesky
-    icon: fa-bluesky
-    urL: https://bsky.app/profile/sfu-cs-ai.bsky.social
+    icon: bluesky
+    url: https://bsky.app/profile/sfu-cs-ai.bsky.social
 
 section_one:
   name: "WHY SFU"
