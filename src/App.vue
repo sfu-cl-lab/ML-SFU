@@ -9,9 +9,9 @@
           <div><a :href="general.sub_title_link">{{general.sub_title}}</a></div>
           <div style="font-size:1.3em;font-weight:700;color:#444;">{{general.main_title}}</div>
         </div>
-      <!-- <a v-for="(item,index) in general.links" :key="index" :href="item.url" target="_blank" style="margin-left:1em;">
-        <font-awesome-icon :icon="[ 'fab', item.icon ]" size="2x" />
-      </a> -->
+        <a v-for="(item,index) in general.links" :key="index" :href="item.url" target="_blank" style="margin-left:1em;">
+           <img :src="require('./assets/icons/' + item.icon + '.svg')" style="height:30px;"/>
+        </a>   
       </div>
     </header>
     <div class="header-divider">
