@@ -10,6 +10,27 @@
 #   tags: []
 
 
+- date: "2026-04-10"
+  location: TASC1 9204 12:00pm
+  speaker: Yuhang He
+  speakerUrl: https://yuhanghe01.github.io/
+  speakerInfo: Senior Researcher at Microsoft Research
+  speakerPhoto: yuhang_he.jpg
+
+- date: "2026-04-03"
+  location: TASC1 9204 12:00pm
+  speaker: Alex Weisman
+  speakerUrl: https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html
+  speakerInfo: Assistant Professor of Biomedical Physiology & Kinesiology at SFU
+  speakerPhoto: alex_weisman.jpg
+
+- date: "2026-03-27"
+  location: TASC1 9204 12:00pm
+  speaker: Risto Ojala
+  speakerUrl: https://www.aalto.fi/en/people/risto-ojala
+  speakerInfo: Assistant Professor at Aalto Univeristy
+  speakerPhoto: risto_ojala.jpg
+
 - date: "2026-03-13"
   location: TASC1 9204 12:00pm
   speaker: Peter Chen
@@ -44,6 +65,7 @@
   title: Perception solutions for enabling automated driving in winter conditions
   abstract: This talk presents a compilation of developed methods and findings from research on perception solutions for automated driving in winter conditions, carried out at the Autonomy & Mobility Laboratory, Aalto University. Winter conditions pose several challenges for automated vehicle perception pipelines, which currently limit the applicability of the technology in adverse weather conditions. However, these conditions are equally challenging for human drivers, so there is a clear need for automated technologies to reduce the high accident rates caused by winter weather. <br>The talk highlights several published examples from the laboratory’s research, such as real-time filtering of snowflakes from LIDAR scans with deep learning, auto-generating road segmentation labels for snowy conditions with foundation models, as well as vision-based estimation of road slipperiness.
   bio: Risto Ojala, DSc (Tech) is an Assistant Professor at Aalto University, Finland, where he leads the Autonomy & Mobility Laboratory within the Mechatronics research group. His research focuses on intelligent vehicles and mobile robotics, with particular emphasis on perception, sensor fusion, and applied machine learning for autonomous systems. He is also currently a Visiting Scholar at Simon Fraser University, Canada, collaborating with the Multi-Agent Robotic Systems Laboratory on research in semantic understanding for mobile robotics.<br>His work develops perception solutions that enable robust autonomous operation in challenging environments. A central application of his research is automated driving in winter conditions, addressing problems such as road understanding, situational awareness, and perception reliability. He has published extensively in leading robotics and intelligent transportation venues and collaborates closely with both academic and industrial partners.
+  video: https://stream.sfu.ca/Media/Play/09550c20e4504318a31f6b340654c9091d
 
 - date: "2025-10-31"
   location: TASC1 9204 12:00pm
