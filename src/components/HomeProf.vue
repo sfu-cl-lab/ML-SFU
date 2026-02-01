@@ -62,7 +62,7 @@ article img {
 
 .img-wrapper {
   display: inline-block;
-  height: 150px;
+  max-height: 150px;
   color: #fff;
 
   font-size: 20px;
