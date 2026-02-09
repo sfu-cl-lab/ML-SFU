@@ -198,6 +198,15 @@
     paper: https://arxiv.org/abs/2502.00963
     code: https://github.com/delta-lab-ai/pde-controller
 
+- date: "2025-05-28"
+  venue: "ICML"
+  year: 2025
+  authors: [Andi Han, Wei Huang, Zhanpeng Zhou, Gang Niu, Wuyang Chen, Junchi Yan, Akiko Takeda, Taiji Suzuki]
+  title: "On the Role of Label Noise in the Feature Learning Process"
+  links:
+    paper: https://arxiv.org/abs/2505.18909
+
+
 ##### ICLR 2025 #####
 
 - date: "2025-04-27"

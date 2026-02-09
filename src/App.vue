@@ -11,7 +11,7 @@
         </div>
         <a v-for="(item,index) in general.links" :key="index" :href="item.url" target="_blank" style="margin-left:1em;">
            <img :src="require('./assets/icons/' + item.icon + '.svg')" style="height:30px;"/>
-        </a>   
+        </a>
       </div>
     </header>
     <div class="header-divider">

@@ -44,7 +44,10 @@
   speakerUrl: https://cs.sfu.ca/~linyi/
   speakerInfo: Assistant Professor at SFU CS
   speakerPhoto: linyi_li.jpg
-
+  title: Towards Scientific Evaluation for Code LLMs
+  abstract: "Large Language Models (LLMs) are fundamentally reshaping the software development landscape, necessitating rigorous new standards for evaluation. In this talk, I introduce three representative benchmarks that capture the progression of code intelligence: InfiBench (NeurIPS 2024), RV-Bench (AAAI 2026), and AppForge (ICLR 2026). I will detail how these frameworks target distinct capabilities: InfiBench utilizes expert-curated Q&A to assess core software development proficiency; RV-Bench challenges mathematical reasoning and robustness through randomly injected variables in logic puzzles; and AppForge provides a complex, interactive environment for evaluating end-to-end Android application development. Developed between 2023 and 2025, these co-evolving benchmarks do not merely track progress but actively define it—balancing user-centric alignment with rigorous scientific principles. Finally, I will discuss the lessons learned through building these benchmarks, how these benchmarks have provided critical insights to guide the training of frontier models, and conclude by envisioning the future of benchmark research."
+  bio: Linyi Li is an Assistant Professor in the School of Computing Science at Simon Fraser University, which he joined in 2024. Prior to SFU, he was a Senior Research Scientist in the Seed Foundation Code Team at ByteDance. He received his Ph.D. in Computer Science from the University of Illinois Urbana-Champaign, where he was advised by Bo Li and Tao Xie. Linyi’s research focuses on trustworthy deep learning, with an emphasis on certifiable guarantees and trustworthy foundation models. His work aims to enable verifiable trustworthiness for large-scale deep learning systems, analyze the learning mechanisms of foundation models, and establish comprehensive scientific evaluations for them. He was named a Rising Star in Data Science in 2022 and selected for the AAAI New Faculty Highlights in 2025. He has published over 30 papers in top-tier machine learning and security conferences, including ICML, NeurIPS, ICLR, S&P, and CCS.
+  
 - date: "2026-02-06"
   location: TASC1 9204 12:00pm
   speaker: Peter West
