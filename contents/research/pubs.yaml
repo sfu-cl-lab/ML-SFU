@@ -1,4 +1,67 @@
 
+##### ICLR 2026 #####
+
+- date: "2026-02-04"
+  venue: "ICLR"
+  year: 2026
+  authors: [Yuzhen Mao, Qitong Wang, Martin Ester, Ke Li]
+  title: "IceCache: Memory-Efficient KV-cache Management for Long-Sequence LLMs"
+  links:
+    paper: https://openreview.net/forum?id=yHxSKM9kdr
+
+- date: "2026-02-06"
+  venue: "ICLR"
+  year: 2026
+  authors: [Sherwin Bahmani, Tianchang Shen, Jiawei Ren, Jiahui Huang, Yifeng Jiang, Haithem Turki, Andrea Tagliasacchi, David B. Lindell, Zan Gojcic, Sanja Fidler, Huan Ling, Jun Gao, Xuanchi Ren]
+  title: "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation"
+  links:
+    paper: https://arxiv.org/abs/2509.19296
+    code: https://github.com/nv-tlabs/lyra
+    webpage: https://research.nvidia.com/labs/toronto-ai/lyra/
+
+- date: "2026-02-06"
+  venue: "ICLR"
+  year: 2026
+  authors: [Mehran Aghabozorgi, Yanshu Zhang, Alireza Moazeni, Ke Li]
+  title: "WIMLE: Uncertainty-Aware World Models with IMLE for Sample-Efficient Continuous Control"
+  links:
+    paper: https://openreview.net/pdf?id=mzLOnTb3WH
+
+- date: "2026-02-10"
+  venue: "ICLR"
+  year: 2026
+  authors: [Jialin Lu, Kye Emond, Kaiyu Yang, Swarat Chaudhuri, Weiran Sun, Wuyang Chen]
+  title: "Lean Finder: Semantic Search for Mathlib That Understands User Intents"
+  links:
+    paper: https://arxiv.org/pdf/2510.15940
+    webpage: https://leanfinder.github.io/
+
+- date: "2026-02-10"
+  venue: "ICLR"
+  year: 2026
+  authors: [Xianzheng Ma, Tao Sun, Shuai Chen, Yash Bhalgat, Jindong Gu, Angel Chang, Iro Armeni, Iro Laina, Songyou Peng, Victor Prisacariu]
+  title: "Do 3D Large Language Models Really Understand 3D Spatial Relationships?"
+  links:
+    paper: https://openreview.net/forum?id=3vlMiJwo8b
+
+- date: "2026-02-10"
+  venue: "ICLR"
+  year: 2026
+  authors: [Siying Ma, Mehrdad Momeni Zadeh, Mauricio Soroco, Wuyang Chen, Jiguo Cao, Vijay Ganesh]
+  title: "Learning Data-Efficient and Generalizable Neural Operators via Fundamental Physics Knowledge"
+  links:
+    paper: https://openreview.net/pdf?id=mJiPqOzc3O
+    webpage: https://sites.google.com/view/sciml-fundemental-pde
+
+- date: "2026-02-10"
+  venue: "ICLR"
+  year: 2026
+  authors: [Dezhi Ran, Yuan Cao, Mengzhou Wu, Simin Chen, Yuzhe Guo, Jun Ren, Zihe Song, Hao Yu, Jialei Wei, Linyi Li, Wei Yang, Baishakhi Ray, Tao Xie]
+  title: "From Assistant to Independent Developer — Are GPTs Ready for Software Development?"
+  links:
+    paper: https://openreview.net/pdf?id=XrP8dp1rCg
+
+
 ##### AAAI 2026 #####
 
 - date: "2026-02-24"  
