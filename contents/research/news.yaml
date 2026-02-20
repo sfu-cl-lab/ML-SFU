@@ -4,6 +4,21 @@
 #   image: ""
 #   url: ""
 
+- date: "2026-04-23"
+  shortname: "iclr-2026"
+  title: "SFU at ICLR 2026"
+  venue: "iclr"
+  year: 2026
+  type: conference
+  workshops:
+    - title: "Foundation Models for Science"
+      date: "2026-04-26"
+      location: 
+      url: https://fm-science.github.io/
+      roles:
+        - name: Wuyang Chen
+          title: organizer
+
 - date: "2025-12-01"
   shortname: "neurips-2025"
   title: "SFU at NeurIPS 2025"
@@ -75,7 +90,7 @@
     - title: "Foundation Models for Science: Progress, Opportunities, and Challenges"
       date: "2024-12-15"
       location: Meeting Room 202-204
-      url: https://fm-science.github.io/
+      url: https://fm-science.github.io/2024/index.html
       roles:
         - name: Wuyang Chen
           title: organizer
