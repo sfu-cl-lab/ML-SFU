@@ -43,6 +43,7 @@
   speaker: Ziyu Wan
   speakerUrl: http://raywzy.com/
   speakerInfo: Senior Researcher at Microsoft AI (MAI) Superintelligence Team
+  speakerPhoto: ziyu_wan.jpg
   title: Photorealistic Visual Generation and Distillation
   abstract: Throughout history, there have been various methods for acquiring photorealistic visual content. In today's rapidly evolving landscape of artificial intelligence, one of the most convenient approaches to generate novel samples is the use of prominent learning-based reconstruction and generation frameworks. In this presentation, I will introduce some of our previous efforts on creating photorealistic contents through generative models and distillation techniques. Furthermore,we will uncover the correlations between these methodologies, showcasing how they can synergistically enhance each other's capabilities.
   bio: Ziyu Wan is a Senior Researcher and Member of Technical Staff at Microsoft AI (MAI) Superintelligence Team, specifically working on the OpenAI model post-training. He obtained his  PhD from City University of Hong Kong advised by Prof Jing Liao. He was also a visiting PhD at the Geometric Computation group, Stanford University advised by Prof Leonidas J. Guibas. During his PhD study, Ziyu did research internships at Google DeepMind, Meta Reality Labs, Tencent AI Lab and Microsoft Research. Ziyu's research lies at the intersection of computational photography, neural rendering, and generative AI. 
