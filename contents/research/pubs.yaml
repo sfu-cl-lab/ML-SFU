@@ -1,7 +1,15 @@
 
 ##### ICLR 2026 #####
 
-- date: "2026-02-04"
+- date: "2026-04-23"
+  venue: "ICLR"
+  year: 2026
+  authors: [Raphaella Diniz, Jackson de Faria, Martin Ester]
+  title: "PAS: Estimating the target Accuracy before domain adaptation"
+  links:
+    paper: https://openreview.net/forum?id=0Z2l4XtTdz
+
+- date: "2026-04-23"
   venue: "ICLR"
   year: 2026
   authors: [Yuzhen Mao, Qitong Wang, Martin Ester, Ke Li]
@@ -9,7 +17,7 @@
   links:
     paper: https://openreview.net/forum?id=yHxSKM9kdr
 
-- date: "2026-02-06"
+- date: "2026-04-23"
   venue: "ICLR"
   year: 2026
   authors: [Sherwin Bahmani, Tianchang Shen, Jiawei Ren, Jiahui Huang, Yifeng Jiang, Haithem Turki, Andrea Tagliasacchi, David B. Lindell, Zan Gojcic, Sanja Fidler, Huan Ling, Jun Gao, Xuanchi Ren]
@@ -19,7 +27,7 @@
     code: https://github.com/nv-tlabs/lyra
     webpage: https://research.nvidia.com/labs/toronto-ai/lyra/
 
-- date: "2026-02-06"
+- date: "2026-04-23"
   venue: "ICLR"
   year: 2026
   authors: [Mehran Aghabozorgi, Yanshu Zhang, Alireza Moazeni, Ke Li]
@@ -27,7 +35,7 @@
   links:
     paper: https://openreview.net/pdf?id=mzLOnTb3WH
 
-- date: "2026-02-10"
+- date: "2026-04-23"
   venue: "ICLR"
   year: 2026
   authors: [Jialin Lu, Kye Emond, Kaiyu Yang, Swarat Chaudhuri, Weiran Sun, Wuyang Chen]
@@ -36,15 +44,16 @@
     paper: https://arxiv.org/pdf/2510.15940
     webpage: https://leanfinder.github.io/
 
-- date: "2026-02-10"
+- date: "2026-04-23"
   venue: "ICLR"
   year: 2026
-  authors: [Xianzheng Ma, Tao Sun, Shuai Chen, Yash Bhalgat, Jindong Gu, Angel Chang, Iro Armeni, Iro Laina, Songyou Peng, Victor Prisacariu]
+  authors: [Xianzheng Ma, Tao Sun, Shuai Chen, Yash Bhalgat, Jindong Gu, Angel X Chang, Iro Armeni, Iro Laina, Songyou Peng, Victor Adrian Prisacariu]
   title: "Do 3D Large Language Models Really Understand 3D Spatial Relationships?"
   links:
     paper: https://openreview.net/forum?id=3vlMiJwo8b
+    webpage: https://real-3dqa.taosun.io/
 
-- date: "2026-02-10"
+- date: "2026-04-23"
   venue: "ICLR"
   year: 2026
   authors: [Siying Ma, Mehrdad Momeni Zadeh, Mauricio Soroco, Wuyang Chen, Jiguo Cao, Vijay Ganesh]
@@ -53,13 +62,26 @@
     paper: https://openreview.net/pdf?id=mJiPqOzc3O
     webpage: https://sites.google.com/view/sciml-fundemental-pde
 
-- date: "2026-02-10"
+- date: "2026-04-23"
   venue: "ICLR"
   year: 2026
   authors: [Dezhi Ran, Yuan Cao, Mengzhou Wu, Simin Chen, Yuzhe Guo, Jun Ren, Zihe Song, Hao Yu, Jialei Wei, Linyi Li, Wei Yang, Baishakhi Ray, Tao Xie]
   title: "From Assistant to Independent Developer — Are GPTs Ready for Software Development?"
   links:
     paper: https://openreview.net/pdf?id=XrP8dp1rCg
+
+- date: "2026-04-26"
+  venue: "ICLR Workshop"
+  year: 2026
+  authors: [Yuanqi Du, Botao Yu, Tianyu Liu, Tony Shen, Junwu Chen, Jan G. Rittig, Kunyang Sun, Yikun Zhang, Zhangde Song, Bo Zhou, Cassandra Masschelein, Yingze Wang, Haorui Wang, Haojun Jia, Chao Zhang, Hongyu Zhao, Martin Ester, Teresa Head-Gordon, Carla P. Gomes, Huan Sun, Chenru Duan, Philippe Schwaller, Wengong Jin]
+  title: "Accelerating Scientific Discovery with Autonomous Goal-evolving Agents"
+  workshops:
+    - name: Post-AGI Science and Society Workshop
+      url: https://p-agi.netlify.app/
+      shortname: p-agi
+      date: "2026-04-26"
+  links:
+    paper: https://openreview.net/forum?id=zjEjJsXsTI
 
 
 ##### AAAI 2026 #####

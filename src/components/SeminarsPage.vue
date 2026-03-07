@@ -57,8 +57,8 @@
               <li v-if="termInfo.main_student_coordinator">
                 <b>Main student organizer:</b> {{termInfo.main_student_coordinator}}
               </li>
-              <li><b>Student volunteers:</b> {{termInfo.student_volunteers}}</li>
-              <li><b>Faculty sponsors:</b> {{termInfo.faculty_sponsors}}</li>
+              <li><b>Organizers:</b> {{termInfo.student_volunteers}}</li>
+              <li><b>Sponsors:</b> {{termInfo.faculty_sponsors}}</li>
             </ul>
           </div>
         </div>
