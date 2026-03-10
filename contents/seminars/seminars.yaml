@@ -37,6 +37,10 @@
   speakerUrl: https://peterchencyc.com/
   speakerInfo: Assistant Professor at UBC CS
   speakerPhoto: peter_chen.jpg
+  html: true
+  title: Physical AI Needs an AI-Enhanced Physics Simulator
+  abstract: "Physics simulation lies at the heart of Physical AI—the effort to create robots and embodied systems that can learn, reason, and act in the physical world. From training and validation to policy evaluation, simulation provides the foundation for scalable, safe, and data-efficient learning. Traditionally, two paradigms have shaped this field: physics-based simulation grounded in partial differential equations (PDEs) and data-driven simulation powered by neural networks.<br/><br/>This talk presents a unified view of AI-enhanced physics simulation as the enabler of Physical AI. By combining the interpretability of physics with the adaptability of machine learning, we can build simulators that generate synthetic data to propel robotic learning, improve robustness, and close the gap between simulation and reality—ultimately enabling more reliable, generalizable, and autonomous physical intelligence."
+  bio: Peter Yichen Chen is an assistant professor at the University of British Columbia, where he directs the UBC PhysAI Lab. He was a postdoc at MIT CSAIL and earned his PhD in computer science from Columbia University. Earlier, he received the Sherwood Prize in mathematics as an undergraduate at UCLA. His research advances 3D content creation for artists, design/fabrication/control for engineers, and material discovery for scientists. Peter’s interdisciplinary work spans computer graphics, machine learning, scientific computing, mechanics, and robotics, and his co-authored papers have been recognized with several awards, including a SIGGRAPH Best Paper Award.
 
 - date: "2026-02-27"
   location: TASC1 9204 12:00pm
@@ -46,7 +50,8 @@
   speakerPhoto: ziyu_wan.jpg
   title: Photorealistic Visual Generation and Distillation
   abstract: Throughout history, there have been various methods for acquiring photorealistic visual content. In today's rapidly evolving landscape of artificial intelligence, one of the most convenient approaches to generate novel samples is the use of prominent learning-based reconstruction and generation frameworks. In this presentation, I will introduce some of our previous efforts on creating photorealistic contents through generative models and distillation techniques. Furthermore,we will uncover the correlations between these methodologies, showcasing how they can synergistically enhance each other's capabilities.
-  bio: Ziyu Wan is a Senior Researcher and Member of Technical Staff at Microsoft AI (MAI) Superintelligence Team, specifically working on the OpenAI model post-training. He obtained his  PhD from City University of Hong Kong advised by Prof Jing Liao. He was also a visiting PhD at the Geometric Computation group, Stanford University advised by Prof Leonidas J. Guibas. During his PhD study, Ziyu did research internships at Google DeepMind, Meta Reality Labs, Tencent AI Lab and Microsoft Research. Ziyu's research lies at the intersection of computational photography, neural rendering, and generative AI. 
+  bio: Ziyu Wan is a Senior Researcher and Member of Technical Staff at Microsoft AI (MAI) Superintelligence Team, specifically working on the OpenAI model post-training. He obtained his  PhD from City University of Hong Kong advised by Prof Jing Liao. He was also a visiting PhD at the Geometric Computation group, Stanford University advised by Prof Leonidas J. Guibas. During his PhD study, Ziyu did research internships at Google DeepMind, Meta Reality Labs, Tencent AI Lab and Microsoft Research. Ziyu's research lies at the intersection of computational photography, neural rendering, and generative AI.
+  video: https://stream.sfu.ca/Media/Play/127a4c6754284133841189d060cbd3ff1d
 
 - date: "2026-02-13"
   location: TASC1 9204 12:00pm
