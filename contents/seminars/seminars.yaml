@@ -9,6 +9,12 @@
 #   bio: ""
 #   tags: []
 
+- date: "2026-04-17"
+  location: TASC1 9204 12:00pm
+  speaker: Alex Weisman
+  speakerUrl: https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html
+  speakerInfo: Assistant Professor of Biomedical Physiology & Kinesiology at SFU
+  speakerPhoto: alex_weisman.jpg
 
 - date: "2026-04-10"
   location: TASC1 9204 12:00pm
@@ -16,13 +22,6 @@
   speakerUrl: https://yuhanghe01.github.io/
   speakerInfo: Senior Researcher at Microsoft Research
   speakerPhoto: yuhang_he.jpg
-
-- date: "2026-04-03"
-  location: TASC1 9204 12:00pm
-  speaker: Alex Weisman
-  speakerUrl: https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html
-  speakerInfo: Assistant Professor of Biomedical Physiology & Kinesiology at SFU
-  speakerPhoto: alex_weisman.jpg
 
 - date: "2026-03-27"
   location: TASC1 9204 12:00pm
