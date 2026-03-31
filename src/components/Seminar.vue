@@ -1,16 +1,6 @@
 <template>
   <article :class="getSeminarType(seminar)">
-    <div>
-      <img v-if="seminar.speakerPhoto" :src="require(`Content/seminars/speakers/${seminar.speakerPhoto}`)" class="speaker-image" style="float: left;">
-      <h3>{{getDayOfWeek(seminar.date)}} {{seminar.date}} <span v-if="seminar.location">({{seminar.location}})</span></h3>
-      <h3 class="speaker-name">
-        <a target="_blank" :href="seminar.speakerUrl"><b>Speaker</b>: {{seminar.speaker}}</a>
-        <br/>
-        <a target="_blank" :href="seminar.speakerUrl">{{seminar.speakerInfo}}</a>
-      </h3>
-      <img v-if="seminar.talkImage" :src="require(`Content/seminars/speakers/${seminar.talkImage}`)" style="float: right;">
-      <div v-if="seminar.title"><b>Title:</b> {{seminar.title}}</div>
-    </div>
+    <seminar-title-block :seminar="seminar"></seminar-title-block>
     <div>
         <br/>
         <div class="text" v-if="seminar.abstract"><b>Abstract:</b>
@@ -34,6 +24,8 @@
 </template>
 
 <script>
+import seminarTitleBlock from './SeminarTitleBlock.vue'
+
 export default {
   name: 'seminar',
   data() {
@@ -53,7 +45,10 @@ export default {
       return date.toLocaleDateString('en-US', { weekday: 'long' })
     }
   },
-  props: ['seminar']
+  props: ['seminar'],
+  components: {
+    'seminar-title-block': seminarTitleBlock
+  }
 }
 </script>
 

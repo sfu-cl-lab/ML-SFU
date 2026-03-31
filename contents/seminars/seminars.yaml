@@ -11,10 +11,19 @@
 
 - date: "2026-04-17"
   location: TASC1 9204 12:00pm
-  speaker: Alex Weisman
-  speakerUrl: https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html
-  speakerInfo: Assistant Professor of Biomedical Physiology & Kinesiology at SFU
-  speakerPhoto: alex_weisman.jpg
+  speakers:
+    - name: Alex Wiesman
+      url: https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html
+      info: Assistant Professor of Biomedical Physiology & Kinesiology at SFU
+      photo: alex_weisman.jpg
+    - name: Santiago Flores
+      url: https://www.linkedin.com/in/santiago-i-flores-alonso-036327176/
+      info: Postdoctoral Researcher in Neuroimaging and Brain Aging at SFU ImageTech Lab
+      photo: santiago_flores.jpg
+  html: true
+  title: Machine learning for data-driven mapping of millisecond-scale brain dynamics
+  abstract: Quantitative measurements of human brain function are incredibly rich, often comprising minutes-to-hours of data sampled every millisecond, across thousands-to-millions of locations. Traditional analytical approaches have relied on explicit, researcher-defined feature extraction and data reduction strategies, which can enhance interpretability but constrain the representational space. Supervised and unsupervised machine learning methods represent a new path for data-driven exploration of human neuroimaging data that has advanced our fundamental understanding of neuroscience. In this seminar, we will discuss the unique considerations and benefits of applying machine learning to functional neuroimaging data, some recent applications of ML methods to neuroimaging data from our lab, and the cutting-edge neuroimaging methodologies available at SFU's Biomedical Imaging Core Facility.
+  bio: "Alex Wiesman is a Tier-2 Canada Research Chair and an Assistant Professor in Biomedical Physiology & Kinesiology at Simon Fraser University, as well as the Scientific Director of their biomedical imaging Core Facility. Before this, Alex was a NIH F31 Doctoral Fellow at the University of Nebraska Medical Center and then a CIHR Banting and NIH F32 Postdoctoral Fellow at the Montreal Neurological Institute-Hospital of McGill University. His research combines magnetoencephalography (MEG), MRI, positron emission tomography (PET), and peripheral biomarkers to understand how the signaling of the brain deteriorates in age-related disorders like Parkinson’s and Alzheimer’s disease, with a focus on improving patient well-being.<br/><br/>Santiago Flores is a postdoctoral researcher at Simon Fraser University in the Laboratory for the Neurophysiology of Aging under the supervision of Alex Wiesman. He received his Ph.D. in Computer Science (Artificial Intelligence) from the Instituto Politécnico Nacional, supported by the CONACYT Graduate Excellence Scholarship. He previously trained at the Montreal Neurological Institute-Hospital of McGill University. His research combines MEG, MRI, and large-scale population data with machine learning and spectral modeling to study brain aging, focusing on how functional dynamics shape cognitive decline and risk for neurodegenerative disorders."
 
 - date: "2026-04-10"
   location: TASC1 9204 12:00pm

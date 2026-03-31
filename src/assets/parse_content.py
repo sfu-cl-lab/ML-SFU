@@ -33,7 +33,11 @@ def parse_pubs():
 def parse_seminars():
     seminars = yaml.safe_load(open('{}/seminars/seminars.yaml'.format(CONTENT_PATH)))
     for sem in seminars:
-        speaker = re.sub(r"\([^)]*\)", "", sem["speaker"].lower())
+        if "speaker" in sem:
+            speaker = sem["speaker"]
+        elif "speakers" in sem:
+            speaker = "_".join([s["name"] for s in sem["speakers"]])
+        speaker = re.sub(r"\([^)]*\)", "", speaker.lower())
         speaker = speaker.replace(' ', '_')
         date = re.sub("-", "", sem["date"])
         sem["key"] = date + '-' + speaker
