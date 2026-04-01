@@ -16,9 +16,9 @@
       url: https://www.sfu.ca/bpk/about/people/faculty/Alex-Wiesman.html
       info: Assistant Professor of Biomedical Physiology & Kinesiology at SFU
       photo: alex_wiesman.jpg
-    - name: Santiago Flores-Alonso
+    - name: Santiago Flores
       url: https://www.linkedin.com/in/santiago-i-flores-alonso-036327176/
-      info: Postdoctoral Researcher in Neuroimaging and Brain Aging at SFU ImageTech Lab
+      info: Postdoctoral Researcher at SFU in the Laboratory for the Neurophysiology of Aging
       photo: santiago_flores.jpg
   html: true
   title: Machine learning for data-driven mapping of millisecond-scale brain dynamics
