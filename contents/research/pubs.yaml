@@ -43,6 +43,7 @@
   links:
     paper: https://arxiv.org/pdf/2510.15940
     webpage: https://leanfinder.github.io/
+    news: https://www.sfu.ca/fas/computing/news-events/news/2025/november/ai-powered--lean-finder--helps-mathematicians-discover-theorems-.html
 
 - date: "2026-04-23"
   venue: "ICLR"
@@ -272,6 +273,7 @@
   links:
     paper: https://arxiv.org/abs/2504.08051
     code: https://github.com/tsa87/cgflow
+    news: "https://www.sfu.ca/fas/computing/news-events/news/2025/july/new-sfu-study-transforms-drug-design--promises-faster-life-savin.html"
 
 - date: "2025-05-28"
   venue: "ICML"
