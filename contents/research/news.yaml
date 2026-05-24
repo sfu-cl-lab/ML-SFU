@@ -10,7 +10,7 @@
   venue: "aicrv"
   year: 2026
   type: conference
-  html: SFU is hosting the 2026 Canadian Conference on Artificial Intelligence, Robots & Vision (AI/CRV) in Vancouver.  The conference will be held at the SFU Burnaby campus from May 25th to May 29th.  We have a packed schedule with 9 workshops in addition to the two conferences.  We are looking forward to welcoming researchers from across Canada to our beautiful city for this exciting event! See <a href='https://www.ai-crv.ca/'>https://www.ai-crv.ca/</a> for more details.
+  html: SFU is hosting the 2026 Canadian Conference on Artificial Intelligence, Robots & Vision (AI/CRV) in Vancouver.  The conference will be held at the SFU Burnaby campus from May 25th to May 29th.  We have a packed schedule with 9 workshops in addition to the two conferences.  We are looking forward to welcoming researchers from across Canada to our beautiful city for this exciting event! See <a href='https://www.sfu.ca/fas/computing/news-events/news/2026/may/advancing-artificial-intelligence-and-vision-research--sfu-compu.html'>SFU news</a> and <a href='https://www.ai-crv.ca/'>https://www.ai-crv.ca/</a> for more details.
 
 - date: "2026-05-21"
   shortname: "cifar-2026"
@@ -23,6 +23,12 @@
   title: "Ali Mahdavi-Amiri receives Early Career Researcher Award"
   type: news
   html: Congratulations to Ali Mahdavi-Amiri for receiving the Early Career Researcher Award at Graphics Interface! See <a href='https://graphicsinterface.org/awards/early-career-researcher-award/ali-mahdavi-amiri/'>here</a> for more details.
+
+- date: "2026-05-07"
+  shortname: "bcai-summit-2026"
+  title: "SFU UBC co-organize BC AI Research-to-Adoption Summit"
+  type: news
+  html: SFU CS and UBC CS co-organized <a href='https://sites.google.com/view/bc-ai-research-to-adoption-sum/home'>BC AI Research-to-Adoption Summit</a> to bring together researchers, industry leaders, and government representatives for a full day of panels and presentations, allowing participants to network and discuss how to advance AI collaboration across B.C. See <a href='https://www.sfu.ca/fas/computing/news-events/news/2026/may/sfu-ubc-collaborates-on-bc-ai-research-to-adoption-summit.html'>SFU News</a> for more details.
 
 - date: "2026-04-23"
   shortname: "iclr-2026"
