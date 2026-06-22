@@ -4,6 +4,13 @@
 #   image: ""
 #   url: ""
 
+- date: "2026-06-22"
+  shortname: "icml-2026"
+  title: "SFU at ICML 2026"
+  venue: "icml"
+  year: 2026
+  type: conference
+
 - date: "2026-05-23"
   shortname: "aicrv-2026"
   title: "SFU organizing Canadian AI/CRV 2026"
