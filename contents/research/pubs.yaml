@@ -1,3 +1,63 @@
+##### ICML 2026 #####
+
+- date: "2026-07-12"
+  venue: "ICML"
+  year: 2026
+  authors: [Yiming Zhang, Jiacheng Chen, Jiaqi Tan, Yongsen Mao, Wenhu Chen, Angel X. Chang]
+  title: "ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for Accurate Assessment of VLM 3D Reasoning"
+  links:
+    paper: https://arxiv.org/abs/2604.24300
+    webpage: https://3dlg-hcvc.github.io/revsi/
+
+- date: "2026-07-12"
+  venue: "ICML (Position Track)"
+  year: 2026
+  authors: [Joshua Z Tan, Nicholas Vincent, Katherine Elkins, Magnus Sahlgren, Joseph Low, David Huu Pham, Sampo Pyysalo, Jenia Jitsev]
+  title: "Position: If open source is to win, it must go public"
+  links:
+    paper: https://arxiv.org/pdf/2507.09296
+
+- date: "2026-07-12"
+  venue: "ICML"
+  year: 2026
+  authors: [Yunxiang Li, Mark Schmidt, Reza Babanezhad, Sharan Vaswani]
+  title: "Towards Parameter-Free Temporal Difference Learning"
+  links:
+    paper: https://arxiv.org/abs/2603.02577
+
+- date: "2026-07-12"
+  venue: "ICML"
+  year: 2026
+  authors: [Sharan Vaswani, Yifan Sun, Reza Babanezhad]
+  title: "On the Convergence of Steepest Descent and Adaptive Gradient Methods under Non-Uniform Smoothness"
+  links:
+    paper: https://arxiv.org/pdf/2605.30648
+
+- date: "2026-07-12"
+  venue: "ICML"
+  year: 2026
+  authors: [Hossein Mohebbi, Oliver Schulte, Ke Li, Pascal Poupart]
+  title: "Counterfactual Residual Data Augmentation for Regression"
+  links:
+    paper: https://crda-project.github.io/static/paper.pdf
+    webpage: https://crda-project.github.io/
+
+- date: "2026-07-12"
+  venue: "ICML"
+  year: 2026
+  authors: [Dezhi Ran, Shuxiao Xie, Mingfang Ji, Anmin Liu, Mengzhou Wu, Yuan Cao, Yuzhe Guo, Hao Yu, Linyi Li, Yitao Hu, Wei Yang, Tao Xie]
+  title: "KernelBand: Steering LLM-based Kernel Optimization via Hardware-Aware Multi-Armed Bandits"
+  links:
+    paper: https://arxiv.org/abs/2511.18868
+
+- date: "2026-07-12"
+  venue: "ICML"
+  year: 2026
+  authors: [Jialin Song, Xiaodong Liu, Weiwei Yang, Wuyang Chen, Mingqian Feng, Xuekai Zhu, Jianfeng Gao]
+  title: "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety"
+  links:
+    paper: https://arxiv.org/pdf/2605.01687
+
 
 ##### ICLR 2026 #####
 
