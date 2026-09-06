@@ -9,6 +9,17 @@
 #   bio: ""
 #   tags: []
 
+- date: "2026-08-31"
+  location: TASC1 9204 11:00am
+  speaker: "Ana Lucic"
+  speakerUrl: "https://a-lucic.github.io/"
+  speakerInfo: "Assistant Professor in Machine Learning at the University of Amsterdam"
+  speakerPhoto: "ana_lucic.jpg"
+  title: "Aurora: A Foundation Model of the Earth System"
+  abstract: "Reliable forecasting of the Earth system is essential for mitigating natural disasters and supporting human progress. Traditional numerical models, although powerful, are extremely computationally expensive. Recent advances in artificial intelligence (AI) have shown promise in improving both predictive performance and efficiency, yet their potential remains underexplored in many Earth system domains. Here we introduce Aurora, a large-scale foundation model trained on more than one million hours of diverse geophysical data. Aurora outperforms operational forecasts in predicting air quality, ocean waves, tropical cyclone tracks and high-resolution weather, all at orders of magnitude lower computational cost. With the ability to be fine-tuned for diverse applications at modest expense, Aurora represents a notable step towards democratizing accurate and efficient Earth system predictions. These results highlight the transformative potential of AI in environmental forecasting and pave the way for broader accessibility to high-quality climate and weather information."
+  bio: "Ana Lucic is an assistant professor in machine learning at the University of Amsterdam. She has a joint position between the Institute for Logic, Language, and Computation, and the Informatics Institute. Previously, she was a researcher at Microsoft Research AI for Science and at the Partnership on AI. Her current research interests include scientific machine learning, interpretability, and AI safety. She works on modeling real-world systems with machine learning and developing methods for understanding such models."
+  video: https://stream.sfu.ca/Media/Play/afcd0b81541248299d177738bef3b8ce1d
+
 - date: "2026-04-17"
   location: TASC1 9204 12:00pm
   speakers:
