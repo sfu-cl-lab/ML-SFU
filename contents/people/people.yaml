@@ -148,12 +148,20 @@
 
 - name: "Marzena Karpinska"
   url: "https://marzenakrp.github.io/"
-  labUrl: ""
+  labUrl: "https://marzenakrp.github.io/group/"
   picPath: "MarzenaKarpinska.webp"
   description: "&#8226; Natural language processing (NLP)<br>
                 &#8226; Human-centered computing<br>
                 &#8226; Cognitive Science<br>"
 
+- name: "Roi Herzig"
+  url: "https://roeiherz.github.io/"
+  labUrl: ""
+  picPath: "RoiHerzig.jpg"
+  description: "&#8226; AI & Robotics<br>
+                &#8226; Computer Vision<br>
+                &#8226; Machine Learning<br>
+                &#8226; Robot Learning<br>"
 
 - name: "Richard Vaughan"
   url: "https://rtv.github.io/"
