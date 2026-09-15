@@ -9,6 +9,16 @@
 #   bio: ""
 #   tags: []
 
+- date: "2026-09-18"
+  location: TASC1 9204 12:00pm
+  speaker: "Kenny Chen"
+  speakerUrl: "https://kenchen10.github.io/"
+  speakerInfo: "PhD Student at NYU Immersive Computing Lab "
+  speakerPhoto: "kenny_chen.jpg"
+  title: Perceptual Optimization of Perceptual Display Quality 
+  abstract: "Visual computing systems ultimately produce pixels that are consumed by a human viewer. Yet, image/video quality assessment and optimization of these systems is commonly done pixel-wise. This talk argues that evaluation and optimization should be conducted by operating on the signal received by the eye, accounting for the display and the visual system's own limitations. This will be motivated by showing examples spanning HDR display characterization, perceptual quality metrics for tone-mapped content, models of peripheral color sensitivity, and perceptually-guided compute allocation in rendering, image encoding, and generative image synthesis. These general principles can be used for deciding where any visual pipeline should allocate resources, with implications reaching from XR power budgets to the compute cost of generative AI."
+  bio: "Kenny Chen is a final year PhD student at New York University, advised by Prof. Qi Sun in the Immersive Computing Lab. His current research interests include computer graphics, applied human perception, and computational displays, with a particular focus on image quality aspects of immersive displays and optimization of graphics, display, and AI systems with respect to human vision. His research was recognized with a best paper award honorable mention at SIGGRAPH. Prior to NYU, he graduated with a BA at the University of California, Berkeley in computer science. During his PhD, he worked at Meta Reality Labs, Univearchs. More information can be found on his webpage: https://kenchen10.github.io/"
+
 - date: "2026-08-31"
   location: TASC1 9204 11:00am
   speaker: "Ana Lucic"
