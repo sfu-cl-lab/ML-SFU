@@ -182,7 +182,7 @@ ul.list {
 }
 
 /* Small screens: stack the menu above the content instead of beside it */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .header {
     flex-wrap: wrap;
     align-items: center;

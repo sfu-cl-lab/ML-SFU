@@ -29,6 +29,7 @@
       <div style="justify-content: center; flex-wrap: wrap;">
         <seminar class="seminar" :seminar="item" v-for="(item,index) in futureSeminars" :key="'upcoming' + index">
         </seminar>
+        <p v-if="futureSeminars.length === 0">No upcoming seminars are scheduled at the moment.</p>
       </div>
       <h3 id="past-seminars" class="section-title">Past seminars</h3>
       <br/>

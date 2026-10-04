@@ -164,9 +164,10 @@ export default {
 }
 
 /* Small screens: stack the card rows and show people/labs at full width */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .carousel >>> .el-carousel__container {
-    height: 240px !important;
+    height: 60vw !important;
+    max-height: 450px;
   }
   .carousel img {
     width: 100%;
