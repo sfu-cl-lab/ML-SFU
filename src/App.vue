@@ -2,7 +2,7 @@
   <div id="app">
     <header class="header">
       <div>
-        <img src="./assets/sfu-logo.png">
+        <img class="sfu-logo" src="./assets/sfu-logo.png">
       </div>
       <div class="header-title">
         <div>
@@ -16,9 +16,13 @@
     </header>
     <div class="header-divider">
     </div>
+    <!-- Only shown on small screens, where the side menu is collapsed -->
+    <button class="menu-toggle" @click="menuOpen = !menuOpen">
+      {{ menuOpen ? '✕' : '☰' }} Menu
+    </button>
 
-    <el-container style="overflow-x:hidden;">
-      <el-aside width="20%" class="menu-col">
+    <el-container class="main-container" style="overflow-x:hidden;">
+      <el-aside width="20%" class="menu-col" :class="{ 'menu-open': menuOpen }">
         <section class="menu">
           <el-menu :default-openeds="[]" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
             <a href="../#/home"><el-menu-item index="home" router="true">
@@ -64,7 +68,7 @@
           </el-menu>
         </section>
       </el-aside>
-      <el-aside width="80%">
+      <el-aside width="80%" class="content-col">
         <router-view/>
       </el-aside>
     </el-container>
@@ -78,10 +82,17 @@ export default {
   data() {
     return {
       activeIndex: 1,
+      menuOpen: false,
       labs: dataConfig.labs,
       people: dataConfig.people,
       seminars: dataConfig.seminars,
       general: dataConfig.general
+    }
+  },
+  watch: {
+    $route() {
+      // Close the mobile menu after navigating
+      this.menuOpen = false
     }
   },
   created() {
@@ -165,5 +176,47 @@ ul.list {
   list-style: inside;
   line-height: 1.5;
   text-align: left;
+}
+.menu-toggle {
+  display: none;
+}
+
+/* Small screens: stack the menu above the content instead of beside it */
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .sfu-logo {
+    display: block;
+    height: 48px;
+  }
+  .header-title {
+    margin: 0.5em 1em;
+  }
+  .menu-toggle {
+    display: block;
+    width: 100%;
+    padding: 0.8em 1em;
+    border: none;
+    background-color: #2b2925;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .main-container > .el-aside {
+    width: 100% !important;
+  }
+  .menu-col {
+    display: none;
+  }
+  .menu-col.menu-open {
+    display: block;
+  }
 }
 </style>

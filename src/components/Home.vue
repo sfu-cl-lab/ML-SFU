@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-carousel height="450px">
+    <el-carousel class="carousel" height="450px">
       <el-carousel-item v-for="(item,index) in carouselConfs" :key="index">
         <img :src="require(`Content/carousel/${item.picPath}`)" :height="450">
       </el-carousel-item>
@@ -8,7 +8,7 @@
 
     <section class="sayings content-section">
       <div>
-        <div style="display:flex; justify-content:space-around;">
+        <div class="card-row" style="display:flex; justify-content:space-around;">
           <el-card>
             <a href="../#/news"><h2 class="link-title">Recent News</h2></a>
             <newsitem class="news" :item="news[0]" :index="0"/>
@@ -21,7 +21,7 @@
       </div>
       <div>
         <h2 class="section-title">{{generalConfs.section_one.name}}</h2>
-        <div style="display:flex; justify-content:space-around;">
+        <div class="card-row" style="display:flex; justify-content:space-around;">
           <el-card class="why-sfu" v-for="(item,index) in generalConfs.section_one.cards" :key="index">
             {{item}}
           </el-card>
@@ -161,5 +161,38 @@ export default {
 
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
+}
+
+/* Small screens: stack the card rows and show people/labs at full width */
+@media (max-width: 768px) {
+  .carousel >>> .el-carousel__container {
+    height: 240px !important;
+  }
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-row {
+    flex-direction: column;
+  }
+  .card-row > .el-card {
+    margin: 0.5em 1em;
+  }
+  .why-sfu {
+    max-width: none;
+  }
+  .prof {
+    -webkit-flex: 1 1 40%;
+    flex: 1 1 40%;
+    box-sizing: border-box;
+    max-width: 45%;
+    margin: 0.5em 2%;
+  }
+  .lab {
+    -webkit-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 </style>

@@ -71,6 +71,7 @@
 <script>
 import dataConfig from '../assets/data.json'
 import seminar from './Seminar.vue'
+import groupBy from '../groupBy'
 
 const now = new Date().getTime()
 const currentYear = new Date().getFullYear()
@@ -101,7 +102,7 @@ export default {
   },
   methods: {
     groupSeminarsByYear: function(seminars) {
-      const grouped = Object.groupBy(seminars, (elem, k) => elem._date.getFullYear())
+      const grouped = groupBy(seminars, (elem, k) => elem._date.getFullYear())
       return grouped
     }
   },

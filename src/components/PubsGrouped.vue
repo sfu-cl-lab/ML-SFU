@@ -5,6 +5,7 @@
 </template>
 <script>
 import pubs from './Pubs.vue'
+import groupBy from '../groupBy'
 export default {
   name: 'pubsGrouped',
   data() {
@@ -31,7 +32,7 @@ export default {
       return title
     },
     groupPubs: function(pubs) {
-      const grouped = Object.groupBy(pubs, (elem, k) => elem.year.toString() + '_' + elem.venue.toLowerCase())
+      const grouped = groupBy(pubs, (elem, k) => elem.year.toString() + '_' + elem.venue.toLowerCase())
       const groupedKeys = Object.keys(grouped)
       groupedKeys.sort((a, b) => {
         const p1 = a.split(' ', 2)
