@@ -16,7 +16,7 @@
 
         <h3 id="upcoming-seminars" class="seminars-heading">Upcoming seminars</h3>
         <seminar :seminar="item" v-for="(item,index) in futureSeminars" :key="'upcoming' + index"></seminar>
-        <p v-if="futureSeminars.length === 0" class="empty">No upcoming seminars are scheduled at the moment.</p>
+        <p v-if="futureSeminars.length === 0" class="empty">Update coming soon</p>
 
         <h3 id="past-seminars" class="seminars-heading">Past seminars</h3>
         <nav class="year-filter">
