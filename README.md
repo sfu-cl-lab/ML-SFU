@@ -47,6 +47,15 @@ Just edit files in `contents/` and then commit the change, it will **automatical
 
 3. Commit the change directly to the `master` branch
 
+#### Add/remove a lab
+
+1. Upload the lab's image to `contents/lab`
+
+2. Add an item at `contents/lab/lab.yaml`
+   1. Photos are cropped to fill the card. For a logo, add `logo: true` so it is shown whole instead, and `logoBackground` to fill the space beside it: the logo's background colour (`"#rrggbb"`), or a gradient such as `"linear-gradient(#454e56, #2e353b)"` if its background is shaded
+
+3. Commit the change directly to the `master` branch
+
 #### Update `WHY SFU`
 
 1. Make change to `contents/whysfu.yaml`

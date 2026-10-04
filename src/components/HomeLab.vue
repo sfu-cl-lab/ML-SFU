@@ -1,7 +1,7 @@
 <template>
   <article>
     <div class="image-container">
-      <img :src="require(`Content/lab/${labConf.picPath}`)">
+      <img :class="{ logo: labConf.logo }" :style="{ background: labConf.logoBackground }" :src="require(`Content/lab/${labConf.picPath}`)">
     </div>
     <a target="_blank" :href="labConf.url">
       <h3>{{labConf.labName|toUpper}}</h3>
@@ -71,6 +71,11 @@ article img {
   width: 100%;
   height: 12em;
   object-fit: cover;
+}
+/* Logos are shown whole and centered instead of cropped; the sides are
+   filled with logoBackground (a colour or gradient, set in lab.yaml) */
+article img.logo {
+  object-fit: contain;
 }
 article p {
   text-align: left;

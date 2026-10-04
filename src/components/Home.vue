@@ -163,7 +163,8 @@ export default {
   background-color: #d3dce6;
 }
 
-/* Small screens: stack the card rows and show people/labs at full width */
+/* Small screens: stack the card rows; two people per row, and labs one per
+   row on phones / two per row on tablets */
 @media (max-width: 900px) {
   .carousel >>> .el-carousel__container {
     height: 60vw !important;
@@ -191,8 +192,8 @@ export default {
     margin: 0.5em 2%;
   }
   .lab {
-    -webkit-flex: 1 1 100%;
-    flex: 1 1 100%;
+    -webkit-flex: 1 1 40%;
+    flex: 1 1 40%;
     max-width: 100%;
   }
 }

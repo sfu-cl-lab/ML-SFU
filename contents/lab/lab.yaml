@@ -35,6 +35,8 @@
 
 - labName: "TAI Lab"
   picPath: "tai.png"
+  logo: true
+  logoBackground: "linear-gradient(#454e56, #2e353b)"
   description: "We are the Trustworthy AI (TAI) Lab. Our research aims to advance the general trustworthiness of artificial intelligence, with a focus on deep learning models empowering the state-of-the-art genAI such as language models. Our mission is to deliver AI technologies that are reliably aligned with human values, so as to minimize the negative impacts of powerful AI."
   url: "https://sfu-tai.github.io/"
 
@@ -57,5 +59,12 @@
   picPath: "apex.jpg"
   description: "The APEX lab focuses on developing generative models and machine learning algorithms, and applying them in a principled manner."
   url: "https://sfuapex.ca/"
+
+- labName: "MANTA Lab"
+  picPath: "manta.jpg"
+  logo: true
+  logoBackground: "#fdfdf7"
+  description: "MANTA Lab (Multilingual AI for Narratives, Translation, and Analysis) works on developing and assessing multilingual and culturally rich AI systems that serve a wide variety of users."
+  url: "https://marzenakrp.github.io/group/"
   
 
