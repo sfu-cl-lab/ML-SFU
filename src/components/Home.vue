@@ -217,4 +217,13 @@ export default {
     max-width: 100%;
   }
 }
+/* Phones: one person per row (see HomeProf.vue) */
+@media (max-width: 600px) {
+  .prof {
+    -webkit-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 0.4em 0.8em;
+  }
+}
 </style>
