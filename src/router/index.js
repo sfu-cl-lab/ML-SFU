@@ -63,6 +63,11 @@ export default new Router({
       name: 'pubs-year-venue',
       component: PubsPage,
       props: true
+    },
+    {
+      // Unknown pages (e.g. old or mistyped links) go to the home page instead of showing a blank page
+      path: '*',
+      redirect: '/'
     }
   ],
   scrollBehavior(to, from, savedPosition) {

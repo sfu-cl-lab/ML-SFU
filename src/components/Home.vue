@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-carousel height="450px">
+    <el-carousel class="carousel" height="450px">
       <el-carousel-item v-for="(item,index) in carouselConfs" :key="index">
         <img :src="require(`Content/carousel/${item.picPath}`)" :height="450">
       </el-carousel-item>
@@ -8,10 +8,13 @@
 
     <section class="sayings content-section">
       <div>
-        <div style="display:flex; justify-content:space-around;">
-          <el-card>
+        <div class="card-row" style="display:flex; justify-content:space-around;">
+          <el-card class="recent-news">
             <a href="../#/news"><h2 class="link-title">Recent News</h2></a>
-            <newsitem class="news" :item="news[0]" :index="0"/>
+            <ul>
+              <newsitem compact v-for="(item, index) in news.slice(0, 4)" :key="index" :item="item" :index="index"/>
+            </ul>
+            <router-link class="more-link" to="/news">All news and events &rarr;</router-link>
           </el-card>
           <el-card>
             <a href="../#/seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
@@ -21,7 +24,7 @@
       </div>
       <div>
         <h2 class="section-title">{{generalConfs.section_one.name}}</h2>
-        <div style="display:flex; justify-content:space-around;">
+        <div class="card-row" style="display:flex; justify-content:space-around;">
           <el-card class="why-sfu" v-for="(item,index) in generalConfs.section_one.cards" :key="index">
             {{item}}
           </el-card>
@@ -115,6 +118,20 @@ export default {
   text-align: left;
 }
 
+.recent-news {
+  max-width: 26em;
+}
+.recent-news ul {
+  margin: 0;
+  padding: 0;
+}
+.more-link {
+  display: inline-block;
+  margin-top: 0.8em;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
 .link-title {
   font-weight: 700;
   padding-top: 0.5em;
@@ -161,5 +178,43 @@ export default {
 
 .el-carousel__item:nth-child(2n + 1) {
   background-color: #d3dce6;
+}
+
+/* Small screens: stack the card rows; two people per row, and labs one per
+   row on phones / two per row on tablets */
+@media (max-width: 900px) {
+  .carousel >>> .el-carousel__container {
+    height: 60vw !important;
+    max-height: 450px;
+  }
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-row {
+    flex-direction: column;
+  }
+  .card-row > .el-card {
+    margin: 0.5em 1em;
+  }
+  .recent-news {
+    max-width: none;
+  }
+  .why-sfu {
+    max-width: none;
+  }
+  .prof {
+    -webkit-flex: 1 1 40%;
+    flex: 1 1 40%;
+    box-sizing: border-box;
+    max-width: 45%;
+    margin: 0.5em 2%;
+  }
+  .lab {
+    -webkit-flex: 1 1 40%;
+    flex: 1 1 40%;
+    max-width: 100%;
+  }
 }
 </style>

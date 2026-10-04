@@ -1,24 +1,28 @@
 <template>
   <div id="app">
     <header class="header">
-      <div>
-        <img src="./assets/sfu-logo.png">
-      </div>
+      <a href="https://www.sfu.ca/" target="_blank">
+        <img class="sfu-logo" src="./assets/sfu-logo.png" alt="Simon Fraser University">
+      </a>
       <div class="header-title">
-        <div>
-          <div><a :href="general.sub_title_link">{{general.sub_title}}</a></div>
-          <div style="font-size:1.3em;font-weight:700;color:#444;">{{general.main_title}}</div>
-        </div>
-        <a v-for="(item,index) in general.links" :key="index" :href="item.url" target="_blank" style="margin-left:1em;">
-           <img :src="require('./assets/icons/' + item.icon + '.svg')" style="height:30px;"/>
+        <a class="header-sub-title" :href="general.sub_title_link">{{general.sub_title}}</a>
+        <a class="header-main-title" href="#/">{{general.main_title}}</a>
+      </div>
+      <div class="header-links">
+        <a v-for="(item,index) in general.links" :key="index" :href="item.url" target="_blank" :title="item.name" :aria-label="item.name">
+          <img :src="require('./assets/icons/' + item.icon + '.svg')" :alt="item.name"/>
         </a>
       </div>
     </header>
     <div class="header-divider">
     </div>
+    <!-- Only shown on small screens, where the side menu is collapsed -->
+    <button class="menu-toggle" @click="menuOpen = !menuOpen">
+      {{ menuOpen ? '✕' : '☰' }} Menu
+    </button>
 
-    <el-container style="overflow-x:hidden;">
-      <el-aside width="20%" class="menu-col">
+    <el-container class="main-container" style="overflow-x:hidden;">
+      <el-aside width="20%" class="menu-col" :class="{ 'menu-open': menuOpen }">
         <section class="menu">
           <el-menu :default-openeds="[]" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
             <a href="../#/home"><el-menu-item index="home" router="true">
@@ -64,7 +68,7 @@
           </el-menu>
         </section>
       </el-aside>
-      <el-aside width="80%">
+      <el-aside width="80%" class="content-col">
         <router-view/>
       </el-aside>
     </el-container>
@@ -78,10 +82,17 @@ export default {
   data() {
     return {
       activeIndex: 1,
+      menuOpen: false,
       labs: dataConfig.labs,
       people: dataConfig.people,
       seminars: dataConfig.seminars,
       general: dataConfig.general
+    }
+  },
+  watch: {
+    $route() {
+      // Close the mobile menu after navigating
+      this.menuOpen = false
     }
   },
   created() {
@@ -110,9 +121,54 @@ body {
 .logo {
   height: 100%;
 }
+/* Header follows the layout of SFU's own sites (e.g. sfu.ca/computing) */
 .header {
   text-align: left;
   display: flex;
+  align-items: center;
+  padding: 16px 24px;
+}
+/* The logo file is a 2x image (520x120): show it at half size so it stays sharp */
+.sfu-logo {
+  display: block;
+  height: 60px;
+}
+.header-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  line-height: 1.25;
+}
+.header-sub-title {
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #555;
+}
+.header-main-title {
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #333;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.header-links a {
+  margin-left: 1.1em;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+.header-links a:hover {
+  opacity: 1;
+}
+.header-links img {
+  display: block;
+  height: 26px;
 }
 
 .content {
@@ -139,19 +195,8 @@ h1 {
   font-size: 1.2em;
 }
 .header-divider {
-  clear: left;
-  height: 10px;
-  width: 100%;
-  background: #3d3935
-    url(//www.sfu.ca/etc/designs/clf/clientlibs/clf/source/assets/bg-small.png) -70px
-    0 no-repeat;
-}
-.header-title {
-  margin: 0 auto 0.5em 2em;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  line-height: 150%;
+  height: 6px;
+  background-color: #a6192e;
 }
 a {
   text-decoration: none;
@@ -165,5 +210,52 @@ ul.list {
   list-style: inside;
   line-height: 1.5;
   text-align: left;
+}
+.menu-toggle {
+  display: none;
+}
+
+/* Small screens: stack the menu above the content instead of beside it */
+@media (max-width: 900px) {
+  .header {
+    flex-wrap: wrap;
+    padding: 12px 16px;
+  }
+  .sfu-logo {
+    height: 44px;
+  }
+  /* Title moves to its own row under the logo and icons */
+  .header-title {
+    order: 3;
+    width: 100%;
+    margin: 0.7em 0 0 0;
+  }
+  .header-main-title {
+    font-size: 1.35em;
+  }
+  .menu-toggle {
+    display: block;
+    width: 100%;
+    padding: 0.8em 1em;
+    border: none;
+    background-color: #2b2925;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .main-container > .el-aside {
+    width: 100% !important;
+  }
+  .menu-col {
+    display: none;
+  }
+  .menu-col.menu-open {
+    display: block;
+  }
 }
 </style>

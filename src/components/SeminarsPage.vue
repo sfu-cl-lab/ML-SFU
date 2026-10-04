@@ -29,6 +29,7 @@
       <div style="justify-content: center; flex-wrap: wrap;">
         <seminar class="seminar" :seminar="item" v-for="(item,index) in futureSeminars" :key="'upcoming' + index">
         </seminar>
+        <p v-if="futureSeminars.length === 0">No upcoming seminars are scheduled at the moment.</p>
       </div>
       <h3 id="past-seminars" class="section-title">Past seminars</h3>
       <br/>
@@ -71,6 +72,7 @@
 <script>
 import dataConfig from '../assets/data.json'
 import seminar from './Seminar.vue'
+import groupBy from '../groupBy'
 
 const now = new Date().getTime()
 const currentYear = new Date().getFullYear()
@@ -101,7 +103,7 @@ export default {
   },
   methods: {
     groupSeminarsByYear: function(seminars) {
-      const grouped = Object.groupBy(seminars, (elem, k) => elem._date.getFullYear())
+      const grouped = groupBy(seminars, (elem, k) => elem._date.getFullYear())
       return grouped
     }
   },

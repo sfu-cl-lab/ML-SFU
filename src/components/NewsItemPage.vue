@@ -1,5 +1,9 @@
 <template>
-     <news_item_detailed :item=getItem($route.params.id)></news_item_detailed>
+     <news_item_detailed v-if="item" :item=item></news_item_detailed>
+     <section v-else class="content-section">
+       <h2 class="section-title">News item not found</h2>
+       <p><router-link to="/news">See all news and events</router-link></p>
+     </section>
 </template>
 <script>
 import dataConfig from '../assets/data.json'
@@ -13,7 +17,9 @@ export default {
     }
   },
   computed: {
-
+    item() {
+      return this.getItem(this.$route.params.id)
+    }
   },
   methods: {
     getItem: function(id) {

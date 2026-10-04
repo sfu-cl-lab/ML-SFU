@@ -37,5 +37,9 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
       '  Tip: built files are meant to be served over an HTTP server.\n' +
       '  Opening index.html over file:// won\'t work.\n'
     ))
+
+    // Exit explicitly: on Node 15+ the Vue 2.5 template compiler leaves a
+    // MessageChannel open, which otherwise keeps the process (and CI) running forever.
+    process.exit(0)
   })
 })

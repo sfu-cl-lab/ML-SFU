@@ -47,6 +47,15 @@ Just edit files in `contents/` and then commit the change, it will **automatical
 
 3. Commit the change directly to the `master` branch
 
+#### Add/remove a lab
+
+1. Upload the lab's image to `contents/lab`
+
+2. Add an item at `contents/lab/lab.yaml`
+   1. Photos are cropped to fill the card. For a logo, add `logo: true` so it is shown whole instead, and `logoBackground` to fill the space beside it: the logo's background colour (`"#rrggbb"`), or a gradient such as `"linear-gradient(#454e56, #2e353b)"` if its background is shaded
+
+3. Commit the change directly to the `master` branch
+
 #### Update `WHY SFU`
 
 1. Make change to `contents/whysfu.yaml`
@@ -59,13 +68,13 @@ This website is developed using [Vue 2](https://v2.vuejs.org/).
 
 For local testing you will need to have [nodejs](https://nodejs.org).  
 
-Use [nvm](https://github.com/nvm-sh/nvm) to select a version of node to use.  The build has been tested with node v14 to v18.  
+Use [nvm](https://github.com/nvm-sh/nvm) to select a version of node to use.  The site is built and deployed with node v24 (see `.github/workflows/update-gh-pages.yml`); v18 has also been tested locally.  
 
-To download and install node.js v18.20.4:
+To download and install node.js v24:
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 source ~/.bashrc
-nvm install v18.20.4
+nvm install 24
 ```
 
 Build `src/assets/data.json` from yaml files (not sure why yaml files are not used directly).  You will need to have [python3](https://www.python.org/downloads/) installed.
@@ -76,9 +85,12 @@ python3 src/assets/parse_content.py         # Parse content
 
 Run local server
 ```
-npm install              # install node modules            
-npm start                # Start server
+npm install -g yarn              # once, if you don't have yarn
+yarn install --ignore-scripts    # install node modules (as the deploy build does; plain `npm install` fails on Apple Silicon Macs)
+npm start                        # Start server
 ```
+
+Every push builds the site on GitHub (Actions tab), so you can push a branch to check it builds; only `master` is deployed.
 
 Go to http://localhost:8080
 
