@@ -9,6 +9,9 @@ links:
   - name: bluesky
     icon: bluesky
     url: https://bsky.app/profile/sfu-cs-ai.bsky.social
+  - name: linkedin
+    icon: linkedin
+    url: https://www.linkedin.com/company/sfu-cs-ai
 
 section_one:
   name: "WHY SFU"
