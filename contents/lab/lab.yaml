@@ -21,7 +21,7 @@
 - labName: "MIA Lab"
   picPath: "Hamarneh.jpg"
   description: "We are the Medical Image Analysis (MIA) lab.  Our team's research focuses on developing novel computer vision and machine learning methods capable of automatically interpreting images to mimic and complement human vision while being faster, more reproducible, and more accurate." 
-  url: "http://www.cs.sfu.ca/~hamarneh"
+  url: "https://www.medicalimageanalysis.com/"
 
 - labName: "Libbrecht Research Lab"
   picPath: "Libbrecht.jpg"
