@@ -7,7 +7,7 @@
       <a target="_blank" :href="profConf.url">{{profConf.name}}</a>
     </h3>
     <p class="prof-desc" v-html="profConf.description"></p>
-    <div style="margin-top:1em;">
+    <div class="prof-buttons">
       <a target="_blank" :href="profConf.url" v-if="profConf.url">
         <el-button size="small">
           Home Page
@@ -67,5 +67,42 @@ article img {
 
   font-size: 20px;
   margin: 0 auto 0 auto;
+}
+.prof-buttons {
+  margin-top: 1em;
+}
+
+/* Phones: one person per row, photo on the left and details on the right */
+@media (max-width: 600px) {
+  article {
+    display: grid;
+    grid-template-columns: 88px 1fr;
+    column-gap: 1em;
+    align-items: start;
+    padding: 1em;
+    text-align: left;
+  }
+  .img-wrapper {
+    grid-row: 1 / span 3;
+    width: 88px;
+    height: 88px;
+    margin: 0;
+  }
+  article img {
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+  }
+  .prof-name {
+    margin: 0;
+  }
+  .prof-desc {
+    height: auto;
+    margin: 0.3em 0 0 0;
+    line-height: 1.4;
+  }
+  .prof-buttons {
+    margin-top: 0.6em;
+  }
 }
 </style>

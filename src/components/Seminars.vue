@@ -1,13 +1,11 @@
 <template>
   <div>
-    <section class="content-section">
-      <div style="justify-content: center; flex-wrap: wrap;">
-         <seminar class="seminar" :seminar="item" v-for="(item,index) in selectedSeminars" :key="index">
-        </seminar>
-        <h4 v-if="selectedSeminars.length===0">No matching seminars</h4>
-      </div>
+    <section class="content-section seminar-detail">
+      <router-link class="back-link" to="/seminars">&larr; All seminars</router-link>
+      <seminar :seminar="item" v-for="(item,index) in selectedSeminars" :key="index">
+      </seminar>
+      <h4 v-if="selectedSeminars.length===0" class="empty">No matching seminars</h4>
     </section>
-
   </div>
 </template>
 
@@ -51,4 +49,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.seminar-detail {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 1.5em 1.5em 0 1.5em;
+  text-align: left;
+}
+.back-link {
+  font-weight: 600;
+  color: var(--text-color);
+}
+.empty {
+  margin-top: 1em;
+}
 </style>
