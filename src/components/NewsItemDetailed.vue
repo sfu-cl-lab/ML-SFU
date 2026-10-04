@@ -1,5 +1,7 @@
 <template>
-  <section class="content-section">
+  <section class="content-section news-detail">
+    <router-link class="back-link" to="/news">&larr; News and Events</router-link>
+    <div class="detail-meta">{{ formattedDate }}<span v-if="item.location"> &middot; {{ item.location }}</span></div>
     <h2 class="main-title">{{item.title}}</h2>
     <div class="img-wrapper" v-if="item.image">
       <img :src="require(`Content/research/${item.image}`)">
@@ -32,6 +34,11 @@ export default {
     return {
     }
   },
+  computed: {
+    formattedDate() {
+      return new Date(this.item.date + 'T12:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+    }
+  },
   components: {
     'pubs': pubsVue,
     'schedule': scheduleVue,
@@ -42,14 +49,38 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.main-title {
+.news-detail {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.5em 1.5em 0 1.5em;
+  text-align: left;
+}
+.back-link {
+  font-weight: 600;
+  color: var(--text-color);
+}
+.detail-meta {
+  margin-top: 1.2em;
+  font-size: 0.9em;
   font-weight: 700;
-  display: inline-block;
-  font-size: 2.2em;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #a6192e;
+}
+.main-title {
+  margin-top: 0.2em;
+  font-weight: 700;
+  font-size: 1.9em;
+  line-height: 1.25;
 }
 p.description {
-  font-weight: 500;
-  font-size: 1.2em;
+  margin-top: 0.8em;
+  font-size: 1.05em;
+  line-height: 1.6;
+  color: #444;
+}
+.description >>> a {
+  color: var(--text-color);
+  text-decoration: underline;
 }
 </style>

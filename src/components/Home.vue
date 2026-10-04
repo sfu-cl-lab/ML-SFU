@@ -9,9 +9,12 @@
     <section class="sayings content-section">
       <div>
         <div class="card-row" style="display:flex; justify-content:space-around;">
-          <el-card>
+          <el-card class="recent-news">
             <a href="../#/news"><h2 class="link-title">Recent News</h2></a>
-            <newsitem class="news" :item="news[0]" :index="0"/>
+            <ul>
+              <newsitem compact v-for="(item, index) in news.slice(0, 4)" :key="index" :item="item" :index="index"/>
+            </ul>
+            <router-link class="more-link" to="/news">All news and events &rarr;</router-link>
           </el-card>
           <el-card>
             <a href="../#/seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
@@ -115,6 +118,20 @@ export default {
   text-align: left;
 }
 
+.recent-news {
+  max-width: 26em;
+}
+.recent-news ul {
+  margin: 0;
+  padding: 0;
+}
+.more-link {
+  display: inline-block;
+  margin-top: 0.8em;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
 .link-title {
   font-weight: 700;
   padding-top: 0.5em;
@@ -180,6 +197,9 @@ export default {
   }
   .card-row > .el-card {
     margin: 0.5em 1em;
+  }
+  .recent-news {
+    max-width: none;
   }
   .why-sfu {
     max-width: none;

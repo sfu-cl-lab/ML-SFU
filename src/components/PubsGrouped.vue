@@ -1,6 +1,9 @@
 <template>
-    <div>
-      <pubs :pubs=p :title=getTitle(k) v-for="(p,k) in grouped" :key=k></pubs>
+    <div class="pubs-grouped">
+      <div v-for="group in yearGroups" :key="group.year">
+        <h3 class="pub-year" v-if="yearGroups.length > 1">{{ group.year }}</h3>
+        <pubs :pubs=venue.pubs :title=venue.name :show-venue="false" v-for="venue in group.venues" :key="venue.key"></pubs>
+      </div>
     </div>
 </template>
 <script>
@@ -13,57 +16,47 @@ export default {
     }
   },
   computed: {
-    grouped() {
-      return this.groupPubs(this.pubs)
+    yearGroups() {
+      // pubs.yaml is newest first, so years and venues keep that order
+      const byYear = groupBy(this.pubs, p => p.year.toString())
+      const years = Object.keys(byYear).sort((a, b) => b - a)
+      return years.map(year => {
+        const byVenue = groupBy(byYear[year], p => p.venue.toLowerCase())
+        const venues = Object.keys(byVenue).map(key => ({
+          key: key,
+          name: this.getVenueName(byVenue[key][0].venue) + ' ' + year,
+          pubs: byVenue[key]
+        }))
+        return { year, venues }
+      })
     }
   },
   methods: {
-    getTitle: function(key) {
-      const pieces = key.split('_')
-      const year = pieces[0]
-      const venue = pieces[1]
-      let title = ''
-      if (year != null) {
-        title = year + ' ' + title
-      }
-      if (venue != null) {
-        title = venue.toUpperCase() + ' ' + title
-      }
-      return title
-    },
-    groupPubs: function(pubs) {
-      const grouped = groupBy(pubs, (elem, k) => elem.year.toString() + '_' + elem.venue.toLowerCase())
-      const groupedKeys = Object.keys(grouped)
-      groupedKeys.sort((a, b) => {
-        const p1 = a.split(' ', 2)
-        const p2 = b.split(' ', 2)
-        if (p1[0] < p2[0]) {
-          return 0
-        } else if (p1[0] > p2[0]) {
-          return 0
-        } else {
-          if (a < b) {
-            return -1
-          } else if (b > a) {
-            return +1
-          } else {
-            return 0
-          }
-        }
-      })
-      const ordered = {}
-      for (let k of groupedKeys) {
-        ordered[k] = grouped[k]
-      }
-      return ordered
+    getVenueName: function(venue) {
+      // e.g. "NeurIPS workshop" and "NeurIPS Workshop" are the same venue
+      return venue.replace(/\bworkshop\b/, 'Workshop')
     }
   },
   components: {
     'pubs': pubs
   },
-  props: ['pubs', 'title']
+  props: ['pubs']
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
- </style>
+.pubs-grouped {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  text-align: left;
+}
+.pub-year {
+  margin: 1.8em 0 0 0;
+  padding: 0 0.2em 0.3em 0.2em;
+  border-bottom: 2px solid #2c3e50;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #2c3e50;
+}
+</style>

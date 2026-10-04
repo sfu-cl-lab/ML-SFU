@@ -1,16 +1,13 @@
 <template>
   <div>
-    <div v-if="$route.params.venue == undefined">
-      <br/>
-      <span v-for="year in years" :key="year">
-      <a :href="'../#/pubs/' + year">
-        <el-button>
-          {{year}}
-        </el-button>
-      </a>
-    </span>
-    </div>
-    <pubs :pubs=filtered :title="getTitle($route.params.year,$route.params.venue)"></pubs>
+    <section class="content-section">
+      <h2 class="section-title">{{ getTitle($route.params.year, $route.params.venue) }}</h2>
+      <nav class="year-filter">
+        <router-link to="/pubs" exact>All</router-link>
+        <router-link v-for="year in years" :key="year" :to="'/pubs/' + year">{{ year }}</router-link>
+      </nav>
+      <pubs :pubs=filtered></pubs>
+    </section>
   </div>
 </template>
 <script>
@@ -65,4 +62,24 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.year-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 1em 0 1em;
+}
+.year-filter a {
+  margin: 0.25em;
+  padding: 0.3em 1em;
+  border: 1px solid var(--text-color);
+  border-radius: 999px;
+  font-weight: 600;
+  color: var(--text-color);
+  transition: all 0.2s;
+}
+.year-filter a:hover,
+.year-filter a.router-link-active {
+  background-color: var(--text-color);
+  color: #fff;
+}
 </style>

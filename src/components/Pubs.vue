@@ -1,14 +1,11 @@
 <template>
-    <div>
-      <section class="content-section">
-        <h3 class="section-title" v-if="title">{{title}}</h3>
-        <h3 class="section-title" v-else>Publications</h3>
-        <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-          <pub class="pub" :pub="item" v-for="(item,index) in pubs" :key="index">
-          </pub>
-        </div>
-      </section>
-    </div>
+    <section class="pub-group">
+      <h4 class="pub-group-title">{{ title || 'Publications' }}</h4>
+      <ul>
+        <pub :pub="item" :show-venue="showVenue" v-for="(item,index) in pubs" :key="index">
+        </pub>
+      </ul>
+    </section>
 </template>
 <script>
 import pub from './Pub.vue'
@@ -21,9 +18,30 @@ export default {
   components: {
     'pub': pub
   },
-  props: ['pubs', 'title']
+  props: {
+    pubs: Array,
+    title: String,
+    // Not needed when the group title already names the venue
+    showVenue: { type: Boolean, default: true }
+  }
 }
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
- </style>
+.pub-group {
+  margin-top: 1.4em;
+  text-align: left;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.pub-group-title {
+  margin: 0 0 0.2em 0;
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a6192e;
+}
+</style>
