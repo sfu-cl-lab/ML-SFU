@@ -71,6 +71,10 @@ export default new Router({
     }
   ],
   scrollBehavior(to, from, savedPosition) {
+    // Links like #/seminars#organizers or #/#people go to that part of the page
+    if (to.hash) {
+      return { selector: to.hash }
+    }
     return {
       x: 0,
       y: 0

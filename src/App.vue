@@ -28,11 +28,11 @@
           <router-link to="/seminars" :class="{ active: section === 'seminars' }">Seminars</router-link>
           <router-link to="/news" :class="{ active: section === 'news' }">News</router-link>
           <router-link to="/pubs" :class="{ active: section === 'pubs' }">Publications</router-link>
-          <button class="nav-group" :class="{ open: openGroup === 'people' }" @click="toggleGroup('people')">People</button>
+          <button class="nav-group" :class="{ open: openGroup === 'people' }" @click="openSection('people')">People</button>
           <div class="nav-sub" v-show="openGroup === 'people'">
             <a v-for="(person, index) in people" :key="'people' + index" :href="person.url" target="_blank">{{ person.name }}</a>
           </div>
-          <button class="nav-group" :class="{ open: openGroup === 'labs' }" @click="toggleGroup('labs')">Related Labs</button>
+          <button class="nav-group" :class="{ open: openGroup === 'labs' }" @click="openSection('labs')">Related Labs</button>
           <div class="nav-sub" v-show="openGroup === 'labs'">
             <a v-for="(lab, index) in labs" :key="'lab' + index" :href="lab.url" target="_blank">{{ lab.labName }}</a>
           </div>
@@ -82,8 +82,24 @@ export default {
   created() {
   },
   methods: {
-    toggleGroup(name) {
-      this.openGroup = this.openGroup === name ? null : name
+    // Unfold the group in the menu and go to its section of the home page
+    // (#people / #labs); clicking an open group folds it again
+    openSection(name) {
+      const opening = this.openGroup !== name
+      this.openGroup = opening ? name : null
+      if (!opening) {
+        return
+      }
+      if (this.section === 'home' && this.$route.hash === '#' + name) {
+        // Already there: the route doesn't change, so scroll directly
+        this.menuOpen = false
+        const sectionEl = document.getElementById(name)
+        if (sectionEl) {
+          sectionEl.scrollIntoView()
+        }
+      } else {
+        this.$router.push({ path: '/', hash: '#' + name })
+      }
     }
   }
 }
@@ -104,6 +120,10 @@ body {
   background: #fff;
   --text-color: #38a7bb;
   --text-desc-color: #656565;
+  /* Fill the window, so short pages don't end halfway down (body has an 8px margin) */
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 16px);
 }
 .logo {
   height: 100%;
