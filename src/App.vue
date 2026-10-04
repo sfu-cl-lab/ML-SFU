@@ -21,52 +21,22 @@
       {{ menuOpen ? '✕' : '☰' }} Menu
     </button>
 
-    <el-container class="main-container" style="overflow-x:hidden;">
+    <el-container class="main-container">
       <el-aside width="20%" class="menu-col" :class="{ 'menu-open': menuOpen }">
-        <section class="menu">
-          <el-menu :default-openeds="[]" default-active="1" background-color="#2b2925" text-color="#fff" active-text-color="#ffd04b">
-            <a href="../#/home"><el-menu-item index="home" router="true">
-              <template slot="title">
-                <span>Home</span>
-              </template>
-            </el-menu-item></a>
-            <a href="../#/seminars"><el-menu-item index="seminars" router="true">
-              <template slot="title">
-                <span>Seminars</span>
-              </template>
-            </el-menu-item></a>
-            <a href="../#/news"><el-menu-item index="news" router="true">
-              <template slot="title">
-                <span>News</span>
-              </template>
-            </el-menu-item></a>
-            <a href="../#/pubs"><el-menu-item index="publications" router="true">
-              <template slot="title">
-                <span>Publications</span>
-              </template>
-            </el-menu-item></a>
-            <el-submenu index="1">
-              <template slot="title">
-                <span>People</span>
-              </template>
-              <a v-for="(people, index) in people" :key="'people'+index" :href="people.url" target="_blank">
-                <el-menu-item :index="'people'+index">{{people.name}}
-                  <img style="height:20%;margin-left:0.2em;" src="./assets/icons/external-link-alt.svg">
-                </el-menu-item>
-              </a>
-            </el-submenu>
-            <el-submenu index="2">
-              <template slot="title">
-                <span>Related Labs</span>
-              </template>
-              <a v-for="(lab,index) in labs" :key="'lab'+index" title="" :href="lab.url" target="_blank">
-                <el-menu-item :index="'lab-'+index"> {{lab.labName}}
-                  <img style="height:20%;margin-left:0.2em;" src="./assets/icons/external-link-alt.svg">
-                </el-menu-item>
-              </a>
-            </el-submenu>
-          </el-menu>
-        </section>
+        <nav class="side-nav">
+          <router-link to="/" :class="{ active: section === 'home' }">Home</router-link>
+          <router-link to="/seminars" :class="{ active: section === 'seminars' }">Seminars</router-link>
+          <router-link to="/news" :class="{ active: section === 'news' }">News</router-link>
+          <router-link to="/pubs" :class="{ active: section === 'pubs' }">Publications</router-link>
+          <button class="nav-group" :class="{ open: openGroup === 'people' }" @click="toggleGroup('people')">People</button>
+          <div class="nav-sub" v-show="openGroup === 'people'">
+            <a v-for="(person, index) in people" :key="'people' + index" :href="person.url" target="_blank">{{ person.name }}</a>
+          </div>
+          <button class="nav-group" :class="{ open: openGroup === 'labs' }" @click="toggleGroup('labs')">Related Labs</button>
+          <div class="nav-sub" v-show="openGroup === 'labs'">
+            <a v-for="(lab, index) in labs" :key="'lab' + index" :href="lab.url" target="_blank">{{ lab.labName }}</a>
+          </div>
+        </nav>
       </el-aside>
       <el-aside width="80%" class="content-col">
         <router-view/>
@@ -81,12 +51,26 @@ export default {
   name: 'App',
   data() {
     return {
-      activeIndex: 1,
       menuOpen: false,
+      openGroup: null,
       labs: dataConfig.labs,
       people: dataConfig.people,
       seminars: dataConfig.seminars,
       general: dataConfig.general
+    }
+  },
+  computed: {
+    // Which menu item to highlight for the current page
+    section() {
+      const path = this.$route.path
+      if (path.startsWith('/seminar')) {
+        return 'seminars'
+      } else if (path.startsWith('/news')) {
+        return 'news'
+      } else if (path.startsWith('/pubs')) {
+        return 'pubs'
+      }
+      return 'home'
     }
   },
   watch: {
@@ -98,6 +82,9 @@ export default {
   created() {
   },
   methods: {
+    toggleGroup(name) {
+      this.openGroup = this.openGroup === name ? null : name
+    }
   }
 }
 </script>
@@ -177,13 +164,80 @@ body {
 .content section {
   flex-grow: 1;
 }
-.menu {
-  background-color: #2b2925;
-  text-align: left;
-  /* position: fixed; */
+.main-container {
+  overflow-x: hidden;
 }
-.menu-col {
-  background-color: #2b2925;
+/* clip (unlike hidden) lets the side menu stay in view while scrolling */
+@supports (overflow-x: clip) {
+  .main-container {
+    overflow-x: clip;
+  }
+}
+
+/* Side menu, styled like the side navigation on SFU's own sites */
+.el-aside.menu-col {
+  overflow: visible;
+  background-color: #f5f5f5;
+  border-right: 1px solid #e2e2e2;
+}
+.side-nav {
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding: 1em 0;
+  text-align: left;
+}
+.side-nav > a,
+.nav-group {
+  display: block;
+  width: 100%;
+  padding: 0.8em 1.4em;
+  border: none;
+  border-left: 4px solid transparent;
+  border-bottom: 1px solid #e2e2e2;
+  background: none;
+  font: inherit;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+  cursor: pointer;
+}
+.side-nav > a:hover,
+.nav-group:hover {
+  color: #a6192e;
+}
+.side-nav > a.active {
+  border-left-color: #a6192e;
+  background-color: #fff;
+  color: #a6192e;
+}
+/* Small triangle that turns down when the group is open */
+.nav-group::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.5em;
+  border-top: 0.3em solid transparent;
+  border-bottom: 0.3em solid transparent;
+  border-left: 0.35em solid currentColor;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+.nav-group.open::after {
+  transform: rotate(90deg);
+}
+.nav-sub {
+  padding: 0.4em 0 0.7em 0;
+  border-bottom: 1px solid #e2e2e2;
+}
+.nav-sub a {
+  display: block;
+  padding: 0.35em 1.4em 0.35em 2.2em;
+  color: #555;
+}
+.nav-sub a:hover {
+  color: #a6192e;
 }
 .content > .router-content {
   width: 85%;
@@ -238,12 +292,22 @@ ul.list {
     width: 100%;
     padding: 0.8em 1em;
     border: none;
-    background-color: #2b2925;
-    color: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #f5f5f5;
+    color: #333;
     font: inherit;
-    font-weight: 700;
+    font-size: 1.1em;
+    font-weight: 600;
     text-align: left;
     cursor: pointer;
+  }
+  .el-aside.menu-col {
+    border-right: none;
+  }
+  .side-nav {
+    position: static;
+    max-height: none;
+    padding: 0;
   }
   .main-container {
     flex-direction: column;
