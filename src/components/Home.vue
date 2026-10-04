@@ -16,9 +16,12 @@
             </ul>
             <router-link class="more-link" to="/news">All news and events &rarr;</router-link>
           </el-card>
-          <el-card>
+          <el-card class="recent-seminars">
             <a href="../#/seminars"><h2 class="link-title">VCR/AI Seminars</h2></a>
-            <seminar class="news" :seminar="seminars[0]" :index="0"/>
+            <ul>
+              <seminar-row compact v-for="item in seminars.slice(0, 3)" :key="item.key" :seminar="item"/>
+            </ul>
+            <router-link class="more-link" to="/seminars">All seminars &rarr;</router-link>
           </el-card>
         </div>
       </div>
@@ -32,7 +35,7 @@
       </div>
     </section>
 
-    <section class="people content-section">
+    <section id="people" class="people content-section">
       <div>
         <h2 class="section-title">PEOPLE</h2>
       </div>
@@ -52,7 +55,7 @@
       </div>
     </section> -->
 
-    <section class="lab content-section">
+    <section id="labs" class="lab content-section">
       <div>
         <h2 class="section-title">GROUPS / LABS</h2>
       </div>
@@ -69,7 +72,7 @@ import homeprof from './HomeProf.vue'
 import homelab from './HomeLab.vue'
 import dataConfig from '../assets/data.json'
 import newsitem from './NewsItem.vue'
-import seminar from './SeminarPreview.vue'
+import seminarRow from './SeminarRow.vue'
 
 const now = new Date().getTime()
 dataConfig.seminars.forEach(s => {
@@ -100,7 +103,7 @@ export default {
     'homeprof': homeprof,
     'homelab': homelab,
     'newsitem': newsitem,
-    'seminar': seminar
+    'seminar-row': seminarRow
   },
   mounted() {
   }
@@ -118,10 +121,14 @@ export default {
   text-align: left;
 }
 
-.recent-news {
-  max-width: 26em;
+.recent-news,
+.recent-seminars {
+  flex: 1 1 0;
+  max-width: 30em;
+  margin: 0 0.8em;
 }
-.recent-news ul {
+.recent-news ul,
+.recent-seminars ul {
   margin: 0;
   padding: 0;
 }
@@ -198,7 +205,8 @@ export default {
   .card-row > .el-card {
     margin: 0.5em 1em;
   }
-  .recent-news {
+  .recent-news,
+  .recent-seminars {
     max-width: none;
   }
   .why-sfu {

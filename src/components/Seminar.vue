@@ -1,65 +1,107 @@
 <template>
-  <article :class="getSeminarType(seminar)">
-    <seminar-title-block :seminar="seminar"></seminar-title-block>
-    <div>
-        <br/>
-        <div class="text" v-if="seminar.abstract"><b>Abstract:</b>
-          <span v-if="seminar.html" v-html="seminar.abstract"></span>
-          <span v-else>{{seminar.abstract}}</span>
+  <div class="seminar">
+    <div class="seminar-header">
+      <img v-for="(speaker, index) in speakersWithPhoto" :key="index" class="seminar-photo"
+           :src="require(`Content/seminars/speakers/${speaker.photo}`)" alt="">
+      <div>
+        <div class="seminar-meta">{{ date }}<template v-if="seminar.location"> &middot; {{ seminar.location }}</template></div>
+        <h3 class="seminar-title">{{ seminar.title || 'Talk' }}</h3>
+        <div class="seminar-speaker" v-for="(speaker, index) in speakers" :key="index">
+          <a :href="speaker.url" target="_blank">{{ speaker.name }}</a><template v-if="speaker.info">, {{ speaker.info }}</template>
         </div>
-        <br/>
-        <div class="text" v-if="seminar.bio"><b>Speaker info:</b>
-          <span v-if="seminar.html" v-html="seminar.bio"></span>
-          <span v-else>{{seminar.bio}}</span>
-        </div>
+      </div>
     </div>
-    <div style="margin-top:1em;" v-if="seminar.video">
-      <a target="_blank" :href="seminar.video">
-        <el-button size="small">
-          Video
-        </el-button>
-      </a>
-    </div>
-  </article>
+    <p v-if="seminar.abstract"><b>Abstract:</b>
+      <span v-if="seminar.html" v-html="seminar.abstract"></span>
+      <span v-else>{{ seminar.abstract }}</span>
+    </p>
+    <p v-if="seminar.bio"><b>Speaker info:</b>
+      <span v-if="seminar.html" v-html="seminar.bio"></span>
+      <span v-else>{{ seminar.bio }}</span>
+    </p>
+    <a v-if="seminar.video" class="seminar-video" :href="seminar.video" target="_blank">Video</a>
+  </div>
 </template>
 
 <script>
-import seminarTitleBlock from './SeminarTitleBlock.vue'
+import getSpeakers, { formatSeminarDate } from '../seminarSpeakers'
 
 export default {
   name: 'seminar',
-  data() {
-    return {
-    }
-  },
-  methods: {
-    getSeminarType: function(seminar) {
-      if (seminar.remote) {
-        return 'remote'
-      } else {
-        return 'regular'
-      }
+  computed: {
+    speakers() {
+      return getSpeakers(this.seminar)
     },
-    getDayOfWeek: function(dateStr) {
-      var date = new Date(dateStr + 'T12:00:00.000-07:00')
-      return date.toLocaleDateString('en-US', { weekday: 'long' })
+    speakersWithPhoto() {
+      return this.speakers.filter(s => s.photo)
+    },
+    date() {
+      return formatSeminarDate(this.seminar.date)
     }
   },
-  props: ['seminar'],
-  components: {
-    'seminar-title-block': seminarTitleBlock
-  }
+  props: ['seminar']
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-article img {
-  /* border-radius: 50px; */
-  /* border: solid 1px #fff; */
-  border-color: var(--text-color);
+.seminar {
+  padding: 1.2em 0 1.4em 0;
+  border-bottom: 1px solid #eee;
+  text-align: left;
 }
-article.remote {
-  border-color: red;
+.seminar-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6em;
+}
+.seminar-photo {
+  flex: 0 0 auto;
+  width: 96px;
+  height: 96px;
+  margin-right: 1.2em;
+  border-radius: 50%;
+  border: 2px solid var(--text-color);
+  object-fit: cover;
+}
+.seminar-meta {
+  font-size: 0.95em;
+  color: #888;
+}
+.seminar-title {
+  margin: 0.2em 0 0.3em 0;
+  font-size: 1.35em;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2c3e50;
+}
+.seminar-speaker {
+  color: #555;
+  line-height: 1.4;
+}
+.seminar-speaker a {
+  font-weight: 600;
+  color: #333;
+}
+p {
+  margin: 0.8em 0 0 0;
+  line-height: 1.6;
+  color: #444;
+}
+.seminar-video {
+  display: inline-block;
+  margin-top: 0.8em;
+  font-weight: 600;
+  color: var(--text-color);
+}
+@media (max-width: 600px) {
+  .seminar-header {
+    align-items: flex-start;
+  }
+  .seminar-photo {
+    width: 64px;
+    height: 64px;
+    margin-right: 0.9em;
+  }
 }
 </style>
