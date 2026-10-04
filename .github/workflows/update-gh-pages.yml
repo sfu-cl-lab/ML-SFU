@@ -1,38 +1,43 @@
 name: update-gh-pages
 
+# Every push builds the site, so a branch can be checked before merging;
+# only pushes to master are deployed (see the Deploy step).
 on:
   push:
-    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build-and-deployment:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v7
 
-    - name: Set up Node.js 14
-      uses: actions/setup-node@v2
+    - name: Set up Node.js 24
+      uses: actions/setup-node@v7
       with:
-        node-version: "14.16.1"
+        node-version: "24"
 
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
+    - name: Set up Python 3.13
+      uses: actions/setup-python@v7
       with:
-        python-version: "3.8"
+        python-version: "3.13"
 
     - name: Install Dependencies
       run: |
         pip install pyyaml
 
+    # --ignore-scripts skips install scripts of test-only packages (e.g. chromedriver),
+    # which the site build doesn't need
     - name: Build
       run: |
         npm install -g yarn
-        yarn install
+        yarn install --frozen-lockfile --ignore-scripts
         python3 src/assets/parse_content.py
         yarn run build
 
     - name: Deploy
+      if: github.ref == 'refs/heads/master'
       run: |
         git fetch # Retrieve the gh-pages branch.
         bash deployment/update-gh-pages.sh
