@@ -308,7 +308,10 @@
   venue: "ICML workshop"
   year: 2025
   authors: ["Jialin Lu", "Kye Emond", "Weiran Sun", "Wuyang Chen"]
-  title: "Lean Finder: Semantic Search for Mathlib That Understands User Intents" 
+  title: "Lean Finder: Semantic Search for Mathlib That Understands User Intents"
+  links:
+    paper: https://openreview.net/forum?id=5SF4fFRw7u
+    webpage: https://leanfinder.github.io/
   workshops:
     - name: AI for Math
       url: https://sites.google.com/view/ai4mathworkshopicml2025/
