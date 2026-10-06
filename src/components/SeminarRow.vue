@@ -1,6 +1,8 @@
 <template>
   <li class="seminar-row" :class="{ compact: compact }">
-    <img v-if="photo" class="seminar-photo" :src="require(`Content/seminars/speakers/${photo}`)" alt="">
+    <a v-if="photoSpeaker" class="seminar-photo-link" :href="photoSpeaker.url" target="_blank">
+      <img class="seminar-photo" :src="require(`Content/seminars/speakers/${photoSpeaker.photo}`)" :alt="photoSpeaker.name">
+    </a>
     <div v-else class="seminar-photo"></div>
     <div class="seminar-body">
       <div class="seminar-meta">{{ date }}<template v-if="seminar.location && !compact"> &middot; {{ seminar.location }}</template></div>
@@ -35,9 +37,8 @@ export default {
     speakers() {
       return getSpeakers(this.seminar)
     },
-    photo() {
-      const withPhoto = this.speakers.find(s => s.photo)
-      return withPhoto ? withPhoto.photo : null
+    photoSpeaker() {
+      return this.speakers.find(s => s.photo) || null
     },
     date() {
       return formatSeminarDate(this.seminar.date, this.compact ? 'short' : 'long')
@@ -59,6 +60,10 @@ export default {
   padding: 1.1em 0.2em;
   border-bottom: 1px solid #eee;
   text-align: left;
+}
+.seminar-photo-link {
+  flex: 0 0 auto;
+  display: flex;
 }
 .seminar-photo {
   flex: 0 0 auto;

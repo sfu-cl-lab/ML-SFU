@@ -9,6 +9,16 @@
 #   bio: ""
 #   tags: []
 
+- date: "2026-10-09"
+  location: TASC1 9204 12:00pm
+  speaker: "Nicholas Sharp"
+  speakerUrl: "https://www.nmwsharp.com"
+  speakerInfo: "Senior Research Scientist at NVIDIA, incoming Associate Professor at the University of Washington"
+  speakerPhoto: "nicholas_sharp.jpg"
+  title: "Representations for Learning in 3D"
+  abstract: "The world around us is inherently 3D, but computing and learning with geometric data remains remarkably difficult. Unlocking 3D data requires choosing the right representation, from meshes and point clouds to splats and even video models. Each comes with different tradeoffs, driving the operations we can perform and the priors we can learn. This talk will outline some key ideas and recent advancements in 3D representations for visual computing. A theme throughout is interfacing principled geometric methods with modern machine learning."
+  bio: "Nicholas Sharp is a Senior Research Scientist at NVIDIA, and in 2027 he will join the University of Washington as an Associate Professor. He received his PhD in Computer Science from Carnegie Mellon University advised by Keenan Crane, and completed a postdoc at the University of Toronto with Alec Jacobson. His work has been recognized with best paper awards at SIGGRAPH, SIGGRAPH Asia, and SGP, and he has developed widely used software including the award-winning Polyscope library. For more, see www.nmwsharp.com."
+
 - date: "2026-09-18"
   location: TASC1 9204 12:00pm
   speaker: "Kenny Chen"

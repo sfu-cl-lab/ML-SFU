@@ -1,8 +1,10 @@
 <template>
   <div class="seminar">
     <div class="seminar-header">
-      <img v-for="(speaker, index) in speakersWithPhoto" :key="index" class="seminar-photo"
-           :src="require(`Content/seminars/speakers/${speaker.photo}`)" alt="">
+      <a v-for="(speaker, index) in speakersWithPhoto" :key="index" class="seminar-photo-link"
+         :href="speaker.url" target="_blank">
+        <img class="seminar-photo" :src="require(`Content/seminars/speakers/${speaker.photo}`)" :alt="speaker.name">
+      </a>
       <div>
         <div class="seminar-meta">{{ date }}<template v-if="seminar.location"> &middot; {{ seminar.location }}</template></div>
         <h3 class="seminar-title">{{ seminar.title || 'Talk' }}</h3>
@@ -54,6 +56,10 @@ export default {
   display: flex;
   align-items: center;
   margin-bottom: 0.6em;
+}
+.seminar-photo-link {
+  flex: 0 0 auto;
+  display: flex;
 }
 .seminar-photo {
   flex: 0 0 auto;
