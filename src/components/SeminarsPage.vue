@@ -50,6 +50,7 @@
 
 <script>
 import dataConfig from '../assets/data.json'
+import { seminarStartTime } from '../seminarSpeakers'
 import seminar from './Seminar.vue'
 import seminarRow from './SeminarRow.vue'
 import groupBy from '../groupBy'
@@ -58,7 +59,7 @@ const now = new Date().getTime()
 dataConfig.seminars.forEach(s => {
   s._date = new Date(s.date)
   s._millisecs = Date.parse(s.date)
-  s._millisecs_daylater = s._millisecs + 86400000
+  s._start = seminarStartTime(s)
 })
 
 export default {
@@ -66,8 +67,8 @@ export default {
   data() {
     return {
       seminars: dataConfig.seminars,
-      pastSeminars: dataConfig.seminars.filter(s => s._millisecs_daylater <= now),
-      futureSeminars: dataConfig.seminars.filter(s => s._millisecs_daylater > now).sort((a, b) => a._millisecs - b._millisecs),
+      pastSeminars: dataConfig.seminars.filter(s => s._start <= now),
+      futureSeminars: dataConfig.seminars.filter(s => s._start > now).sort((a, b) => a._millisecs - b._millisecs),
       organizersByYear: dataConfig.seminar_info.organizers_by_year
     }
   },

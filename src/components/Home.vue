@@ -71,6 +71,7 @@
 import homeprof from './HomeProf.vue'
 import homelab from './HomeLab.vue'
 import dataConfig from '../assets/data.json'
+import { seminarStartTime } from '../seminarSpeakers'
 import newsitem from './NewsItem.vue'
 import seminarRow from './SeminarRow.vue'
 
@@ -78,14 +79,14 @@ const now = new Date().getTime()
 dataConfig.seminars.forEach(s => {
   s._date = new Date(s.date)
   s._millisecs = Date.parse(s.date)
-  s._millisecs_daylater = s._millisecs + 86400000
+  s._start = seminarStartTime(s)
 })
 
 export default {
   name: 'home',
   data() {
-    const pastSeminars = dataConfig.seminars.filter(s => s._millisecs_daylater <= now)
-    const futureSeminars = dataConfig.seminars.filter(s => s._millisecs_daylater > now).sort((a, b) => a._millisecs - b._millisecs)
+    const pastSeminars = dataConfig.seminars.filter(s => s._start <= now)
+    const futureSeminars = dataConfig.seminars.filter(s => s._start > now).sort((a, b) => a._millisecs - b._millisecs)
     const featuredSeminars = (futureSeminars.length > 0) ? futureSeminars : pastSeminars
     return {
       labConfs: dataConfig.labs,

@@ -7,7 +7,7 @@
       </a>
       <div>
         <div class="seminar-meta">{{ date }}<template v-if="seminar.location"> &middot; {{ seminar.location }}</template></div>
-        <h3 class="seminar-title">{{ seminar.title || 'Talk' }}</h3>
+        <h3 v-if="seminar.title" class="seminar-title">{{ seminar.title }}</h3>
         <div class="seminar-speaker" v-for="(speaker, index) in speakers" :key="index">
           <a :href="speaker.url" target="_blank">{{ speaker.name }}</a><template v-if="speaker.info">, {{ speaker.info }}</template>
         </div>

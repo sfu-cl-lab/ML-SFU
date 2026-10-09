@@ -9,6 +9,15 @@
 #   bio: ""
 #   tags: []
 
+- date: "2026-10-16"
+  location: TASC1 9204 12:00pm
+  speaker: "Dominic Liao-McPherson"
+  speakerUrl: "https://mech.ubc.ca/dominic-liao-mcpherson/"
+  speakerInfo: "Assistant Professor of Mechanical Engineering at the University of British Columbia"
+  speakerPhoto: "dominic_liao-mcpherson.jpg"
+  abstract: "Coming soon."
+  bio: "Coming soon."
+
 - date: "2026-10-09"
   location: TASC1 9204 12:00pm
   speaker: "Nicholas Sharp"
