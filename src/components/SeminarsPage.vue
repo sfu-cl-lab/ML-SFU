@@ -15,8 +15,15 @@
         </p>
 
         <h3 id="upcoming-seminars" class="seminars-heading">Upcoming seminars</h3>
-        <seminar :seminar="item" v-for="(item,index) in futureSeminars" :key="'upcoming' + index"></seminar>
-        <p v-if="futureSeminars.length === 0" class="empty">Update coming soon</p>
+        <seminar v-if="futureSeminars.length > 0" :seminar="futureSeminars[0]"></seminar>
+        <p v-else class="empty">Update coming soon</p>
+        <!-- Talks after the next one, folded away -->
+        <details v-if="futureSeminars.length > 1" class="look-ahead">
+          <summary>Coming next</summary>
+          <ul>
+            <seminar-row compact v-for="item in futureSeminars.slice(1)" :key="item.key" :seminar="item"></seminar-row>
+          </ul>
+        </details>
 
         <h3 id="past-seminars" class="seminars-heading">Past seminars</h3>
         <nav class="year-filter">
@@ -119,6 +126,14 @@ export default {
   font-size: 1.3em;
   font-weight: 700;
   color: #2c3e50;
+}
+.look-ahead {
+  margin: 0.4em 0 0.8em 0;
+}
+.look-ahead summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-color);
 }
 .empty {
   margin: 0.8em 0;

@@ -87,7 +87,7 @@ export default {
   data() {
     const pastSeminars = dataConfig.seminars.filter(s => s._start <= now)
     const futureSeminars = dataConfig.seminars.filter(s => s._start > now).sort((a, b) => a._millisecs - b._millisecs)
-    const featuredSeminars = (futureSeminars.length > 0) ? futureSeminars : pastSeminars
+    const featuredSeminars = (futureSeminars.length > 0) ? futureSeminars.slice(0, 1) : pastSeminars
     return {
       labConfs: dataConfig.labs,
       carouselConfs: dataConfig.carousel,

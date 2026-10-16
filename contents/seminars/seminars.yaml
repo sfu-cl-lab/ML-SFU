@@ -9,6 +9,23 @@
 #   bio: ""
 #   tags: []
 
+- date: "2026-11-06"
+  location: TASC1 9204 12:00pm
+  speaker: "Vered Shwartz"
+  speakerUrl: "https://www.cs.ubc.ca/~vshwartz/"
+  speakerInfo: "Computer Science at the University of British Columbia"
+  speakerPhoto: "vered_shwartz.jpg"
+
+- date: "2026-10-30"
+  location: TASC1 9204 12:00pm
+  speaker: "Barbara Ericson"
+  speakerUrl: "https://www.si.umich.edu/people/barbara-ericson"
+  speakerInfo: "Associate Professor at the University of Michigan School of Information"
+  speakerPhoto: "barbara_ericson.jpg"
+  title: "Getting Students to Think While Learning to Program in the Age of Generative AI"
+  abstract: "Programming class instructors are wrestling with the impact of generative AI. Allowing students to use generative AI can widen the performance gap between strong and weak students. Weak students are more likely to have generative AI just do their work for them, without any cognitive effort on their part. Active, social, and/or creative assignments can encourage students to still think in the age of generative AI. Dr. Ericson has been exploring free and interactive ebooks, mixed-up code (Parsons) problems, Peer Instruction, Process Oriented Guided Inquiry Learning (POGIL), and open-ended and creative projects. She also helped redesign a CS1 and CS2 course to leverage AI for the Consortium for Generative AI in CS Education. In addition, her students have been creating new types of practice problems that attempt to harness the power of GenAI and improve learning."
+  bio: "Dr. Ericson got her PhD in Human Centered Computing in 2018 from Georgia Tech and is an Associate Professor at the University of Michigan. She applies research results from educational psychology to help students learn to program. For over 10 years, she has been creating free and interactive ebooks with new types of practice problems on the free and open-source ebook platform Runestone Academy. She won the 2022 ACM SIGCSE Award for Outstanding Contributions to Computer Science Education and is a distinguished member of the ACM."
+
 - date: "2026-10-16"
   location: TASC1 9204 12:00pm
   speaker: "Dominic Liao-McPherson"

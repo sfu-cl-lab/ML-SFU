@@ -6,8 +6,8 @@
     <div v-else class="seminar-photo"></div>
     <div class="seminar-body">
       <div class="seminar-meta">{{ date }}<template v-if="seminar.location && !compact"> &middot; {{ seminar.location }}</template></div>
-      <h4 class="seminar-title">
-        <router-link :to="{ name: 'seminars-by-key', params: { key: seminar.key } }">{{ seminar.title || 'Talk' }}</router-link>
+      <h4 v-if="seminar.title" class="seminar-title">
+        <router-link :to="{ name: 'seminars-by-key', params: { key: seminar.key } }">{{ seminar.title }}</router-link>
       </h4>
       <div class="seminar-speaker" v-for="(speaker, index) in speakers" :key="index">
         <a :href="speaker.url" target="_blank">{{ speaker.name }}</a><template v-if="speaker.info && !compact">, {{ speaker.info }}</template>
