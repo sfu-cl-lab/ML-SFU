@@ -15,6 +15,8 @@
   speakerUrl: "https://www.cs.ubc.ca/~vshwartz/"
   speakerInfo: "Computer Science at the University of British Columbia"
   speakerPhoto: "vered_shwartz.jpg"
+  title: "Large language models are not designed to serve their diverse user population"
+  abstract: "Despite their amazing success, LLMs suffer from several limitations. This talk focuses on one of these limitations: the models’ narrow Western or even North American lens, as a result of training on web text primarily in English and from US-based users. As a result, users from diverse cultures that are interacting with LLMs may feel misunderstood and experience them as less useful. Worse still, when LLMs are used in applications that make decisions about people’s lives, lack of cultural awareness may lead to models perpetuating stereotypes and reinforcing societal inequalities. In this talk, I will present a line of work from our lab that looks at how these biases manifest as real risks to users, and what it might take to move toward models with genuine cultural competence — from equipping them with knowledge of diverse cultural concepts, to teaching them when and how to apply that knowledge appropriately."
 
 - date: "2026-10-30"
   location: TASC1 9204 12:00pm
