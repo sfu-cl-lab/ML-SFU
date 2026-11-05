@@ -1,3 +1,82 @@
+##### NeurIPS 2026 #####
+
+- date: "2026-12-08"
+  venue: "NeurIPS"
+  year: 2026
+  authors: [Michael Lu, Max Qiushi Lin, Mo Chen, Sharan Vaswani]
+  title: "Augmented Lagrangian Method for Last-Iterate Convergence for Constrained MDPs"
+  links:
+    paper: https://arxiv.org/abs/2605.11694
+
+- date: "2026-12-08"
+  venue: "NeurIPS"
+  year: 2026
+  authors: [Shichong Peng, Yanshu Zhang, Ke Li]
+  title: "RigPAPR: Rig-Based Animation of Static Neural Point Clouds from a Single-View Video"
+  links:
+    paper: https://arxiv.org/abs/2606.06685
+
+- date: "2026-12-08"
+  venue: "NeurIPS"
+  year: 2026
+  authors: [Dingdong Yang, Jian Liu, Biwen Lei, Haohan Weng, Zhuo Chen, Song Guo, Ali Mahdavi Amiri, Hao Richard Zhang, Chunchao Guo]
+  title: "MeshFIM: Local Low-Poly Mesh Editing via Fill-in-the-Middle Autoregressive Generation"
+  links:
+    paper: https://arxiv.org/abs/2605.08744
+
+- date: "2026-12-08"
+  venue: "NeurIPS"
+  year: 2026
+  authors: [Mauricio Soroco, Yuqiu Liu, Zaid Tasneem, Francesco Pittaluga, Abhishek Aich, Wuyang Chen, Manmohan Chandraker, Ziyu Jiang]
+  title: "HorizonComposer: Spatiotemporally Consistent Driving Video Editing with Enriched Traffic Semantics"
+
+- date: "2026-12-08"
+  venue: "NeurIPS"
+  year: 2026
+  authors: [Jialin Lu, Soonho Kong, Rodrigo Stehling, Kaiyu Yang, Zhangyang Wang, Weiran Sun, Wuyang Chen]
+  title: "Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search"
+  links:
+    paper: https://arxiv.org/abs/2605.20244
+
+- date: "2026-12-08"
+  venue: "NeurIPS"
+  year: 2026
+  authors: [He Liang, Chenyang Ma, Yiming Zhang, Sangyun Shin, Andrew Markham, Niki Trigoni, Yuhang He]
+  title: "CAIRN: Cross-Room 3D Scene Understanding with Topology-Aware Large Multimodal Models"
+  links:
+    paper: https://arxiv.org/abs/2607.06534
+
+- date: "2026-12-08"
+  venue: "NeurIPS (Position Paper Track)"
+  year: 2026
+  authors: [Weina Jin, Xiaoxiao Li, Ghassan Hamarneh]
+  title: "Stop Using Plausibility as the Criterion for Explainable AI"
+  links:
+    paper: https://arxiv.org/abs/2303.17707
+
+- date: "2026-12-08"
+  venue: "NeurIPS (Evaluations & Datasets Track)"
+  year: 2026
+  authors: [Chirag Vashist, Vaibhav Santhosh, Tristan Engst, Yanshu Zhang, Ke Li]
+  title: "The Fault in Our Metrics: Revisiting Generative Model Evaluation with Chamfer Distance"
+  links:
+    webpage: https://serchirag.github.io/chamfer/
+
+- date: "2026-12-08"
+  venue: "NeurIPS (Evaluations & Datasets Track)"
+  year: 2026
+  authors: [Tarek Elsayed, Shiping Yang, Eunsong Koh, Sanika Goyal, Vincent Huang, Paul Ngo, Nathan Young, Mohammad Omidvar Tehrani, Alvyn Kang, Arnell Kang, Zeyu Chen, Angélica Moreira, Xuan Feng, Angel X. Chang, Nick Sumner, Steven Y. Ko]
+  title: "RustMizan: A Compilable, Contamination-Aware Benchmarking Framework for Rust Vulnerabilities"
+  links:
+    paper: https://arxiv.org/abs/2607.04729
+
+- date: "2026-12-08"
+  venue: "NeurIPS (Creative AI Track)"
+  year: 2026
+  authors: [Stella Lin, Dave Malcolm]
+  title: "Ethos Lithos"
+
+
 ##### ICML 2026 #####
 
 - date: "2026-07-12"
@@ -197,7 +276,7 @@
     webpage: https://suikei-wang.github.io/RESAnything/
 
 - date: "2025-12-04"
-  venue: "NeurIPS (Position Track)"
+  venue: "NeurIPS (Position Paper Track)"
   year: 2025
   authors: [Nicholas Vincent, Mathhew Prewitt, Hanlin Li]
   title: "Collective Bargaining in the Information Economy Can Address AI-Driven Power Concentration"
@@ -598,7 +677,7 @@
     code: https://github.com/3dlg-hcvc/omages
 
 - date: "2024-12-13"
-  venue: "NeurIPS Datasets and Benchmarks Track"
+  venue: "NeurIPS (Datasets and Benchmarks Track)"
   year: 2024
   authors: ["Linyi Li", "Shijie Geng", "Zhenwen Li", "Yibo He", "Hao Yu", "Ziyue Hua", "Guanghan Ning", "Siwei Wang", "Tao Xie", "Hongxia Yang"]
   title: "InfiBench: Evaluating the Question-Answering Capabilities of Code Large Language Models"
@@ -609,7 +688,7 @@
     code: https://github.com/infi-coder/infibench-evaluation-harness/
 
 - date: "2024-12-13"
-  venue: "NeurIPS Datasets and Benchmarks Track"
+  venue: "NeurIPS (Datasets and Benchmarks Track)"
   year: 2024
   authors: ["Zahra Gharaee", "Scott Lowe", "ZeMing Gong", "Pablo Millan Arias", "Nicholas Pellegrino", "Austin T. Wang", "Joakim Bruslund Haurum", "Iuliia Zarubiieva", "Lila Kari", "Dirk Steinke", "Graham Taylor", "Paul Fieguth", "Angel Chang"]
   title: "BIOSCAN-5M: A Multimodal Dataset for Insect Biodiversity"
@@ -823,7 +902,7 @@
 
 
 - date: "2023-12-10"
-  venue: "NeurIPS Datasets and Benchmarks Track"
+  venue: "NeurIPS (Datasets and Benchmarks Track)"
   year: 2023
   authors: ["Zahra Gharaee", "Zeming Gong", "Nicholas Pellegrino", "Iuliia Zarubiieva", "Joakim Bruslund Haurum", "Scott C Lowe", "Jaclyn TA McKeown", 
             "Chris CY Ho", "Joschka McLeod", "Yi-Yun C Wei", "Jireh Agda", "Sujeevan Ratnasingham", "Dirk Steinke", "Angel X. Chang", "Graham W Taylor", "Paul Fieguth"]

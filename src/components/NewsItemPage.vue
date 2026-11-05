@@ -58,12 +58,14 @@ export default {
           const groups = []
           const mainPubs = groupedPubs[venue]
           if (mainPubs) {
-            groups.push({ title: 'Main Conference Papers', pubs: mainPubs })
+            groups.push({ title: 'Main Track', pubs: mainPubs })
           }
           for (let v in groupedPubs) {
             if (v !== venue && v !== venueWorkshop) {
-              const title = groupedPubs[v][0].venue.substring(venue.length).trim()
-              groups.push({ title: title + ' Papers', pubs: groupedPubs[v] })
+              // e.g. "NeurIPS (Position Paper Track)" is listed under "Position Paper Track"
+              const name = groupedPubs[v][0].venue.substring(venue.length).trim().replace(/^\((.*)\)$/, '$1')
+              const title = /track$/i.test(name) ? name : name + ' Papers'
+              groups.push({ title: title, pubs: groupedPubs[v] })
             }
           }
           const workshopPubs = groupedPubs[venueWorkshop]

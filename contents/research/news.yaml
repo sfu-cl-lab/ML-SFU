@@ -4,6 +4,13 @@
 #   image: ""
 #   url: ""
 
+- date: "2026-11-05"
+  shortname: "neurips-2026"
+  title: "SFU at NeurIPS 2026"
+  venue: "neurips"
+  year: 2026
+  type: conference
+
 - date: "2026-06-22"
   shortname: "icml-2026"
   title: "SFU at ICML 2026"
