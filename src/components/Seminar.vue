@@ -1,6 +1,7 @@
 <template>
   <div class="seminar">
     <div class="seminar-header">
+      <img v-if="seminar.image" class="seminar-photo" :src="require(`Content/seminars/speakers/${seminar.image}`)" :alt="seminar.title">
       <a v-for="(speaker, index) in speakersWithPhoto" :key="index" class="seminar-photo-link"
          :href="speaker.url" target="_blank">
         <img class="seminar-photo" :src="require(`Content/seminars/speakers/${speaker.photo}`)" :alt="speaker.name">

@@ -1,6 +1,7 @@
 <template>
   <li class="seminar-row" :class="{ compact: compact }">
-    <a v-if="photoSpeaker" class="seminar-photo-link" :href="photoSpeaker.url" target="_blank">
+    <img v-if="seminar.image" class="seminar-photo" :src="require(`Content/seminars/speakers/${seminar.image}`)" :alt="seminar.title">
+    <a v-else-if="photoSpeaker" class="seminar-photo-link" :href="photoSpeaker.url" target="_blank">
       <img class="seminar-photo" :src="require(`Content/seminars/speakers/${photoSpeaker.photo}`)" :alt="photoSpeaker.name">
     </a>
     <div v-else class="seminar-photo"></div>

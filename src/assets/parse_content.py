@@ -37,6 +37,8 @@ def parse_seminars():
             speaker = sem["speaker"]
         elif "speakers" in sem:
             speaker = "_".join([s["name"] for s in sem["speakers"]])
+        else:
+            speaker = sem.get("title", "seminar")
         speaker = re.sub(r"\([^)]*\)", "", speaker.lower())
         speaker = speaker.replace(' ', '_')
         date = re.sub("-", "", sem["date"])

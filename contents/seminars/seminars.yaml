@@ -9,6 +9,22 @@
 #   bio: ""
 #   tags: []
 
+- date: "2026-12-04"
+  location: TASC1 9204 12:00pm
+  speaker: "Danica Sutherland"
+  speakerUrl: "https://www.cs.ubc.ca/people/danica-sutherland"
+  speakerPhoto: "danica_sutherland.jpg"
+
+- date: "2026-11-27"
+  location: TASC1 9204 12:00pm
+  image: "sfu_ai.webp"
+  title: "Students' presentations"
+
+- date: "2026-11-20"
+  location: TASC1 9204 12:00pm
+  image: "sfu_ai.webp"
+  title: "Students' presentations"
+
 - date: "2026-11-06"
   location: TASC1 9204 12:00pm
   speaker: "Vered Shwartz"
