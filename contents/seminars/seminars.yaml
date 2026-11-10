@@ -478,7 +478,7 @@
   location: TASC1 9204 12:00pm
   speaker: "Danica Sutherland"
   speakerUrl: "https://djsutherland.ml"
-  speakerPhoto: false
+  speakerPhoto: "danica_sutherland.jpg"
   speakerInfo: "Assistant professor at UBC, Computer Science"
   video: "https://stream.sfu.ca/Media/Play/b10ef76e9d9647cfa352f852cc1227001d"
   title: "Scaling Graph Transformers with Expander Graphs"
