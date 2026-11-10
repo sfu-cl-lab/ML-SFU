@@ -25,6 +25,15 @@
   image: "sfu_ai.webp"
   title: "Students' presentations"
 
+- date: "2026-11-13"
+  location: TASC1 9204 12:00pm
+  speaker: "Wallace Lira"
+  speakerInfo: "Senior Researcher at Huawei Canada"
+  speakerPhoto: false
+  title: "BoxWorld: Let World Engines Control and Video Generators Render"
+  abstract: "Building real-time interactive video worlds with user-defined behaviors requires tracking object states, applying interaction rules, and rendering consequences as users act. Existing end-to-end video world models learn interaction dynamics within the generator, making it difficult to specify object-level rules or reason about their outcomes. This talk presents BoxWorld, a framework that separates interaction reasoning from generative rendering. A coding agent constructs a Box World Engine that determines interaction outcomes and exposes evolving object states through layout boxes, persistent attributes, and dynamic status variables. A Box-State Generative Renderer then renders this state stream into coherent autoregressive video, enabling online control over motion, state switches, and conditional events. The talk covers the three-stage training strategy: (a) learning object grounding from open-domain videos, (b) state transitions from gameplay data, and (c) rollout distillation from self-generated histories. Finally, it introduces PairedStateBench, a new benchmark for fine-grained interaction control where BoxWorld substantially outperforms end-to-end baselines."
+  bio: "Wallace Lira is a Senior Researcher at Huawei Canada’s Vancouver Graphics and Technology Lab, where he leads the development of next-generation graphics systems spanning world models, diffusion, and neural rendering. A GrUVi lab alumnus, he previously conducted research in 3D shape reconstruction, GAN-based translation, and 3D fabrication at Simon Fraser University. He now bridges this academic foundation with industrial-scale deployment."
+
 - date: "2026-11-06"
   location: TASC1 9204 12:00pm
   speaker: "Vered Shwartz"
