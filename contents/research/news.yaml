@@ -11,6 +11,18 @@
   year: 2026
   type: conference
 
+- date: "2026-11-10"
+  shortname: "cscan-awards-2025"
+  title: "Manolis Savva and Eugene Fiume receive CSCan|InfoCan Awards"
+  type: news
+  html: Congratulations to Manolis Savva and Eugene Fiume who are recipients of the <a href='https://cscan-infocan.ca/current-year-winners/'>CSCan|InfoCan 2025 Awards</a>!  Prof. Fiume received the Lifetime Achievement Award, recognizing computer scientists whose careers have had a profound and lasting impact on the discipline, institutions and the broader research community. Prof. Savva received an Early Career Research Award, recognizing exceptional early-career researchers with outstanding contributions and significant promise.
+
+- date: "2026-10-06"
+  shortname: "cifar-2026-oct"
+  title: "Martin Ester named CIFAR AI Chair"
+  type: news
+  html: Congratulations to Martin Ester for being named CIFAR AI Chair! See <a href='https://cifar.ca/cifarnews/2026/10/06/canadas-ai-network-strengthens-with-new-and-renewed-canada-cifar-ai-chairs/'>here</a> for more details.
+
 - date: "2026-06-22"
   shortname: "icml-2026"
   title: "SFU at ICML 2026"
